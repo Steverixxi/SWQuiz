@@ -1,0 +1,25 @@
+{
+  "chapter": "VL 27 – Stammzellen",
+  "source": "VL-Skript ZUG Teil 2, VL 27 (S. 106–108)",
+  "questions": [
+    { "id": "sz-undifferenziert", "type": "matching", "question": "Warum sind Krebs- und Stammzellen laut Skript beide undifferenziert?",
+      "pairs": [
+        { "left": "Krebszellen", "right": "Fallen aus der Differenzierung zurück" },
+        { "left": "Stammzellen", "right": "Haben die Differenzierung noch nicht erreicht" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 108" },
+    { "id": "sz-teilung", "type": "matching", "question": "Ordne die Folge einer gestörten Stammzellteilung zu.",
+      "pairs": [
+        { "left": "Probleme bei symmetrischer Zellteilung", "right": "Tumor" },
+        { "left": "Probleme bei asymmetrischer Zellteilung", "right": "Gewebe- bzw. Organschaden" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 108" },
+    { "id": "sz-gratwanderung", "type": "single", "question": "Wann kann der Einsatz exogen implantierter Stammzellen laut Skript erfolgreich sein?",
+      "options": [
+        { "text": "Wenn das richtige genetische Programm am richtigen Ort aktiviert wird", "correct": true },
+        { "text": "Immer, weil Stammzellen sich selbst steuern" },
+        { "text": "Nur wenn sie sich möglichst oft symmetrisch teilen" },
+        { "text": "Nur in Kombination mit Antibiotika" }
+      ], "explanation": "Die Probleme liegen in der räumlich-zeitlichen Differenzierung und der Einnistung ins Zielgewebe.", "source": "VL-Skript ZUG Teil 2, S. 108" },
+    { "id": "sz-typen", "type": "multiple", "question": "Welche Stammzelltypen werden in VL 27 genannt?",
+      "options": [ { "text": "Hämatopoietische Stammzellen", "correct": true }, { "text": "Induzierte pluripotente Stammzellen (iPS)", "correct": true }, { "text": "Satellitenzellen der Leber" }, { "text": "Retikulumzellen" } ], "source": "VL-Skript ZUG Teil 2, S. 108" }
+  ]
+}

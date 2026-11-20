@@ -1,0 +1,79 @@
+{
+  "chapter": "VL 25 – Zellteilung II (Meiose, Rekombination)",
+  "source": "VL-Skript ZUG Teil 2, VL 25 (S. 90–104)",
+  "questions": [
+    { "id": "mei-ploidie", "type": "matching", "question": "Ordne den Ploidiegrad zu.",
+      "pairs": [ { "left": "Haploid (n)", "right": "Einfacher Chromosomensatz, z. B. Spermien und Eizellen" }, { "left": "Diploid (2n)", "right": "Zweifacher Chromosomensatz, (fast) alle Körperzellen" }, { "left": "Triploid (3n)", "right": "Dreifacher Chromosomensatz" } ],
+      "source": "VL-Skript ZUG Teil 2, S. 93" },
+    { "id": "mei-zahlen", "type": "matching", "question": "Ordne die Chromosomenzahl beim Menschen zu.",
+      "pairs": [ { "left": "Diploide Zelle (2n)", "right": "46 Chromosomen" }, { "left": "Haploide Zelle (n)", "right": "23 Chromosomen" } ], "source": "VL-Skript ZUG Teil 2, S. 93" },
+    { "id": "mei-vs-mitose", "type": "matching", "question": "Ordne die Ergebnisse zu.",
+      "pairs": [
+        { "left": "Mitose", "right": "2 diploide, genetisch identische Tochterzellen; 1 Teilung" },
+        { "left": "Meiose", "right": "4 haploide, genetisch verschiedene Tochterzellen; 2 Teilungen" }
+      ], "explanation": "Beiden geht nur eine DNA-Replikation voraus.", "source": "VL-Skript ZUG Teil 2, S. 92, 100" },
+    { "id": "mei-schwester-homolog", "type": "single", "question": "Was wird in der **Meiose I** voneinander getrennt?",
+      "options": [ { "text": "Die homologen Chromosomen", "correct": true }, { "text": "Die Schwesterchromatiden", "explain": "Sie werden in der Meiose II getrennt, wie in der Mitose." }, { "text": "Die Centromere" }, { "text": "Nichts, die Zelle teilt sich nicht" } ],
+      "explanation": "Meiose I heißt deshalb Reduktionsteilung (2n → n), Meiose II Äquationsteilung.", "source": "VL-Skript ZUG Teil 2, S. 94, 97" },
+    { "id": "mei-reduktion", "type": "matching", "question": "Ordne die Bezeichnungen zu.",
+      "pairs": [ { "left": "Meiose I", "right": "Reduktionsteilung" }, { "left": "Meiose II", "right": "Äquationsteilung" } ], "source": "VL-Skript ZUG Teil 2, S. 94" },
+    { "id": "mei-prophase1", "type": "order", "question": "Bringe die Abschnitte der **Prophase I** in die richtige Reihenfolge.",
+      "items": [ "Leptotän", "Zygotän", "Pachytän", "Diplotän", "Diakinese" ], "source": "VL-Skript ZUG Teil 2, S. 95" },
+    { "id": "mei-begriffe", "type": "matching", "question": "Ordne die Begriffe der Prophase I zu.",
+      "pairs": [
+        { "left": "Bivalent", "right": "4-Chromatid-Struktur aus zwei homologen Chromosomen" },
+        { "left": "Synaptonemaler Komplex", "right": "Reißverschlussartige Struktur, hält die Homologen zusammen" },
+        { "left": "Crossing-over", "right": "Austausch genetischer Information" },
+        { "left": "Chiasma", "right": "Sichtbare Folge eines Crossing-over" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 95" },
+    { "id": "mei-crossing-zahl", "type": "single", "question": "Wie viele Crossing-over finden laut Skript pro homologem Chromosomenpaar statt?",
+      "options": [ { "text": "1–3", "correct": true }, { "text": "Keines" }, { "text": "Genau 23" }, { "text": "Hunderte" } ], "source": "VL-Skript ZUG Teil 2, S. 95" },
+    { "id": "mei-metaphase1", "type": "multiple", "question": "Was ist in der **Metaphase I** anders als in der Metaphase der Mitose?",
+      "options": [
+        { "text": "Die Chromosomen ordnen sich paarweise in der Äquatorialebene an.", "correct": true },
+        { "text": "Die Kinetochore beider Chromatiden eines Chromosoms heften sich an denselben Spindelpol.", "correct": true },
+        { "text": "Jedes Chromosom ordnet sich unabhängig von seinem Homologen an.", "explain": "Das gilt für die Mitose (und Metaphase II)." },
+        { "text": "Die Schwesterchromatiden werden an entgegengesetzte Pole gezogen." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 96" },
+    { "id": "mei-kinetochor", "type": "matching", "question": "Ordne die Begriffe zu.",
+      "pairs": [
+        { "left": "Kinetochor", "right": "Proteinkomplex, verbindet Centromer mit Spindel-Mikrotubuli" },
+        { "left": "Centromer", "right": "Bereich, an dem die Schwesterchromatiden zusammengehalten werden" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 96" },
+    { "id": "mei-anaphase1", "type": "multiple", "question": "Was passiert in **Anaphase I und Telophase I**?",
+      "options": [
+        { "text": "Die Chiasmata werden aufgelöst.", "correct": true },
+        { "text": "Die homologen Chromosomen wandern zu entgegengesetzten Polen.", "correct": true },
+        { "text": "Die Schwesterchromatiden bleiben am Centromer verbunden.", "correct": true },
+        { "text": "Es entstehen zwei haploide Zellen, deren Chromosomen noch aus 2 Chromatiden bestehen.", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 97" },
+    { "id": "mei-meiose2", "type": "order", "question": "Bringe die Ereignisse der **Meiose II** in die richtige Reihenfolge.",
+      "items": [ "Prophase II: Spindelapparat bildet sich", "Metaphase II: Chromosomen ordnen sich unabhängig voneinander an", "Anaphase II: Schwesterchromatiden wandern zu entgegengesetzten Polen", "Telophase II: Kerne bilden sich, Chromosomen dekondensieren, Cytokinese" ], "source": "VL-Skript ZUG Teil 2, S. 99" },
+    { "id": "mei-rekombinant", "type": "single", "question": "Warum spricht man in der Meiose II eigentlich von **rekombinanten Chromatiden**?",
+      "options": [ { "text": "Durch das Crossing-over in Meiose I sind die Schwesterchromatiden nicht mehr genetisch identisch", "correct": true }, { "text": "Weil in Meiose II erneut repliziert wird" }, { "text": "Weil die Homologen in Meiose II fusionieren" }, { "text": "Weil Meiose II nur in Eizellen stattfindet" } ], "source": "VL-Skript ZUG Teil 2, S. 99" },
+    { "id": "mei-spermatogenese", "type": "order", "question": "Bringe die Stadien der **Spermatogenese** in die richtige Reihenfolge.",
+      "items": [ "Urkeimzellen (mitotisch)", "Spermatogonien", "Primäre Spermatozyten (Meiose I)", "Sekundäre Spermatozyten (Meiose II)", "Spermatiden", "Spermien" ], "source": "VL-Skript ZUG Teil 2, S. 102" },
+    { "id": "mei-sperma-oo", "type": "matching", "question": "Ordne die Merkmale der Gametogenese zu.",
+      "pairs": [
+        { "left": "Spermatogenese", "right": "4 Spermatiden aus einer Spermatozyte I, kontinuierlich, Meiose-Beginn ab Pubertät" },
+        { "left": "Oogenese", "right": "1 Eizelle und 2–3 Polkörper, zyklisch, Meiose-Beginn in der Embryonalentwicklung" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 101–103" },
+    { "id": "mei-oozyte-stopp", "type": "matching", "question": "Wo pausiert die Meiose der Eizelle?",
+      "pairs": [
+        { "left": "Primäre Oozyte (Oozyte I)", "right": "Prophase I, ruht im Follikel" },
+        { "left": "Sekundäre Oozyte (Oozyte II)", "right": "Metaphase II, wird beim Eisprung freigesetzt" }
+      ], "explanation": "Die Meiose II wird nur bei Befruchtung vollständig abgeschlossen.", "source": "VL-Skript ZUG Teil 2, S. 102" },
+    { "id": "mei-stra8", "type": "matching", "question": "Ordne die Gene der Regulation des Meiose-Eintritts zu.",
+      "pairs": [
+        { "left": "STRA8", "right": "Leitet in beiden Geschlechtern die Meiose ein" },
+        { "left": "Cyp26b1", "right": "Hemmt die Meiose in männlichen Gonaden bis zur Pubertät" }
+      ], "explanation": "Die Rolle des Retinsäure-Signalwegs ist nicht abschließend geklärt.", "source": "VL-Skript ZUG Teil 2, S. 103" },
+    { "id": "mei-nondisjunction", "type": "multiple", "question": "Welche Aussagen zur **Nondisjunction** stimmen?",
+      "options": [
+        { "text": "Chromosomen trennen sich in der Meiose nicht korrekt.", "correct": true },
+        { "text": "In Meiose I trennen sich die Homologen nicht.", "correct": true },
+        { "text": "In Meiose II trennen sich die Schwesterchromatiden nicht.", "correct": true },
+        { "text": "Folge ist eine abweichende Chromosomenzahl (Aneuploidie).", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 103" }
+  ]
+}

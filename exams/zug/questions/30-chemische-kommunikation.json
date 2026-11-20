@@ -1,0 +1,93 @@
+{
+  "chapter": "VL 30 – Chemische Kommunikation",
+  "source": "VL-Skript ZUG Teil 2, VL 30 (S. 143–149)",
+  "questions": [
+    { "id": "ck-kategorien", "type": "multiple", "question": "Welche vier Kategorien der chemischen Signalisierung nennt das Skript?",
+      "options": [ { "text": "Autokrin", "correct": true }, { "text": "Parakrin", "correct": true }, { "text": "Endokrin", "correct": true }, { "text": "Durch direkten Kontakt", "correct": true }, { "text": "Saltatorisch", "explain": "Das ist eine Form der Erregungsleitung im Nerv." } ], "source": "VL-Skript ZUG Teil 2, S. 145" },
+    { "id": "ck-autokrin", "type": "single", "question": "Für welche Zellen nennt das Skript **autokrine** Signalisierung als Beispiel?",
+      "options": [ { "text": "Stammzellen und Krebszellen", "correct": true }, { "text": "Erythrozyten" }, { "text": "Oligodendrozyten" }, { "text": "Keratinozyten im Stratum corneum" } ], "source": "VL-Skript ZUG Teil 2, S. 145" },
+    { "id": "ck-transduktion", "type": "single", "question": "Wann beginnt die **Signaltransduktion**?",
+      "options": [ { "text": "Wenn die Aktivierung des Rezeptors (Konformationsänderung) eine intrazelluläre Reaktion hervorruft", "correct": true }, { "text": "Wenn das Signalmolekül sezerniert wird" }, { "text": "Wenn das Gen des Liganden transkribiert wird" }, { "text": "Erst wenn die Zelle sich teilt" } ], "source": "VL-Skript ZUG Teil 2, S. 145" },
+    { "id": "ck-gleiches-signal", "type": "single", "question": "Warum wirkt dasselbe Signalmolekül in verschiedenen Zellen unterschiedlich?",
+      "options": [
+        { "text": "Die Antwort hängt vom Zelltyp ab, z. B. von seinem Rezeptortyp und den vorhandenen Molekülen", "correct": true },
+        { "text": "Das Molekül verändert unterwegs seine Struktur" },
+        { "text": "Es wirkt in allen Zellen gleich" },
+        { "text": "Weil nur Stammzellen Rezeptoren haben" }
+      ], "explanation": "Beispiel: Acetylcholin wirkt im Skelett- und Herzmuskel entgegengesetzt (ligandengesteuerter Ionenkanal vs. G-Protein-gekoppelter Rezeptor).", "source": "VL-Skript ZUG Teil 2, S. 145, 149" },
+    { "id": "ck-intrazellulaer", "type": "multiple", "question": "Welche Aussagen zu **intrazellulären Rezeptoren** stimmen?",
+      "options": [
+        { "text": "Sie liegen im Zytoplasma oder im Kern.", "correct": true },
+        { "text": "Ihre Liganden sind meist kleine, hydrophobe Moleküle wie Cortisol.", "correct": true },
+        { "text": "Der Rezeptor-Hormon-Komplex kann im Kern die Genaktivität regulieren.", "correct": true },
+        { "text": "Sie binden vor allem große, hydrophile Liganden.", "explain": "Das tun Zelloberflächenrezeptoren." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 145" },
+    { "id": "ck-domaenen", "type": "multiple", "question": "Welche Domänen hat ein typischer **Zelloberflächenrezeptor**?",
+      "options": [ { "text": "Extrazelluläre Liganden-bindende Domäne", "correct": true }, { "text": "Hydrophobe Transmembrandomäne", "correct": true }, { "text": "Intrazelluläre Domäne, die das Signal überträgt", "correct": true }, { "text": "DNA-bindende Domäne im Zellkern" } ], "source": "VL-Skript ZUG Teil 2, S. 146" },
+    { "id": "ck-grundklassen", "type": "matching", "question": "Ordne die Grundklassen der Zelloberflächenrezeptoren zu.",
+      "pairs": [
+        { "left": "Ionenkanal-gekoppelte Rezeptoren", "right": "Öffnen einen hochselektiven Ionenkanal, z. B. für Neurotransmitter" },
+        { "left": "G-Protein-gekoppelte Rezeptoren", "right": "Sieben Transmembransegmente, Signal über G-Proteine" },
+        { "left": "Enzym-gekoppelte Rezeptoren", "right": "Intrazelluläre Domäne mit Enzym, z. B. Rezeptor-Tyrosinkinasen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 146–147" },
+    { "id": "ck-gpcr", "type": "multiple", "question": "Welche Aussagen zu **GPCRs** stimmen laut Skript?",
+      "options": [
+        { "text": "Wahrscheinlich die größte Familie der Zelloberflächenrezeptoren", "correct": true },
+        { "text": "Beim Menschen ca. 800 verschiedene Geruchsrezeptoren", "correct": true },
+        { "text": "Ca. 50 % der heutigen Medikamente wirken über einen GPCR", "correct": true },
+        { "text": "Betablocker wirken als Antagonisten an GPCRs", "correct": true },
+        { "text": "Sie haben eine einzige Transmembrandomäne", "explain": "Sieben Transmembransegmente sind charakteristisch." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 146" },
+    { "id": "ck-gprotein-zyklus", "type": "order", "question": "Bringe den **G-Protein-Zyklus** in die richtige Reihenfolge.",
+      "items": [ "Ligand bindet, der GPCR wird aktiviert", "Am G-Protein wird GDP gegen GTP ausgetauscht", "Das G-Protein zerfällt in α- und βγ-Untereinheit", "Die Untereinheiten aktivieren Signalwege", "α hydrolysiert GTP zu GDP, das G-Protein wird inaktiv" ], "source": "VL-Skript ZUG Teil 2, S. 147" },
+    { "id": "ck-gtp-gdp", "type": "matching", "question": "Ordne den Zustand des G-Proteins zu.",
+      "pairs": [ { "left": "GTP gebunden", "right": "Aktiv" }, { "left": "GDP gebunden", "right": "Inaktiv" } ], "source": "VL-Skript ZUG Teil 2, S. 147" },
+    { "id": "ck-no", "type": "order", "question": "Bringe die **NO-Signalisierung** im Gefäß in die richtige Reihenfolge.",
+      "items": [ "eNOS bildet NO im Endothel", "NO aktiviert die lösliche Guanylatcyclase", "GTP wird zu cGMP", "Proteinkinase G wird aktiviert", "Ca^2+^-Einstrom wird gehemmt, die glatte Gefäßmuskulatur entspannt" ], "source": "VL-Skript ZUG Teil 2, S. 147" },
+    { "id": "ck-no-risiko", "type": "multiple", "question": "Welche Faktoren vermindern laut Skript die NO-Freisetzung und sind damit Risikofaktoren für Atherosklerose?",
+      "options": [ { "text": "Bluthochdruck", "correct": true }, { "text": "Hypercholesterinämie", "correct": true }, { "text": "Rauchen", "correct": true }, { "text": "Diabetes mellitus und Herzinsuffizienz", "correct": true } ], "source": "VL-Skript ZUG Teil 2, S. 147" },
+    { "id": "ck-kinasen", "type": "matching", "question": "Ordne die Kinasen ihrem Substrat zu.",
+      "pairs": [ { "left": "Tyrosinkinasen", "right": "Phosphat auf Tyrosin" }, { "left": "Serin-/Threoninkinasen", "right": "Phosphat auf Serin bzw. Threonin" } ],
+      "explanation": "Beispiele für RTK-Signale: EGF, PDGF, NGF.", "source": "VL-Skript ZUG Teil 2, S. 147" },
+    { "id": "ck-upstream", "type": "matching", "question": "Ordne die Begriffe der Signalkette zu.",
+      "pairs": [ { "left": "Upstream", "right": "Moleküle und Ereignisse früher in der Relaiskette" }, { "left": "Downstream", "right": "Moleküle, die später beteiligt sind" } ], "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ck-herceptin", "type": "single", "question": "Wie wirkt **Herceptin® (Trastuzumab)**?",
+      "options": [
+        { "text": "Humanisierter, hemmender Antikörper gegen ErbB2, beim metastasierten Mammakarzinom", "correct": true },
+        { "text": "EGFR-Kinase-Inhibitor beim Lungenkrebs", "explain": "Das ist Iressa." },
+        { "text": "Agonist an GPCRs" },
+        { "text": "NO-Donor" }
+      ], "explanation": "Bei starker ErbB2-Überexpression kommt es zu ligandenunabhängiger Dimerisierung.", "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ck-iressa", "type": "single", "question": "Was gilt für **Iressa** laut Skript?",
+      "options": [ { "text": "EGFR-Kinase-Inhibitor bei Lungenkrebs, wirkt praktisch nur bei einem bestimmten Allotyp", "correct": true }, { "text": "Antikörper gegen ErbB2" }, { "text": "Hemmstoff der Phosphodiesterase" }, { "text": "Betablocker" } ], "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ck-phosphat", "type": "multiple", "question": "Wie verändert **Phosphorylierung** ein Protein?",
+      "options": [
+        { "text": "Sie bringt eine große negative Ladung an die Proteinoberfläche.", "correct": true },
+        { "text": "Sie kann Form und enzymatische Aktivität ändern.", "correct": true },
+        { "text": "Sie kann eine Andockstelle für Interaktionspartner schaffen.", "correct": true },
+        { "text": "Sie ist dauerhaft und nicht umkehrbar.", "explain": "Phosphatasen entfernen Phosphatgruppen wieder." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ck-second-messenger", "type": "multiple", "question": "Welche **sekundären Botenstoffe** nennt das Skript?",
+      "options": [ { "text": "Ca^2+^", "correct": true }, { "text": "cAMP", "correct": true }, { "text": "IP~3~ und Diacylglycerol", "correct": true }, { "text": "Insulin", "explain": "Insulin ist ein Hormon (erster Bote); Ca^2+^ löst in β-Zellen seine Freisetzung aus." } ],
+      "explanation": "Second messengers sind kleine, nicht proteinhaltige Moleküle.", "source": "VL-Skript ZUG Teil 2, S. 149" },
+    { "id": "ck-plc", "type": "matching", "question": "Was entsteht bei der Spaltung von PIP~2~ durch Phospholipase C, und was bewirkt es?",
+      "pairs": [
+        { "left": "DAG", "right": "Bleibt in der Membran, aktiviert Proteinkinase C" },
+        { "left": "IP~3~", "right": "Öffnet ligandengesteuerte Ca^2+^-Kanäle im ER" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 149" },
+    { "id": "ck-camp", "type": "order", "question": "Bringe die **cAMP-Signalisierung** in die richtige Reihenfolge.",
+      "items": [ "Adenylatcyclase wandelt ATP in cAMP um", "cAMP aktiviert Proteinkinase A", "PKA phosphoryliert Zielproteine", "Phosphodiesterasen bauen cAMP zu AMP ab" ], "source": "VL-Skript ZUG Teil 2, S. 149" },
+    { "id": "ck-calcium", "type": "multiple", "question": "Welche Aussagen zu **Ca^2+^ als Second Messenger** stimmen?",
+      "options": [
+        { "text": "Die Ca^2+^-Konzentration im Cytosol ist sehr niedrig (10^−4^ mM).", "correct": true },
+        { "text": "Ca^2+^ wird z. B. im ER gespeichert.", "correct": true },
+        { "text": "In β-Zellen des Pankreas löst Ca^2+^ die Insulinfreisetzung aus.", "correct": true },
+        { "text": "In Muskelzellen löst Ca^2+^ die Kontraktion aus.", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 149" },
+    { "id": "ck-logik", "type": "matching", "question": "Ordne die logischen Verknüpfungen von Signalwegen zu.",
+      "pairs": [
+        { "left": "Logisches UND", "right": "Signale aus zwei Pfaden sind nötig, um die Antwort zu aktivieren" },
+        { "left": "Logisches ODER", "right": "Einer von zwei Pfaden löst dieselbe Antwort aus" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 149" }
+  ]
+}

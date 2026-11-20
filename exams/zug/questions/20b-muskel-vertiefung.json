@@ -1,0 +1,195 @@
+{
+  "chapter": "VL 20 – Muskelgewebe",
+  "source": "VL-Skript ZUG Teil 2, VL 20 (S. 57–77)",
+  "questions": [
+    { "id": "muv-vorkommen", "type": "matching", "question": "Ordne den Muskeltyp seinem Vorkommen zu.",
+      "pairs": [
+        { "left": "Skelettmuskulatur", "right": "Bewegungsapparat, Zunge, Larynx, Pharynx, Zwerchfell, äußere Augenmuskeln" },
+        { "left": "Herzmuskulatur", "right": "Herz" },
+        { "left": "Glatte Muskulatur", "right": "Magen-Darm-Trakt, Gefäße, Harnwege, innere Augenmuskulatur" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 58" },
+    { "id": "muv-kerne", "type": "matching", "question": "Ordne die Kernform und -lage zu.",
+      "pairs": [
+        { "left": "Skelettmuskelfaser", "right": "Viele randständige, abgeflachte, längliche Kerne" },
+        { "left": "Herzmuskelzelle", "right": "Meist ein zentraler, rund-ovaler (kissenförmiger) Kern" },
+        { "left": "Glatte Muskelzelle", "right": "Zentraler, zigarrenförmiger Kern" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 58, 70, 75" },
+    { "id": "muv-groessen", "type": "matching", "question": "Ordne die typischen Maße zu.",
+      "pairs": [
+        { "left": "Skelettmuskelfaser", "right": "Wenige mm bis 10 cm lang, 40–100 µm dick" },
+        { "left": "Kardiomyozyt", "right": "50–120 µm lang, 15–20 µm dick" },
+        { "left": "Glatte Muskelzelle", "right": "20–200 µm lang, 3–10 µm dick" },
+        { "left": "Purkinje-Myozyt", "right": "ca. 50 µm lang, 30 µm dick" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 61, 70, 73, 75" },
+    { "id": "muv-synzytium", "type": "single", "question": "Wie entsteht die Skelettmuskelfaser als **Synzytium**?",
+      "options": [ { "text": "Durch Verschmelzung einkerniger Myoblasten", "correct": true }, { "text": "Durch Kernteilung ohne Zellteilung (Endomitose)" }, { "text": "Durch Verbindung über Glanzstreifen", "explain": "Herzmuskelzellen bilden so nur ein funktionelles Synzytium." }, { "text": "Durch Fusion von Satellitenzellen mit Fibroblasten" } ], "source": "VL-Skript ZUG Teil 2, S. 61" },
+    { "id": "muv-hierarchie", "type": "order", "question": "Ordne die Bauelemente des Skelettmuskels vom Größten zum Kleinsten.",
+      "items": [ "Muskel (bis 200.000 Muskelfasern)", "Muskelfaser (1.000–2.000 Myofibrillen)", "Myofibrille (Kette von Sarkomeren)", "Sarkomer", "Myofilament (Aktin, Myosin)" ], "source": "VL-Skript ZUG Teil 2, S. 60" },
+    { "id": "muv-perimysium", "type": "matching", "question": "Ordne die Hüllen der Skelettmuskulatur zu.",
+      "pairs": [
+        { "left": "Endomysium", "right": "Umgibt mit der Basalmembran die einzelne Muskelfaser" },
+        { "left": "Perimysium internum", "right": "Unterteilt in feinere Primärbündel" },
+        { "left": "Perimysium externum", "right": "Unterteilt in gröbere Sekundärbündel" },
+        { "left": "Epimysium", "right": "Lockeres Bindegewebe unter der Faszie" },
+        { "left": "Faszie", "right": "Straffes Bindegewebe um den ganzen Muskel" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 60" },
+    { "id": "muv-he-banden", "type": "matching", "question": "Wie erscheinen die Strukturen der Querstreifung im H.E.-Längsschnitt?",
+      "pairs": [ { "left": "A-Bande", "right": "Rot" }, { "left": "I-Bande", "right": "Hell" }, { "left": "Z-Streifen", "right": "Feine Linie in der I-Bande" } ], "source": "VL-Skript ZUG Teil 2, S. 61" },
+    { "id": "muv-organellen", "type": "multiple", "question": "Welche Aussagen zu den Organellen der Skelettmuskelfaser stimmen?",
+      "options": [
+        { "text": "Das glatte ER (sarkoplasmatisches Retikulum) ist hochentwickelt und speichert Ca^2+^.", "correct": true },
+        { "text": "Das raue ER ist eher wenig entwickelt.", "correct": true },
+        { "text": "Mitochondrien vom Cristae-Typ liegen in Reihen parallel zu den Myofibrillen.", "correct": true },
+        { "text": "Myoglobin bindet O~2~ im Sarkoplasma.", "correct": true },
+        { "text": "Fetttropfen sind überall häufiger als Glykogen.", "explain": "Glykogen kommt überall vor, Fetttropfen seltener." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 61" },
+    { "id": "muv-zytoskelett", "type": "matching", "question": "Ordne die Proteine der Skelettmuskelfaser ihrer Funktion zu.",
+      "pairs": [
+        { "left": "Dystrophin", "right": "Verbindet Aktin mit dem Sarkolemm" },
+        { "left": "Desmin", "right": "Intermediärfilament, verbindet benachbarte Myofibrillen auf Höhe der Z-Scheibe" },
+        { "left": "Plektin", "right": "Verbindet benachbarte Desminfilamente" },
+        { "left": "αβ-Kristalline", "right": "Hitzeschockproteine, schützen Desmin und Z-Scheiben" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 61, 63" },
+    { "id": "muv-costamere", "type": "single", "question": "Was sind **Costamere**?",
+      "options": [
+        { "text": "Proteinreiche Abschnitte des Sarkolemms, die auf Höhe der Z-Scheiben ringförmig um die Faser laufen", "correct": true },
+        { "text": "Einstülpungen der Zellmembran in die Tiefe der Faser", "explain": "Das sind T-Tubuli." },
+        { "text": "Kontaktstrukturen zwischen Herzmuskelzellen" },
+        { "text": "Verdichtungszonen in glatten Muskelzellen" }
+      ], "explanation": "Dort wird die Membran durch Aktin, Spektrin und Dystrophin stabilisiert; Desminfilamente kommen dort vor.", "source": "VL-Skript ZUG Teil 2, S. 61" },
+    { "id": "muv-dystroglykan", "type": "order", "question": "Bringe die mechanische Verbindung von innen nach außen in die richtige Reihenfolge.",
+      "items": [ "Aktin", "Dystrophin", "Dystroglykane/Sarkoglykane im Sarkolemm", "Laminin", "Lamina densa der Basallamina", "Kollagenfibrillen des Endomysiums" ], "source": "VL-Skript ZUG Teil 2, S. 63" },
+    { "id": "muv-zlinie", "type": "matching", "question": "Ordne die Z-Linien-Proteine ihrer Funktion zu.",
+      "pairs": [
+        { "left": "α-Aktinin", "right": "Vernetzt Aktin zu dickeren Bündeln" },
+        { "left": "Cap-Z-Protein", "right": "Verhindert die Depolymerisation am Plus-Ende" }
+      ], "explanation": "In der Z-Linie sind die Plus-Enden der Aktinfilamente zweier benachbarter Sarkomere verknüpft.", "source": "VL-Skript ZUG Teil 2, S. 64" },
+    { "id": "muv-hzone-ck", "type": "single", "question": "Welches Enzym liegt in der H-Zone bzw. M-Linie, und wozu dient es?",
+      "options": [
+        { "text": "Creatinkinase; Creatinphosphat ist eine schnell verfügbare ATP-Reserve", "correct": true },
+        { "text": "Ca^2+^-Mg^2+^-ATPase; pumpt Calcium zurück ins SR", "explain": "Die liegt in der Membran des SR." },
+        { "text": "Myosin-ATPase; spaltet ATP am Myosinkopf" },
+        { "text": "Glykogenphosphorylase" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 64, 67" },
+    { "id": "muv-filamentzahl", "type": "matching", "question": "Ordne die Filamente des Sarkomers zu.",
+      "pairs": [
+        { "left": "Dünne Filamente", "right": "ca. 2000/Sarkomer, 6 nm, Aktin mit Tropomyosin und Troponin" },
+        { "left": "Dicke Filamente", "right": "ca. 1000/Sarkomer, 15 nm, Myosin II" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 64" },
+    { "id": "muv-anordnung", "type": "single", "question": "Wie viele Aktinfilamente umgeben in der A-Bande des Skelettmuskels ein Myosinfilament?",
+      "options": [ { "text": "6", "correct": true }, { "text": "13–14", "explain": "So viele sind in der glatten Muskulatur einem Myosinfilament zugeordnet." }, { "text": "2" }, { "text": "1000" } ], "source": "VL-Skript ZUG Teil 2, S. 65" },
+    { "id": "muv-kontraktion-banden", "type": "multiple", "question": "Was passiert bei der Kontraktion mit den Banden des Sarkomers (Ruhelänge ca. 2,2 µm)?",
+      "options": [
+        { "text": "Die I-Bande wird kürzer.", "correct": true },
+        { "text": "Die H-Zone wird kürzer.", "correct": true },
+        { "text": "Die A-Bande bleibt gleich breit.", "correct": true },
+        { "text": "Die A-Bande wird kürzer.", "explain": "Die Myosinfilamente verkürzen sich nicht; die A-Bande bleibt gleich." }
+      ], "explanation": "Bei passiver Dehnung werden I-Bande und H-Streifen breiter.", "source": "VL-Skript ZUG Teil 2, S. 65" },
+    { "id": "muv-triade", "type": "single", "question": "Woraus besteht eine **Triade** des Skelettmuskels, und wo liegt sie?",
+      "options": [
+        { "text": "Ein T-Tubulus zwischen zwei Terminalzisternen des SR; an der Grenze zwischen A- und I-Bande", "correct": true },
+        { "text": "Drei T-Tubuli auf Höhe der Z-Linie" },
+        { "text": "Ein T-Tubulus und eine SR-Zisterne auf Höhe der Z-Linie", "explain": "Das ist die Dyade des Herzmuskels." },
+        { "text": "Drei Myofibrillen, die über Desmin verbunden sind" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 66" },
+    { "id": "muv-emk", "type": "order", "question": "Bringe die **elektromechanische Kopplung** im Skelettmuskel in die richtige Reihenfolge.",
+      "items": [ "Aktionspotential erreicht die Muskelfaser", "Erregung dringt über die T-Tubuli in die Tiefe", "Konformationsänderung von Dihydropyridin- und Ryanodinrezeptor", "Ca^2+^ strömt aus dem SR ins Zytosol", "Ca^2+^ bindet an Troponin C" ], "source": "VL-Skript ZUG Teil 2, S. 66–67" },
+    { "id": "muv-querbruecke", "type": "order", "question": "Bringe den **Querbrückenzyklus** in die richtige Reihenfolge.",
+      "items": [ "Ruhe: Myosinkopf hat ATP gebunden, nur schwach an Aktin", "Ca^2+^ bindet an Troponin C, Aktin aktiviert die Myosin-ATPase", "ATP wird in ADP und P gespalten, der Kopf bindet fest an Aktin", "P löst sich, der Kopf kippt um ca. 40°", "ADP löst sich, der Kopf erreicht die Endstellung", "Neues ATP bindet, der Kopf löst sich vom Aktin" ], "source": "VL-Skript ZUG Teil 2, S. 67" },
+    { "id": "muv-zyklus-zahlen", "type": "multiple", "question": "Welche Zahlen zum Kontraktionszyklus nennt das Skript?",
+      "options": [
+        { "text": "Pro Zyklus gleiten die Filamente ca. 4 nm aneinander vorbei.", "correct": true },
+        { "text": "Sarkomere verkürzen sich insgesamt um 20–30 %.", "correct": true },
+        { "text": "Der Myosinkopf steht in Ruhe im 45°-Winkel zum Myosinfilament.", "correct": true },
+        { "text": "Pro Zyklus verkürzt sich das Sarkomer um 1 µm." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 67" },
+    { "id": "muv-relaxation", "type": "single", "question": "Was beendet die Kontraktionszyklen?",
+      "options": [
+        { "text": "Die Ca^2+^-Mg^2+^-ATPase pumpt Ca^2+^ ins SR zurück; ohne Ca^2+^ bleiben die Köpfe in Ruhestellung", "correct": true },
+        { "text": "Das Fehlen von ATP", "explain": "Ohne ATP löst sich der Myosinkopf gerade nicht vom Aktin." },
+        { "text": "Die Spaltung von Titin" },
+        { "text": "Der Abbau von Troponin" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 67" },
+    { "id": "muv-fasertypen", "type": "matching", "question": "Ordne die Muskelfasertypen zu.",
+      "pairs": [
+        { "left": "Typ-I-Fasern (S, rot)", "right": "Viele Mitochondrien und Myoglobin, ermüden langsam, Haltung" },
+        { "left": "Typ-II-Fasern (F, weiß)", "right": "Viel Glykogen und glykolytische Enzyme, rasch große Kraft, ermüden schnell" },
+        { "left": "Tonusfasern", "right": "Selten, dünn, in Muskelspindeln, mehrere Synapsen" }
+      ], "explanation": "Die Fasertypen sind grundsätzlich ineinander umwandelbar.", "source": "VL-Skript ZUG Teil 2, S. 68" },
+    { "id": "muv-satellit", "type": "multiple", "question": "Welche Aussagen zu **Satellitenzellen** stimmen?",
+      "options": [
+        { "text": "Liegen der Muskelfaser direkt an, innerhalb ihrer Basallamina", "correct": true },
+        { "text": "Ruhende Myoblasten mit Stammzellcharakter", "correct": true },
+        { "text": "Werden nach Trauma aktiviert, proliferieren und fusionieren mit Fasern oder bilden neue", "correct": true },
+        { "text": "Liegen außerhalb der Basallamina im Endomysium" }
+      ], "explanation": "Stark geschädigte Skelettmuskulatur wird meist durch Narbengewebe ersetzt.", "source": "VL-Skript ZUG Teil 2, S. 69" },
+    { "id": "muv-herz-kern", "type": "multiple", "question": "Welche Aussagen zum Kern und Zytoplasma der **Herzmuskelzelle** stimmen?",
+      "options": [
+        { "text": "Bei Wachstum und Hypertrophie oft polyploid", "correct": true },
+        { "text": "An den Kernpolen myofilamentfreie Felder mit Organellen, Glykogen und Lipofuszin", "correct": true },
+        { "text": "Lipofuszin (braunes Abnutzungspigment) nimmt mit dem Alter zu", "correct": true },
+        { "text": "Mitochondrien können bis zu 8 µm lang sein", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 70–71" },
+    { "id": "muv-glanzstreifen", "type": "matching", "question": "Ordne die Strukturen des **Glanzstreifens** ihrer Lage und Funktion zu.",
+      "pairs": [
+        { "left": "Fascia adhaerens", "right": "Transversal, verankert Aktin (entspricht einem Z-Streifen), Cadherine" },
+        { "left": "Desmosom", "right": "Transversal, feste mechanische Verbindung, Desmin verankert" },
+        { "left": "Nexus (Connexin 43)", "right": "Longitudinal, elektrische Kopplung" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 71" },
+    { "id": "muv-dyade", "type": "multiple", "question": "Was unterscheidet das T-System des Herzmuskels vom Skelettmuskel?",
+      "options": [
+        { "text": "Nur ein relativ weiter T-Tubulus pro Sarkomer, auf Höhe der Z-Streifen", "correct": true },
+        { "text": "Statt Triaden gibt es Dyaden.", "correct": true },
+        { "text": "Ca^2+^-Einstrom über spannungsgesteuerte Ca-Kanäle öffnet die Ryanodinrezeptoren.", "correct": true },
+        { "text": "In den Vorhöfen gibt es kaum T-Tubuli.", "correct": true },
+        { "text": "Das SR ist stärker entwickelt als im Skelettmuskel.", "explain": "Es ist geringer ausgeprägt und einfacher gebaut." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 72" },
+    { "id": "muv-els", "type": "order", "question": "Bringe das **Erregungsleitungssystem** des Herzens in die richtige Reihenfolge.",
+      "items": [ "Sinusknoten (Keith-Flack)", "AV-Knoten (Aschoff-Tawara)", "His-Bündel", "Kammerschenkel (Tawara-Schenkel)", "Purkinje-Fasern" ], "source": "VL-Skript ZUG Teil 2, S. 73" },
+    { "id": "muv-purkinje", "type": "multiple", "question": "Welche Merkmale haben **Purkinje-Myozyten**?",
+      "options": [
+        { "text": "Kürzer und doppelt so dick wie normale Myozyten", "correct": true },
+        { "text": "Glykogenreich, arm an Myofibrillen (v. a. peripher)", "correct": true },
+        { "text": "Ohne Glanzstreifen, über Nexus und Desmosomen verbunden", "correct": true },
+        { "text": "Mehrkernige Synzytien mit randständigen Kernen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 73" },
+    { "id": "muv-glatt-merkmale", "type": "multiple", "question": "Welche Aussagen zur **glatten Muskulatur** stimmen?",
+      "options": [
+        { "text": "Vom vegetativen Nervensystem innerviert", "correct": true },
+        { "text": "Langsame Bewegungen, ermüdet aber nicht rasch", "correct": true },
+        { "text": "Kann ohne hohen Energieaufwand lange unter Spannung bleiben (Tonus)", "correct": true },
+        { "text": "Im kontrahierten Zustand ist der Kern korkenzieherartig verformt", "correct": true },
+        { "text": "Zeigt im H.E.-Präparat eine Querstreifung", "explain": "Ohne Querstreifung, einheitlich rot." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 75, 77" },
+    { "id": "muv-kaveolen", "type": "single", "question": "Was entspricht in der glatten Muskelzelle funktionell einem einfachen T-System?",
+      "options": [ { "text": "Kaveolen (O-förmige Einsenkungen der Zellmembran mit Ca^2+^-Pumpen)", "correct": true }, { "text": "Dense bodies" }, { "text": "Glanzstreifen" }, { "text": "Costamere" } ], "source": "VL-Skript ZUG Teil 2, S. 74" },
+    { "id": "muv-dense-body", "type": "matching", "question": "Ordne die Strukturen der glatten Muskelzelle zu.",
+      "pairs": [
+        { "left": "Verdichtungszone (dense body)", "right": "Entspricht einer Z-Linie, enthält α-Aktinin" },
+        { "left": "Anheftungsplaques", "right": "Verankern Aktin an der Membran (α-Aktinin, Vinculin, Talin, Integrine)" },
+        { "left": "Desmin", "right": "3D-Netz aus 10-nm-Intermediärfilamenten" },
+        { "left": "Caldesmon", "right": "Aktinassoziiertes Protein; Troponin fehlt" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 76" },
+    { "id": "muv-glatt-myosin", "type": "multiple", "question": "Welche Aussagen zum kontraktilen Apparat der **glatten** Muskulatur stimmen?",
+      "options": [
+        { "text": "Mehr Aktin als in quergestreiften Muskelzellen", "correct": true },
+        { "text": "13–14 Aktinfilamente pro Myosinfilament", "correct": true },
+        { "text": "Seitenpolare Myosinfilamente", "correct": true },
+        { "text": "Stärkere Verkürzung als im quergestreiften Muskel möglich", "correct": true },
+        { "text": "Aktin wird über Troponin reguliert", "explain": "Glattes Aktin hat kein Troponin." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 76" },
+    { "id": "muv-regulation", "type": "matching", "question": "Ordne die Regulation des glatten Muskeltonus zu.",
+      "pairs": [
+        { "left": "Myogen", "right": "Spontanaktive Schrittmacherzellen, Ausbreitung über Gap Junctions" },
+        { "left": "Neurogen", "right": "Fast jede Zelle innerviert, kaum Nexus" },
+        { "left": "Hormonell", "right": "z. B. Oxytocin (Uterus), Adrenalin, Histamin, NO" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 77" },
+    { "id": "muv-varikositaeten", "type": "single", "question": "Wo setzen vegetative Axone ihren Transmitter an der glatten Muskulatur frei?",
+      "options": [
+        { "text": "Weit präterminal in Varikositäten (einige Zehntausend pro Axon)", "correct": true },
+        { "text": "An einer motorischen Endplatte wie beim Skelettmuskel" },
+        { "text": "Nur am Axonende an einer einzigen Zelle" },
+        { "text": "Über Glanzstreifen" }
+      ], "explanation": "Sympathikus über Noradrenalin, Parasympathikus über Acetylcholin. Ein Axon kann viele Zellen innervieren.", "source": "VL-Skript ZUG Teil 2, S. 77" }
+  ]
+}

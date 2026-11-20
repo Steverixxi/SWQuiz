@@ -1,0 +1,56 @@
+{
+  "chapter": "VL 22 – Epigenetik",
+  "source": "VL-Skript ZUG Teil 2, VL 22 (S. 82–87)",
+  "questions": [
+    { "id": "epg-definition", "type": "single", "question": "Was beschreibt die **Epigenetik**?",
+      "options": [
+        { "text": "Erbliche Veränderungen der Genexpression, die nicht auf Veränderungen der DNA-Sequenz beruhen", "correct": true },
+        { "text": "Punktmutationen in proteincodierenden Genen" },
+        { "text": "Die Evolution neuer Arten" },
+        { "text": "Die Reparatur von DNA-Doppelstrangbrüchen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 87" },
+    { "id": "epg-ansatz", "type": "multiple", "question": "An welchen Strukturen setzt die Epigenetik laut Skript an?",
+      "options": [ { "text": "Histone", "correct": true }, { "text": "Nicht-codierende RNA", "correct": true }, { "text": "DNA (Methylierung)", "correct": true }, { "text": "Ribosomen" } ], "source": "VL-Skript ZUG Teil 2, S. 84" },
+    { "id": "epg-folgen", "type": "multiple", "question": "Welche Folgen bzw. Phänomene der Epigenetik nennt das Skript?",
+      "options": [ { "text": "X-Chromosom-Inaktivierung", "correct": true }, { "text": "Imprinting", "correct": true }, { "text": "Silencing parasitärer Elemente", "correct": true }, { "text": "Heterochromatin, Zellgedächtnis und Identität", "correct": true }, { "text": "Crossing-over", "explain": "Das ist ein genetischer Austausch in der Meiose." } ], "source": "VL-Skript ZUG Teil 2, S. 84, 87" },
+    { "id": "epg-enzyme", "type": "matching", "question": "Ordne die Abkürzung dem Enzym bzw. Protein zu.",
+      "pairs": [
+        { "left": "DNMT", "right": "DNA-Methyltransferase" },
+        { "left": "HAT", "right": "Histon-Acetyltransferase" },
+        { "left": "HDAC", "right": "Histon-Deacetylase" },
+        { "left": "HMT", "right": "Histon-Methyltransferase" },
+        { "left": "KDM", "right": "Lysin-(K-)Demethylase" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 85" },
+    { "id": "epg-enzyme2", "type": "matching", "question": "Ordne die Abkürzung zu.",
+      "pairs": [
+        { "left": "HP1", "right": "Heterochromatinprotein 1" },
+        { "left": "MBD2", "right": "Protein mit Methyl-CpG-bindender Domäne" },
+        { "left": "TET", "right": "Ten-eleven-translocation-Dioxygenase" },
+        { "left": "UHRF1", "right": "Protein für die Erhaltungsmethylierung" },
+        { "left": "TDG", "right": "Thymin-DNA-Glykosylase" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 85" },
+    { "id": "epg-mechanismen", "type": "multiple", "question": "Welche **Mechanismen** der Epigenetik nennt das Skript?",
+      "options": [ { "text": "DNA-Methylierung", "correct": true }, { "text": "Histon-Modifikationen und Remodeling", "correct": true }, { "text": "RNA-Interferenz", "correct": true }, { "text": "Austausch von Basenpaaren", "explain": "Das wäre eine Mutation, keine epigenetische Veränderung." } ], "source": "VL-Skript ZUG Teil 2, S. 87" },
+    { "id": "epg-steuerung", "type": "single", "question": "Wie werden epigenetische Prozesse laut Skript gesteuert?",
+      "options": [ { "text": "Durch Setzen, Lesen und Entfernen epigenetischer Modifikationen an Genen und Histonen", "correct": true }, { "text": "Durch Veränderung der Basenabfolge" }, { "text": "Nur durch Umweltgifte" }, { "text": "Durch Crossing-over" } ], "source": "VL-Skript ZUG Teil 2, S. 87" },
+    { "id": "epg-zellspezifisch", "type": "multiple", "question": "Welche Aussagen zu epigenetischen Modifikationen stimmen laut Skript?",
+      "options": [
+        { "text": "Sie sind zellspezifisch, anders als genetische Veränderungen, die in allen Zellen gleich sind.", "correct": true },
+        { "text": "In epigenetischen Untersuchungen muss die Zellzusammensetzung berücksichtigt werden.", "correct": true },
+        { "text": "Sie sind über Zellteilungen hinweg stabil vererbbar.", "correct": true },
+        { "text": "Zelltypspezifische Unterschiede sind stabiler als exogen ausgelöste Veränderungen.", "correct": true },
+        { "text": "Sie sind unveränderlich und werden nie gelöscht.", "explain": "Bei Veränderungen der Zellprogramme werden sie gelöscht oder umprogrammiert." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 87" },
+    { "id": "epg-faktoren", "type": "matching", "question": "Ordne die Einflussfaktoren auf epigenetische Muster zu.",
+      "pairs": [ { "left": "Endogen", "right": "Altern, hormonelle Steuerung" }, { "left": "Exogen", "right": "Umwelt, Metabolismus, Stress" } ], "source": "VL-Skript ZUG Teil 2, S. 87" },
+    { "id": "epg-vererbung", "type": "single", "question": "Warum ist die Vererbung **erworbener** epigenetischer Modifikationen über Generationen beim Menschen nur sehr eingeschränkt möglich?",
+      "options": [
+        { "text": "In Keimzellen und im frühen Embryo werden alte Modifikationen weitgehend gelöscht (Reprogrammierung)", "correct": true },
+        { "text": "Epigenetische Modifikationen gibt es nur in Körperzellen von Erwachsenen" },
+        { "text": "Sie werden bei jeder Mitose gelöscht" },
+        { "text": "Die DNA-Sequenz verhindert sie" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 87" },
+    { "id": "epg-tumor", "type": "single", "question": "Welche Bedeutung haben epigenetische Aberrationen bei **Tumoren** laut Skript?",
+      "options": [ { "text": "Angriffspunkt für Therapie und Biomarker", "correct": true }, { "text": "Sie kommen bei Tumoren nie vor" }, { "text": "Sie sind immer vererbt" }, { "text": "Sie sind identisch mit Punktmutationen" } ], "source": "VL-Skript ZUG Teil 2, S. 87" }
+  ]
+}

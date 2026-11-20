@@ -1,0 +1,112 @@
+{
+  "chapter": "VL 31 – Tumorbiologie",
+  "source": "VL-Skript ZUG Teil 2, VL 31 (S. 150–156)",
+  "questions": [
+    { "id": "tb-gut-boes", "type": "matching", "question": "Ordne die Merkmale zu.",
+      "pairs": [
+        { "left": "Gutartiger Tumor", "right": "Abgrenzbar, langsam verdrängend, i. d. R. keine Metastasen" },
+        { "left": "Bösartiger Tumor", "right": "Schnell, infiltrierend, unvollständige Kapsel, Metastasen, Rezidive" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tb-nomenklatur", "type": "matching", "question": "Ordne die Tumorbezeichnung zu.",
+      "pairs": [
+        { "left": "Karzinom", "right": "Bösartig, aus Drüsenzellen (griech. karkinos = Krebs)" },
+        { "left": "Adenom", "right": "Gutartig, aus Drüsenzellen (griech. aden = Drüse)" },
+        { "left": "Sarkom", "right": "Bösartig, aus Muskel-/Bindegewebe (griech. sarx = Fleisch)" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tb-dignitaet", "type": "single", "question": "Was bedeutet **Dignität** eines Tumors?",
+      "options": [ { "text": "Sein biologisches Wachstumsverhalten: gutartig oder bösartig", "correct": true }, { "text": "Seine Größe in Zentimetern" }, { "text": "Das Stadium nach UICC" }, { "text": "Die Zahl der Metastasen" } ],
+      "explanation": "Kriterien: Wachstumsrate, Ausbreitung, Histologie (differenziert/undifferenziert), Kompression oder Invasion. Klassifikation über UICC-Stadien bzw. TNM.", "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tb-differenzierung", "type": "single", "question": "Wie hängen Differenzierung und Aggressivität eines Tumors laut Skript in der Regel zusammen?",
+      "options": [ { "text": "Je weniger differenziert, desto aggressiver und bösartiger", "correct": true }, { "text": "Je besser differenziert, desto aggressiver" }, { "text": "Gar nicht" }, { "text": "Nur gutartige Tumore sind undifferenziert" } ], "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tb-viren", "type": "matching", "question": "Ordne das Virus dem Tumor zu, an dessen Entstehung es beteiligt ist.",
+      "pairs": [
+        { "left": "HPV 16 und 18", "right": "Gebärmutterhalskrebs" },
+        { "left": "Hepatitis-B- und -C-Virus", "right": "Leberkrebs" },
+        { "left": "HHV 8", "right": "Kaposi-Sarkom" },
+        { "left": "Epstein-Barr-Virus", "right": "Lymphknotenkrebs (v. a. bei geschwächtem Immunsystem)" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tb-impfung", "type": "multiple", "question": "Gegen welche krebsauslösenden Viren gibt es laut Skript eine **Schutzimpfung**?",
+      "options": [ { "text": "HPV", "correct": true }, { "text": "Hepatitis-B-Virus", "correct": true }, { "text": "Hepatitis-C-Virus", "explain": "Für HCV ist keine Schutzimpfung verfügbar." }, { "text": "HHV 8" } ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tb-hcv", "type": "single", "question": "Für welchen Anteil der weltweiten Leberkrebsfälle ist laut Skript das **Hepatitis-C-Virus** verantwortlich?",
+      "options": [ { "text": "Über 70 %", "correct": true }, { "text": "ca. 5 %" }, { "text": "ca. 25 %" }, { "text": "100 %" } ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tb-hiv", "type": "single", "question": "Wie hängt **HIV** laut Skript mit Krebs zusammen?",
+      "options": [
+        { "text": "Es verursacht selbst keinen Krebs, aber die Immunschwäche erhöht das Risiko z. B. für Lymphome und Kaposi-Sarkome", "correct": true },
+        { "text": "Es baut Onkogene direkt in das Genom ein und verursacht so Leberkrebs" },
+        { "text": "Es ist der Hauptauslöser von Gebärmutterhalskrebs" },
+        { "text": "Es hat keinerlei Zusammenhang" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tb-hpv-impfung", "type": "single", "question": "Um wie viel senkt die HPV-Impfung von Mädchen vor dem ersten Geschlechtsverkehr laut Skript das Risiko für Gebärmutterhalskrebs?",
+      "options": [ { "text": "um 70 %", "correct": true }, { "text": "um 10 %" }, { "text": "um 100 %" }, { "text": "um 30 %" } ], "source": "VL-Skript ZUG Teil 2, S. 154" },
+    { "id": "tb-mutation-klon", "type": "multiple", "question": "Welche Aussagen zur Tumorentstehung durch Mutationen stimmen?",
+      "options": [
+        { "text": "Bestimmte Mutationen geben einen Selektionsvorteil, ein dominanter Klon wächst aus.", "correct": true },
+        { "text": "Die mehrstufige Tumorprogression ist eine Reihe klonaler Expansionen.", "correct": true },
+        { "text": "Krebszellen haben eine erhöhte Mutationsrate durch reduzierte Reparatur.", "correct": true },
+        { "text": "Onkogene und Tumorsuppressorgene liegen häufig in denselben Signalwegen.", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tb-entzuendung", "type": "multiple", "question": "Wie fördern **Entzündungszellen** einen Tumor?",
+      "options": [
+        { "text": "Sie liefern Wachstums- und Überlebensfaktoren.", "correct": true },
+        { "text": "Sie liefern pro-angiogene Faktoren und matrixmodifizierende Enzyme.", "correct": true },
+        { "text": "Sie fördern Invasion und Metastasierung.", "correct": true },
+        { "text": "Sie fördern frühe Stadien über reaktive Sauerstoffspezies.", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tb-lokal-systemisch", "type": "matching", "question": "Ordne die Komplikation zu.",
+      "pairs": [
+        { "left": "Ileus, Ikterus, Harnstau, Fistel", "right": "Lokale Komplikationen" },
+        { "left": "Anämie, Infekte, Fieber, Tumorkachexie", "right": "Systemische Komplikationen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 154" },
+    { "id": "tb-fistel", "type": "single", "question": "Was ist eine **Fistel**?",
+      "options": [ { "text": "Eine Verbindung zwischen zwei Hohlorganen", "correct": true }, { "text": "Ein Darmverschluss" }, { "text": "Ein Gallerückstau" }, { "text": "Eine Entzündung des Bauchfells", "explain": "Das ist die Peritonitis." } ], "source": "VL-Skript ZUG Teil 2, S. 154" },
+    { "id": "tb-hallmarks", "type": "matching", "question": "Ordne der erworbenen Fähigkeit der Krebszelle das Beispiel aus dem Skript zu.",
+      "pairs": [
+        { "left": "Unbegrenzte Selbstreplikation", "right": "Expression von Telomerase" },
+        { "left": "Stimulation der Angiogenese", "right": "VEGF, FGF" },
+        { "left": "Metastasierung", "right": "E-Cadherin herunter, Matrix-Metalloproteasen hoch" },
+        { "left": "Unempfindlichkeit gegen Wachstumshemmung", "right": "Retinoblastom-Protein, p53" },
+        { "left": "Deregulierter Energiehaushalt", "right": "Glykolyse" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 155" },
+    { "id": "tb-hallmarks-alle", "type": "multiple", "question": "Welche gehören zu den **acht erworbenen Fähigkeiten** einer Krebszelle laut Skript?",
+      "options": [
+        { "text": "Aufrechterhaltung proliferativer Signale", "correct": true },
+        { "text": "Keine normale Induktion des Zelltods", "correct": true },
+        { "text": "Aktive Vermeidung des Immunsystems", "correct": true },
+        { "text": "Metastasierung", "correct": true },
+        { "text": "Verstärkte Kontaktinhibition", "explain": "Krebszellen verlieren gerade die normale Wachstumskontrolle." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 155" },
+    { "id": "tb-stammzellen", "type": "multiple", "question": "Welche Aussagen zu **konventionellen Stammzellen** stimmen?",
+      "options": [
+        { "text": "Ohne Beschränkung teilungsfähig, aber teilen sich so selten wie möglich", "correct": true },
+        { "text": "In kleiner Zahl, morphologisch unauffällig", "correct": true },
+        { "text": "Sitzen in geschützten Nischen, z. B. HSC im Knochen, Darmstammzellen am Kryptenboden", "correct": true },
+        { "text": "Haben erhöhte Aktivität von Membranpumpen", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 155" },
+    { "id": "tb-tumorstammzellen", "type": "multiple", "question": "Warum sind **Tumorstammzellen** schwer zu vernichten?",
+      "options": [
+        { "text": "Klassische Chemotherapie wirkt vor allem in aktiv proliferierenden Zellen.", "correct": true },
+        { "text": "Ihre Membranpumpen transportieren Chemotherapeutika effizient aus der Zelle.", "correct": true },
+        { "text": "Sie teilen sich ständig sehr schnell.", "explain": "Stammzellen teilen sich gerade selten." },
+        { "text": "Sie haben keine DNA." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 155" },
+    { "id": "tb-mutrate", "type": "multiple", "question": "Welche Zahlen zu Mutationen und Krebsrisiko nennt das Skript?",
+      "options": [
+        { "text": "~1 Fehler pro 10^9^–10^10^ kopierten Nukleotiden", "correct": true },
+        { "text": "10^−6^–10^−7^ Mutationen pro Gen und Zellteilung", "correct": true },
+        { "text": "Pro 10 cm Körpergröße steigt das Krebsrisiko um ca. 10 %", "correct": true },
+        { "text": "30–60 % der Krebserkrankungen gehen auf den Lebensstil zurück", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 156" },
+    { "id": "tb-elefant", "type": "single", "question": "Welche Gegenstrategie gegen Krebs besitzen **Elefanten** laut Skript?",
+      "options": [ { "text": "Mindestens 20 Kopien des Tumorsuppressorgens p53", "correct": true }, { "text": "Keine Telomerase" }, { "text": "Doppelt so viele Ribosomen" }, { "text": "Keine Stammzellen" } ], "source": "VL-Skript ZUG Teil 2, S. 156" },
+    { "id": "tb-therapie", "type": "matching", "question": "Ordne die neuen Behandlungswege zu.",
+      "pairs": [
+        { "left": "Hemmung der Neovaskularisation", "right": "Endostatin, Neovastat, Thalidomid" },
+        { "left": "Immuntherapie", "right": "Antikörper gegen tumorspezifische Oberflächenmoleküle (mit Radioisotopen, Toxinen)" },
+        { "left": "Zielgerichtete Therapie", "right": "Iressa (Tyrosinkinase-Inhibitor) bei Lungenkrebs" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 154, 156" },
+    { "id": "tb-risiko", "type": "multiple", "question": "Welche **Risikofaktoren** für Krebs nennt das Skript?",
+      "options": [ { "text": "Rauchen", "correct": true }, { "text": "Exzessive Sonneneinstrahlung", "correct": true }, { "text": "Falsche Ernährung mit Übergewicht", "correct": true }, { "text": "Steigendes Alter", "correct": true } ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tb-vorsorge", "type": "multiple", "question": "Welche Maßnahmen zur Vorsorge und Früherkennung nennt das Skript?",
+      "options": [ { "text": "Darm-, Brust- und Gebärmuttervorsorge, Prostata, Melanomscreening", "correct": true }, { "text": "Ausdauersport und ausgewogene Ernährung", "correct": true }, { "text": "Impfungen gegen HPV und Hepatitis B", "correct": true }, { "text": "Regelmäßige Antibiotikagabe" } ], "source": "VL-Skript ZUG Teil 2, S. 154" }
+  ]
+}

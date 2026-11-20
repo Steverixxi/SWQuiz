@@ -1,0 +1,54 @@
+{
+  "chapter": "VL 21 – Mutationen: DNA-Schäden und Reparaturmechanismen",
+  "source": "VL-Skript ZUG Teil 2, VL 21 (S. 78–81)",
+  "questions": [
+    { "id": "mut-ursachen", "type": "matching", "question": "Ordne die Ursache von Mutationen zu (spontan oder induziert).",
+      "pairs": [
+        { "left": "Thermolabilität und Hydrolyse der DNA bei 37 °C", "right": "Spontan: labiles Makromolekül" },
+        { "left": "Sauerstoffradikale, Replikationsfehler, Non-Disjunction", "right": "Spontan: innerzelluläre Vorgänge" },
+        { "left": "UV, ionisierende Strahlung, Viren", "right": "Induziert: natürliche Umwelt" },
+        { "left": "Angiographie, CT, Chemotherapie", "right": "Induziert: medizinische Tätigkeit" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 80" },
+    { "id": "mut-rate", "type": "matching", "question": "Ordne die Mutationsrate pro Generation zu.",
+      "pairs": [
+        { "left": "Bakterien", "right": "1 Nukleotidaustausch pro 10^9^–10^10^ bp" },
+        { "left": "Mensch", "right": "1,2 Nukleotidaustausche pro 10^8^ bp" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 80" },
+    { "id": "mut-nachkommen", "type": "multiple", "question": "Welche Zahlen zu Neumutationen beim Menschen nennt das Skript?",
+      "options": [
+        { "text": "Ein Kind hat ca. 70 neue Mutationen.", "correct": true },
+        { "text": "Davon stammen ca. 55 vom Vater und 15 von der Mutter.", "correct": true },
+        { "text": "Ein 20-jähriger Vater gibt im Schnitt ca. 25, ein 40-jähriger ca. 65 Mutationen weiter.", "correct": true },
+        { "text": "Die meisten Neumutationen stammen von der Mutter.", "explain": "Die Mehrheit kommt vom Vater und steigt mit seinem Alter." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 80" },
+    { "id": "mut-endogen-haeufig", "type": "single", "question": "Welcher endogene DNA-Schaden ist laut Skript pro Tag und Zelle am **häufigsten**?",
+      "options": [ { "text": "Apurinstellen durch hydrolytische Depurinierung (ca. 9000)", "correct": true }, { "text": "7-Methylguanin (ca. 4000)" }, { "text": "8-Oxoguanin (ca. 1000)" }, { "text": "Uracil durch Desaminierung von Cytosin (ca. 400)" } ], "source": "VL-Skript ZUG Teil 2, S. 81" },
+    { "id": "mut-endogen-entstehung", "type": "matching", "question": "Ordne den endogenen Schaden seiner Entstehung zu.",
+      "pairs": [
+        { "left": "Apurinstelle", "right": "Hydrolytische Depurinierung" },
+        { "left": "Uracil", "right": "Desaminierung von Cytosin" },
+        { "left": "Thymin gegenüber Guanin", "right": "Desaminierung von 5-Methylcytosin" },
+        { "left": "6-Methylguanin", "right": "Endogene Nitrosamine" },
+        { "left": "8-Oxoguanin", "right": "Oxidation von Guanin" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 81" },
+    { "id": "mut-endogen-zahlen", "type": "matching", "question": "Ordne die Häufigkeit pro Tag im Genom einer Zelle zu.",
+      "pairs": [ { "left": "Apurinstellen", "right": "ca. 9000" }, { "left": "7-Methylguanin", "right": "ca. 4000" }, { "left": "8-Oxoguanin", "right": "ca. 1000" }, { "left": "Uracil (aus Cytosin)", "right": "ca. 400" }, { "left": "Thymin gegenüber Guanin", "right": "ca. 30" } ], "source": "VL-Skript ZUG Teil 2, S. 81" },
+    { "id": "mut-arten", "type": "matching", "question": "Ordne die Mutationsart zu.",
+      "pairs": [
+        { "left": "Genommutation", "right": "Zahl der Chromosomen verändert" },
+        { "left": "Chromosomenmutation", "right": "Form oder Struktur eines Chromosoms verändert" },
+        { "left": "Genmutation", "right": "z. B. Punktmutation" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 81" },
+    { "id": "mut-keimbahn", "type": "single", "question": "Welche Genmutationen kann ein Mensch an seine **Nachkommen** weitergeben?",
+      "options": [ { "text": "Keimbahnmutationen", "correct": true }, { "text": "Somatische Mutationen", "explain": "Sie betreffen nur Körperzellen des Individuums." }, { "text": "Beide gleichermaßen" }, { "text": "Keine von beiden" } ], "source": "VL-Skript ZUG Teil 2, S. 81" },
+    { "id": "mut-reparatur", "type": "matching", "question": "Ordne den DNA-Schaden dem Reparaturmechanismus laut Skript zu.",
+      "pairs": [
+        { "left": "Mismatch (Fehlpaarung)", "right": "MMR" },
+        { "left": "AP-Stellen, alkylierte Basen", "right": "BER" },
+        { "left": "UV-Schäden, oxidierte Basen (Guanin)", "right": "NER" },
+        { "left": "Doppelstrangbruch", "right": "DSB-Reparatur" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 81" },
+    { "id": "mut-uv", "type": "single", "question": "Welcher Reparaturmechanismus behebt laut Skript **UV-Schäden**?",
+      "options": [ { "text": "NER (Nukleotid-Exzisionsreparatur)", "correct": true }, { "text": "MMR" }, { "text": "BER", "explain": "BER repariert laut Skript AP-Stellen und alkylierte Basen." }, { "text": "Keiner, UV-Schäden sind irreparabel" } ], "source": "VL-Skript ZUG Teil 2, S. 81" }
+  ]
+}
