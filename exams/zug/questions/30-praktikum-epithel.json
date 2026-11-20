@@ -264,13 +264,13 @@
           "y": 5,
           "ax": 82,
           "ay": 10,
-          "answer": "Wand eines Blutgefäßes"
+          "answer": "Blutgefäß im Bindegewebe zwischen den Follikelgruppen"
         },
         {
           "n": 4,
           "x": 52,
           "y": 46,
-          "answer": "Lockeres Bindegewebe zwischen den Läppchen"
+          "answer": "Lockeres Bindegewebe als gefäßführendes Septum"
         }
       ],
       "distractors": [
@@ -278,7 +278,7 @@
         "Seröser Azinus"
       ],
       "explanation": "Die Follikel sind von einem einschichtigen Epithel ausgekleidet und mit Kolloid gefüllt. Zwischen Follikelgruppen liegt lockeres Bindegewebe mit Gefäßen.",
-      "source": "Digitaler Schnitt JKU 40; VL-Skript ZUG Teil 1, S. 92–93"
+      "source": "Digitaler Schnitt JKU 40; VL-Skript ZUG Teil 1, S. 92–93, 173"
     },
     {
       "id": "ds-sd-epithel",
@@ -373,24 +373,18 @@
       "labels": [
         {
           "n": 1,
-          "x": 76,
-          "y": 7,
-          "answer": "Darmlumen"
-        },
-        {
-          "n": 2,
           "x": 70,
           "y": 62,
           "answer": "Schleimhaut (Mukosa) mit Zotten"
         },
         {
-          "n": 3,
+          "n": 2,
           "x": 33,
           "y": 30,
           "answer": "Brunner-Drüsen in der Submukosa"
         },
         {
-          "n": 4,
+          "n": 3,
           "x": 14,
           "y": 62,
           "ax": 25.5,
@@ -398,12 +392,12 @@
           "answer": "Tunica muscularis"
         },
         {
-          "n": 5,
+          "n": 4,
           "x": 36,
           "y": 60,
           "ax": 42.5,
           "ay": 56,
-          "answer": "Blutgefäß"
+          "answer": "Blutgefäß in der Submukosa"
         }
       ],
       "distractors": [
@@ -602,12 +596,6 @@
       "labels": [
         {
           "n": 1,
-          "x": 25,
-          "y": 45,
-          "answer": "Lumen"
-        },
-        {
-          "n": 2,
           "x": 45,
           "y": 62,
           "ax": 52.3,
@@ -615,19 +603,19 @@
           "answer": "Respiratorisches Epithel"
         },
         {
-          "n": 3,
+          "n": 2,
           "x": 58,
           "y": 20,
-          "answer": "Lockeres Bindegewebe mit Gefäßen"
+          "answer": "Lockeres Bindegewebe zwischen Epithel und Knorpel, mit Gefäßen"
         },
         {
-          "n": 4,
+          "n": 3,
           "x": 70,
           "y": 62,
           "answer": "Hyaliner Knorpel"
         },
         {
-          "n": 5,
+          "n": 4,
           "x": 79,
           "y": 30,
           "answer": "Adventitia mit Fettzellen"
@@ -672,7 +660,7 @@
           "n": 4,
           "x": 64,
           "y": 73,
-          "answer": "Blutgefäß"
+          "answer": "Blutgefäß in der Lamina propria"
         },
         {
           "n": 5,
@@ -742,12 +730,6 @@
       "labels": [
         {
           "n": 1,
-          "x": 92,
-          "y": 38,
-          "answer": "Lumen"
-        },
-        {
-          "n": 2,
           "x": 83,
           "y": 30,
           "ax": 80,
@@ -755,13 +737,13 @@
           "answer": "Mehrschichtiges Plattenepithel"
         },
         {
-          "n": 3,
+          "n": 2,
           "x": 60,
           "y": 30,
-          "answer": "Lockeres Bindegewebe unter dem Epithel"
+          "answer": "Lockeres Bindegewebe unter dem Epithel (verschiebliche Verbindung zur Muskulatur)"
         },
         {
-          "n": 4,
+          "n": 3,
           "x": 33,
           "y": 36,
           "answer": "Muskelschicht (Tunica muscularis)"
@@ -772,7 +754,7 @@
         "Respiratorisches Epithel"
       ],
       "explanation": "Im Azan erscheint kollagenes Bindegewebe blau, Muskulatur rötlich-braun. Das Epithel ist gefaltet und mehrschichtig.",
-      "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 97"
+      "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 97, 173"
     },
     {
       "id": "ds-to-oeso-epithel",
@@ -782,9 +764,9 @@
       "labels": [
         {
           "n": 1,
-          "x": 50,
-          "y": 12,
-          "answer": "Lumen"
+          "x": 72,
+          "y": 50,
+          "answer": "Intermediärschicht"
         },
         {
           "n": 2,
@@ -814,14 +796,14 @@
           "y": 95,
           "ax": 40.5,
           "ay": 90,
-          "answer": "Blutgefäß"
+          "answer": "Blutgefäß im Bindegewebe unter dem Epithel"
         }
       ],
       "distractors": [
         "Kinozilien",
         "Becherzelle"
       ],
-      "explanation": "Beim mehrschichtigen Epithel erreichen nur die Basalzellen die Basalmembran. Die Zellen wandern nach oben, reifen und flachen ab. Die Kerne werden flacher, bleiben aber bis in die oberste lebende Schicht erkennbar.",
+      "explanation": "Mehrschichtiges Epithel gliedert sich in **Basalzellschicht, Intermediärschicht und Superfizialschicht**. Nur die Basalzellen erreichen die Basalmembran. Die Zellen wandern nach oben, reifen und flachen ab. Die Kerne werden flacher, bleiben aber bis in die oberste lebende Schicht erkennbar.",
       "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 97"
     },
     {
@@ -919,29 +901,23 @@
       "labels": [
         {
           "n": 1,
-          "x": 19,
-          "y": 50,
-          "answer": "Lumen"
-        },
-        {
-          "n": 2,
           "x": 55,
           "y": 30,
           "answer": "Urothel (Übergangsepithel)"
         },
         {
-          "n": 3,
+          "n": 2,
           "x": 80,
           "y": 40,
           "answer": "Lamina propria (kollagenes Bindegewebe)"
         },
         {
-          "n": 4,
+          "n": 3,
           "x": 32,
           "y": 45,
           "ax": 39,
           "ay": 37,
-          "answer": "Apikale Deckzellschicht"
+          "answer": "Apikale Deckzellschicht (Deckzellen, oft mehrkernig)"
         }
       ],
       "distractors": [

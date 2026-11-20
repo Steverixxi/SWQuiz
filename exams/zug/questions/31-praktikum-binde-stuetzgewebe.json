@@ -38,7 +38,7 @@
           "n": 1,
           "x": 45.8,
           "y": 42.5,
-          "answer": "Gefäßlumen"
+          "answer": "Lumen eines kleinen Blutgefäßes"
         },
         {
           "n": 2,
@@ -66,7 +66,7 @@
           "n": 5,
           "x": 88,
           "y": 60,
-          "answer": "Lockeres Bindegewebe um das Gefäß"
+          "answer": "Lockeres Bindegewebe als gefäßführendes Septum in der Sehne"
         }
       ],
       "distractors": [
@@ -270,7 +270,7 @@
           "y": 75,
           "ax": 68.7,
           "ay": 86.5,
-          "answer": "Blutgefäß"
+          "answer": "Blutgefäß im Bindegewebe außerhalb des Knorpels"
         }
       ],
       "distractors": [
@@ -597,7 +597,7 @@
           "n": 4,
           "x": 53.3,
           "y": 68.9,
-          "answer": "Blutgefäß"
+          "answer": "Blutgefäß in der Dermis"
         },
         {
           "n": 5,
@@ -648,12 +648,6 @@
           "x": 70,
           "y": 84,
           "answer": "Perichondrium"
-        },
-        {
-          "n": 4,
-          "x": 40,
-          "y": 22,
-          "answer": "Lockeres Bindegewebe"
         }
       ],
       "distractors": [
