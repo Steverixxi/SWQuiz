@@ -1,0 +1,252 @@
+{
+  "chapter": "VL 19 – Apoptose, Nekrose, Autophagie (Details)",
+  "source": "VL-Skript ZUG Teil 2, VL 19 (S. 30–56)",
+  "questions": [
+    { "id": "ztz-physiologisch", "type": "multiple", "question": "Für welche physiologischen Prozesse ist Zelltod laut Skript wichtig?",
+      "options": [
+        { "text": "Embryonalentwicklung", "correct": true },
+        { "text": "Zellhomöostase und funktionierendes Immunsystem", "correct": true },
+        { "text": "Schutz vor Viren: Die Zelle „opfert sich“, damit das Virus seine Vermehrungsgrundlage verliert", "correct": true },
+        { "text": "Schutz vor Krebs bzw. Entartung", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 31" },
+    { "id": "ztz-abkuerzungen", "type": "matching", "question": "Ordne die Abkürzungen aus der Zelltod-Übersicht zu.",
+      "pairs": [
+        { "left": "RCD", "right": "Regulated cell death" },
+        { "left": "ICD", "right": "Immunogenic cell death" },
+        { "left": "ADCD", "right": "Autophagy-dependent cell death" },
+        { "left": "LDCD", "right": "Lysosome-dependent cell death" },
+        { "left": "MPT", "right": "Mitochondrial permeability transition" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 31" },
+    { "id": "ztz-leber", "type": "single", "question": "Warum bleibt eine gesunde Leber laut Skript immer gleich groß?",
+      "options": [
+        { "text": "Organe, die weder wachsen noch schrumpfen, haben ein ausgeglichenes Verhältnis von Zellteilung zu Zelltod.", "correct": true },
+        { "text": "Leberzellen teilen sich nie und sterben nie." },
+        { "text": "Leberzellen sterben nur durch Nekrose." },
+        { "text": "Die Leber hat keine Autophagie." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 33" },
+    { "id": "ztz-selektion", "type": "matching", "question": "Ordne die Selektion reifender T-Zellen ihrem Auslöser für Apoptose zu.",
+      "pairs": [
+        { "left": "Positive Selektion", "right": "Zelle erkennt keinen MHC-Komplex" },
+        { "left": "Negative Selektion", "right": "Zelle richtet sich gegen körpereigenes Gewebe" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 33" },
+    { "id": "ztz-nach-infektion", "type": "single", "question": "Was geschieht laut Skript nach einer Infektion mit den **reaktiven Immunzellen**?",
+      "options": [
+        { "text": "Sie werden zerstört, nachdem sie geholfen haben, den Erreger zu beseitigen.", "correct": true },
+        { "text": "Sie bleiben alle dauerhaft aktiv." },
+        { "text": "Sie gehen in Nekrose und lösen eine Entzündung aus." },
+        { "text": "Sie werden zu Neutrophilen umgewandelt." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 33" },
+    { "id": "ztz-kontrolle-dna", "type": "order", "question": "Bringe die Apoptose als **Kontrollmechanismus** bei DNA-Schaden in eine sinnvolle Reihenfolge.",
+      "items": ["Zelle erkennt DNA-Schaden oder geschädigte Organellen", "Reparatur ist nicht möglich", "Zelle geht von sich aus in Apoptose", "Organismus ist vor Mutationen und Entartung (Krebs) geschützt"],
+      "source": "VL-Skript ZUG Teil 2, S. 34" },
+    { "id": "ztz-eat-me", "type": "multiple", "question": "Welche Oberflächensignale verändern sich laut Skript bei der Apoptose?",
+      "options": [
+        { "text": "Phosphatidylserin wird als „eat-me“-Signal exponiert und von Makrophagen erkannt.", "correct": true },
+        { "text": "Das „don't eat me“-Signal wird inaktiviert oder geht verloren, z. B. durch Verlust des Membranpotenzials.", "correct": true },
+        { "text": "Phosphatidylserin-abhängige Phagozytose verhindert die Freisetzung proinflammatorischer Zytokine.", "correct": true },
+        { "text": "Die Zelle setzt HMGB1 frei, um eine Entzündung auszulösen.", "explain": "HMGB1-Sekretion kennzeichnet den immunogenen Zelltod, nicht die tolerogene Apoptose." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 35, 50" },
+    { "id": "ztz-nachbarn", "type": "single", "question": "Warum spricht das Skript bei der Apoptose von einem **kontrollierten Suizid**?",
+      "options": [
+        { "text": "Gesunde Nachbarzellen werden nicht geschädigt, es entsteht keine Entzündung.", "correct": true },
+        { "text": "Die Zelle schwillt an und platzt kontrolliert." , "explain": "Anschwellen und Platzen sind Kennzeichen der Nekrose." },
+        { "text": "Die Zelle braucht dafür keine Energie.", "explain": "Apoptose ist energieaufwendig." },
+        { "text": "Weil nur Immunzellen betroffen sind." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 36" },
+    { "id": "ztz-caspase-aktivierung", "type": "multiple", "question": "Welche Aussagen zu **Caspasen** stimmen laut Skript?",
+      "options": [
+        { "text": "Sie liegen als inaktive Procaspasen vor.", "correct": true },
+        { "text": "Sie werden durch proteolytische Spaltung durch andere (Initiator-)Caspasen aktiviert.", "correct": true },
+        { "text": "Immer mehr Exekutor-Caspasen werden aktiviert, es entsteht eine proteolytische Kaskade.", "correct": true },
+        { "text": "Manche Caspasen vermitteln auch Immun- und Entzündungsantworten.", "correct": true },
+        { "text": "Die Apoptose-Maschinerie unterscheidet sich zwischen Tierzellen grundlegend.", "explain": "Sie ist in fast allen Tierzellen gleich." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 37" },
+    { "id": "ztz-intrinsisch-ausloeser", "type": "multiple", "question": "Wodurch wird der **intrinsische** Apoptoseweg laut Skript oft ausgelöst?",
+      "options": [
+        { "text": "DNA-Schaden", "correct": true },
+        { "text": "Sauerstoffmangel", "correct": true },
+        { "text": "Verletzung und Stress", "correct": true },
+        { "text": "Bindung von Liganden zytotoxischer T-Zellen an Death-Rezeptoren", "explain": "Das ist der extrinsische Weg." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 38–39" },
+    { "id": "ztz-bax-ablauf", "type": "order", "question": "Bringe die Wirkung von **Bax** in die richtige Reihenfolge.",
+      "items": ["Apoptosestimulus", "Bax bildet Oligomere", "Porenbildung in der Mitochondrienmembran", "Mitochondrienmembran wird durchlässig", "Freisetzung von Cytochrom C"],
+      "source": "VL-Skript ZUG Teil 2, S. 38–39" },
+    { "id": "ztz-bad", "type": "single", "question": "Wie wirkt das pro-apoptotische Protein **Bad**?",
+      "options": [
+        { "text": "Es bindet und inhibiert Bcl-2, das anti-apoptotische Bcl-2 wird dadurch blockiert.", "correct": true },
+        { "text": "Es bildet selbst Poren in der Plasmamembran.", "explain": "Porenbildung in der Mitochondrienmembran wird für Bax beschrieben." },
+        { "text": "Es stabilisiert das mitochondriale Membranpotential.", "explain": "Das ist die anti-apoptotische Wirkung von Bcl-2." },
+        { "text": "Es aktiviert MLKL.", "explain": "MLKL wird bei der Nekroptose durch RIP3 aktiviert." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 38–39" },
+    { "id": "ztz-bcl2-mechanismus", "type": "single", "question": "Wodurch wirken **anti-apoptotische** Bcl-2-Proteine laut Skript?",
+      "options": [
+        { "text": "Durch Stabilisierung des Membranpotentials der Mitochondrien", "correct": true },
+        { "text": "Durch Spaltung der nukleären Lamine" },
+        { "text": "Durch Exposition von Phosphatidylserin" },
+        { "text": "Durch Aktivierung von CAD" }
+      ], "explanation": "Das Schicksal der Zelle bestimmt das Gleichgewicht aus pro- und anti-apoptotischen Proteinen. Überexpression anti-apoptotischer Proteine führt zur Krebsentstehung (Protoonkogene).", "source": "VL-Skript ZUG Teil 2, S. 38–39" },
+    { "id": "ztz-extrinsisch-inhibitoren", "type": "multiple", "question": "Welche **Inhibitoren** des extrinsischen Wegs exprimieren viele Zellen laut Skript?",
+      "options": [
+        { "text": "Death-Rezeptoren ohne Intrazellulärdomäne", "correct": true },
+        { "text": "Proteine, die wie Caspasen aussehen, aber nicht katalytisch aktiv sind", "correct": true },
+        { "text": "Zusätzliche Kopien von Cytochrom C" },
+        { "text": "Phosphatidylserin auf der Außenseite" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 40" },
+    { "id": "ztz-infarkt", "type": "single", "question": "Warum gehen bei **Herzinfarkt und Schlaganfall** viele Zellen zugrunde?",
+      "options": [
+        { "text": "Sie werden nicht mehr ausreichend mit Nährstoffen versorgt; sie sterben durch Apoptose, aber auch Nekrose.", "correct": true },
+        { "text": "Ausschließlich durch Autophagie" },
+        { "text": "Durch zu wenig Apoptose" },
+        { "text": "Durch Entosis" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 41" },
+    { "id": "ztz-p53-therapie", "type": "multiple", "question": "Welche Rolle spielt **p53** laut Skript?",
+      "options": [
+        { "text": "Es leitet die Apoptose nach Zellzyklusarrest oder DNA-Schaden ein.", "correct": true },
+        { "text": "Es ist in ca. 50 % aller Tumore mutiert.", "correct": true },
+        { "text": "Es ist wichtig für die Sensitivität gegenüber Krebstherapeutika.", "correct": true },
+        { "text": "Es ist ein anti-apoptotisches Bcl-2-Protein.", "explain": "Das Skript nennt p53 als Auslöser der Apoptose; es gehört nicht zur Bcl-2-Familie." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 41" },
+    { "id": "ztz-sonnenbrand", "type": "single", "question": "Welches Beispiel nennt das Skript für **Nekrose**?",
+      "options": [
+        { "text": "Abschälen der Haut nach einem Sonnenbrand mit Schwellung, Rötung und Wärme", "correct": true },
+        { "text": "Absterben der Gewebsknospen zwischen den Fingern", "explain": "Das ist Apoptose in der Embryonalentwicklung." },
+        { "text": "Verhornung der Keratinozyten", "explain": "Eine spezielle Form des regulierten Zelltods." },
+        { "text": "Selektion der T-Zellen im Thymus", "explain": "Apoptose." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 42" },
+    { "id": "ztz-nekrose-reguliert", "type": "single", "question": "Was weiß man laut Skript heute über die **Regulation der Nekrose**?",
+      "options": [
+        { "text": "Auch sie ist reguliert und geht mit biochemischen Prozessen einher; der genaue Mechanismus wird noch erforscht.", "correct": true },
+        { "text": "Sie ist vollständig unreguliert und rein physikalisch." },
+        { "text": "Sie ist identisch mit der Apoptose." },
+        { "text": "Sie wird ausschließlich durch Caspase-3 gesteuert." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 42" },
+    { "id": "ztz-invitro", "type": "multiple", "question": "Warum ist die Unterscheidung von Apoptose und Nekrose **in vitro** schwierig?",
+      "options": [
+        { "text": "In Zellkultur fehlen phagozytierende Zellen, apoptotische Körperchen werden „nekrotisch“ (sekundäre Nekrose).", "correct": true },
+        { "text": "Geht einer apoptotischen Zelle die Energie aus, geht sie in sekundäre Nekrose.", "correct": true },
+        { "text": "Eine nekrotische Zelle kann so gestresst sein, dass sie Apoptose einleitet.", "correct": true },
+        { "text": "Weil Zellkulturzellen nicht sterben können." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 45" },
+    { "id": "ztz-nekroptose-schalter", "type": "single", "question": "Warum findet unter physiologischen Bedingungen meist **Apoptose statt Nekroptose** statt?",
+      "options": [
+        { "text": "Caspase-8 blockiert die Aktivierung von RIP1, RIP3 und MLKL.", "correct": true },
+        { "text": "Weil RIP1 im Menschen nicht vorkommt." },
+        { "text": "Weil MLKL nur im Zellkern wirkt." },
+        { "text": "Weil Nekroptose immer Eisen braucht.", "explain": "Eisenabhängig ist die Ferroptose." }
+      ], "explanation": "Wird Caspase-8 blockiert (genetische Deletion, Pharmaka, zelluläre Inhibitoren wie cFLIPs), interagieren RIP1 und RIP3, MLKL wird aktiviert und permeabilisiert die Plasmamembran.", "source": "VL-Skript ZUG Teil 2, S. 46" },
+    { "id": "ztz-viren-nekroptose", "type": "single", "question": "Wie kann laut Skript eine Virusinfektion **Nekroptose** auslösen?",
+      "options": [
+        { "text": "Viren hemmen Caspasen, die Apoptose ist gehemmt, und mikrobielle Nukleinsäuren lösen Nekroptose aus.", "correct": true },
+        { "text": "Viren aktivieren PARP1 über NO.", "explain": "Das ist der Parthanatos." },
+        { "text": "Viren lösen NETs aus." },
+        { "text": "Viren exponieren Phosphatidylserin auf der Wirtszelle." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 46" },
+    { "id": "ztz-nekroptose-krankheit", "type": "multiple", "question": "Bei welchen Erkrankungen spielt **Nekroptose** laut Skript eine große Rolle?",
+      "options": [
+        { "text": "Krebserkrankungen und Metastasierung", "correct": true },
+        { "text": "Neurodegenerative Erkrankungen", "correct": true },
+        { "text": "Entzündliche Darmerkrankungen", "correct": true },
+        { "text": "LPS-induzierter septischer Schock", "explain": "Diesen nennt das Skript bei der Pyroptose." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 47" },
+    { "id": "ztz-pyroptose-ausloeser", "type": "single", "question": "Wodurch wird **Pyroptose** laut Skript ausgelöst?",
+      "options": [
+        { "text": "Durch Störung der extra- oder intrazellulären Homöostase im Rahmen der angeborenen Immunität (z. B. DAMPs)", "correct": true },
+        { "text": "Durch Verlust des Kontakts zur extrazellulären Matrix", "explain": "Das löst Anoikis bzw. Entosis aus." },
+        { "text": "Durch starke Lipidperoxidation", "explain": "Kennzeichen der Ferroptose." },
+        { "text": "Durch Überaktivierung von PARP1", "explain": "Parthanatos." }
+      ], "explanation": "Pyroptose kommt u. a. im zentralen Nervensystem und im kardiovaskulären System vor.", "source": "VL-Skript ZUG Teil 2, S. 47" },
+    { "id": "ztz-keratinozyt-stress", "type": "single", "question": "Was gilt laut Skript für Keratinozyten **nach** der Verhornung?",
+      "options": [
+        { "text": "Sie können keinen stressbedingten Tod mehr sterben.", "correct": true },
+        { "text": "Sie gehen anschließend in Apoptose." },
+        { "text": "Sie teilen sich wieder in der Basalschicht." },
+        { "text": "Sie werden metabolisch besonders aktiv.", "explain": "Sie werden metabolisch inaktiv." }
+      ], "explanation": "Das Stratum corneum besteht großteils aus Keratin und Fetten und macht die Haut stabil, widerstandsfähig, elastisch und wasserabweisend.", "source": "VL-Skript ZUG Teil 2, S. 48" },
+    { "id": "ztz-entosis", "type": "multiple", "question": "Welche Aussagen zur **Entosis** stimmen laut Skript?",
+      "options": [
+        { "text": "„Kannibalismus“: Tod durch Verzehr durch eine Nicht-Fresszelle", "correct": true },
+        { "text": "Vor allem in Tumoren beobachtet", "correct": true },
+        { "text": "Hauptauslöser im gesunden Gewebe ist das Ablösen epithelialer Zellen von der EZM.", "correct": true },
+        { "text": "Der Tod der internalisierten Zelle wird durch Lysosomen ausgelöst.", "correct": true },
+        { "text": "Makrophagen sind die verschlingenden Zellen.", "explain": "Professionelle Fresszellen sind nicht beteiligt." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 49" },
+    { "id": "ztz-parthanatos-detail", "type": "multiple", "question": "Welche Aussagen zum **Parthanatos** stimmen laut Skript?",
+      "options": [
+        { "text": "PARP1 trägt normalerweise zur DNA-Reparatur bei; bei Überaktivierung geht zu viel Energie verloren.", "correct": true },
+        { "text": "Auslöser: starker DNA-Schaden, oxidativer Stress, Hypoxie, Hypoglykämie, Entzündung", "correct": true },
+        { "text": "Vorkommen z. B. bei Schlaganfall, Diabetes und neurodegenerativen Erkrankungen", "correct": true },
+        { "text": "PARP1/2-Inhibitoren wirken gut bei Brustkrebs.", "correct": true },
+        { "text": "Er ist Caspase-abhängig.", "explain": "Parthanatos ist Caspase-unabhängig." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 49" },
+    { "id": "ztz-netose", "type": "multiple", "question": "Welche Aussagen zum **NETotischen Zelltod** stimmen laut Skript?",
+      "options": [
+        { "text": "Neutrophile und eosinophile Granulozyten können NETs aus DNA und Histonen ausstoßen, die antimikrobiell wirken.", "correct": true },
+        { "text": "Unter physiologischen Bedingungen sterben die Zellen trotz Verlust eines Teils des Kerns nicht.", "correct": true },
+        { "text": "Er ist nicht Caspase-abhängig und nutzt Teile der Autophagie-Maschinerie.", "correct": true },
+        { "text": "Er steht u. a. mit Diabetes und Krebs in Zusammenhang.", "correct": true },
+        { "text": "Er wird durch Eisen-Chelatoren ausgelöst.", "explain": "Eisen-Chelatoren hemmen die Ferroptose." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 50" },
+    { "id": "ztz-icd-merkmale", "type": "multiple", "question": "Was kennzeichnet den **immunogenen Zelltod** laut Skript?",
+      "options": [
+        { "text": "Die sterbende Zelle löst eine adaptive, spezifische Immunantwort mit Gedächtnis aus.", "correct": true },
+        { "text": "Apoptotische Morphologie", "correct": true },
+        { "text": "Vor allem bei Tumoren", "correct": true },
+        { "text": "Er ist tolerogen.", "explain": "Gerade nicht: Gefahrensignale lösen eine Immunantwort aus." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 50" },
+    { "id": "ztz-autophag-zelltod", "type": "multiple", "question": "Wie ist der **autophagische Zelltod** laut Skript definiert?",
+      "options": [
+        { "text": "Morphologisch durch autophagische Vakuolisierung des Zytoplasmas", "correct": true },
+        { "text": "Autophagie-spezifische Proteine werden exprimiert.", "correct": true },
+        { "text": "Keine Chromatinkondensation", "correct": true },
+        { "text": "Starke Chromatinkondensation und Blebbing", "explain": "Das ist typisch für Apoptose." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 51" },
+    { "id": "ztz-krankheiten", "type": "multiple", "question": "Welche Krankheitsgruppen können laut Zusammenfassung entstehen, wenn der Zelltod nicht richtig funktioniert?",
+      "options": [
+        { "text": "Autoimmunerkrankungen", "correct": true },
+        { "text": "Neurodegenerative Erkrankungen", "correct": true },
+        { "text": "Bakterielle und virale Erkrankungen", "correct": true },
+        { "text": "Herzerkrankungen und Krebs", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 52" },
+    { "id": "ztz-morphologie", "type": "matching", "question": "Ordne die Morphologie zu.",
+      "pairs": [
+        { "left": "Apoptotische Morphologie", "right": "Schrumpfen der Zelle" },
+        { "left": "Nekrotische Morphologie", "right": "Aufschwellen der Zelle" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 52" },
+    { "id": "ztz-ohsumi", "type": "single", "question": "Wer erhielt laut Skript **2016** den Nobelpreis für die Entdeckung des Autophagie-Mechanismus?",
+      "options": [
+        { "text": "Yoshinori Ohsumi", "correct": true },
+        { "text": "Carl Vogt", "explain": "Er beschrieb 1842 erstmals die Apoptose." },
+        { "text": "Katalin Karikó", "explain": "Nobelpreis 2023 für mRNA-Modifikationen." },
+        { "text": "Robert Hooke" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 32, 53" },
+    { "id": "ztz-autophagie-funktionen", "type": "multiple", "question": "Welche physiologischen Funktionen hat Autophagie in Säugetieren laut Skript?",
+      "options": [
+        { "text": "Energieerzeugung bei Hunger und Sport", "correct": true },
+        { "text": "Homöostase von Proteinen, Nukleinsäuren und Glykogen", "correct": true },
+        { "text": "Qualitätskontrolle und Abbau geschädigter Organellen, vor allem in langlebigen Zellen (Neurone, Leberzellen)", "correct": true },
+        { "text": "Abbau von Fremdkörpern und Präsentation intrazellulärer Erreger an Immunzellen", "correct": true },
+        { "text": "Verkürzung der Lebensspanne", "explain": "Autophagie hilft laut Skript, die Lebensspanne zu verlängern." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 53" },
+    { "id": "ztz-autophagie-feedback", "type": "single", "question": "Wie wird die Autophagie laut Skript wieder **herunterreguliert**?",
+      "options": [
+        { "text": "Über einen Feedback-Loop: Sind wieder genug Aminosäuren vorhanden, sinkt die Autophagie.", "correct": true },
+        { "text": "Durch Anstieg des lysosomalen pH auf 7" },
+        { "text": "Sie wird nie herunterreguliert." },
+        { "text": "Durch Aktivierung von Caspase-8" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 53" },
+    { "id": "ztz-lysosom-enzyme", "type": "multiple", "question": "Welche hydrolytischen Enzyme nennt das Skript in **Lysosomen**?",
+      "options": [
+        { "text": "Proteasen", "correct": true },
+        { "text": "Nukleasen", "correct": true },
+        { "text": "Glycosidasen", "correct": true },
+        { "text": "Lipasen", "correct": true }
+      ], "explanation": "Sie funktionieren nur im sauren Milieu (pH ca. 4,5–5).", "source": "VL-Skript ZUG Teil 2, S. 54" },
+    { "id": "ztz-mikro-spezifisch", "type": "single", "question": "Was unterscheidet die **Mikroautophagie** laut Skript von der Makroautophagie?",
+      "options": [
+        { "text": "Sie ist spezifischer und kann durch Moleküle an der Oberfläche geschädigter Organellen ausgelöst werden.", "correct": true },
+        { "text": "Sie bildet Doppelmembran-Autophagosomen.", "explain": "Das ist die Makroautophagie." },
+        { "text": "Sie braucht den Rezeptor LAMP-2A.", "explain": "Das ist die Chaperon-mediierte Autophagie." },
+        { "text": "Sie ist die Hauptform der Autophagie.", "explain": "Hauptform ist die Makroautophagie." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 56" }
+  ]
+}
