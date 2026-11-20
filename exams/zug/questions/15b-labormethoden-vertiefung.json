@@ -1,0 +1,131 @@
+{
+  "chapter": "VL 15 – Labormethoden (Vertiefung)",
+  "source": "VL 15 Labormethoden, Folien Charwat 2026 (Moodle)",
+  "questions": [
+    { "id": "labv-chrom-name", "type": "single", "question": "Was bedeutet **Chromatographie** wörtlich?",
+      "options": [
+        { "text": "Farbenschreiben", "correct": true },
+        { "text": "Zellenzählen" },
+        { "text": "Lichtbrechen" },
+        { "text": "Größentrennen" }
+      ], "explanation": "Ein physikalisches Trennverfahren: Stoffgemische werden durch unterschiedliche Verteilung zwischen stationärer und mobiler Phase aufgetrennt.", "source": "Folien Labormethoden, S. 4" },
+    { "id": "labv-retention", "type": "single", "question": "Was ist die **Retentionszeit**?",
+      "options": [
+        { "text": "Die Zeit, die ein Molekül zum Durchwandern der Säule benötigt", "correct": true },
+        { "text": "Die Zeit bis zur vollständigen Sterilisation im Autoklaven" },
+        { "text": "Die Laufzeit eines Gels bis zum Blotten" },
+        { "text": "Die Inkubationszeit beim ELISA" }
+      ], "explanation": "Sie ergibt sich aus den Wechselwirkungen des Moleküls mit der Matrix.", "source": "Folien Labormethoden, S. 5" },
+    { "id": "labv-gc-hplc", "type": "matching", "question": "Ordne das Chromatographieverfahren seiner Besonderheit zu.",
+      "pairs": [
+        { "left": "Säulenchromatographie", "right": "Gefüllte Glassäule, oft zur Reinigung größerer Mengen (präparativ)" },
+        { "left": "Gaschromatographie", "right": "Mobile Phase ist ein Gas, ideal für flüchtige Substanzen" },
+        { "left": "HPLC", "right": "Leistungsstarke Flüssigchromatographie unter hohem Druck" }
+      ], "source": "Folien Labormethoden, S. 8" },
+    { "id": "labv-gelfiltration-wann", "type": "single", "question": "Wann greift man laut Folien zur **Gelfiltrations-Chromatographie**?",
+      "options": [
+        { "text": "Wenn das Zielmolekül weder spezifisch an ein Substrat bindet noch besondere Ladungseigenschaften hat", "correct": true },
+        { "text": "Wenn das Zielmolekül stark geladen ist", "explain": "Dann eignet sich die Ionenaustauschchromatographie." },
+        { "text": "Wenn das Zielmolekül ein Enzym mit bekanntem Substrat ist", "explain": "Dann eignet sich die Affinitätschromatographie." },
+        { "text": "Nur bei flüchtigen Substanzen", "explain": "Das ist das Einsatzgebiet der Gaschromatographie." }
+      ], "source": "Folien Labormethoden, S. 9–10" },
+    { "id": "labv-eastern", "type": "single", "question": "Wofür steht der **Eastern Blot** laut Folien?",
+      "options": [
+        { "text": "Untersuchung posttranslationaler Modifikationen", "correct": true },
+        { "text": "Untersuchung von DNA", "explain": "Southern Blot." },
+        { "text": "Untersuchung von RNA, z. B. Spleißvarianten", "explain": "Northern Blot." },
+        { "text": "Untersuchung von Proteinen allgemein", "explain": "Western Blot." }
+      ], "source": "Folien Labormethoden, S. 11" },
+    { "id": "labv-western-falsch", "type": "single", "question": "Richtig oder falsch: „Western Blot wird in der DNA-Analytik verwendet, z. B. um Genmutationen zu detektieren.“",
+      "options": [
+        { "text": "Falsch: Western Blot untersucht Proteine.", "correct": true },
+        { "text": "Richtig", "explain": "DNA wird im Southern Blot untersucht (heute eher PCR)." }
+      ], "source": "Folien Labormethoden, S. 11, 46" },
+    { "id": "labv-isolationskit", "type": "order", "question": "Bringe die Nukleinsäure-Isolation mit einem **Isolations-Kit** in die richtige Reihenfolge.",
+      "items": ["DNA/RNA bindet an eine Membran", "Restliche Bestandteile werden in mehreren Waschschritten ausgewaschen", "Reine DNA/RNA wird von der Membran eluiert"],
+      "source": "Folien Labormethoden, S. 13" },
+    { "id": "labv-protein-probleme", "type": "multiple", "question": "Welche **Probleme** bei der Auftrennung von Proteinen nennen die Folien?",
+      "options": [
+        { "text": "Proteine liegen gefaltet vor (α-Helix, β-Faltblatt), dadurch unterschiedliche Formen und Größen.", "correct": true },
+        { "text": "Ihre Ladung ist pH-abhängig.", "correct": true },
+        { "text": "Proteine sind grundsätzlich ungeladen." },
+        { "text": "Proteine lassen sich nicht in Gele laden." }
+      ], "explanation": "Lösung: SDS und Denaturierung, die Aminosäurereihenfolge bleibt erhalten, das Protein erhält eine einheitliche negative Ladung.", "source": "Folien Labormethoden, S. 15" },
+    { "id": "labv-housekeeping", "type": "single", "question": "Wozu dient beim Western Blot die Bande eines **Housekeeping-Gens**?",
+      "options": [
+        { "text": "Als Ladekontrolle, um die Proteinmengen der Proben vergleichen zu können", "correct": true },
+        { "text": "Zur Sterilitätskontrolle" },
+        { "text": "Als Größenstandard für DNA" },
+        { "text": "Um posttranslationale Modifikationen zu messen" }
+      ], "explanation": "Housekeeping-Gene werden in allen Zellen relativ konstant exprimiert.", "source": "Folien Labormethoden, S. 20" },
+    { "id": "labv-ig-aufbau", "type": "multiple", "question": "Wie sind **Immunglobuline** laut Folien aufgebaut?",
+      "options": [
+        { "text": "2 identische schwere Ketten (h-chain)", "correct": true },
+        { "text": "2 identische leichte Ketten (l-chain)", "correct": true },
+        { "text": "Konstante Domäne (c-Region) und variable Domäne (v-Region)", "correct": true },
+        { "text": "4 verschiedene schwere Ketten" }
+      ], "explanation": "Sie werden von Plasmazellen (differenzierten B-Zellen) gebildet.", "source": "Folien Labormethoden, S. 23" },
+    { "id": "labv-hiv-eintritt", "type": "single", "question": "Wie dringt **HIV** laut Folien in T-Helferzellen ein?",
+      "options": [
+        { "text": "Es bindet CD4 und einen Chemokinrezeptor auf der Zelloberfläche.", "correct": true },
+        { "text": "Es bindet CD8 auf zytotoxischen T-Zellen." },
+        { "text": "Es bindet ausschließlich CD3." },
+        { "text": "Durch Gap Junctions" }
+      ], "explanation": "CD4^+^ (T-Helfer) und CD8^+^ (zytotoxisch) kommen jeweils in Kombination mit CD3^+^ vor.", "source": "Folien Labormethoden, S. 26" },
+    { "id": "labv-nicht-kaufbar", "type": "single", "question": "Welchen Antikörper kann man laut Folien **eher nicht kaufen**?",
+      "options": [
+        { "text": "Human anti-rabbit", "correct": true },
+        { "text": "Mouse anti-human", "explain": "In der Maus hergestellt, gegen menschliche Antigene: üblich." },
+        { "text": "Rat anti-human", "explain": "In der Ratte hergestellt: üblich." },
+        { "text": "Sheep anti-mouse", "explain": "Ein typischer Sekundärantikörper." }
+      ], "explanation": "Die erste Spezies ist die Wirtsspezies, in der der Antikörper hergestellt wird. Menschen werden nicht zur Antikörperproduktion immunisiert.", "source": "Folien Labormethoden, S. 28" },
+    { "id": "labv-human-anti-mouse", "type": "single", "question": "Richtig oder falsch: „Human anti-mouse-Antikörper sind in Mäusen hergestellt und gegen menschliche Antigene gerichtet.“",
+      "options": [
+        { "text": "Falsch: Sie stammen aus dem Menschen und richten sich gegen Maus-Antigene.", "correct": true },
+        { "text": "Richtig", "explain": "Das beschreibt Mouse anti-human." }
+      ], "source": "Folien Labormethoden, S. 28, 46" },
+    { "id": "labv-desinfektion-faktor", "type": "single", "question": "Um welchen Faktor verringert eine **Desinfektion** laut Folien mindestens die Keimzahl?",
+      "options": [
+        { "text": "10^−5^ (z. B. 1 Mio. KBE auf 10 KBE)", "correct": true },
+        { "text": "Vollständige Inaktivierung aller Mikroorganismen und Sporen", "explain": "Das ist Sterilisation." },
+        { "text": "Faktor 2" },
+        { "text": "10^−1^" }
+      ], "source": "Folien Labormethoden, S. 38" },
+    { "id": "labv-prionen", "type": "single", "question": "Welche Ausnahme nennen die Folien bei der Definition der **Sterilisation**?",
+      "options": [
+        { "text": "Prionen", "correct": true },
+        { "text": "Bakteriensporen", "explain": "Sterilisation befreit gerade auch von Ruhestadien wie Sporen." },
+        { "text": "Hefen" },
+        { "text": "Viren" }
+      ], "source": "Folien Labormethoden, S. 38" },
+    { "id": "labv-reinigung", "type": "order", "question": "In welcher Reihenfolge geht man laut Folien bei grober Verschmutzung vor?",
+      "items": ["Reinigung", "Desinfektion"],
+      "explanation": "Die Wirkung von Desinfektionsmitteln wird durch grobe Verschmutzungen stark reduziert.", "source": "Folien Labormethoden, S. 40" },
+    { "id": "labv-pasteur", "type": "single", "question": "Was versteht man unter **Pasteurisieren**?",
+      "options": [
+        { "text": "Kurzzeitiges Erhitzen auf 60–90 °C", "correct": true },
+        { "text": "121 °C bei 2 bar für 20 min", "explain": "Das ist Autoklavieren." },
+        { "text": "180–250 °C für 30 min", "explain": "Das ist trockene Hitze." },
+        { "text": "Bestrahlung mit UV bei 260 nm" }
+      ], "source": "Folien Labormethoden, S. 43" },
+    { "id": "labv-feucht-vorteil", "type": "single", "question": "Warum ist **feuchte Hitze** (Autoklav) wirksamer gegen Bakteriensporen?",
+      "options": [
+        { "text": "Feuchtigkeit lässt die Sporen quellen, sie werden weniger temperaturresistent.", "correct": true },
+        { "text": "Weil Wasser die Sporen chemisch oxidiert" },
+        { "text": "Weil der Autoklav heißer ist als trockene Hitze", "explain": "Trockene Hitze arbeitet mit 180–250 °C, also heißer." },
+        { "text": "Weil Sporen Wasser nicht aufnehmen" }
+      ], "source": "Folien Labormethoden, S. 44" },
+    { "id": "labv-strahlen-alternativen", "type": "multiple", "question": "Welche Verfahren der **Strahlensterilisation** nennen die Folien?",
+      "options": [
+        { "text": "Gamma-Sterilisation", "correct": true },
+        { "text": "X-Ray-Sterilisation", "correct": true },
+        { "text": "E-Beam-Sterilisation", "correct": true },
+        { "text": "Mikrowellen-Sterilisation" }
+      ], "explanation": "Gamma-Strahlung bildet Hydroxylradikale, die die DNA zerstören. Nachteil: empfindliche Materialien können verspröden oder sich verfärben.", "source": "Folien Labormethoden, S. 45" },
+    { "id": "labv-uv-flasche", "type": "single", "question": "Richtig oder falsch: „UV-Bestrahlung ist eine geeignete **Sterilisationsmethode** für eine geschlossene Flasche.“",
+      "options": [
+        { "text": "Falsch: UV (260 nm) wirkt nur zur Oberflächendesinfektion.", "correct": true },
+        { "text": "Richtig", "explain": "UV wird von Nukleinsäuren absorbiert, dringt aber nicht in das Innere ein." }
+      ], "source": "Folien Labormethoden, S. 45–46" }
+  ]
+}
