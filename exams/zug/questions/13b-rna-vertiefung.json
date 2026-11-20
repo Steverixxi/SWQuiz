@@ -1,0 +1,126 @@
+{
+  "chapter": "VL 13 – Aufbau und Struktur von RNA (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 13 (S. 200–218)",
+  "questions": [
+    { "id": "rnv-polymer", "type": "multiple", "question": "Welche Aussagen zum **Grundaufbau der RNA** treffen laut Skript zu?",
+      "options": [
+        { "text": "Lineares, gerichtetes Polymer wie DNA", "correct": true },
+        { "text": "Aus Phosphaten, Zuckern und Basen", "correct": true },
+        { "text": "Aus vier verschiedenen Nukleotiduntereinheiten", "correct": true },
+        { "text": "Über Phosphodiesterbindungen verbunden", "correct": true },
+        { "text": "Über Peptidbindungen verbunden" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 202" },
+    { "id": "rnv-uracil-thymin", "type": "single", "question": "Wodurch unterscheidet sich **Uracil** chemisch von Thymin?",
+      "options": [
+        { "text": "Durch das Fehlen einer CH~3~-Gruppe", "correct": true },
+        { "text": "Durch eine zusätzliche OH-Gruppe" },
+        { "text": "Durch einen zusätzlichen Ring" },
+        { "text": "Durch eine Phosphatgruppe" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 203" },
+    { "id": "rnv-tf-typen", "type": "matching", "question": "Ordne die Transkriptionsfaktoren bzw. Gene zu.",
+      "pairs": [
+        { "left": "Allgemeine Transkriptionsfaktoren", "right": "Kommen in allen Zellen vor" },
+        { "left": "Spezifische Transkriptionsfaktoren", "right": "Zell- und situationsspezifisch" },
+        { "left": "β-Aktin", "right": "Haushaltsgen, Zytoskelett, in vielen Zellarten" },
+        { "left": "Tyrosin-Aminotransferase", "right": "Tyrosinabbau, nur in einer spezialisierten Zelle" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 204" },
+    { "id": "rnv-transkription-start", "type": "single", "question": "Was passiert laut Skript zu **Beginn der Transkription**?",
+      "options": [
+        { "text": "Die RNA-Polymerase bindet an die DNA, ein kleiner Bereich der Doppelhelix wird geöffnet und entwunden", "correct": true },
+        { "text": "Ein RNA-Primer wird von der Primase synthetisiert" , "explain": "RNA-Polymerasen brauchen keinen Primer." },
+        { "text": "Die gesamte DNA des Chromosoms wird entwunden" },
+        { "text": "Das Ribosom bindet an die DNA" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 204–205" },
+    { "id": "rnv-klassen-codierend", "type": "matching", "question": "Ordne die RNAs ihrer Klasse zu.",
+      "pairs": [
+        { "left": "mRNA", "right": "Codierend" },
+        { "left": "rRNA und tRNA", "right": "Nicht-codierend, strukturell" },
+        { "left": "siRNA, miRNA, snRNA", "right": "Nicht-codierend, regulatorisch" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 205" },
+    { "id": "rnv-klein-lang", "type": "matching", "question": "Ordne die nicht-codierenden RNAs nach ihrer Länge.",
+      "pairs": [
+        { "left": "Kleine nicht-codierende RNA", "right": "< 300 Nukleotide" },
+        { "left": "Lange nicht-codierende RNA (lncRNA)", "right": "> 300 Nukleotide, kann auch Introns und Exons haben" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 206" },
+    { "id": "rnv-alle-noetig", "type": "single", "question": "Welche Aussage zu den Haupt-RNA-Klassen macht das Skript?",
+      "options": [
+        { "text": "Alle Haupt-RNA-Klassen sind für die Proteinexpression notwendig", "correct": true },
+        { "text": "Nur die mRNA ist für die Proteinexpression nötig" },
+        { "text": "rRNA wird für die Translation nicht benötigt" },
+        { "text": "tRNA ist nur bei Prokaryonten nötig" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 207" },
+    { "id": "rnv-prae-mrna", "type": "multiple", "question": "Was enthält die **prä-mRNA** (Primärtranskript im Zellkern)?",
+      "options": [
+        { "text": "Introns", "correct": true },
+        { "text": "Exons", "correct": true },
+        { "text": "Untranslatierte Regionen (UTRs)", "correct": true },
+        { "text": "Bereits gebundene Aminosäuren" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 208" },
+    { "id": "rnv-prok-introns", "type": "single", "question": "Was gilt laut Skript für Introns bei **Prokaryonten**?",
+      "options": [
+        { "text": "Kaum Introns, keine Spleißmaschinerie", "correct": true },
+        { "text": "Mehr Introns als bei Eukaryonten" },
+        { "text": "Introns werden im Zellkern gespleißt" },
+        { "text": "Introns werden durch snoRNAs entfernt" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 208" },
+    { "id": "rnv-cap-aufbau", "type": "single", "question": "Woraus besteht die **5′-Kappe** der mRNA?",
+      "options": [
+        { "text": "Aus einem G mit gebundener Methylgruppe", "correct": true },
+        { "text": "Aus mehreren hundert Adeninnukleotiden", "explain": "Das ist der Poly-A-Schwanz am 3′-Ende." },
+        { "text": "Aus der Sequenz CCA" },
+        { "text": "Aus einem Uracil" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 209" },
+    { "id": "rnv-modifikationen", "type": "order", "question": "Ordne die mRNA-Modifizierungen in der Reihenfolge, in der das Skript sie nummeriert.",
+      "items": [ "Anheftung der 5′-Kappe", "Spleißen (Entfernung der Introns)", "Polyadenylierung am 3′-Ende" ],
+      "source": "VL-Skript ZUG Teil 1, S. 209–212" },
+    { "id": "rnv-spleiss-signal", "type": "single", "question": "Wodurch wird die **Spleißmaschine** gesteuert?",
+      "options": [
+        { "text": "Durch kurze Nukleotidbereiche nahe der Exons, die in allen Introns sehr ähnlich oder identisch sind", "correct": true },
+        { "text": "Durch die 5′-Kappe allein" },
+        { "text": "Durch Aminosäuren der wachsenden Peptidkette" },
+        { "text": "Durch die Telomerase" }
+      ], "explanation": "In den Konsensussequenzen steht R für A oder G, Y für C oder T, N für eine beliebige Base.", "source": "VL-Skript ZUG Teil 1, S. 210" },
+    { "id": "rnv-alt-spleissen", "type": "single", "question": "Welchen Anteil der Gene nennt **VL 13** für alternatives Spleißen?",
+      "options": [
+        { "text": "60 %", "correct": true },
+        { "text": "5 %" },
+        { "text": "100 %" },
+        { "text": "Kein Gen wird alternativ gespleißt" }
+      ], "explanation": "Alternatives Spleißen steigert das Codierungspotenzial des Genoms enorm.", "source": "VL-Skript ZUG Teil 1, S. 210" },
+    { "id": "rnv-polya", "type": "single", "question": "Wie lang ist der **Poly-A-Schwanz** laut Skript?",
+      "options": [
+        { "text": "Mehrere hundert Nukleotide", "correct": true },
+        { "text": "Genau 3 Nukleotide" },
+        { "text": "21–23 Nukleotide" },
+        { "text": "Mehrere Millionen Nukleotide" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 212" },
+    { "id": "rnv-ribosom-proteine", "type": "matching", "question": "Ordne die Zahl der ribosomalen Proteine zu.",
+      "pairs": [
+        { "left": "Prokaryotische kleine UE (30S)", "right": "21 Proteine" },
+        { "left": "Prokaryotische große UE (50S)", "right": "34 Proteine" },
+        { "left": "Eukaryotische kleine UE (40S)", "right": "Ca. 33 Proteine" },
+        { "left": "Eukaryotische große UE (60S)", "right": "Ca. 49 Proteine" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 216" },
+    { "id": "rnv-ribosom-gesamt", "type": "multiple", "question": "Welche Aussagen zu **rRNA und Ribosom** treffen laut VL 13 zu?",
+      "options": [
+        { "text": "Das Ribosom besteht aus über 50 verschiedenen Bestandteilen", "correct": true },
+        { "text": "Die rRNA bildet den Kern, die Proteine liegen an der Oberfläche", "correct": true },
+        { "text": "Die rRNA ist hoch kompakt zu dreidimensionalen Strukturen gefaltet", "correct": true },
+        { "text": "Die Proteine bilden den Kern, die rRNA liegt außen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 215" },
+    { "id": "rnv-snrna-snorna", "type": "matching", "question": "Ordne die kleinen RNAs ihrer Funktion zu.",
+      "pairs": [
+        { "left": "snRNA (100–300 nt)", "right": "Spleißen der prä-mRNA, bildet das Spleißosom" },
+        { "left": "snoRNA", "right": "Prozessiert und modifiziert rRNAs im Nukleolus" },
+        { "left": "miRNA (21–23 nt)", "right": "Reguliert die Genexpression posttranskriptional" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 217" },
+    { "id": "rnv-mirna-biomarker", "type": "multiple", "question": "Welche Aussagen zu **microRNAs** nennt das Skript zusätzlich?",
+      "options": [
+        { "text": "Der miRNA-Protein-Komplex heißt RISC (RNA-induced silencing complex)", "correct": true },
+        { "text": "Die miRNA leitet RISC an eine komplementäre mRNA-Stelle", "correct": true },
+        { "text": "Ein Gen kann von mehreren miRNAs reguliert werden", "correct": true },
+        { "text": "Sie sind vielversprechende Biomarker", "correct": true },
+        { "text": "Es sind beim Menschen nur ca. 10 verschiedene bekannt", "explain": "Über 1000 verschiedene sind beim Menschen bekannt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 206, 218" }
+  ]
+}
