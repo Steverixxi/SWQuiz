@@ -1,0 +1,72 @@
+{
+  "chapter": "VL 5 – Motilität und Zytoskelett (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 5 (S. 50–54)",
+  "questions": [
+    { "id": "zsv-durchmesser", "type": "order", "question": "Ordne die Filamente nach ihrem Durchmesser laut VL 5, vom dünnsten zum dicksten.",
+      "items": [ "Aktinfilamente (~5 nm)", "Intermediärfilamente (~10 nm)", "Mikrotubuli (~20 nm)" ],
+      "explanation": "VL 1 gibt für Aktin ca. 6 nm und für Mikrotubuli ca. 23 nm an, die Reihenfolge bleibt gleich.", "source": "VL-Skript ZUG Teil 1, S. 52–53" },
+    { "id": "zsv-form", "type": "matching", "question": "Ordne die Filamente ihrer Architektur und Hauptaufgabe zu.",
+      "pairs": [
+        { "left": "Mikrofilamente (Aktin)", "right": "Bündel und Netzwerke" },
+        { "left": "Intermediärfilamente", "right": "Seilartig, mechanische Aufgaben" },
+        { "left": "Mikrotubuli", "right": "Röhrenförmig, Transport" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 52" },
+    { "id": "zsv-proteinzahl", "type": "single", "question": "Aus wie vielen verschiedenen Proteinen sind die Filamenttypen laut Skript aufgebaut?",
+      "options": [
+        { "text": "Aktin: 1, Tubulin: 2, Intermediärfilamente: über 50", "correct": true },
+        { "text": "Aktin: 2, Tubulin: 1, Intermediärfilamente: 3" },
+        { "text": "Alle drei aus genau einem Protein" },
+        { "text": "Aktin: über 50, Tubulin: 2, Intermediärfilamente: 1" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 53" },
+    { "id": "zsv-vergleich-pflanze", "type": "single", "question": "Was entspricht laut Skript bei **pflanzlichen** Zellen dem Zytoskelett tierischer Zellen?",
+      "options": [
+        { "text": "Die Zellwand", "correct": true },
+        { "text": "Die Vakuole" },
+        { "text": "Der Chloroplast" },
+        { "text": "Die Plasmodesmata" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 52" },
+    { "id": "zsv-eigenschaften", "type": "multiple", "question": "Welche Aussagen zum **Zytoskelett** treffen laut VL 5 zu?",
+      "options": [
+        { "text": "Es ist sozusagen „Knochen und Muskel“ in einem", "correct": true },
+        { "text": "Es folgt einer filamentösen, verzweigten, netzartigen Architektur", "correct": true },
+        { "text": "Es kann auch in prokaryotischen Zellen vorkommen", "correct": true },
+        { "text": "Es ermöglicht Bewegungen der Zellen, innerhalb der Zellen und manchmal außerhalb", "correct": true },
+        { "text": "Es ist eine starre, unveränderliche Struktur", "explain": "Es ist äußerst dynamisch und wird ständig neu organisiert." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 52" },
+    { "id": "zsv-diagnostik", "type": "single", "question": "Wofür wird das Zytoskelett laut Skript im **wissenschaftlichen bzw. klinischen Kontext** genutzt?",
+      "options": [
+        { "text": "Visualisierung, Morphologie, Histologie und Diagnostik, speziell Tumordiagnostik", "correct": true },
+        { "text": "Als Antibiotikum" },
+        { "text": "Zur Blutgruppenbestimmung" },
+        { "text": "Zur Sequenzierung von DNA" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 52" },
+    { "id": "zsv-mtoc-orte", "type": "matching", "question": "Ordne die MTOC-Formen dem Zellzustand zu.",
+      "pairs": [
+        { "left": "Zentrosom", "right": "Zelle in der Interphase" },
+        { "left": "Spindelpol", "right": "Zelle in der Teilungsphase" },
+        { "left": "Basalkörper (Centriol)", "right": "Bewimperte Zelle mit Kinozilien" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 54" },
+    { "id": "zsv-axonem", "type": "single", "question": "Wie dick ist laut Skript der Achsenfaden (**Axonem**) eines Ciliums?",
+      "options": [
+        { "text": "Ca. 200 nm", "correct": true },
+        { "text": "Ca. 20 nm", "explain": "Das ist der Durchmesser eines einzelnen Mikrotubulus." },
+        { "text": "Ca. 2 µm" },
+        { "text": "Ca. 5 nm" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 54" },
+    { "id": "zsv-ebs", "type": "single", "question": "Eine Patientin hat nach geringer Reibung Blasen in der Epidermis. Welche Mutation passt laut VL 5 zur **Epidermolysis bullosa simplex**?",
+      "options": [
+        { "text": "Mutation in Zytokeratin-Genen", "correct": true },
+        { "text": "Mutation im Gen für Kollagen Typ VII", "explain": "Das führt zur Epidermolysis bullosa dystrophica." },
+        { "text": "Mutation in Neurofilament-Genen", "explain": "Amyotrophe Lateralsklerose." },
+        { "text": "Mutation im LMNA-Gen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 53" },
+    { "id": "zsv-lernziele", "type": "multiple", "question": "Welche Hilfsproteine nennt VL 5 zusätzlich zu Dynein und Kinesin?",
+      "options": [
+        { "text": "Nexin", "correct": true },
+        { "text": "Plektin", "correct": true },
+        { "text": "Gelsolin", "correct": true },
+        { "text": "Formin", "correct": true },
+        { "text": "Connexin", "explain": "Baustein der Gap junctions, kein Zytoskelett-Hilfsprotein." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 52" }
+  ]
+}

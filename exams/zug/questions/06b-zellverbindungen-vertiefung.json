@@ -1,0 +1,136 @@
+{
+  "chapter": "VL 6 – Zellverbindungen (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 6 (S. 55–64)",
+  "questions": [
+    { "id": "zvv-invertebraten", "type": "matching", "question": "Ordne die Verbindungen dem Organismus zu, in dem sie vorkommen.",
+      "pairs": [
+        { "left": "Tight junctions", "right": "Vertebraten" },
+        { "left": "Septate junctions", "right": "Invertebraten" },
+        { "left": "Plasmodesmata", "right": "Pflanzen" },
+        { "left": "Gap junctions", "right": "Tiere" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 57" },
+    { "id": "zvv-signalvermittelnd", "type": "multiple", "question": "Welche **signalvermittelnden Verbindungen** nennt das Skript?",
+      "options": [
+        { "text": "Chemische Synapsen (Nervensystem)", "correct": true },
+        { "text": "Immunologische Synapsen (Immunsystem)", "correct": true },
+        { "text": "Transmembrane Ligand-Rezeptor-Kontakte zur Zell-Zell-Signalübertragung", "correct": true },
+        { "text": "Gap junctions", "explain": "Gap junctions sind kanalformende Kommunikationsverbindungen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 57" },
+    { "id": "zvv-transmembran", "type": "matching", "question": "Ordne den Zell-Zell-Verbindungen ihre Transmembranproteine zu.",
+      "pairs": [
+        { "left": "Tight junction", "right": "Occludin, Claudin" },
+        { "left": "Adherens junction", "right": "Klassische Cadherine (E-Cadherin)" },
+        { "left": "Desmosom", "right": "Desmoglein, Desmocollin" },
+        { "left": "Focal adhesion", "right": "Integrine mit Talin und Vinculin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 58–64" },
+    { "id": "zvv-tj-vorkommen", "type": "multiple", "question": "Wo sind **Tight junctions** laut Skript besonders wichtig?",
+      "options": [
+        { "text": "Blut-Hirn-Schranke", "correct": true },
+        { "text": "Haut", "correct": true },
+        { "text": "Gastrointestinaltrakt (z. B. Magen)", "correct": true },
+        { "text": "Atemtrakt und Niere", "correct": true }
+      ], "explanation": "Im proximalen Nierentubulus sind sie „leaky“, manche Ionen können durch.", "source": "VL-Skript ZUG Teil 1, S. 59" },
+    { "id": "zvv-jam", "type": "single", "question": "Wofür steht **JAM** im Zusammenhang mit Tight junctions?",
+      "options": [
+        { "text": "Junctional adhesion molecules", "correct": true },
+        { "text": "Junction-associated microtubules" },
+        { "text": "Joint actin matrix" },
+        { "text": "Janus-activated membrane protein" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 59" },
+    { "id": "zvv-cadherin-familie", "type": "multiple", "question": "Welche Aussagen zur **Cadherin-Familie** treffen laut Skript zu?",
+      "options": [
+        { "text": "Mehr als 180 Mitglieder beim Menschen (Cadherin-Superfamilie)", "correct": true },
+        { "text": "Bei Ca^2+^-Mangel wird ihre Bindung geschwächt bzw. sie dissoziieren", "correct": true },
+        { "text": "Ohne intrazelluläre Bindung an Aktin bzw. Catenine ist auch die extrazelluläre Bindung schwächer", "correct": true },
+        { "text": "Sie kommen in allen Säugetieren vor", "correct": true },
+        { "text": "Sie binden ausschließlich heterophil" , "explain": "Meist homophil (zwei gleiche Cadherine binden aneinander)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 60" },
+    { "id": "zvv-adherens-ort", "type": "single", "question": "Wo findet man **Adherens junctions** laut Skript bevorzugt, und wozu sind sie wichtig?",
+      "options": [
+        { "text": "Wo Kräfte einwirken (Reibung, Dehnung, Scherkräfte), sie verbinden Aktinfilamente benachbarter Zellen und sind wichtig für Beweglichkeit", "correct": true },
+        { "text": "Nur im Nervensystem, für die Signalübertragung" },
+        { "text": "Nur an der Basallamina" },
+        { "text": "In Pflanzen als Kanäle zwischen Zellen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 60" },
+    { "id": "zvv-desmosom-vorkommen", "type": "multiple", "question": "Welche Aussagen zu **Desmosomen** treffen laut VL 6 zu?",
+      "options": [
+        { "text": "Sie kommen vor allem in Epithelien und im Herzmuskelgewebe vor", "correct": true },
+        { "text": "Sie bilden ein Netzwerk, das durch das Gewebe zieht", "correct": true },
+        { "text": "Sie bilden homophile und heterophile Verbindungen", "correct": true },
+        { "text": "Intrazellulär sind sie an Intermediärfilamente (z. B. Keratine) gebunden", "correct": true },
+        { "text": "Sie sind gürtelförmig wie die Zonula adhaerens", "explain": "Desmosomen sind punktförmig." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 61" },
+    { "id": "zvv-pemphigus", "type": "multiple", "question": "Welche Aussagen zum **Pemphigus vulgaris** treffen laut Skript zu?",
+      "options": [
+        { "text": "Autoimmunerkrankung mit Autoantikörpern gegen Dsg-1 und/oder Dsg-3", "correct": true },
+        { "text": "Blasenbildung in unterschiedlichen Schichten der Epidermis und der Mundschleimhaut", "correct": true },
+        { "text": "Häufigste und schwerwiegendste Form von Pemphigus", "correct": true },
+        { "text": "Die Blasen liegen subepidermal", "explain": "Subepidermale Blasen sind typisch für das bullöse Pemphigoid (Hemidesmosomen)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 61" },
+    { "id": "zvv-gap-durchlaessig", "type": "multiple", "question": "Wofür sind **Gap junctions** durchlässig?",
+      "options": [
+        { "text": "Ionen (Na^+^, Ca^2+^ …), elektrische Kommunikation", "correct": true },
+        { "text": "Kleine Moleküle wie Zucker, Aminosäuren, Nukleotide", "correct": true },
+        { "text": "Second Messenger wie cAMP und IP~3~", "correct": true },
+        { "text": "Ganze Proteine wie Antikörper" }
+      ], "explanation": "Die Connexone halten die Membranen ca. 2–4 nm auseinander (Gap).", "source": "VL-Skript ZUG Teil 1, S. 62" },
+    { "id": "zvv-gap-regulation", "type": "multiple", "question": "Wie wird die Durchlässigkeit von Gap junctions laut Skript bestimmt bzw. reguliert?",
+      "options": [
+        { "text": "Durch die verbauten Connexine (auch heteromer bzw. heterotypisch möglich)", "correct": true },
+        { "text": "Schließen bei niedrigem zytosolischem pH oder hohem Ca^2+^, um Kontakt zu geschädigten Zellen zu vermeiden", "correct": true },
+        { "text": "Durch extrazelluläre Signale, z. B. Dopamin in der Retina bei höherer Lichtintensität", "correct": true },
+        { "text": "Sie sind immer dauerhaft offen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 62" },
+    { "id": "zvv-gap-klinik", "type": "multiple", "question": "Welche Erkrankungen nennt das Skript im Zusammenhang mit **Gap junctions**?",
+      "options": [
+        { "text": "Angeborene Taubheit (Connexin-26)", "correct": true },
+        { "text": "Demyelinisierende Nervenerkrankungen", "correct": true },
+        { "text": "Katarakte", "correct": true },
+        { "text": "Pemphigus vulgaris", "explain": "Desmosomen (Desmoglein)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 62" },
+    { "id": "zvv-gap-infektion", "type": "single", "question": "Welche Rolle spielen Gap junctions laut Skript **bei Infektionen**?",
+      "options": [
+        { "text": "Sie geben Information an die Nachbarzelle weiter, z. B. kann so programmierter Zelltod initiiert werden", "correct": true },
+        { "text": "Sie lassen Viren direkt in die Nachbarzelle" },
+        { "text": "Sie bilden Antikörper" },
+        { "text": "Sie haben keine Rolle" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 62" },
+    { "id": "zvv-glanzstreifen", "type": "single", "question": "Woraus bestehen die **Glanzstreifen** (Intercalated discs) des Herzens laut VL 6?",
+      "options": [
+        { "text": "Gap junctions + Desmosomen", "correct": true },
+        { "text": "Nur Tight junctions" },
+        { "text": "Hemidesmosomen + Focal adhesions" },
+        { "text": "Chemische Synapsen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 62" },
+    { "id": "zvv-integrin-allosterie", "type": "single", "question": "Was meint das Skript mit der **allosterischen Regulierung** von Integrinen?",
+      "options": [
+        { "text": "Bei Bindung oder Lösung ändert sich die extra- und die intrazelluläre Konformation des Moleküls", "correct": true },
+        { "text": "Integrine werden durch Ca^2+^ allein aktiviert" },
+        { "text": "Integrine werden durch Phosphorylierung abgebaut" },
+        { "text": "Integrine binden nur an Aktin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 63" },
+    { "id": "zvv-hemidesmosom", "type": "multiple", "question": "Welche Aussagen zu **Hemidesmosomen** treffen laut VL 6 zu?",
+      "options": [
+        { "text": "Sie sind mit der Basallamina verbunden (Fibronectin, Laminin, Kollagen)", "correct": true },
+        { "text": "Transmembranprotein: Integrine", "correct": true },
+        { "text": "Adapterproteine im „Plaque“: Plectin, Dystonin", "correct": true },
+        { "text": "Intrazellulär sind sie an Intermediärfilamente (z. B. Keratine) gebunden", "correct": true },
+        { "text": "Intrazellulär sind sie über Talin und Vinculin an Aktin gebunden", "explain": "Das sind Focal adhesions." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 64" },
+    { "id": "zvv-pemphigoid", "type": "single", "question": "Wo treten die Blasen beim **bullösen Pemphigoid** laut Skript typischerweise auf?",
+      "options": [
+        { "text": "Subepidermal, z. B. in Achseln und Inguinal- bzw. Genitalbereichen", "correct": true },
+        { "text": "Intraepidermal in der Mundschleimhaut" },
+        { "text": "Nur in der Hornhaut des Auges" },
+        { "text": "Im Herzmuskel" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 64" },
+    { "id": "zvv-basallamina-funktion", "type": "multiple", "question": "Welche Funktionen der **Basallamina** nennt VL 6?",
+      "options": [
+        { "text": "Strukturgebung", "correct": true },
+        { "text": "Filter für Moleküle oder auch Zellen", "correct": true },
+        { "text": "Gibt die Zellpolarität an", "correct": true },
+        { "text": "Beeinflusst den Metabolismus", "correct": true },
+        { "text": "Elektrische Kopplung der Zellen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 63" }
+  ]
+}

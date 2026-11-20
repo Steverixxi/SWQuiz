@@ -1,0 +1,214 @@
+{
+  "chapter": "VL 3 – Organellen I (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 3 (S. 16–26)",
+  "questions": [
+    { "id": "o1v-kern-vorgaenge", "type": "multiple", "question": "Welche **Vorgänge im Zellkern** nennt das Skript?",
+      "options": [
+        { "text": "Speicherung der DNA und DNA-Replikation", "correct": true },
+        { "text": "Transkription und RNA-Verarbeitung", "correct": true },
+        { "text": "Genregulation", "correct": true },
+        { "text": "Zellteilung", "correct": true },
+        { "text": "Translation der mRNA", "explain": "Translation findet an Ribosomen außerhalb des Kerns statt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 18" },
+    { "id": "o1v-aeussere-kernmembran", "type": "multiple", "question": "Welche Aussagen zur **äußeren Kernmembran** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie ist teilweise mit Ribosomen besetzt", "correct": true },
+        { "text": "Sie ist mit dem ER verbunden", "correct": true },
+        { "text": "Unter ihr liegt direkt die Kernlamina", "explain": "Die Kernlamina liegt unterhalb der **inneren** Kernmembran." },
+        { "text": "Sie ist durch einen 10–15 nm breiten perinukleären Raum von der inneren Membran getrennt", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 18" },
+    { "id": "o1v-kernlamina-teilung", "type": "single", "question": "Was passiert mit der **Kernlamina** bei der Zellteilung?",
+      "options": [
+        { "text": "Sie wird phosphoryliert und zerfällt", "correct": true },
+        { "text": "Sie wird ubiquitiniert und im Lysosom abgebaut" },
+        { "text": "Sie verdoppelt ihre Dicke" },
+        { "text": "Sie wandert in die äußere Kernmembran" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 18" },
+    { "id": "o1v-kernporen-zahlen", "type": "multiple", "question": "Welche Zahlen zu den **Kernporen** nennt das Skript?",
+      "options": [
+        { "text": "Ca. 25 % der Membranoberfläche sind mit Poren besetzt", "correct": true },
+        { "text": "Durchmesser ca. 10 nm, erweiterbar bis 26 nm", "correct": true },
+        { "text": "Moleküle < 40.000 Dalton diffundieren passiv", "correct": true },
+        { "text": "Moleküle > 40.000 Dalton werden energieabhängig aktiv transportiert", "correct": true },
+        { "text": "Durchmesser ca. 1,5 nm", "explain": "Das ist die maximale Porengröße einer Gap junction." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 19" },
+    { "id": "o1v-ribosom-weg", "type": "order", "question": "Bringe den Weg der Ribosomen-Untereinheiten in die richtige Reihenfolge.",
+      "items": [
+        "Synthese der 40S- und 60S-Untereinheiten im Nucleolus",
+        "Transport durch die Kernporen ins Zytosol",
+        "Zusammenschluss zum 80S-Ribosom"
+      ], "source": "VL-Skript ZUG Teil 1, S. 19" },
+    { "id": "o1v-progerie-mechanismus", "type": "multiple", "question": "Welche Mechanismen der **Progerie** beschreibt das Skript?",
+      "options": [
+        { "text": "Bereits wenige defekte Lamin-A/C-Proteine destabilisieren die gesamte Proteinkette", "correct": true },
+        { "text": "Das Lamingerüst wird nicht korrekt gebildet, der Zellkern verformt sich", "correct": true },
+        { "text": "Progerin führt zu mehr nicht reparierten Doppelstrangbrüchen", "correct": true },
+        { "text": "Die Zellen altern schneller, die Telomere sind verkürzt", "correct": true },
+        { "text": "Die Erkrankung wird immer autosomal-rezessiv von beiden Eltern vererbt", "explain": "Laut Skript handelt es sich um eine Spontanmutation im LMNA-Gen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 19" },
+    { "id": "o1v-progerie-symptome", "type": "multiple", "question": "Welche Angaben zum Verlauf der **Progerie** macht das Skript?",
+      "options": [
+        { "text": "Prävalenz geschätzt ca. 1:4 Millionen", "correct": true },
+        { "text": "Wachstumsdefizite bereits im 1. Lebensjahr, Vollbild meist um das 3. Lebensjahr", "correct": true },
+        { "text": "Beschleunigter Alterungsprozess (5–10-mal schneller), Haarausfall, Osteoporose, Arteriosklerose", "correct": true },
+        { "text": "Kleinwuchs, Fingernägel und Zähne bilden sich nicht vollständig aus", "correct": true },
+        { "text": "Durchschnittliche Lebenserwartung ca. 40 Jahre", "explain": "Laut Skript ca. 14 Jahre." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 19" },
+    { "id": "o1v-laminopathien", "type": "multiple", "question": "Welche weiteren Erkrankungen nennt das Skript im Zusammenhang mit Lamin A/C?",
+      "options": [
+        { "text": "Emery-Dreifuss-Muskeldystrophie", "correct": true },
+        { "text": "Dilatative Kardiomyopathie", "correct": true },
+        { "text": "Charcot-Marie-Tooth-Krankheit Typ 2B1", "correct": true },
+        { "text": "Familiäre Lipodystrophie", "correct": true },
+        { "text": "Zystische Fibrose", "explain": "Ursache ist eine Fehlfaltung des CFTR-Chloridkanals." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 19" },
+    { "id": "o1v-lonafarnib-wirkung", "type": "multiple", "question": "Welche Aussagen zur Therapie der Progerie mit **Lonafarnib** treffen laut Skript zu?",
+      "options": [
+        { "text": "Es hemmt die Farnesylierung von Prälamin A und damit seine Akkumulation in der Kernmembran", "correct": true },
+        { "text": "Zulassung USA 2020, EU Oktober 2022", "correct": true },
+        { "text": "Die Lebenserwartung verlängert sich um bis zu 2,5 Jahre", "correct": true },
+        { "text": "Häufige Nebenwirkungen: Übelkeit, Erbrechen, Infektionen, Fatigue, Appetitmangel", "correct": true },
+        { "text": "Es heilt die Erkrankung", "explain": "Die Zellalterung wird verlangsamt, aber keine Heilung." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 20" },
+    { "id": "o1v-progerie-maus", "type": "single", "question": "Welche Lebenserwartung hatten Progerie-Mäuse in der im Skript gezeigten Studie zum Base Editing?",
+      "options": [
+        { "text": "Unbehandelt 250 Tage, behandelt 510 Tage (gesund 700–1000 Tage)", "correct": true },
+        { "text": "Unbehandelt 510 Tage, behandelt 1000 Tage" },
+        { "text": "Unbehandelt 30 Tage, behandelt 60 Tage" },
+        { "text": "Keine Veränderung durch die Behandlung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 20" },
+    { "id": "o1v-autoimmun-bsp", "type": "multiple", "question": "Welche Beispiele für **Autoimmunerkrankungen** nennt das Skript?",
+      "options": [
+        { "text": "Narkolepsie", "correct": true },
+        { "text": "Zöliakie", "correct": true },
+        { "text": "Sklerodermie", "correct": true },
+        { "text": "Systemischer Lupus erythematodes", "correct": true },
+        { "text": "Progerie", "explain": "Genetische Erkrankung (LMNA-Mutation)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 21" },
+    { "id": "o1v-ana-titer", "type": "multiple", "question": "Welche Aussagen zum **ANA-Titer** treffen laut Skript zu?",
+      "options": [
+        { "text": "Der Normwert liegt bei < 1:80", "correct": true },
+        { "text": "Ein hoher Titer (z. B. 1:1300) bedeutet eine hohe Antikörperkonzentration im Blut", "correct": true },
+        { "text": "Bei positivem Nachweis mit hohem Titer folgen ELISA, Immunoblot und ANA-Subsets", "correct": true },
+        { "text": "Ein hoher Titer bedeutet, dass das Serum kaum verdünnt werden darf" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 21" },
+    { "id": "o1v-ana-falschpositiv", "type": "multiple", "question": "Bei welchen Situationen können laut Skript **positive ANA** auftreten, ohne dass eine klassische Autoimmunerkrankung vorliegt?",
+      "options": [
+        { "text": "Virusinfekte (z. B. EBV, Herpes, CMV)", "correct": true },
+        { "text": "Borreliose, Tuberkulose, Leberzirrhose", "correct": true },
+        { "text": "Durch Arzneimittel", "correct": true },
+        { "text": "Schwach positiv häufig bei Personen über 60 Jahren", "correct": true },
+        { "text": "Nur bei Kindern unter 10 Jahren" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 21" },
+    { "id": "o1v-ana-muster", "type": "matching", "question": "Ordne die Fluoreszenzmuster der im Skript gezeigten klinischen Assoziation zu.",
+      "pairs": [
+        { "left": "Autoantikörper gegen Spindelfasern", "right": "Systemischer Lupus erythematodes" },
+        { "left": "Autoantikörper gegen Nukleoplasma", "right": "Sjögren-Syndrom, SLE und neonataler Lupus" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 21" },
+    { "id": "o1v-hep2", "type": "single", "question": "Welche Zellen werden für den **ANA-IFT** verwendet?",
+      "options": [
+        { "text": "Hep-2-Zellen (humane Zelllinie)", "correct": true },
+        { "text": "Erythrozyten des Patienten" },
+        { "text": "Bakterienkulturen" },
+        { "text": "Hefezellen" }
+      ], "explanation": "Die Bezeichnung „antinukleär“ ist heute nicht mehr ganz korrekt, viele Autoantikörper sind nicht auf den Kern beschränkt.", "source": "VL-Skript ZUG Teil 1, S. 21" },
+    { "id": "o1v-mito-merkmale", "type": "multiple", "question": "Welche Merkmale der **Mitochondrien** nennt VL 3?",
+      "options": [
+        { "text": "Sie sind in Größe und Form Bakterien ähnlich", "correct": true },
+        { "text": "Anzahl pro Zelle von 5 bis mehreren 100.000 (reife Eizelle)", "correct": true },
+        { "text": "Sie sind 1 bis mehrere µm lang", "correct": true },
+        { "text": "Die Zahl der Cristae hängt von der Stoffwechselaktivität der Zelle ab", "correct": true },
+        { "text": "Sie kommen nur in tierischen Zellen vor", "explain": "In fast allen Eukaryoten (Pflanzen, Tiere, die meisten eukaryotischen Mikroorganismen)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 22" },
+    { "id": "o1v-porin-translokase", "type": "single", "question": "Wie gelangen **größere Proteine** (über ca. 5000 Dalton) durch die äußere Mitochondrienmembran?",
+      "options": [
+        { "text": "Über Bindung an die Translokase", "correct": true },
+        { "text": "Durch die Porin-Kanäle", "explain": "Porin ist nur für Moleküle bis ca. 5000 Dalton durchlässig." },
+        { "text": "Durch Kernporen" },
+        { "text": "Gar nicht, alle Mitochondrienproteine entstehen in der Matrix" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 22" },
+    { "id": "o1v-semiautonom", "type": "single", "question": "Warum gelten Mitochondrien als **semiautonom**?",
+      "options": [
+        { "text": "Sie haben eigenes Genom, RNA, Ribosomen und einen eigenen Transkriptions- und Translationsapparat, ein Teil ihrer Proteine ist aber kerncodiert", "correct": true },
+        { "text": "Sie können außerhalb der Zelle überleben" },
+        { "text": "Sie teilen sich nur während der Mitose" },
+        { "text": "Sie haben keine eigene DNA" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 22, 24" },
+    { "id": "o1v-energie-fett-zucker", "type": "multiple", "question": "Was sagt das Skript zur Energiegewinnung aus **Kohlenhydraten vs. Fetten**?",
+      "options": [
+        { "text": "Die Verbrennung von Kohlenhydraten ist energetisch einfacher", "correct": true },
+        { "text": "Bei Kohlenhydratverbrennung entstehen mehr freie Radikale als bei Fettverbrennung", "correct": true },
+        { "text": "Veraltete Mitochondrien verlieren die Fähigkeit, Fettsäuren zu verbrennen", "correct": true },
+        { "text": "Bei Fettverbrennung entstehen mehr freie Radikale" }
+      ], "explanation": "Folge laut Skript: Abhängigkeit von Zucker und Fettablagerungen.", "source": "VL-Skript ZUG Teil 1, S. 23" },
+    { "id": "o1v-mito-abbau", "type": "single", "question": "Wovon werden Mitochondrien laut VL 3 abgebaut, wenn Zellen sie nicht mehr regenerieren können?",
+      "options": [
+        { "text": "Vom ER, dem Golgi-Apparat und den Lysosomen", "correct": true },
+        { "text": "Vom Zellkern" },
+        { "text": "Von Peroxisomen allein" },
+        { "text": "Sie werden aus der Zelle ausgeschieden" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 23" },
+    { "id": "o1v-mtdna-fakten", "type": "multiple", "question": "Welche Aussagen zum **mitochondrialen Genom** treffen laut Skript zu?",
+      "options": [
+        { "text": "Es macht etwa 1 % der menschlichen Erbinformation aus", "correct": true },
+        { "text": "Es hat keine Introns, eine Mutation trifft daher direkt ein Gen", "correct": true },
+        { "text": "Es kann nur kleine DNA-Schäden reparieren", "correct": true },
+        { "text": "Defekte Mitochondrien können ca. 50 verschiedene Krankheiten hervorrufen", "correct": true },
+        { "text": "Es ist durch Histone geschützt" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 24" },
+    { "id": "o1v-mito-biogenese", "type": "single", "question": "Wovon hängt laut Skript die Vermehrung der Mitochondrien ab?",
+      "options": [
+        { "text": "Vom Energiebedarf der Zelle (z. B. Nerven- und Muskelzellen)", "correct": true },
+        { "text": "Ausschließlich vom Zellzyklus" },
+        { "text": "Von der Zahl der Kernporen" },
+        { "text": "Vom Alter der Eizelle" }
+      ], "explanation": "Sie vermehren sich durch Querteilung ähnlich wie Bakterien.", "source": "VL-Skript ZUG Teil 1, S. 24" },
+    { "id": "o1v-spermien-mito", "type": "single", "question": "Warum wird mtDNA **maternal** vererbt?",
+      "options": [
+        { "text": "Die Mitochondrien der Spermien gelangen nicht in die Eizelle oder werden dort abgebaut", "correct": true },
+        { "text": "Spermien besitzen keine Mitochondrien" },
+        { "text": "mtDNA liegt auf dem X-Chromosom" },
+        { "text": "Die väterliche mtDNA wird im Zellkern gespeichert" }
+      ], "explanation": "Deshalb eignet sich mtDNA zur Erforschung mütterlicher Verwandtschaftslinien.", "source": "VL-Skript ZUG Teil 1, S. 24" },
+    { "id": "o1v-mitopathie-fakten", "type": "multiple", "question": "Welche Aussagen zu **Mitochondriopathien** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie gehören zu den häufigsten vererbten Stoffwechselerkrankungen (ca. 1:5000)", "correct": true },
+        { "text": "Es gibt primäre (vererbte) und sekundäre (durch Umwelteinflüsse erworbene) Formen", "correct": true },
+        { "text": "Mutationen in mtDNA oder nDNA führen zu fehlerhaften Enzymen der Atmungskette", "correct": true },
+        { "text": "Betroffen sein können oxidative Phosphorylierung, Pyruvat-Oxidation, Fettstoffwechsel und Citratzyklus", "correct": true },
+        { "text": "Sie betreffen nur Mutationen in der Kern-DNA" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 25" },
+    { "id": "o1v-merrf", "type": "multiple", "question": "Welche Symptome nennt das Skript für das **MERRF-Syndrom**?",
+      "options": [
+        { "text": "Zerebelläre Ataxie", "correct": true },
+        { "text": "Myoklonien", "correct": true },
+        { "text": "Epilepsie", "correct": true },
+        { "text": "Kleinwuchs", "correct": true },
+        { "text": "Xanthelasmen" }
+      ], "explanation": "Histologisch typisch: Ragged-Red-Fibers.", "source": "VL-Skript ZUG Teil 1, S. 25" },
+    { "id": "o1v-mitopathie-therapie", "type": "multiple", "question": "Welche Maßnahmen nennt das Skript bei Mitochondriopathien?",
+      "options": [
+        { "text": "Energiezufuhr in Form von Fetten und Traubenzucker", "correct": true },
+        { "text": "Zufuhr von Mineralstoffen und Wasser", "correct": true },
+        { "text": "Nur leichte körperliche Belastung, Fieber senken, nicht fasten", "correct": true },
+        { "text": "Intensives Ausdauertraining zur Mitochondrienvermehrung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 25" },
+    { "id": "o1v-mitopathie-bsp", "type": "multiple", "question": "Welche der folgenden nennt das Skript als Beispiele für **Mitochondriopathien**?",
+      "options": [
+        { "text": "Lebersche hereditäre Optikusneuropathie", "correct": true },
+        { "text": "Kearns-Sayre-Syndrom", "correct": true },
+        { "text": "MELAS-Syndrom", "correct": true },
+        { "text": "Leigh-Syndrom", "correct": true },
+        { "text": "Zellweger-Syndrom", "explain": "Peroxisomale Erkrankung." },
+        { "text": "Morbus Gaucher", "explain": "Lysosomale Speicherkrankheit." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 25" },
+    { "id": "o1v-mito-ersatz-risiken", "type": "multiple", "question": "Welche Risiken der **Mitochondrienersatztherapie** nennt das Skript?",
+      "options": [
+        { "text": "Mütterliche Mitochondrien werden meist nicht vollständig entfernt", "correct": true },
+        { "text": "Defekte Mitochondrien können sich anreichern, der Ausbruch wird nur verschoben", "correct": true },
+        { "text": "Das Zusammenspiel mütterlicher Kern-DNA mit der mtDNA der Spenderin ist nicht geklärt", "correct": true },
+        { "text": "Es gibt noch keine Langzeitstudien", "correct": true },
+        { "text": "Das Kind erhält die Kern-DNA der Spenderin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 26" }
+  ]
+}

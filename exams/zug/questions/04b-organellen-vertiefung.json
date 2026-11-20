@@ -1,0 +1,333 @@
+{
+  "chapter": "VL 4 – Organellen II + III (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 4 (S. 27–49)",
+  "questions": [
+    { "id": "orv-ribosom-typen", "type": "matching", "question": "Ordne die Ribosomen ihrem Vorkommen bzw. Typ zu.",
+      "pairs": [
+        { "left": "Freie Ribosomen", "right": "Im Zytoplasma" },
+        { "left": "Membranständige Ribosomen", "right": "Ans ER gebunden" },
+        { "left": "70S-Ribosom", "right": "Prokaryonten" },
+        { "left": "55S-Mitoribosom", "right": "Mitochondrien, RNA-Anteil nur 30 %" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 30–31" },
+    { "id": "orv-synthesegeschw", "type": "single", "question": "Was gilt laut Skript für die **Synthesegeschwindigkeit** der Ribosomen?",
+      "options": [
+        { "text": "Sie variiert zwischen den Gewebetypen und nimmt mit zunehmendem Alter ab", "correct": true },
+        { "text": "Sie ist in allen Geweben gleich" },
+        { "text": "Sie nimmt mit dem Alter zu" },
+        { "text": "Sie hängt nur von der Zahl der Mitochondrien ab" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 30" },
+    { "id": "orv-mitoribosom-funktion", "type": "single", "question": "Was synthetisiert das **Mitoribosom** laut Skript?",
+      "options": [
+        { "text": "Proteine, die in der mtDNA codiert sind", "correct": true },
+        { "text": "Alle Proteine des Mitochondriums" , "explain": "Der größte Teil der Organell-Proteine ist kerncodiert (VL 1)." },
+        { "text": "Die rRNA des Zellkerns" },
+        { "text": "Die Lipide der inneren Mitochondrienmembran" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 31" },
+    { "id": "orv-leigh-klinik", "type": "multiple", "question": "Welche Aussagen zum **Morbus Leigh** treffen laut Skript zu?",
+      "options": [
+        { "text": "Prävalenz ca. 1:36.000", "correct": true },
+        { "text": "Erstmanifestation typischerweise im Säuglingsalter", "correct": true },
+        { "text": "Adulte Formen sind selten", "correct": true },
+        { "text": "Ursache ist eine Störung des mitochondrialen Stoffwechsels", "correct": true },
+        { "text": "Ursache ist ein Defekt der Sphingomyelinase", "explain": "Das ist Niemann-Pick." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 31" },
+    { "id": "orv-rer-proteine", "type": "multiple", "question": "Für welche Bestimmungsorte werden Proteine am **rauen ER** synthetisiert?",
+      "options": [
+        { "text": "Für den Export aus der Zelle", "correct": true },
+        { "text": "Für die Membranen", "correct": true },
+        { "text": "Für die Lysosomen", "correct": true },
+        { "text": "Für das Zytosol", "explain": "Zytosolische Proteine entstehen an freien Ribosomen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 32" },
+    { "id": "orv-ser-aufgaben", "type": "multiple", "question": "Welche Aufgaben hat das **glatte ER** laut Skript?",
+      "options": [
+        { "text": "Synthese von Lipiden (Phospholipide, Steroide, Fettsäuren)", "correct": true },
+        { "text": "Synthese von Steroidhormonen", "correct": true },
+        { "text": "Entgiftung schädlicher Substanzen", "correct": true },
+        { "text": "Speicherung und Freisetzung von Ca^2+^", "correct": true },
+        { "text": "Abbau bzw. Speicherung von Glykogen (Muskelzellen)", "correct": true },
+        { "text": "Synthese sezernierter Proteine", "explain": "Das ist die Aufgabe des rauen ER." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 32, 35" },
+    { "id": "orv-ser-organe", "type": "single", "question": "Welche Organe enthalten laut Skript **besonders viel glattes ER**?",
+      "options": [
+        { "text": "Hoden und Eierstöcke", "correct": true },
+        { "text": "Pankreas und Parotis" },
+        { "text": "Haut und Haare" },
+        { "text": "Erythrozyten" }
+      ], "explanation": "Dort werden Steroidhormone synthetisiert.", "source": "VL-Skript ZUG Teil 1, S. 35" },
+    { "id": "orv-p450-reaktion", "type": "single", "question": "Welche Reaktion katalysieren **Cytochrom-P450**-Enzyme im glatten ER?",
+      "options": [
+        { "text": "R-H + O~2~ + NADPH/H^+^ → R-OH + H~2~O + NADP^+^", "correct": true },
+        { "text": "2 H~2~O~2~ → 2 H~2~O + O~2~", "explain": "Das ist die Reaktion der Katalase in Peroxisomen." },
+        { "text": "Glucose → 2 Pyruvat", "explain": "Glykolyse im Zytosol." },
+        { "text": "ADP + P~i~ → ATP" }
+      ], "explanation": "Lipophile Pharmaka werden hydroxyliert und dadurch hydrophil.", "source": "VL-Skript ZUG Teil 1, S. 35" },
+    { "id": "orv-ca-second-messenger", "type": "single", "question": "Warum ist der **Ca^2+^-Speicher** des ER wichtig?",
+      "options": [
+        { "text": "Ca^2+^-Ionen im Zytosol sind ein wichtiger Second Messenger", "correct": true },
+        { "text": "Ca^2+^ ist der wichtigste Baustein der Ribosomen" },
+        { "text": "Ca^2+^ säuert das ER-Lumen an" },
+        { "text": "Ca^2+^ wird zur Glykosylierung benötigt" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 35" },
+    { "id": "orv-qualitaet-glykos", "type": "single", "question": "Welche Rolle spielt laut Skript die **Glykosylierung** in der Qualitätskontrolle des rauen ER?",
+      "options": [
+        { "text": "Korrekt gefaltete Proteine erhalten die notwendigen Zuckergruppen, fehlgefaltete nicht", "correct": true },
+        { "text": "Fehlgefaltete Proteine werden durch Glykosylierung repariert" },
+        { "text": "Glykosylierung markiert Proteine für das Proteasom" , "explain": "Die Markierung für den proteasomalen Abbau ist die Ubiquitinierung." },
+        { "text": "Glykosylierung findet ausschließlich im Zytosol statt" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 33" },
+    { "id": "orv-chaperone-familie", "type": "single", "question": "Zu welcher Proteinfamilie zählen die im Skript genannten Chaperone?",
+      "options": [
+        { "text": "Hsp-Familie (Hitzeschockproteine)", "correct": true },
+        { "text": "SNARE-Familie" },
+        { "text": "Connexin-Familie" },
+        { "text": "Cadherin-Familie" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 33" },
+    { "id": "orv-prion-genetik", "type": "multiple", "question": "Welche Aussagen zur genetischen Grundlage von **tödlicher familiärer Schlaflosigkeit (TFS)** und familiärer CJK treffen laut Skript zu?",
+      "options": [
+        { "text": "Beide sind autosomal-dominant", "correct": true },
+        { "text": "PrP^C^ wird zu PrP^Sc^ umgewandelt", "correct": true },
+        { "text": "Beide tragen dieselbe Missense-Mutation in Codon 178 (Genort 20p13)", "correct": true },
+        { "text": "Methionin an Codon 129 → TFS, Valin an Codon 129 → CJK", "correct": true },
+        { "text": "Beide sind autosomal-rezessiv" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 33" },
+    { "id": "orv-tfs-verlauf", "type": "multiple", "question": "Welche Aussagen zur **tödlichen familiären Schlaflosigkeit** treffen laut Skript zu?",
+      "options": [
+        { "text": "Symptome: Ein- und Durchschlafstörungen, Halluzinationen, Aufmerksamkeits- und Gedächtnisstörungen", "correct": true },
+        { "text": "Patienten versterben innerhalb von 7–12 Monaten, meist infolge einer Lungenentzündung bzw. Infektion", "correct": true },
+        { "text": "Histologisch zeigt sich eine spongiforme Degeneration", "correct": true },
+        { "text": "Sie wird durch den Verzehr von BSE-verseuchtem Rindfleisch übertragen", "explain": "Das gilt für die neue Variante der CJK (nvCJD)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 33" },
+    { "id": "orv-cjk-formen", "type": "matching", "question": "Ordne die Formen der Creutzfeldt-Jakob-Krankheit ihrer Ursache zu.",
+      "pairs": [
+        { "left": "fCJD", "right": "Genetisch (familiär)" },
+        { "left": "sCJD", "right": "Sporadisch auftretend" },
+        { "left": "iCJD", "right": "Iatrogen übertragen" },
+        { "left": "nvCJD", "right": "Verzehr von BSE-verseuchtem Rindfleisch" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 33" },
+    { "id": "orv-cf-symptome", "type": "multiple", "question": "Welche Symptome bzw. Befunde der **zystischen Fibrose** nennt das Skript?",
+      "options": [
+        { "text": "Keuchhustenähnlicher Reizhusten, rezidivierende Bronchitis, Pneumonie", "correct": true },
+        { "text": "Pankreasfibrose und Pankreasinsuffizienz", "correct": true },
+        { "text": "Tachykardie, Tachypnoe, Bronchospasmen", "correct": true },
+        { "text": "Generalisierte Dysfunktion exokriner Drüsen", "correct": true },
+        { "text": "Spongiforme Degeneration des Cortex", "explain": "Das ist typisch für Prionerkrankungen." }
+      ], "explanation": "Prognose laut Skript: weltweit erreichen ca. 50 % der Patienten das 18. Lebensjahr.", "source": "VL-Skript ZUG Teil 1, S. 34" },
+    { "id": "orv-cf-zuordnung", "type": "single", "question": "In welche Kategorie ordnet das Skript die **zystische Fibrose** ein?",
+      "options": [
+        { "text": "Pathologie der Proteinbiosynthese (fehlerhafte Faltung des CFTR-Chloridkanals)", "correct": true },
+        { "text": "Lysosomale Speicherkrankheit" },
+        { "text": "Peroxisomale Erkrankung" },
+        { "text": "Mitochondriopathie" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 34" },
+    { "id": "orv-glykogenosen", "type": "multiple", "question": "Welche Aussagen zu den **Glykogenosen** treffen laut Skript zu?",
+      "options": [
+        { "text": "Es sind Stoffwechselkrankheiten durch angeborene Enzymdefekte", "correct": true },
+        { "text": "Inzidenz ca. 1:20.000–1:25.000", "correct": true },
+        { "text": "Synthese und Abbau können betroffen sein", "correct": true },
+        { "text": "Sie werden autosomal-rezessiv vererbt", "correct": true },
+        { "text": "Sie werden X-chromosomal dominant vererbt" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 35" },
+    { "id": "orv-gierke-symptome", "type": "multiple", "question": "Welche Befunde nennt das Skript bei der **Von-Gierke-Krankheit** (Glykogenose Typ I) beim Säugling?",
+      "options": [
+        { "text": "Hypoglykämie", "correct": true },
+        { "text": "Azidose", "correct": true },
+        { "text": "Vergrößerung der Leber", "correct": true },
+        { "text": "Muskelschwäche und Wachstumsverzögerung", "correct": true },
+        { "text": "Xanthelasmen über den Augenlidern", "explain": "Typisch für familiäre Hypercholesterinämie." }
+      ], "explanation": "Durch den Defekt der Glucose-6-Phosphatase häuft sich Glucose-6-Phosphat in den Hepatozyten an, in der Folge kommt es zu übermäßiger Glykogensynthese.", "source": "VL-Skript ZUG Teil 1, S. 35" },
+    { "id": "orv-golgi-funktion", "type": "multiple", "question": "Welche **Funktionen** des Golgi-Apparats nennt das Skript?",
+      "options": [
+        { "text": "Bildung und Speicherung sekretorischer Vesikel (EZM, Transmitter, Hormone)", "correct": true },
+        { "text": "Synthese und Modifizierung von Elementen der Plasmamembran", "correct": true },
+        { "text": "Bildung primärer Lysosomen", "correct": true },
+        { "text": "Beta-Oxidation langkettiger Fettsäuren", "explain": "Peroxisomen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 36" },
+    { "id": "orv-golgi-polaritaet", "type": "matching", "question": "Ordne die Seiten des Golgi-Apparats zu.",
+      "pairs": [
+        { "left": "cis-Golgi-Netzwerk", "right": "Dem ER zugewandt" },
+        { "left": "trans-Golgi-Netzwerk", "right": "Der Plasmamembran zugewandt, trägt Man-6-P-Rezeptoren" },
+        { "left": "ERGIC", "right": "Vesikel und Zisternen zwischen ER und Golgi, vermittelt den Transport" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 36, 41" },
+    { "id": "orv-n-glykane", "type": "matching", "question": "Ordne die Funktionen **N-gebundener Glykane** zu.",
+      "pairs": [
+        { "left": "Intrinsisch", "right": "Verändert Proteineigenschaften wie Stabilität und Löslichkeit" },
+        { "left": "Extrinsisch", "right": "Steuert den Transport von Glykoproteinen und vermittelt Zellsignale" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 37" },
+    { "id": "orv-o-glykosylierung", "type": "multiple", "question": "Welche Aussagen zur **O-Glykosylierung** treffen laut Skript zu?",
+      "options": [
+        { "text": "Kohlenhydrate werden an OH-Gruppen gehängt, es entsteht eine Etherbindung", "correct": true },
+        { "text": "Sie erfolgt an Serin oder Threonin", "correct": true },
+        { "text": "O-Glykane versteifen membrannahe Proteine, z. B. LDL-Rezeptor oder PSGL-1", "correct": true },
+        { "text": "Veränderungen spielen bei Krebs, Diabetes und Alzheimer eine Rolle", "correct": true },
+        { "text": "Sie erfolgt an Asparagin", "explain": "Das ist die N-Glykosylierung." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 37" },
+    { "id": "orv-o-glykane-funktion", "type": "multiple", "question": "Welche Funktionen von **O-Glykanen** nennt das Skript?",
+      "options": [
+        { "text": "Transport von Zellen im Immunsystem", "correct": true },
+        { "text": "Erkennung von Fremdmaterial", "correct": true },
+        { "text": "Steuerung des Zellstoffwechsels", "correct": true },
+        { "text": "Flexibilität von Knorpeln und Sehnen", "correct": true },
+        { "text": "Katalyse der Peptidbindung" }
+      ], "explanation": "O-Glykane sind häufig in der Glykokalyx zu finden.", "source": "VL-Skript ZUG Teil 1, S. 37" },
+    { "id": "orv-snare-typen", "type": "matching", "question": "Ordne die Proteine der Transmitterfreisetzung ihrer Rolle zu.",
+      "pairs": [
+        { "left": "Synaptotagmin", "right": "Ca^2+^-Sensor in der präsynaptischen Endigung" },
+        { "left": "v-SNARE (z. B. Synaptobrevin)", "right": "SNARE-Protein der Vesikelmembran" },
+        { "left": "t-SNARE", "right": "SNARE-Protein der Zielmembran" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 38" },
+    { "id": "orv-tetanus", "type": "single", "question": "Unter welchem Thema behandelt das Skript den Klinikbezug **Tetanus**?",
+      "options": [
+        { "text": "Vesikeltransport und Fusion (synaptischer Vesikel-Andockungskomplex)", "correct": true },
+        { "text": "Lysosomale Speicherkrankheiten" },
+        { "text": "Peroxisomale Erkrankungen" },
+        { "text": "Qualitätskontrolle im rauen ER" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 38–39" },
+    { "id": "orv-lysosom-enzyme", "type": "multiple", "question": "Welche Aussagen zum Aufbau der **Lysosomen** treffen laut VL 4 zu?",
+      "options": [
+        { "text": "Sie sind von einer einfachen Membran umgeben", "correct": true },
+        { "text": "Sie enthalten spezifische Transportproteine für den Austausch von Ionen und Molekülen", "correct": true },
+        { "text": "Sie enthalten Dutzende hydrolytische Enzyme, darunter Proteasen, Lipasen und Glykosidasen", "correct": true },
+        { "text": "Unverdauliche Reste häufen sich mit dem Alter als „Alterspigment“ an", "correct": true },
+        { "text": "Ihre Enzyme sind bei neutralem pH am aktivsten", "explain": "Lysosomale Enzyme sind nur im sauren pH aktiv." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 40" },
+    { "id": "orv-lysosom-biogenese", "type": "order", "question": "Bringe die Biogenese eines Lysosoms in die richtige Reihenfolge.",
+      "items": [
+        "Synthese der Enzyme im rauen ER",
+        "Anhängen des Mannose-6-Phosphat-Rests",
+        "Bindung an Man-6-P-Rezeptoren im trans-Golgi-Netzwerk",
+        "Abschnürung kleiner Vesikel (primäres Lysosom)",
+        "Verschmelzung mit einem Endosom zum fertigen Lysosom",
+        "Rücktransport des Rezeptors"
+      ], "explanation": "Fehler im Man-6-P oder im Rezeptor führen zu lysosomalen Erkrankungen.", "source": "VL-Skript ZUG Teil 1, S. 41" },
+    { "id": "orv-sekundaer-lysosom", "type": "single", "question": "Wie entsteht laut Skript ein **sekundäres Lysosom**?",
+      "options": [
+        { "text": "Durch Endozytose entstandene Endosomen verschmelzen mit primären Lysosomen", "correct": true },
+        { "text": "Durch Knospung aus Peroxisomen" },
+        { "text": "Durch Teilung eines Mitochondriums" },
+        { "text": "Direkt aus dem cis-Golgi-Netzwerk" }
+      ], "explanation": "Beispiel: Makrophagen.", "source": "VL-Skript ZUG Teil 1, S. 42" },
+    { "id": "orv-sarkoidose", "type": "multiple", "question": "Welche Aussagen zur **sarkoidalen Granulomatose** treffen laut Skript zu?",
+      "options": [
+        { "text": "Chronische Entzündungskrankheit, die verschiedene Organe befallen kann", "correct": true },
+        { "text": "Überreaktion des Immunsystems mit Bildung von Granulomen", "correct": true },
+        { "text": "Ursache: kontinuierliche T-Zell-Reaktion oder nicht beseitigbares Fremdmaterial bzw. Erreger", "correct": true },
+        { "text": "Folge können Nekrose und Fibrose sein", "correct": true },
+        { "text": "Ursache ist ein Defekt der Katalase" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 41" },
+    { "id": "orv-gaucher", "type": "multiple", "question": "Welche Aussagen zum **Morbus Gaucher** treffen laut Skript zu?",
+      "options": [
+        { "text": "Autosomal-rezessiv, Prävalenz ca. 1:57.000", "correct": true },
+        { "text": "Glukozerebroside reichern sich in Makrophagen und Monozyten an", "correct": true },
+        { "text": "Es gibt akute und chronische Formen (Typ 1, 2, 3)", "correct": true },
+        { "text": "Symptome: Erschöpfung, Blutarmut, Raumforderungen v. a. in Milz, Leber, Lunge", "correct": true },
+        { "text": "Defekt der Sphingomyelinase", "explain": "Das ist Niemann-Pick. Bei Gaucher ist die Beta-Glukozerebrosidase defekt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 42" },
+    { "id": "orv-niemann-pick", "type": "multiple", "question": "Welche Aussagen zur **Niemann-Pick-Krankheit** treffen laut Skript zu?",
+      "options": [
+        { "text": "Autosomal-rezessiv, Prävalenz ca. 1:218.000", "correct": true },
+        { "text": "Sphingolipidose: Speicherung von Sphingomyelin in Lysosomen von Leber, Milz, Knochenmark und Gehirn", "correct": true },
+        { "text": "Typ IA ist die häufigste Form, Beginn mit 3–4 Monaten", "correct": true },
+        { "text": "Verlauf infaust, Tod innerhalb von 2 Jahren", "correct": true },
+        { "text": "Glukozerebroside reichern sich in Makrophagen an", "explain": "Das ist Morbus Gaucher." }
+      ], "explanation": "Symptome: Vergrößerung von Leber und Milz, großes Abdomen, neurologischer Abbau, Taubheit, Blindheit.", "source": "VL-Skript ZUG Teil 1, S. 42" },
+    { "id": "orv-endosom-masse", "type": "multiple", "question": "Welche Aussagen zu **Endosomen** treffen laut Skript zu?",
+      "options": [
+        { "text": "Durchmesser ca. 500 nm", "correct": true },
+        { "text": "Sie sind eine prälysosomale Zwischenstufe", "correct": true },
+        { "text": "Sie spielen eine zentrale Rolle im Transport von Proteinen und Lipiden", "correct": true },
+        { "text": "Durchmesser 100–1000 nm, Lebensspanne 1 Tag", "explain": "Das sind die Angaben zu Peroxisomen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 43" },
+    { "id": "orv-endosom-biogenese", "type": "order", "question": "Bringe die Biogenese eines Endosoms in die richtige Reihenfolge.",
+      "items": [
+        "Anhäufung von Rezeptoren und Clathrin nach Ligandenbindung",
+        "Bildung von Clathrin-coated pits",
+        "Abschnürung zu coated vesicles",
+        "Abstoßung des Clathrins (Rezeptosom)",
+        "Trennung von Rezeptor und Ligand (frühes Endosom)",
+        "Verschmelzung mit dem Lysosom (spätes Endosom)"
+      ], "explanation": "Die Rezeptoren werden zur Plasmamembran recycelt.", "source": "VL-Skript ZUG Teil 1, S. 43" },
+    { "id": "orv-rezeptor-entkopplung", "type": "single", "question": "Wodurch werden Ligand und Rezeptor im Endosom laut Skript **entkoppelt**?",
+      "options": [
+        { "text": "Durch spontanen Einbau von H^+^-Pumpen, der pH sinkt", "correct": true },
+        { "text": "Durch einen Anstieg des pH auf 9" },
+        { "text": "Durch Bindung von Ca^2+^ an Synaptotagmin" },
+        { "text": "Durch Ubiquitinierung des Liganden" }
+      ], "explanation": "Beispiel Transferrin: Im sauren Milieu früher Endosomen löst sich Fe^3+^ vom Transferrin.", "source": "VL-Skript ZUG Teil 1, S. 44" },
+    { "id": "orv-fh-klassen", "type": "matching", "question": "Ordne die Klassen der **familiären Hypercholesterinämie** ihrem Defekt zu.",
+      "pairs": [
+        { "left": "Klasse 1", "right": "Wenig LDL-Rezeptoren verfügbar" },
+        { "left": "Klasse 2", "right": "Transport des LDL-Rezeptors aus dem ER gestört" },
+        { "left": "Klasse 3", "right": "LDL-Rezeptorbindung gestört" },
+        { "left": "Klasse 4", "right": "LDL bindet, wird aber nicht internalisiert" },
+        { "left": "Klasse 5", "right": "Recycling der Rezeptoren zur Oberfläche defekt" }
+      ], "explanation": "Klinisches Zeichen: Xanthelasmen (gelbliche Cholesterinablagerungen über den Augenlidern).", "source": "VL-Skript ZUG Teil 1, S. 45" },
+    { "id": "orv-peroxisom-enzyme", "type": "multiple", "question": "Welche Enzyme nennt das Skript als Ausstattung der **Peroxisomen**?",
+      "options": [
+        { "text": "Peroxidase", "correct": true },
+        { "text": "Katalase", "correct": true },
+        { "text": "Uratoxidase", "correct": true },
+        { "text": "D-Aminosäure-Oxidase", "correct": true },
+        { "text": "Glucose-6-Phosphatase" },
+        { "text": "Beta-Glukozerebrosidase" }
+      ], "explanation": "Peroxisomen wurden früher „microbodies“ genannt.", "source": "VL-Skript ZUG Teil 1, S. 46" },
+    { "id": "orv-peroxisom-biogenese", "type": "multiple", "question": "Welche Aussagen zur **Biogenese der Peroxisomen** treffen laut Skript zu?",
+      "options": [
+        { "text": "De-novo-Vorläufervesikel werden im ER gebildet und verschmelzen zum Peroxisom", "correct": true },
+        { "text": "Selbstreplikation durch Knospung", "correct": true },
+        { "text": "Ihre Enzyme werden im Zytosol synthetisiert und dann aufgenommen", "correct": true },
+        { "text": "Lebensspanne ca. 1 Tag", "correct": true },
+        { "text": "Sie entstehen aus dem trans-Golgi-Netzwerk mit Man-6-P-Markierung", "explain": "So entstehen primäre Lysosomen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 46" },
+    { "id": "orv-d-aminosaeure", "type": "single", "question": "Wofür ist die **D-Aminosäure-Oxidase** laut Skript ein Indiz?",
+      "options": [
+        { "text": "Für die frühe Evolution der Peroxisomen als Schutz vor hohen Sauerstoffradikal-Konzentrationen", "correct": true },
+        { "text": "Für die Endosymbiontenhypothese der Mitochondrien" },
+        { "text": "Für die Herkunft der Lysosomen aus dem Golgi" },
+        { "text": "Für eine bakterielle Infektion der Zelle" }
+      ], "explanation": "Beim Menschen kommen fast ausschließlich L-Aminosäuren vor.", "source": "VL-Skript ZUG Teil 1, S. 46" },
+    { "id": "orv-zellweger-details", "type": "multiple", "question": "Welche Aussagen zum **Zellweger-Syndrom** treffen laut Skript zu?",
+      "options": [
+        { "text": "Prävalenz ca. 1:100.000", "correct": true },
+        { "text": "Autosomal-rezessiv", "correct": true },
+        { "text": "Bei Mutationen in PEX1 oder PEX5 wird keine Katalase aufgenommen", "correct": true },
+        { "text": "Patienten versterben innerhalb der ersten 6 Lebensmonate", "correct": true },
+        { "text": "Es ist eine lysosomale Speicherkrankheit" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 47" },
+    { "id": "orv-chondrodysplasie", "type": "matching", "question": "Ordne die Formen der **Chondrodysplasia punctata** zu.",
+      "pairs": [
+        { "left": "RCDP (rhizomel)", "right": "Autosomal-rezessiv, PEX7-Gen, Verkürzung proximaler Extremitätensegmente" },
+        { "left": "N-RCDP (nicht-rhizomel)", "right": "Z. B. ARSE-Mutation, X-chromosomal rezessiv, Intelligenz meist unbeeinträchtigt" }
+      ], "explanation": "Gemeinsam: kongenitale Knochenverkalkungen in Gelenknähe. RCDP: Wirbelveränderungen, Hautläsionen, schwere geistige Retardierung. N-RCDP: Kleinwuchs, Ichthyosen.", "source": "VL-Skript ZUG Teil 1, S. 48" },
+    { "id": "orv-pex7", "type": "single", "question": "Was kodiert das bei RCDP betroffene **PEX7**-Gen?",
+      "options": [
+        { "text": "Einen Rezeptor für den Proteintransport aus dem Zytoplasma in die Peroxisomen", "correct": true },
+        { "text": "Die lysosomale Sphingomyelinase" },
+        { "text": "Einen Chloridkanal" },
+        { "text": "Den LDL-Rezeptor" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 48" },
+    { "id": "orv-cytosol-prozesse", "type": "multiple", "question": "Welche Prozesse laufen laut Skript hauptsächlich im **Cytosol** ab?",
+      "options": [
+        { "text": "Glykolyse", "correct": true },
+        { "text": "Proteinbiosynthese", "correct": true },
+        { "text": "Signaltransduktionswege", "correct": true },
+        { "text": "Abbau langkettiger Fettsäuren durch Beta-Oxidation", "explain": "Laut VL 4 in Peroxisomen." },
+        { "text": "ATP-Synthese an der ATP-Synthase", "explain": "Innere Mitochondrienmembran (Cristae)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 49" },
+    { "id": "orv-organell-masse", "type": "matching", "question": "Ordne die Größenangaben der Organellen laut Skript zu.",
+      "pairs": [
+        { "left": "Endosom", "right": "Ca. 500 nm Durchmesser" },
+        { "left": "Peroxisom", "right": "100–1000 nm Durchmesser" },
+        { "left": "Golgi-Apparat", "right": "Meist 4–8 Zisternen" },
+        { "left": "Lysosom", "right": "pH ca. 4,5–5,0" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 36–46" },
+    { "id": "orv-krankheit-organell", "type": "matching", "question": "Ordne jede Erkrankung dem betroffenen Organell bzw. Prozess zu.",
+      "pairs": [
+        { "left": "Morbus Leigh", "right": "Mitochondrien (Atmungskette)" },
+        { "left": "Zystische Fibrose", "right": "Proteinfaltung im rauen ER" },
+        { "left": "Von-Gierke-Krankheit", "right": "Glykogenstoffwechsel (glattes ER)" },
+        { "left": "Morbus Gaucher", "right": "Lysosomen" },
+        { "left": "Familiäre Hypercholesterinämie Klasse 5", "right": "Endosomales Rezeptorrecycling" },
+        { "left": "Zellweger-Syndrom", "right": "Peroxisomen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 31–48" }
+  ]
+}

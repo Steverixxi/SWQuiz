@@ -1,0 +1,194 @@
+{
+  "chapter": "VL 7 – Ultrastruktur der Zelle (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 7 (S. 65–79)",
+  "questions": [
+    { "id": "usv-einheiten", "type": "single", "question": "Wie viele Nanometer sind **1 m**?",
+      "options": [
+        { "text": "10^9^ nm", "correct": true },
+        { "text": "10^6^ nm", "explain": "1 m = 10^6^ µm." },
+        { "text": "10^3^ nm", "explain": "1 m = 10^3^ mm." },
+        { "text": "10^12^ nm" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 66" },
+    { "id": "usv-abbe", "type": "single", "question": "Wie ergibt sich das **Abbe-Limit** der Lichtmikroskopie laut Skript?",
+      "options": [
+        { "text": "Halbe Wellenlänge des blauen Lichts, ca. 200 nm (Diffraktionsgrenze)", "correct": true },
+        { "text": "Doppelte Wellenlänge des roten Lichts, ca. 1,4 µm" },
+        { "text": "Durchmesser eines Atoms, ca. 0,1 nm" },
+        { "text": "Durchmesser eines Erythrozyten" }
+      ], "explanation": "Strukturen darunter erfordern Nanoskopie oder Elektronenmikroskopie.", "source": "VL-Skript ZUG Teil 1, S. 66" },
+    { "id": "usv-faerben-kontrast", "type": "matching", "question": "Dünne Schnitte sind kontrastlos. Ordne zu, wie sie sichtbar gemacht werden.",
+      "pairs": [
+        { "left": "Lichtmikroskopie", "right": "Schnitte werden gefärbt" },
+        { "left": "Elektronenmikroskopie", "right": "Schnitte werden mit Schwermetallen kontrastiert" }
+      ], "explanation": "Schwermetalle lagern sich an Proteine an, es entstehen Dichteunterschiede für die Elektronen (Graustufenkontraste).", "source": "VL-Skript ZUG Teil 1, S. 67" },
+    { "id": "usv-membran-kompartimente", "type": "multiple", "question": "Welche Bestandteile der Zelle sind laut Skript **membranumschlossene** Kompartimente?",
+      "options": [
+        { "text": "Mitochondrien", "correct": true },
+        { "text": "Peroxisomen", "correct": true },
+        { "text": "Golgi-Apparat", "correct": true },
+        { "text": "Lysosomales Kompartiment", "correct": true },
+        { "text": "Proteasomen", "explain": "Durch keine Membran vom Zytosol getrennt." },
+        { "text": "Zentrosom", "explain": "Durch keine Membran vom Zytosol getrennt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 70" },
+    { "id": "usv-kern-huelle", "type": "multiple", "question": "Welche Aussagen zum Aufbau des **Nukleus** treffen laut VL 7 zu?",
+      "options": [
+        { "text": "Doppelte Kernmembran mit unterliegender Kernlamina", "correct": true },
+        { "text": "Kernporen mit ca. 9 nm Durchmesser", "correct": true },
+        { "text": "Kernporen dienen dem Export von RNA und dem Import von Proteinen", "correct": true },
+        { "text": "Die Kernmembran ist eine einfache Biomembran", "explain": "Die Kernhülle besteht aus einer doppelten Membran." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 71" },
+    { "id": "usv-kern-funktion", "type": "multiple", "question": "Welche **Funktionen des Nukleus** nennt VL 7?",
+      "options": [
+        { "text": "Träger der genetischen Erbinformation", "correct": true },
+        { "text": "Transkription proteinkodierender RNAs", "correct": true },
+        { "text": "Transkription ribosomaler und regulatorischer RNAs", "correct": true },
+        { "text": "Translation der mRNA zu Proteinen", "explain": "Translation findet an Ribosomen im Zytoplasma statt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 71" },
+    { "id": "usv-kern-morphologie", "type": "single", "question": "Wovon hängt die **Morphologie des Nukleus** laut Skript u. a. ab?",
+      "options": [
+        { "text": "Von der Morphologie und dem Funktionszustand der Zelle", "correct": true },
+        { "text": "Nur vom Alter des Organismus" },
+        { "text": "Ausschließlich von der Färbemethode" },
+        { "text": "Sie ist in allen Zellen gleich" }
+      ], "explanation": "Beispiel im Skript: der Kern einer antikörperproduzierenden Plasmazelle.", "source": "VL-Skript ZUG Teil 1, S. 71–72" },
+    { "id": "usv-mito-membranen", "type": "matching", "question": "Ordne die Kompartimente des Mitochondriums ihrer Eigenschaft zu.",
+      "pairs": [
+        { "left": "Äußere Membran", "right": "Durchlässig für kleine Moleküle, Kommunikation mit dem Zytosol" },
+        { "left": "Innere Membran mit Cristae", "right": "Elektronentransportkette, Aufbau des H^+^-Gradienten" },
+        { "left": "Matrix", "right": "Mehrzahl der metabolischen Funktionen, eigene DNA" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 73" },
+    { "id": "usv-mito-fettsaeure", "type": "matching", "question": "Welches Organell baut welche Fettsäuren ab (laut VL 7)?",
+      "pairs": [
+        { "left": "Mitochondrien", "right": "Kurz- und mittelkettige Fettsäuren" },
+        { "left": "Peroxisomen", "right": "Sehr langkettige und verzweigte Fettsäuren, Phytansäure" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 73, 77" },
+    { "id": "usv-mito-peroxi-gemeinsam", "type": "single", "question": "Welche Funktion teilen sich laut VL 7 **Mitochondrien und Peroxisomen**?",
+      "options": [
+        { "text": "Vermittlung der angeborenen Immunantwort nach viraler Infektion, Induktion von Interferonen", "correct": true },
+        { "text": "Produktion von Gallensäuren" },
+        { "text": "Oxidative Phosphorylierung" },
+        { "text": "Abbau von Phytansäure" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 73, 77" },
+    { "id": "usv-mito-apoptose", "type": "multiple", "question": "Welche Funktionen der **Mitochondrien** nennt VL 7?",
+      "options": [
+        { "text": "Einleitung des regulierten Zelltods (Apoptose)", "correct": true },
+        { "text": "Beteiligung an der Harnstoffsynthese", "correct": true },
+        { "text": "Beteiligung an der Synthese von Steroidhormonen", "correct": true },
+        { "text": "Calciumspeicher", "correct": true },
+        { "text": "Produktion von Gallensäuren", "explain": "Peroxisomen (in der Leber)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 73" },
+    { "id": "usv-ger-funktion", "type": "multiple", "question": "Welche Funktionen des **glatten ER** nennt VL 7?",
+      "options": [
+        { "text": "Calciumspeicher", "correct": true },
+        { "text": "Lipidsynthese (Membranlipide, Cholesterin, Steroide)", "correct": true },
+        { "text": "Detoxifikation körperfremder Metaboliten", "correct": true },
+        { "text": "Beteiligung am Glucosestoffwechsel", "correct": true },
+        { "text": "Beginnende posttranslationale Modifikation sekretorischer Proteine", "explain": "Raues ER." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 75" },
+    { "id": "usv-er-morphologie", "type": "matching", "question": "Ordne die ER-Formen ihrer Morphologie im EM zu.",
+      "pairs": [
+        { "left": "Raues ER", "right": "Mit Ribosomen besetzt, oft in Stapeln" },
+        { "left": "Glattes ER", "right": "Tubuläres Netzwerk" }
+      ], "explanation": "Das ER steht in Kontinuität mit der äußeren Kernmembran. Raues und glattes ER bilden ein luminales Kontinuum.", "source": "VL-Skript ZUG Teil 1, S. 75" },
+    { "id": "usv-ribosom-anlagerung", "type": "single", "question": "Wann lagern sich Ribosomen laut Skript an das ER an?",
+      "options": [
+        { "text": "Erst wenn sie ER-Proteine synthetisieren und das SRP den herausragenden N-Terminus erkennt", "correct": true },
+        { "text": "Immer, alle Ribosomen sind dauerhaft ER-gebunden" },
+        { "text": "Nur während der Mitose" },
+        { "text": "Wenn der C-Terminus des Proteins fertig ist" }
+      ], "explanation": "Das SRP bindet einen SRP-Rezeptor auf dem ER.", "source": "VL-Skript ZUG Teil 1, S. 75" },
+    { "id": "usv-golgi-regionen", "type": "order", "question": "In welcher Reihenfolge durchlaufen Vesikel aus dem ER die Regionen des Golgi-Apparats?",
+      "items": [ "cis", "medial", "trans" ],
+      "explanation": "Die Regionen haben unterschiedliche Enzymausstattung.", "source": "VL-Skript ZUG Teil 1, S. 76" },
+    { "id": "usv-kdel", "type": "single", "question": "Wozu dient die **KDEL-Sequenz**?",
+      "options": [
+        { "text": "Mittransportierte ER-Proteine werden erkannt und zum ER zurücktransportiert (retrograd)", "correct": true },
+        { "text": "Proteine werden in die Lysosomen gelenkt", "explain": "Das leistet Mannose-6-Phosphat." },
+        { "text": "Proteine werden in den Zellkern importiert" },
+        { "text": "Proteine werden für das Proteasom markiert" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 76" },
+    { "id": "usv-postleitzahl", "type": "single", "question": "Was meint das Skript mit der „**Postleitzahl**“ im Golgi-Apparat?",
+      "options": [
+        { "text": "Modifikationen wie Mannose-6-Phosphat, die als Signal den Bestimmungsort festlegen", "correct": true },
+        { "text": "Die Zahl der Zisternen" },
+        { "text": "Die Nummer des Chromosoms, das das Protein kodiert" },
+        { "text": "Die Größe des Transportvesikels" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 76" },
+    { "id": "usv-golgi-modifikation", "type": "multiple", "question": "Welche Modifikationen nennt VL 7 für den **Golgi-Apparat**?",
+      "options": [
+        { "text": "Glykosylierung", "correct": true },
+        { "text": "Phosphorylierung", "correct": true },
+        { "text": "Lipidierung", "correct": true },
+        { "text": "Spleißen", "explain": "RNA-Prozessierung im Zellkern." }
+      ], "explanation": "Weitere Funktionen: Verpackung in Transportvesikel, Beteiligung an der Lysosomenbildung.", "source": "VL-Skript ZUG Teil 1, S. 76" },
+    { "id": "usv-peroxisom-aufbau", "type": "multiple", "question": "Welche Aussagen zum Aufbau der **Peroxisomen** treffen laut VL 7 zu?",
+      "options": [
+        { "text": "Homogene, granuläre Matrix, umgeben von einer einfachen Biomembran", "correct": true },
+        { "text": "Zuweilen kristalline Einschlüsse, z. B. Uratoxidase in der Rattenleber", "correct": true },
+        { "text": "Entstehung durch Elongation und Teilung oder de novo aus spezialisiertem ER", "correct": true },
+        { "text": "Matrixproteine werden im Zytosol gebildet und über Shuttle-Rezeptoren importiert", "correct": true },
+        { "text": "Sie besitzen eine eigene DNA", "explain": "Eigene DNA haben Mitochondrien." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 77" },
+    { "id": "usv-peroxisom-funktion", "type": "multiple", "question": "Welche **Funktionen der Peroxisomen** nennt VL 7?",
+      "options": [
+        { "text": "Abbau von Phytansäure", "correct": true },
+        { "text": "Beteiligung am Purinabbau", "correct": true },
+        { "text": "Produktion von Gallensäuren (Leber)", "correct": true },
+        { "text": "Abbau von D-Aminosäuren (Neuromodulatoren)", "correct": true },
+        { "text": "Abbau von H~2~O~2~ durch Katalase", "correct": true },
+        { "text": "Oxidative Phosphorylierung", "explain": "Mitochondrien." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 77" },
+    { "id": "usv-lysosom-matrix", "type": "matching", "question": "Ordne die Lysosomen ihrem EM-Bild zu.",
+      "pairs": [
+        { "left": "Primäres Lysosom", "right": "Homogene Matrix" },
+        { "left": "Sekundäres Lysosom", "right": "Heterogene Matrix nach Fusion mit Endosom oder Autophagosom" },
+        { "left": "Telolysosom", "right": "Endlager für schädliche und unbrauchbare Substanzen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 78" },
+    { "id": "usv-lysosom-recycling", "type": "single", "question": "Was geschieht laut Skript mit den Bausteinen (z. B. Aminosäuren), die im Lysosom frei werden?",
+      "options": [
+        { "text": "Sie entweichen mit Hilfe von Transportern aus dem Lysosom (Recycling)", "correct": true },
+        { "text": "Sie bleiben dauerhaft im Lysosom" },
+        { "text": "Sie werden per Exozytose ausgeschieden" },
+        { "text": "Sie werden in Peroxisomen umgelagert" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 78" },
+    { "id": "usv-endosom-funktion", "type": "single", "question": "Welche Funktion haben **Endosomen** laut VL 7?",
+      "options": [
+        { "text": "Sortierung endozytierter Substanzen und Trennung von ihren Rezeptoren (Recycling)", "correct": true },
+        { "text": "Abbau praktisch aller Moleküle", "explain": "Das ist Aufgabe der Lysosomen." },
+        { "text": "Speicherung von Triglyceriden" },
+        { "text": "Synthese von Plasmalogenen" }
+      ], "explanation": "Das Skript zeigt frühe Endosomen im proximalen Nierentubulus.", "source": "VL-Skript ZUG Teil 1, S. 78" },
+    { "id": "usv-lipidtropfen-bau", "type": "single", "question": "Wodurch unterscheiden sich **Lipidtropfen** von klassischen Organellen?",
+      "options": [
+        { "text": "Sie sind nur von einer einzelnen Phospholipidschicht (Monolayer) umgeben", "correct": true },
+        { "text": "Sie haben eine Doppelmembran wie Mitochondrien" },
+        { "text": "Sie haben gar keine Hülle" },
+        { "text": "Sie sind von Clathrin umgeben" }
+      ], "explanation": "Sie sind eigentlich Lipidmizellen. Perilipine in der Oberfläche regulieren den Lipidabbau.", "source": "VL-Skript ZUG Teil 1, S. 79" },
+    { "id": "usv-lipidtropfen-entstehung", "type": "single", "question": "Wie entstehen **Lipidtropfen**?",
+      "options": [
+        { "text": "Neutrallipide lagern sich im ER zwischen die beiden Schichten der Lipiddoppelschicht ein, dann wird eine Lipidmizelle abgeschnürt", "correct": true },
+        { "text": "Durch Knospung aus dem trans-Golgi-Netzwerk" },
+        { "text": "Durch Endozytose von Lipoproteinen" },
+        { "text": "Durch Teilung von Peroxisomen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 79" },
+    { "id": "usv-lipidtropfen-funktion", "type": "multiple", "question": "Welche **Funktionen der Lipidtropfen** nennt das Skript?",
+      "options": [
+        { "text": "Speicherung von Triglyceriden", "correct": true },
+        { "text": "Speicherung von Cholesterin als Cholesterinester", "correct": true },
+        { "text": "Speicherung lipidlöslicher Vitamine und Eicosanoide", "correct": true },
+        { "text": "Stresspuffer in ER- und oxidativen Stress-Signalwegen", "correct": true },
+        { "text": "Sensoren für Hungerstress", "correct": true },
+        { "text": "Speicherung von Ca^2+^" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 79" },
+    { "id": "usv-organell-identifizieren", "type": "matching", "question": "Woran erkennst du das Organell im EM-Bild? Ordne zu.",
+      "pairs": [
+        { "left": "Mitochondrium", "right": "Doppelmembran mit Cristae" },
+        { "left": "Raues ER", "right": "Gestapelte Membranen mit Ribosomen" },
+        { "left": "Golgi-Apparat", "right": "Stapel flacher Zisternen mit cis- und trans-Seite" },
+        { "left": "Peroxisom", "right": "Einfache Membran, granuläre Matrix, evtl. Kristallcore" },
+        { "left": "Lipidtropfen", "right": "Von einem Phospholipid-Monolayer umgeben" },
+        { "left": "Zellkern", "right": "Doppelmembran mit Poren, Eu- und Heterochromatin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 71–79" }
+  ]
+}
