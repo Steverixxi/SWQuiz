@@ -1,0 +1,127 @@
+{
+  "chapter": "VL 13 – RNA: Aufbau und Struktur",
+  "source": "VL-Skript ZUG Teil 1, VL 13 (S. 200–218)",
+  "questions": [
+    { "id": "rna-unterschiede", "type": "multiple", "question": "Worin unterscheidet sich **RNA** chemisch und strukturell von DNA?",
+      "options": [
+        { "text": "Ribose statt Desoxyribose (zusätzliche OH-Gruppe)", "correct": true },
+        { "text": "Uracil statt Thymin", "correct": true },
+        { "text": "Meist einzelsträngig", "correct": true },
+        { "text": "Kurzlebig (Minuten bis Tage)", "correct": true },
+        { "text": "Phosphodiesterbindungen fehlen", "explain": "Auch RNA ist ein lineares Polymer aus Nukleotiden, verbunden über Phosphodiesterbindungen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 202–203" },
+    { "id": "rna-oh-gruppe", "type": "single", "question": "Welche Folge hat die zusätzliche **OH-Gruppe** der Ribose?",
+      "options": [ { "text": "RNA ist empfänglicher für Hydrolyse und damit für Strangbrüche", "correct": true }, { "text": "RNA ist dadurch stabiler als DNA" }, { "text": "RNA kann keine Basenpaarungen eingehen" }, { "text": "RNA braucht einen Primer" } ], "source": "VL-Skript ZUG Teil 1, S. 203" },
+    { "id": "rna-uracil", "type": "multiple", "question": "Warum ist **Uracil** laut Skript anfälliger für Mutationen als Thymin?",
+      "options": [
+        { "text": "Es ist weniger photostabil.", "correct": true },
+        { "text": "Es kann auch mit anderen Basen Wasserstoffbrücken bilden.", "correct": true },
+        { "text": "Cytosin kann zu Uracil deaminieren.", "correct": true },
+        { "text": "Es besitzt eine zusätzliche CH~3~-Gruppe.", "explain": "Umgekehrt: Uracil fehlt die CH~3~-Gruppe des Thymins." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 203" },
+    { "id": "rna-ribozym", "type": "single", "question": "Wie heißen RNA-Moleküle mit **katalytischer** Funktion?",
+      "options": [ { "text": "Ribozyme", "correct": true }, { "text": "Ribosomen" }, { "text": "Spleißosomen" }, { "text": "Nukleosomen" } ], "source": "VL-Skript ZUG Teil 1, S. 203" },
+    { "id": "rna-codogen", "type": "matching", "question": "Ordne die Begriffe der Transkription zu.",
+      "pairs": [
+        { "left": "Codogener Strang (Matrizenstrang)", "right": "Dient als Matrize, RNA ist dazu komplementär" },
+        { "left": "Codierender Strang (Codestrang)", "right": "RNA ist dazu äquivalent (U statt T)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 204; S. 222" },
+    { "id": "rna-tf", "type": "single", "question": "Welches Gen ist laut Skript ein typisches **Haushaltsgen** mit Expression in vielen Geweben?",
+      "options": [ { "text": "β-Aktin", "correct": true }, { "text": "Tyrosin-Aminotransferase", "explain": "Ihr Genprodukt kommt nur in einer spezialisierten Zelle vor." }, { "text": "XIST" }, { "text": "Insulin" } ], "source": "VL-Skript ZUG Teil 1, S. 204" },
+    { "id": "rna-pol-primer", "type": "multiple", "question": "Welche Aussagen zu **RNA-Polymerasen** stimmen?",
+      "options": [
+        { "text": "Sie katalysieren die Bildung der Phosphodiesterbindungen.", "correct": true },
+        { "text": "Sie benötigen im Gegensatz zur DNA-Polymerase keinen Primer.", "correct": true },
+        { "text": "Ihre Fehlerrate (1 pro 10^4^ nt) ist höher als die der DNA-Polymerase (1 pro 10^7^ nt).", "correct": true },
+        { "text": "Eukaryoten besitzen nur eine einzige RNA-Polymerase.", "explain": "Eukaryoten haben drei; Bakterien besitzen eine." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 205; S. 224" },
+    { "id": "rna-pol-typen", "type": "matching", "question": "Ordne die eukaryotischen RNA-Polymerasen ihren Produkten zu.",
+      "pairs": [
+        { "left": "RNA-Polymerase II", "right": "Proteincodierende Gene (mRNA)" },
+        { "left": "RNA-Polymerase I und III", "right": "tRNA, rRNA und kleine RNAs" }
+      ], "explanation": "Die 45S-Vorläufer-rRNA im Nucleolus stammt von RNA-Polymerase I.", "source": "VL-Skript ZUG Teil 1, S. 205; S. 234" },
+    { "id": "rna-anteile", "type": "matching", "question": "Ordne die RNA-Klasse ihrem Anteil an der Gesamt-RNA zu.",
+      "pairs": [
+        { "left": "rRNA", "right": "ca. 80 %" },
+        { "left": "tRNA", "right": "ca. 10–20 %" },
+        { "left": "mRNA", "right": "ca. 5 %" },
+        { "left": "miRNA", "right": "< 1 %" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 206" },
+    { "id": "rna-laengen", "type": "matching", "question": "Ordne die RNA-Klasse ihrer typischen Länge zu.",
+      "pairs": [
+        { "left": "miRNA", "right": "21–23 Nukleotide" },
+        { "left": "tRNA", "right": "74–95 Nukleotide" },
+        { "left": "mRNA", "right": "400–6000 Nukleotide" },
+        { "left": "lncRNA", "right": "> 300 Nukleotide, nicht codierend" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 206" },
+    { "id": "rna-klassen-funktion", "type": "matching", "question": "Ordne die RNA-Klasse ihrer Funktion zu.",
+      "pairs": [
+        { "left": "mRNA", "right": "Informationszwischenträger, codiert für Proteine" },
+        { "left": "rRNA", "right": "Kern des Ribosoms, katalysiert die Proteinsynthese" },
+        { "left": "tRNA", "right": "Adapter zwischen mRNA und Aminosäuren" },
+        { "left": "snRNA", "right": "Bildet das Spleißosom" },
+        { "left": "snoRNA", "right": "Prozessiert und modifiziert rRNAs im Nucleolus" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 206, 217" },
+    { "id": "rna-mirna-anteil", "type": "single", "question": "Wie viele proteincodierende Gene werden laut Skript von **miRNAs** reguliert?",
+      "options": [ { "text": "ca. ein Drittel", "correct": true }, { "text": "nur einige wenige" }, { "text": "alle" }, { "text": "ca. 5 %" } ],
+      "explanation": "Beim Menschen sind über 1000 verschiedene miRNAs bekannt.", "source": "VL-Skript ZUG Teil 1, S. 206" },
+    { "id": "rna-prae-mrna", "type": "multiple", "question": "Welche Merkmale hat die **reife eukaryotische mRNA** im Cytoplasma?",
+      "options": [
+        { "text": "5′-Cap", "correct": true },
+        { "text": "Poly-A-Schwanz am 3′-Ende", "correct": true },
+        { "text": "Keine Introns mehr", "correct": true },
+        { "text": "Information für mehrere verschiedene Proteine", "explain": "Das gilt für Prokaryoten; bei Eukaryoten codiert jede mRNA für ein einziges Protein." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 208" },
+    { "id": "rna-pro-euk", "type": "matching", "question": "Ordne die mRNA-Eigenschaft zu.",
+      "pairs": [
+        { "left": "Eukaryoten", "right": "Eine mRNA = ein Gen = ein Protein, Export durch die Kernporen" },
+        { "left": "Prokaryoten", "right": "Mehrere Gene in einer mRNA, kaum Introns, keine Spleißmaschinerie" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 208" },
+    { "id": "rna-cap-funktion", "type": "single", "question": "Welche Funktion der **5′-Kappe** wird in VL 13 genannt?",
+      "options": [ { "text": "Sie hilft, das Ribosom zum ersten AUG-Codon zu leiten", "correct": true }, { "text": "Sie markiert das Ende der codierenden Sequenz" }, { "text": "Sie bindet die Aminosäure" }, { "text": "Sie schneidet Introns heraus" } ],
+      "explanation": "Die Kappe entsteht durch Addition eines G mit einer gebundenen Methylgruppe am 5′-Ende.", "source": "VL-Skript ZUG Teil 1, S. 209" },
+    { "id": "rna-spleissen-lasso", "type": "single", "question": "In welcher Form wird ein **Intron** beim Spleißen herausgeschnitten?",
+      "options": [ { "text": "Als lassoförmige Struktur", "correct": true }, { "text": "Als ringförmige DNA" }, { "text": "Als Doppelstrang" }, { "text": "Es wird nicht herausgeschnitten, sondern übersprungen" } ], "source": "VL-Skript ZUG Teil 1, S. 210" },
+    { "id": "rna-trna-aufbau", "type": "multiple", "question": "Welche Aussagen zur **tRNA** stimmen?",
+      "options": [
+        { "text": "In 2D eine Kleeblattstruktur, räumlich L-förmig", "correct": true },
+        { "text": "Das Anticodon aus drei Nukleotiden paart mit dem Codon der mRNA.", "correct": true },
+        { "text": "Die Aminosäure wird am 3′-Ende (CCA) angeknüpft.", "correct": true },
+        { "text": "Aminoacyl-tRNA-Synthetasen beladen sie mit der passenden Aminosäure.", "correct": true },
+        { "text": "Für jedes Codon gibt es genau eine tRNA.", "explain": "Menschliche Zellen haben ca. 500 tRNAs für 48 Anticodons; der Code ist redundant." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 213" },
+    { "id": "rna-trna-zahl", "type": "single", "question": "Wie viele tRNAs für wie viele Anticodons besitzen menschliche Zellen laut Skript?",
+      "options": [ { "text": "ca. 500 tRNAs für 48 Anticodons", "correct": true }, { "text": "20 tRNAs für 20 Aminosäuren" }, { "text": "64 tRNAs für 64 Codons" }, { "text": "ca. 50 tRNAs für 500 Anticodons" } ], "source": "VL-Skript ZUG Teil 1, S. 213" },
+    { "id": "rna-ribosom-ue", "type": "matching", "question": "Ordne die ribosomale Untereinheit ihrer Aufgabe zu.",
+      "pairs": [
+        { "left": "Kleine Untereinheit", "right": "Ordnet den Codons der mRNA die passenden tRNAs zu" },
+        { "left": "Große Untereinheit", "right": "Katalysiert die Bildung der Peptidkette" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 215" },
+    { "id": "rna-ribosom-pro-euk", "type": "matching", "question": "Ordne die rRNAs dem Ribosom zu.",
+      "pairs": [
+        { "left": "Eukaryoten, 40S", "right": "18S rRNA" },
+        { "left": "Eukaryoten, 60S", "right": "28S, 5.8S und 5S rRNA" },
+        { "left": "Prokaryoten, 30S", "right": "16S rRNA" },
+        { "left": "Prokaryoten, 50S", "right": "23S und 5S rRNA" }
+      ], "explanation": "Eukaryotisches Ribosom 80S, prokaryotisches 70S.", "source": "VL-Skript ZUG Teil 1, S. 216; S. 239" },
+    { "id": "rna-rrna-kopien", "type": "single", "question": "Wie viele Kopien der rRNA-Gene besitzt der Mensch laut Skript etwa?",
+      "options": [ { "text": "ca. 200", "correct": true }, { "text": "1" }, { "text": "ca. 20" }, { "text": "ca. 20.000" } ], "source": "VL-Skript ZUG Teil 1, S. 215" },
+    { "id": "rna-adapter", "type": "order", "question": "Der genetische Code wird mit zwei Adaptoren übersetzt. Bringe sie in die Reihenfolge, in der sie wirken.",
+      "items": [ "Aminoacyl-tRNA-Synthetase koppelt die Aminosäure an ihre tRNA", "Das Anticodon der tRNA paart mit dem Codon der mRNA" ], "source": "VL-Skript ZUG Teil 1, S. 217" },
+    { "id": "rna-lncrna", "type": "multiple", "question": "Welche Beispiele für **lncRNA** nennt das Skript?",
+      "options": [
+        { "text": "XIST-RNA, die das inaktivierte X-Chromosom umhüllt", "correct": true },
+        { "text": "Telomerase-RNA, Matrize für die Telomere", "correct": true },
+        { "text": "U1-snRNA", "explain": "snRNAs sind kurz (100–300 nt) und bilden das Spleißosom." },
+        { "text": "28S rRNA" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 217" },
+    { "id": "rna-mirna-risc", "type": "multiple", "question": "Welche Aussagen zu **microRNAs** stimmen?",
+      "options": [
+        { "text": "Sie binden an mRNA, verhindern die Translation oder führen zu ihrem Abbau.", "correct": true },
+        { "text": "Die Bindung muss nicht perfekt komplementär sein.", "correct": true },
+        { "text": "Eine miRNA kann hunderte Gene regulieren.", "correct": true },
+        { "text": "Der miRNA-Protein-Komplex heißt RISC.", "correct": true },
+        { "text": "Sie wirken vor der Transkription im Zellkern.", "explain": "Sie sind Teil der posttranskriptionalen Regulation." }
+      ], "explanation": "microRNAs gelten auch als vielversprechende Biomarker.", "source": "VL-Skript ZUG Teil 1, S. 218" }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "chapter": "VL 14 – Transkription, RNA-Prozessierung, Translation",
+  "source": "VL-Skript ZUG Teil 1, VL 14 (S. 219–243)",
+  "questions": [
+    { "id": "tl-ort", "type": "matching", "question": "Wo finden die Schritte der Genexpression in Eukaryoten statt?",
+      "pairs": [ { "left": "Transkription", "right": "Zellkern" }, { "left": "Translation", "right": "Zytoplasma, an den Ribosomen" }, { "left": "Ribosomen-Assemblierung (rRNA-Synthese)", "right": "Nucleolus" } ],
+      "source": "VL-Skript ZUG Teil 1, S. 220, 239" },
+    { "id": "tl-promotor", "type": "multiple", "question": "Welche Aussagen zum **Promotor** stimmen?",
+      "options": [
+        { "text": "Er ist die Bindungsstelle der RNA-Polymerase und Startpunkt der RNA-Synthese.", "correct": true },
+        { "text": "Er ist ein essenzieller Bestandteil eines Gens.", "correct": true },
+        { "text": "Er tritt mit Transkriptionsfaktoren in Wechselwirkung.", "correct": true },
+        { "text": "Er ist das Stoppsignal der Transkription.", "explain": "Das ist der Terminator." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 223–224" },
+    { "id": "tl-elemente", "type": "matching", "question": "Ordne die regulatorischen Elemente zu.",
+      "pairs": [
+        { "left": "TATA-Box", "right": "ca. 25 Nukleotide stromaufwärts vom Transkriptionsstart, Bindung von TBP" },
+        { "left": "CAAT-Box", "right": "Proximales Element, Consensus 5′-CCAAT-3′" },
+        { "left": "GC-Box", "right": "GC-reich, Consensus GGGCGG" },
+        { "left": "Enhancer", "right": "Distales Element, verstärkt die Transkription, bis 1.000.000 bp entfernt" },
+        { "left": "Silencer", "right": "Setzt die Transkriptionsaktivität herab" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 225, 228" },
+    { "id": "tl-enhancer-lage", "type": "single", "question": "Wo können **Enhancer und Silencer** liegen?",
+      "options": [ { "text": "Nah oder sehr weit (bis 1.000.000 bp) vom Gen entfernt, stromaufwärts oder stromabwärts", "correct": true }, { "text": "Nur direkt an der TATA-Box" }, { "text": "Nur im 3′-UTR" }, { "text": "Nur im ersten Exon" } ], "source": "VL-Skript ZUG Teil 1, S. 225" },
+    { "id": "tl-utr", "type": "matching", "question": "Ordne die untranslatierten Regionen zu.",
+      "pairs": [
+        { "left": "5′-UTR", "right": "Von TSS+1 bis vor das Startcodon" },
+        { "left": "3′-UTR", "right": "Hinter dem Stoppcodon bis zum Polyadenylierungsbeginn" }
+      ], "explanation": "UTRs werden transkribiert, aber nicht translatiert; sie haben regulatorische Funktion. Der 3′-UTR bestimmt die Lebensdauer der mRNA.", "source": "VL-Skript ZUG Teil 1, S. 225, 235, 242" },
+    { "id": "tl-phasen", "type": "order", "question": "Bringe die Phasen der Transkription in die richtige Reihenfolge.",
+      "items": [ "Initiation", "Elongation", "Termination" ], "source": "VL-Skript ZUG Teil 1, S. 226" },
+    { "id": "tl-sigma", "type": "single", "question": "Was erkennt bei **Prokaryoten** die Promotorsequenz?",
+      "options": [ { "text": "Der Sigma-Faktor", "correct": true }, { "text": "TFIIH" }, { "text": "TBP" }, { "text": "Die Poly-A-Polymerase" } ], "source": "VL-Skript ZUG Teil 1, S. 227" },
+    { "id": "tl-pic", "type": "order", "question": "Bringe die Initiation der **eukaryotischen** Transkription in die richtige Reihenfolge.",
+      "items": [ "TBP bindet an die TATA-Box", "TFIID, TFIIB, TFIIE, TFIIH und RNA-Polymerase II bilden den Präinitiationskomplex", "TFIIH entwindet die DNA-Doppelhelix (Helicase)", "RNA-Synthese beginnt (Elongation)" ], "source": "VL-Skript ZUG Teil 1, S. 228" },
+    { "id": "tl-tfiih", "type": "single", "question": "Welcher allgemeine Transkriptionsfaktor entwindet die DNA-Doppelhelix?",
+      "options": [ { "text": "TFIIH (Helicasefunktion)", "correct": true }, { "text": "TFIIB" }, { "text": "TBP" }, { "text": "Sigma-Faktor" } ], "source": "VL-Skript ZUG Teil 1, S. 228" },
+    { "id": "tl-prae-mrna", "type": "single", "question": "Wie heißt die mRNA unmittelbar nach der Transkription, vor der Prozessierung?",
+      "options": [ { "text": "prä-mRNA (Primärtranskript)", "correct": true }, { "text": "snRNA" }, { "text": "45S-Precursor-RNA", "explain": "Das ist der Vorläufer der rRNAs." }, { "text": "cDNA" } ], "source": "VL-Skript ZUG Teil 1, S. 228" },
+    { "id": "tl-pro-kopplung", "type": "single", "question": "Was ist bei **Prokaryoten** anders als bei Eukaryoten?",
+      "options": [
+        { "text": "Die Translation beginnt, bevor die Transkription abgeschlossen ist", "correct": true },
+        { "text": "Die mRNA muss durch Kernporen exportiert werden" },
+        { "text": "Die Transkription findet im Zellkern statt" },
+        { "text": "Die mRNA erhält eine 5′-Cap" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 229" },
+    { "id": "tl-capping", "type": "multiple", "question": "Welche Funktionen hat die **7-Methylguanosin-Kappe (m^7^G)**?",
+      "options": [
+        { "text": "Erhöht die Stabilität und schützt vor enzymatischem Abbau", "correct": true },
+        { "text": "Unterstützt den Export aus dem Zellkern", "correct": true },
+        { "text": "Wichtig für die Initiation der Translation am Ribosom", "correct": true },
+        { "text": "Wird an Transkripte aller drei RNA-Polymerasen angebracht", "explain": "Nur Pol-II-Transkripte erhalten eine Cap." }
+      ], "explanation": "Das Capping ist der erste Schritt der RNA-Prozessierung.", "source": "VL-Skript ZUG Teil 1, S. 229–230" },
+    { "id": "tl-polya-signal", "type": "single", "question": "Welche Consensus-Sequenz nennt das Skript als Signal für die **Polyadenylierung**?",
+      "options": [ { "text": "AAUAAA", "correct": true }, { "text": "TATAAA" }, { "text": "CCAAT" }, { "text": "GGGCGG" } ],
+      "explanation": "Weitere: AUUAAA, UAUAAA. Beteiligt sind u. a. Poly-A-Polymerase, CPSF und CstF.", "source": "VL-Skript ZUG Teil 1, S. 229–230" },
+    { "id": "tl-polya-krankheit", "type": "multiple", "question": "Welche Erkrankungen nennt das Skript als Folge fehlerhafter **Polyadenylierung**?",
+      "options": [
+        { "text": "Okulopharyngeale Muskeldystrophie (PABPN1)", "correct": true },
+        { "text": "Neonataler Diabetes (Insulin-Gen)", "correct": true },
+        { "text": "Fragiles-X-Syndrom", "correct": true },
+        { "text": "β-Thalassämie", "explain": "Wird im Skript als Beispiel für Spleißfehler genannt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 230" },
+    { "id": "tl-spleissosom", "type": "multiple", "question": "Welche Aussagen zum **Spleißosom** stimmen?",
+      "options": [
+        { "text": "Es ist ein Komplex aus RNA- und Proteinmolekülen.", "correct": true },
+        { "text": "Fünf snRNAs (U1, U2, U4, U5, U6) bilden mit Proteinen die snRNPs.", "correct": true },
+        { "text": "Der Zyklus besteht aus Aufbau, Spleiß-Reaktion und snRNP-Recycling.", "correct": true },
+        { "text": "Es arbeitet im Zytoplasma.", "explain": "Spleißen findet posttranskriptionell im Zellkern statt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 231–232" },
+    { "id": "tl-exon-intron", "type": "single", "question": "Welche Aussage zu Exons und Introns stimmt?",
+      "options": [
+        { "text": "Exons sind meist kürzer als Introns; der codierende Bereich ist nur ein Bruchteil des Gens", "correct": true },
+        { "text": "Introns codieren für Proteine" },
+        { "text": "Alle Gene haben gleich viele Exons" },
+        { "text": "Prokaryoten haben besonders viele Introns" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 231" },
+    { "id": "tl-alt-spleissen", "type": "single", "question": "Was bewirkt **alternatives Spleißen**?",
+      "options": [
+        { "text": "Aus einem Gen können viele verschiedene Proteine entstehen", "correct": true },
+        { "text": "Introns werden in Protein übersetzt" },
+        { "text": "Die mRNA wird stabiler" },
+        { "text": "Mehrere Gene werden in eine mRNA transkribiert" }
+      ], "explanation": "Laut VL 14 durchlaufen 30–60 % der menschlichen Gene alternatives Spleißen, z. B. α-Tropomyosin. Die Proteinvielfalt wird vor allem dadurch bestimmt, nicht durch die Zahl der Gene.", "source": "VL-Skript ZUG Teil 1, S. 233" },
+    { "id": "tl-spleissfehler", "type": "multiple", "question": "Welche Folgen können **Spleißfehler** haben?",
+      "options": [
+        { "text": "Essentielle Exons werden übersprungen", "correct": true },
+        { "text": "Kryptische Spleißstellen werden aktiviert, nicht-codierende Sequenzen werden translatiert", "correct": true },
+        { "text": "Funktion oder Stabilität von Protein oder RNA sinkt", "correct": true },
+        { "text": "Beispiel: β-Thalassämie", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 233" },
+    { "id": "tl-rrna-45s", "type": "single", "question": "Wie entstehen die reifen 18S-, 5.8S- und 28S-rRNAs?",
+      "options": [
+        { "text": "Aus einer 45S-Vorläufer-RNA (RNA-Pol I), die im Nucleolus modifiziert und gespalten wird", "correct": true },
+        { "text": "Jede wird getrennt von RNA-Pol II im Zytoplasma transkribiert" },
+        { "text": "Durch Spleißen der mRNA" },
+        { "text": "Durch Translation am Ribosom" }
+      ], "explanation": "snoRNAs spielen bei den Modifikationen (z. B. U zu Pseudouridin, 2′-O-Methylierung) eine entscheidende Rolle.", "source": "VL-Skript ZUG Teil 1, S. 234" },
+    { "id": "tl-export", "type": "multiple", "question": "Welche Proteine müssen laut Skript für den Export durch den Kernporenkomplex an die mRNA gebunden sein?",
+      "options": [ { "text": "Poly(A)-Bindeprotein", "correct": true }, { "text": "Cap-Bindekomplex", "correct": true }, { "text": "Exon-junction-complex (EJC)", "correct": true }, { "text": "Sigma-Faktor" } ], "source": "VL-Skript ZUG Teil 1, S. 234" },
+    { "id": "tl-ribosom", "type": "multiple", "question": "Welche Aussagen zum **Ribosom** stimmen laut VL 14?",
+      "options": [
+        { "text": "20–30 nm groß", "correct": true },
+        { "text": "Frei im Zytoplasma oder an der ER-Membran", "correct": true },
+        { "text": "Die kleine Untereinheit erkennt die mRNA, die große hat Peptidyl-Transferase-Aktivität.", "correct": true },
+        { "text": "Die ribosomalen Proteine werden im Nucleolus synthetisiert.", "explain": "Sie werden im Cytoplasma synthetisiert und in den Kern importiert; im Nucleolus entstehen die meisten rRNAs." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 237, 239" },
+    { "id": "tl-wobble", "type": "single", "question": "Was besagt die **Wobble-Hypothese**?",
+      "options": [ { "text": "Eine Fehlpaarung an der 3. Position des Codons wird toleriert", "correct": true }, { "text": "Das Startcodon kann beliebig sein" }, { "text": "tRNAs können zwei Aminosäuren tragen" }, { "text": "Ribosomen können rückwärts lesen" } ], "source": "VL-Skript ZUG Teil 1, S. 237" },
+    { "id": "tl-synthetase", "type": "single", "question": "Welche Aussage zu **Aminoacyl-tRNA-Synthetasen** stimmt?",
+      "options": [ { "text": "Für jede Aminosäure gibt es eine eigene Synthetase", "correct": true }, { "text": "Eine Synthetase belädt alle tRNAs" }, { "text": "Sie sitzen an der A-Stelle des Ribosoms" }, { "text": "Sie erkennen Stoppcodons" } ], "source": "VL-Skript ZUG Teil 1, S. 238" },
+    { "id": "tl-antibiotika", "type": "single", "question": "Warum eignen sich Hemmstoffe der **prokaryotischen** Proteinsynthese als Antibiotika?",
+      "options": [
+        { "text": "Prokaryotische Ribosomen (70S) unterscheiden sich von eukaryotischen (80S)", "correct": true },
+        { "text": "Bakterien haben keine Ribosomen" },
+        { "text": "Bakterien nutzen einen anderen genetischen Code" },
+        { "text": "Bakterien brauchen keine tRNA" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 239" },
+    { "id": "tl-ape", "type": "matching", "question": "Ordne die tRNA-Bindungsstellen des Ribosoms zu.",
+      "pairs": [ { "left": "A-Stelle", "right": "Aminoacyl-tRNA" }, { "left": "P-Stelle", "right": "Peptidyl-tRNA" }, { "left": "E-Stelle", "right": "Exit" } ], "source": "VL-Skript ZUG Teil 1, S. 240" },
+    { "id": "tl-initiation", "type": "order", "question": "Bringe die Initiation der Translation in die richtige Reihenfolge.",
+      "items": [ "Initiator-tRNA mit Methionin bindet mit Initiationsfaktoren an die P-Stelle der kleinen Untereinheit", "Suche nach dem ersten AUG", "Die große ribosomale Untereinheit bindet", "Die nächste beladene tRNA wird an die A-Stelle angefügt" ], "source": "VL-Skript ZUG Teil 1, S. 240" },
+    { "id": "tl-start-as", "type": "single", "question": "Welche Aminosäure trägt die **Initiator-tRNA** immer?",
+      "options": [ { "text": "Methionin", "correct": true }, { "text": "Glycin" }, { "text": "Tryptophan" }, { "text": "Alanin" } ], "source": "VL-Skript ZUG Teil 1, S. 240" },
+    { "id": "tl-elongation", "type": "order", "question": "Bringe den Zyklus der **Elongation** in die richtige Reihenfolge.",
+      "items": [ "Beladene tRNA bindet an die A-Stelle", "Die Polypeptidkette wird von der tRNA der P-Stelle gelöst und an die Aminosäure der A-Stelle gekoppelt", "Die tRNAs werden zur P- und E-Stelle verschoben", "Die A-Stelle ist wieder frei" ], "source": "VL-Skript ZUG Teil 1, S. 241" },
+    { "id": "tl-termination", "type": "single", "question": "Was erkennt die **Stoppcodons** bei der Translation?",
+      "options": [ { "text": "Release-Faktoren, die an die A-Stelle binden", "correct": true }, { "text": "Eine spezielle Stopp-tRNA" }, { "text": "Der Sigma-Faktor" }, { "text": "Die Poly-A-Polymerase" } ],
+      "explanation": "Die Bindung zwischen Peptidkette und tRNA wird hydrolysiert, das Protein freigesetzt und der Komplex zerfällt.", "source": "VL-Skript ZUG Teil 1, S. 241" },
+    { "id": "tl-polyribosom", "type": "single", "question": "Was sind **Polyribosomen**?",
+      "options": [ { "text": "Mehrere Ribosomen, die gleichzeitig dieselbe mRNA translatieren", "correct": true }, { "text": "Ribosomen mit mehreren kleinen Untereinheiten" }, { "text": "Ribosomen im Zellkern" }, { "text": "Abgebaute Ribosomen im Lysosom" } ],
+      "explanation": "Die Synthese der meisten Proteine dauert zwischen 20 Sekunden und einigen Minuten.", "source": "VL-Skript ZUG Teil 1, S. 241" },
+    { "id": "tl-mrna-lebensdauer", "type": "matching", "question": "Ordne die Lebensdauer zu.",
+      "pairs": [
+        { "left": "Bakterielle mRNA", "right": "ca. 3 Minuten" },
+        { "left": "Eukaryotische mRNA", "right": "< 30 Minuten bis 10 Stunden" },
+        { "left": "Strukturproteine", "right": "Monate bis Jahre" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 242" },
+    { "id": "tl-proteasom", "type": "single", "question": "Welche Aufgabe haben **Proteasomen**?",
+      "options": [
+        { "text": "Abbau kurzlebiger sowie beschädigter und fehlgefalteter Proteine", "correct": true },
+        { "text": "Synthese von Proteinen" },
+        { "text": "Spleißen der prä-mRNA" },
+        { "text": "Abbau von mRNA zu Nukleotiden", "explain": "Das machen RNasen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 242" },
+    { "id": "tl-ptm", "type": "single", "question": "Wo können **posttranslationale Modifikationen** laut Skript stattfinden?",
+      "options": [ { "text": "Schon während der Translation, in Organellen wie dem Golgi-Apparat oder erst extrazellulär", "correct": true }, { "text": "Ausschließlich im Zellkern" }, { "text": "Nur im Nucleolus" }, { "text": "Nur an der DNA" } ],
+      "explanation": "Zuvor muss sich die Polypeptidkette in ihre korrekte 3D-Konformation falten; das Gen bestimmt die Primärstruktur.", "source": "VL-Skript ZUG Teil 1, S. 243" }
+  ]
+}
