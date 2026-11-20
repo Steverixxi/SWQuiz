@@ -42,7 +42,7 @@
     {
       "id": "epi-intermediaerfilament",
       "type": "single",
-      "question": "Aus welchem Intermediärfilament bestehen die typischen Intermediärfilamente von Epithelzellen?",
+      "question": "Welches Intermediärfilament ist typisch für Epithelzellen?",
       "options": [
         { "text": "Zytokeratin", "correct": true },
         { "text": "Vimentin", "explain": "Vimentin ist das vorrangige Intermediärfilament im Mesothel und vielen Endoepithelien, aber nicht das typische Epithelfilament." },
@@ -284,7 +284,7 @@
         { "n": 3, "x": 68, "y": 8, "answer": "Verhorntes Plattenepithel (Fingerbeere)" }
       ],
       "distractors": ["Urothel", "Einschichtig mehrreihiges Epithel"],
-      "explanation": "1: alle Schichten mit erkennbaren Kernen, keine Hornschicht. 2: 2–5 Schichten mit kubischen bis zylindrischen Superfizialzellen (laut Skript Präparat Zunge, z. B. Ausführungsgang). 3: kernlose Hornschicht obenauf.",
+      "explanation": "1: alle Schichten mit erkennbaren Kernen, keine Hornschicht. 2: 2–5 Schichten mit kubischen bis zylindrischen Superfizialzellen (Präparat laut Skript: Zunge). 3: kernlose Hornschicht obenauf.",
       "source": "VL-Skript ZUG Teil 1, S. 98"
     },
     {

@@ -1,0 +1,529 @@
+{
+  "chapter": "VL 1 – Zelle (Aufbau, Struktur, Funktion)",
+  "source": "VL-Skript ZUG Teil 1, VL 1 (S. 3–9)",
+  "questions": [
+    {
+      "id": "ze-kennzeichen-leben",
+      "type": "multiple",
+      "question": "Welche der folgenden zählen laut Skript zu den Kennzeichen des Lebens?",
+      "options": [
+        {
+          "text": "Reizbarkeit",
+          "correct": true
+        },
+        {
+          "text": "Fortpflanzung und Vermehrung",
+          "correct": true
+        },
+        {
+          "text": "Stoffwechsel",
+          "correct": true
+        },
+        {
+          "text": "Wachstum und Entwicklung",
+          "correct": true
+        },
+        {
+          "text": "Bewegung bzw. Motilität",
+          "correct": true
+        },
+        {
+          "text": "Besitz eines Zellkerns",
+          "explain": "Prokaryonten leben ohne Zellkern."
+        }
+      ]
+    },
+    {
+      "id": "ze-codons",
+      "type": "single",
+      "question": "Wie viele Codons sind maximal möglich, wenn eine Speichereinheit aus drei Nukleotiden (bei 4 Basen) besteht?",
+      "options": [
+        {
+          "text": "64 (4 × 4 × 4)",
+          "correct": true
+        },
+        {
+          "text": "20"
+        },
+        {
+          "text": "12 (4 × 3)"
+        },
+        {
+          "text": "16 (4 × 4)"
+        }
+      ],
+      "explanation": "64 mögliche Codons kodieren für 20 Aminosäuren (plus Stopp-Signale)."
+    },
+    {
+      "id": "ze-peptidbindung",
+      "type": "single",
+      "question": "Zwischen welchen Gruppen zweier Aminosäuren entsteht die Peptidbindung?",
+      "options": [
+        {
+          "text": "Zwischen der Carboxylgruppe der einen und der Aminogruppe der anderen",
+          "correct": true
+        },
+        {
+          "text": "Zwischen den beiden Seitenketten"
+        },
+        {
+          "text": "Zwischen zwei Aminogruppen"
+        },
+        {
+          "text": "Zwischen einer Phosphatgruppe und einer Hydroxylgruppe"
+        }
+      ],
+      "explanation": "Die Peptidbindung ist eine kovalente Bindung."
+    },
+    {
+      "id": "ze-pro-eukaryont",
+      "type": "matching",
+      "question": "Ordne die Merkmale der Prokaryonten- oder der Eukaryontenzelle zu.",
+      "pairs": [
+        {
+          "left": "Zirkuläre DNA, ein Chromosom, evtl. Plasmide",
+          "right": "Prokaryontenzelle"
+        },
+        {
+          "left": "DNA im Zellkern, an Histone gebunden, meist mehrere Chromosomen",
+          "right": "Eukaryontenzelle"
+        }
+      ]
+    },
+    {
+      "id": "ze-ribosomen-typen",
+      "type": "matching",
+      "question": "Ordne die Ribosomen-Untereinheiten ihren rRNAs zu.",
+      "pairs": [
+        {
+          "left": "30S (prokaryontisch)",
+          "right": "16S rRNA"
+        },
+        {
+          "left": "50S (prokaryontisch)",
+          "right": "23S und 5S rRNA"
+        },
+        {
+          "left": "40S (eukaryontisch)",
+          "right": "18S rRNA"
+        },
+        {
+          "left": "60S (eukaryontisch)",
+          "right": "28S, 5,8S und 5S rRNA"
+        }
+      ],
+      "explanation": "Prokaryonten: 70S-Ribosomen. Eukaryonten: 80S-Ribosomen."
+    },
+    {
+      "id": "ze-ribosomen-70-80",
+      "type": "single",
+      "question": "Welchen Ribosomentyp besitzen Eukaryontenzellen im Zytoplasma?",
+      "options": [
+        {
+          "text": "80S (60S + 40S)",
+          "correct": true
+        },
+        {
+          "text": "70S (50S + 30S)"
+        },
+        {
+          "text": "100S (70S + 30S)"
+        },
+        {
+          "text": "60S (40S + 20S)"
+        }
+      ],
+      "explanation": "Svedberg-Einheiten addieren sich nicht einfach: 60S + 40S ergibt 80S."
+    },
+    {
+      "id": "ze-prokaryont-merkmale",
+      "type": "multiple",
+      "question": "Welche Aussagen zu Bakterien treffen laut Skript zu?",
+      "options": [
+        {
+          "text": "Sie besitzen keinen Zellkern und keine Organellen",
+          "correct": true
+        },
+        {
+          "text": "Eine Zellteilung ist in ca. 20 Minuten möglich",
+          "correct": true
+        },
+        {
+          "text": "Plasmide können Resistenzgene tragen",
+          "correct": true
+        },
+        {
+          "text": "Ihre DNA ist an Histone gebunden und linear",
+          "explain": "Das trifft auf Eukaryonten zu."
+        },
+        {
+          "text": "Sie haben 80S-Ribosomen",
+          "explain": "Bakterien haben 70S-Ribosomen."
+        }
+      ]
+    },
+    {
+      "id": "ze-archaebakterien",
+      "type": "single",
+      "question": "Wo leben Archaebakterien typischerweise?",
+      "options": [
+        {
+          "text": "In Lebensräumen, die den Bedingungen der frühen Erde ähneln (Salzlaken, saure, sauerstofffreie Milieus, extreme Temperaturen)",
+          "correct": true
+        },
+        {
+          "text": "Ausschließlich im menschlichen Darm"
+        },
+        {
+          "text": "Nur in Süßwasser bei 20 °C"
+        },
+        {
+          "text": "Nur intrazellulär in Eukaryontenzellen"
+        }
+      ]
+    },
+    {
+      "id": "ze-miller-urey",
+      "type": "single",
+      "question": "Was zeigte das „Ursuppen-Experiment“ von Miller und Urey (1953)?",
+      "options": [
+        {
+          "text": "Einfache organische Verbindungen wie Glycin, Alanin, Milchsäure und Harnstoff können präbiotisch entstehen",
+          "correct": true
+        },
+        {
+          "text": "Mitochondrien stammen von Bakterien ab"
+        },
+        {
+          "text": "DNA ist die Erbsubstanz"
+        },
+        {
+          "text": "Zellen entstehen nur aus Zellen"
+        }
+      ],
+      "explanation": "Stichwort Abiogenese: präbiotische Entstehung organischer Moleküle."
+    },
+    {
+      "id": "ze-endosymbiont-pro",
+      "type": "multiple",
+      "question": "Welche Argumente sprechen für die Endosymbiontenhypothese der Mitochondrien?",
+      "options": [
+        {
+          "text": "Eigene DNA ohne typische Histonproteine",
+          "correct": true
+        },
+        {
+          "text": "Ribosomen ähnlich dem prokaryontischen 70S-Typ",
+          "correct": true
+        },
+        {
+          "text": "Vermehrung durch Zweiteilung",
+          "correct": true
+        },
+        {
+          "text": "Doppelmembran",
+          "correct": true
+        },
+        {
+          "text": "Der größte Teil der mitochondrialen Proteine ist im Kern codiert",
+          "explain": "Das ist ein Gegenargument."
+        }
+      ]
+    },
+    {
+      "id": "ze-endosymbiont-contra",
+      "type": "single",
+      "question": "Welches Argument nennt das Skript gegen die Endosymbiontenhypothese?",
+      "options": [
+        {
+          "text": "Der größte Teil der organellspezifischen Proteine ist im Zellkern codiert",
+          "correct": true
+        },
+        {
+          "text": "Mitochondrien besitzen eine Doppelmembran"
+        },
+        {
+          "text": "Mitochondrien vermehren sich durch Zweiteilung"
+        },
+        {
+          "text": "Mitochondrien haben 70S-ähnliche Ribosomen"
+        }
+      ]
+    },
+    {
+      "id": "ze-organellen-funktion",
+      "type": "matching",
+      "question": "Ordne die Organellen ihrer Hauptfunktion zu.",
+      "pairs": [
+        {
+          "left": "Nukleolus",
+          "right": "Ort der Ribosomen-Assemblierung"
+        },
+        {
+          "left": "Mitochondrium",
+          "right": "ATP-Synthese an den Cristae"
+        },
+        {
+          "left": "Lysosom",
+          "right": "Abbau mit sauren Hydrolasen"
+        },
+        {
+          "left": "Glattes ER",
+          "right": "Ca^2+^-Speicher"
+        },
+        {
+          "left": "Golgi-Apparat",
+          "right": "Sortierung und Glykosylierung von Proteinen"
+        }
+      ],
+      "distractors": [
+        "Speicherung der Erbinformation"
+      ]
+    },
+    {
+      "id": "ze-lysosom-m6p",
+      "type": "single",
+      "question": "Welches Signal lenkt neu synthetisierte lysosomale Proteine in Richtung Lysosom?",
+      "options": [
+        {
+          "text": "Phosphorylierte Mannose-Reste (Mannose-6-Phosphat)",
+          "correct": true
+        },
+        {
+          "text": "Die KDEL-Sequenz"
+        },
+        {
+          "text": "Eine Kernlokalisationssequenz"
+        },
+        {
+          "text": "Ein GPI-Anker"
+        }
+      ],
+      "explanation": "Mannose-6-Phosphat-Rezeptoren erkennen die M6P-Reste und lenken die Proteine ins lytische Kompartiment. KDEL hält Proteine im ER zurück."
+    },
+    {
+      "id": "ze-zytoplasma-ph",
+      "type": "single",
+      "question": "Welchen pH-Wert hat das Zytoplasma ungefähr?",
+      "options": [
+        {
+          "text": "ca. 7 (gepuffert)",
+          "correct": true
+        },
+        {
+          "text": "ca. 4,5–5"
+        },
+        {
+          "text": "ca. 2"
+        },
+        {
+          "text": "ca. 9"
+        }
+      ],
+      "explanation": "Saurer pH (ca. 4,5–5) herrscht in Lysosomen."
+    },
+    {
+      "id": "ze-proteinsynthese-start",
+      "type": "single",
+      "question": "Wo beginnt die Synthese fast aller Proteine einer Zelle?",
+      "options": [
+        {
+          "text": "An Ribosomen im Zytosol",
+          "correct": true
+        },
+        {
+          "text": "Im Golgi-Apparat"
+        },
+        {
+          "text": "Im Nukleolus"
+        },
+        {
+          "text": "In den Lysosomen"
+        }
+      ],
+      "explanation": "Ausnahme: einige Proteine der Mitochondrien (und Chloroplasten). Proteine ohne Sortierungssignal bleiben im Zytoplasma."
+    },
+    {
+      "id": "ze-sortiersignale",
+      "type": "multiple",
+      "question": "Welche Aussagen zu Sortierungssignalen treffen laut Skript zu?",
+      "options": [
+        {
+          "text": "Sie bestehen meist aus einer Abfolge von 3–60 Aminosäuren",
+          "correct": true
+        },
+        {
+          "text": "Sie werden oft vom fertigen Protein abgespalten",
+          "correct": true
+        },
+        {
+          "text": "Ihre Sequenzen variieren stark, erfüllen aber trotzdem dieselbe Funktion",
+          "correct": true
+        },
+        {
+          "text": "Proteine ohne Sortierungssignal werden automatisch sezerniert",
+          "explain": "Sie bleiben im Zytoplasma."
+        }
+      ]
+    },
+    {
+      "id": "ze-zytoskelett-durchmesser",
+      "type": "matching",
+      "question": "Ordne die Filamente des Zytoskeletts ihrem Durchmesser zu.",
+      "pairs": [
+        {
+          "left": "Aktinfilamente",
+          "right": "ca. 6 nm"
+        },
+        {
+          "left": "Intermediärfilamente",
+          "right": "ca. 10 nm"
+        },
+        {
+          "left": "Mikrotubuli",
+          "right": "ca. 23–25 nm, Röhren aus Tubulin"
+        }
+      ],
+      "explanation": "Das Skript nennt für Mikrotubuli ca. 23 nm."
+    },
+    {
+      "id": "ze-motorproteine",
+      "type": "matching",
+      "question": "Ordne die Mikrotubuli-Motorproteine ihrer Transportrichtung zu.",
+      "pairs": [
+        {
+          "left": "Dyneine",
+          "right": "In Richtung Zentriolen bzw. Basalkörper"
+        },
+        {
+          "left": "Kinesine",
+          "right": "Mit Fracht zur Zellperipherie"
+        }
+      ]
+    },
+    {
+      "id": "ze-mikrotubuli-gifte",
+      "type": "multiple",
+      "question": "Welche Substanzen greifen laut Skript in die Polymerisation bzw. Depolymerisation von Mikrotubuli ein?",
+      "options": [
+        {
+          "text": "Taxol",
+          "correct": true
+        },
+        {
+          "text": "Colchicin",
+          "correct": true
+        },
+        {
+          "text": "Vinblastin",
+          "correct": true
+        },
+        {
+          "text": "Ouabain"
+        },
+        {
+          "text": "Cholesterin"
+        }
+      ]
+    },
+    {
+      "id": "ze-intermediaer-aufbau",
+      "type": "order",
+      "question": "Bringe den Aufbau eines Intermediärfilaments in die richtige Reihenfolge.",
+      "items": [
+        "Polare Monomere",
+        "Dimere",
+        "Unpolare Tetramere (zwei antiparallele Dimere)",
+        "Protofilamente",
+        "Intermediärfilament aus acht Protofilamenten"
+      ]
+    },
+    {
+      "id": "ze-intermediaer-typen",
+      "type": "multiple",
+      "question": "Welche Proteine bilden laut Skript Intermediärfilamente?",
+      "options": [
+        {
+          "text": "Keratine",
+          "correct": true
+        },
+        {
+          "text": "Vimentin",
+          "correct": true
+        },
+        {
+          "text": "Desmin",
+          "correct": true
+        },
+        {
+          "text": "GFAP (saures Gliafaserprotein)",
+          "correct": true
+        },
+        {
+          "text": "Tubulin",
+          "explain": "Tubulin bildet Mikrotubuli."
+        },
+        {
+          "text": "Aktin",
+          "explain": "Aktin bildet die Mikrofilamente."
+        }
+      ]
+    },
+    {
+      "id": "ze-flagellen-cilien",
+      "type": "matching",
+      "question": "Ordne Flagellen und Cilien zu.",
+      "pairs": [
+        {
+          "left": "Flagellen",
+          "right": "Wenige pro Zelle, 50–500 µm, peitschenschlagartig"
+        },
+        {
+          "left": "Cilien",
+          "right": "Viele pro Zelle, 5–15 µm, koordinierte Wellen"
+        }
+      ],
+      "explanation": "Beide haben ein 9×2+2-Mikrotubulusmuster; benachbarte Tubuli sind über Dynein verbunden."
+    },
+    {
+      "id": "ze-membranverbindungen",
+      "type": "matching",
+      "question": "Ordne die Membranverbindungen ihrer Gruppe zu.",
+      "pairs": [
+        {
+          "left": "Tight Junction (Zonula occludens)",
+          "right": "Verschlussverbindung"
+        },
+        {
+          "left": "Desmosom, Hemidesmosom",
+          "right": "Ankerverbindung"
+        },
+        {
+          "left": "Gap Junction",
+          "right": "Kommunikationsverbindung"
+        }
+      ]
+    },
+    {
+      "id": "ze-er-funktion",
+      "type": "matching",
+      "question": "Ordne raues und glattes ER ihrer Funktion zu.",
+      "pairs": [
+        {
+          "left": "Raues ER",
+          "right": "Synthese sezernierter Proteine"
+        },
+        {
+          "left": "Glattes ER",
+          "right": "Ca^2+^-Speicher"
+        }
+      ]
+    },
+    {
+      "id": "ze-flash-endosymbiont",
+      "type": "flashcard",
+      "front": "Was besagt die **Endosymbiontenhypothese**?",
+      "back": "Mitochondrien und Plastiden (Chloroplasten) sind semiautonome, sich selbst verdoppelnde Organellen, die von ehemals freilebenden Einzellern (Prokaryonten) abstammen. Dafür sprechen eigene DNA ohne typische Histone, 70S-ähnliche Ribosomen, Zweiteilung und Doppelmembran. Dagegen spricht, dass die meisten Organellproteine im Kern codiert sind."
+    }
+  ]
+}

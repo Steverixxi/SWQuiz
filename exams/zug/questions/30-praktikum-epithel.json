@@ -1,0 +1,1222 @@
+{
+  "chapter": "Praktikum 1 – Epithelgewebe (digitale Schnitte)",
+  "source": "Digitale Schnitte JKU (OMERO), Praktikum 1",
+  "questions": [
+    {
+      "id": "ds-maus-organe",
+      "type": "image",
+      "question": "Junge Maus, Sagittalschnitt (JKU 2, Azan): Ordne die markierten Organe zu.",
+      "image": "images/ds-maus-rumpf.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 68,
+          "y": 68,
+          "answer": "Leber"
+        },
+        {
+          "n": 2,
+          "x": 34,
+          "y": 60,
+          "answer": "Darmschlinge"
+        },
+        {
+          "n": 3,
+          "x": 78.8,
+          "y": 33,
+          "answer": "Lunge"
+        },
+        {
+          "n": 4,
+          "x": 88,
+          "y": 58,
+          "answer": "Herz"
+        },
+        {
+          "n": 5,
+          "x": 45,
+          "y": 97,
+          "ax": 45,
+          "ay": 89,
+          "answer": "Haut mit Haarfollikeln"
+        }
+      ],
+      "distractors": [
+        "Niere",
+        "Milz"
+      ],
+      "explanation": "Im Übersichtsschnitt sieht man die Körperhöhlen: Bauchhöhle (Peritonealhöhle) mit Leber und Darmschlingen, Brusthöhle mit Lunge und Herz. Alle diese Höhlen sind von **Mesothel** ausgekleidet.",
+      "source": "Digitaler Schnitt JKU 2; VL-Skript ZUG Teil 1, S. 88–89"
+    },
+    {
+      "id": "ds-maus-thorax",
+      "type": "image",
+      "question": "Junge Maus, Brustraum (JKU 2, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-maus-thorax.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 31,
+          "y": 56,
+          "answer": "Lunge (Alveolen)"
+        },
+        {
+          "n": 2,
+          "x": 55,
+          "y": 70,
+          "answer": "Herz (mit Blut gefüllt)"
+        },
+        {
+          "n": 3,
+          "x": 9,
+          "y": 66,
+          "answer": "Leber"
+        },
+        {
+          "n": 4,
+          "x": 13,
+          "y": 44,
+          "ax": 18.6,
+          "ay": 46,
+          "answer": "Zwerchfell"
+        },
+        {
+          "n": 5,
+          "x": 86,
+          "y": 12,
+          "answer": "Wirbelkörper-Anlage aus hyalinem Knorpel"
+        }
+      ],
+      "distractors": [
+        "Thymus",
+        "Darmschlinge"
+      ],
+      "explanation": "Das Zwerchfell trennt Bauch- und Brusthöhle. Im Azan färbt sich die Knorpelmatrix der Wirbelanlagen blau.",
+      "source": "Digitaler Schnitt JKU 2"
+    },
+    {
+      "id": "ds-maus-mesothel",
+      "type": "image",
+      "question": "Oberfläche der Leber, starke Vergrößerung (JKU 2, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-maus-mesothel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 30,
+          "y": 70,
+          "ax": 37.7,
+          "ay": 46.5,
+          "answer": "Mesothel (einschichtiges Plattenepithel)"
+        },
+        {
+          "n": 2,
+          "x": 60,
+          "y": 15,
+          "answer": "Leberparenchym"
+        },
+        {
+          "n": 3,
+          "x": 20,
+          "y": 82,
+          "answer": "Bauchhöhle (Peritonealhöhle)"
+        }
+      ],
+      "distractors": [
+        "Endothel",
+        "Mehrschichtiges Plattenepithel"
+      ],
+      "explanation": "Das Mesothel ist ein einschichtiges Plattenepithel der serösen Häute (Pleura, Peritoneum, Perikard). Die Zellen sind so flach, dass oft nur die abgeflachten Kerne als feine Linie auffallen.",
+      "source": "Digitaler Schnitt JKU 2; VL-Skript ZUG Teil 1, S. 88–89"
+    },
+    {
+      "id": "ds-maus-mesothel-typ",
+      "type": "single",
+      "question": "Welcher Epitheltyp überzieht die Organe in der Bauch- und Brusthöhle (Pfeil)?",
+      "image": "images/ds-maus-mesothel.jpg",
+      "options": [
+        {
+          "text": "Einschichtiges Plattenepithel (Mesothel)",
+          "correct": true
+        },
+        {
+          "text": "Einschichtig isoprismatisches Epithel"
+        },
+        {
+          "text": "Mehrschichtig unverhorntes Plattenepithel"
+        },
+        {
+          "text": "Urothel"
+        }
+      ],
+      "explanation": "Mesothel: einschichtiges Plattenepithel der Körperhöhlen ohne Verbindung zur Körperoberfläche, Zellen durch Tight Junctions verbunden, apikal Mikrovilli.",
+      "source": "VL-Skript ZUG Teil 1, S. 88"
+    },
+    {
+      "id": "ds-maus-mesothel-ort",
+      "type": "multiple",
+      "question": "In diesem Schnitt sieht man mehrere seröse Höhlen. Welche Häute sind laut Skript mit Mesothel ausgekleidet?",
+      "image": "images/ds-maus-rumpf.jpg",
+      "options": [
+        {
+          "text": "Pleura",
+          "correct": true
+        },
+        {
+          "text": "Peritoneum",
+          "correct": true
+        },
+        {
+          "text": "Perikard",
+          "correct": true
+        },
+        {
+          "text": "Innenwand der Blutgefäße",
+          "explain": "Das ist Endothel."
+        },
+        {
+          "text": "Epidermis",
+          "explain": "Mehrschichtig verhorntes Plattenepithel."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 88"
+    },
+    {
+      "id": "ds-maus-darm-leber",
+      "type": "image",
+      "question": "Bauchhöhle (JKU 2, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-maus-bauchhoehle.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 17,
+          "y": 40,
+          "answer": "Darmschlinge mit Zotten"
+        },
+        {
+          "n": 2,
+          "x": 80,
+          "y": 45,
+          "answer": "Leber"
+        },
+        {
+          "n": 3,
+          "x": 45,
+          "y": 72,
+          "answer": "Peritonealhöhle"
+        }
+      ],
+      "distractors": [
+        "Lunge",
+        "Pleurahöhle"
+      ],
+      "explanation": "Darm und Leber liegen in der Peritonealhöhle und sind an ihrer Oberfläche von Mesothel (Serosa) überzogen. Die roten Klümpchen in der Höhle sind ausgetretene Erythrozyten (Präparationsartefakt).",
+      "source": "Digitaler Schnitt JKU 2"
+    },
+    {
+      "id": "ds-sd-organ",
+      "type": "single",
+      "question": "Digitaler Schnitt (JKU 40, HE): Welches Organ ist hier in der Übersicht zu sehen?",
+      "image": "images/ds-schilddruese-lupe.jpg",
+      "options": [
+        {
+          "text": "Schilddrüse",
+          "correct": true
+        },
+        {
+          "text": "Glandula parotidea",
+          "explain": "Speicheldrüse: Azini und Ausführungsgänge, kein Kolloid."
+        },
+        {
+          "text": "Lymphknoten",
+          "explain": "Lymphknoten: dicht gelagerte Lymphozyten, keine kolloidgefüllten Bläschen."
+        },
+        {
+          "text": "Lunge",
+          "explain": "Alveolen sind leer und von dünnen Septen begrenzt."
+        }
+      ],
+      "explanation": "Typisch sind zahllose, unterschiedlich große **Follikel**, die mit homogen rosa gefärbtem **Kolloid** gefüllt sind, dazwischen bindegewebige Septen mit Blutgefäßen.",
+      "source": "Digitaler Schnitt JKU 40; VL-Skript ZUG Teil 1, S. 92–93"
+    },
+    {
+      "id": "ds-sd-follikel",
+      "type": "image",
+      "question": "Schilddrüse (JKU 40, HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-schilddruese-follikel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 19.5,
+          "y": 33,
+          "answer": "Kolloid im Follikellumen"
+        },
+        {
+          "n": 2,
+          "x": 46,
+          "y": 12,
+          "ax": 38.6,
+          "ay": 20.5,
+          "answer": "Follikelepithel"
+        },
+        {
+          "n": 3,
+          "x": 75,
+          "y": 5,
+          "ax": 82,
+          "ay": 10,
+          "answer": "Wand eines Blutgefäßes"
+        },
+        {
+          "n": 4,
+          "x": 52,
+          "y": 46,
+          "answer": "Lockeres Bindegewebe zwischen den Läppchen"
+        }
+      ],
+      "distractors": [
+        "Becherzelle",
+        "Seröser Azinus"
+      ],
+      "explanation": "Die Follikel sind von einem einschichtigen Epithel ausgekleidet und mit Kolloid gefüllt. Zwischen Follikelgruppen liegt lockeres Bindegewebe mit Gefäßen.",
+      "source": "Digitaler Schnitt JKU 40; VL-Skript ZUG Teil 1, S. 92–93"
+    },
+    {
+      "id": "ds-sd-epithel",
+      "type": "image",
+      "question": "Schilddrüse, stärkere Vergrößerung (JKU 40, HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-schilddruese-epithel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 23.3,
+          "y": 35.2,
+          "answer": "Kolloid"
+        },
+        {
+          "n": 2,
+          "x": 72.5,
+          "y": 61.6,
+          "ax": 81,
+          "ay": 58,
+          "answer": "Einschichtig isoprismatisches Follikelepithel"
+        },
+        {
+          "n": 3,
+          "x": 39.5,
+          "y": 22,
+          "ax": 29.5,
+          "ay": 9,
+          "answer": "Blutgefäß mit Erythrozyten"
+        }
+      ],
+      "distractors": [
+        "Mehrschichtiges Plattenepithel",
+        "Basalzellen"
+      ],
+      "explanation": "Isoprismatisch (kubisch): Höhe und Breite der Zellen etwa gleich, Kerne rundlich. Hellblaue Pfeile im Skript (S. 93) markieren ebenfalls die mit Erythrozyten gefüllten Blutgefäße.",
+      "source": "Digitaler Schnitt JKU 40; VL-Skript ZUG Teil 1, S. 92–93"
+    },
+    {
+      "id": "ds-sd-epitheltyp",
+      "type": "single",
+      "question": "Welcher Epitheltyp kleidet die Follikel in diesem Präparat aus?",
+      "image": "images/ds-schilddruese-epithel.jpg",
+      "options": [
+        {
+          "text": "Einschichtig isoprismatisches (kubisches) Epithel",
+          "correct": true
+        },
+        {
+          "text": "Einschichtiges Plattenepithel",
+          "explain": "Beim Plattenepithel ist die Zelle viel breiter als hoch, der Kern flach."
+        },
+        {
+          "text": "Einschichtig hochprismatisches Epithel",
+          "explain": "Hochprismatisch: Zellen deutlich höher als breit, längsovale Kerne."
+        },
+        {
+          "text": "Mehrschichtiges Epithel"
+        }
+      ],
+      "explanation": "Laut Skript kommt isoprismatisches Epithel u. a. in Schilddrüsenfollikeln, kleinen Gallengängen und im Sammelrohr der Niere vor.",
+      "source": "Digitaler Schnitt JKU 40; VL-Skript ZUG Teil 1, S. 92"
+    },
+    {
+      "id": "ds-sd-kolloid",
+      "type": "single",
+      "question": "Was füllt die rundlichen Hohlräume in diesem Präparat aus?",
+      "image": "images/ds-schilddruese-follikel.jpg",
+      "options": [
+        {
+          "text": "Kolloid (Speicherform des Sekrets im Follikellumen)",
+          "correct": true
+        },
+        {
+          "text": "Schleim (Muzine) aus Becherzellen"
+        },
+        {
+          "text": "Blutplasma"
+        },
+        {
+          "text": "Fett (herausgelöst)",
+          "explain": "Fettzellen erscheinen im HE-Schnitt leer, weil das Fett herausgelöst wird."
+        }
+      ],
+      "explanation": "Die Schilddrüse ist eine endokrine Drüse (kein Ausführungsgang). Das Sekret wird im Follikellumen als Kolloid gespeichert.",
+      "source": "Digitaler Schnitt JKU 40; VL-Skript ZUG Teil 1, S. 81 und 100"
+    },
+    {
+      "id": "ds-duo-uebersicht",
+      "type": "image",
+      "question": "Duodenum, Querschnitt (JKU 68, HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-duodenum-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 76,
+          "y": 7,
+          "answer": "Darmlumen"
+        },
+        {
+          "n": 2,
+          "x": 70,
+          "y": 62,
+          "answer": "Schleimhaut (Mukosa) mit Zotten"
+        },
+        {
+          "n": 3,
+          "x": 33,
+          "y": 30,
+          "answer": "Brunner-Drüsen in der Submukosa"
+        },
+        {
+          "n": 4,
+          "x": 14,
+          "y": 62,
+          "ax": 25.5,
+          "ay": 64,
+          "answer": "Tunica muscularis"
+        },
+        {
+          "n": 5,
+          "x": 36,
+          "y": 60,
+          "ax": 42.5,
+          "ay": 56,
+          "answer": "Blutgefäß"
+        }
+      ],
+      "distractors": [
+        "Lymphfollikel",
+        "Mehrschichtiges Plattenepithel"
+      ],
+      "explanation": "Kennzeichen des Duodenums sind die mukösen **Brunner-Drüsen** in der Submukosa. Die Schleimhaut ist von einschichtig hochprismatischem Epithel überzogen.",
+      "source": "Digitaler Schnitt JKU 68; VL-Skript ZUG Teil 1, S. 92, 94, 100"
+    },
+    {
+      "id": "ds-duo-schleimhaut",
+      "type": "image",
+      "question": "Duodenum, mittlere Vergrößerung (JKU 68, HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-duodenum-schleimhaut.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 6,
+          "y": 62,
+          "answer": "Brunner-Drüsen (mukös)"
+        },
+        {
+          "n": 2,
+          "x": 62,
+          "y": 57,
+          "ax": 53,
+          "ay": 60,
+          "answer": "Zotte (Villus)"
+        },
+        {
+          "n": 3,
+          "x": 62,
+          "y": 80,
+          "answer": "Darmlumen"
+        }
+      ],
+      "distractors": [
+        "Seröse Azini",
+        "Kolloid"
+      ],
+      "explanation": "Die Brunner-Drüsen sind laut Skript ein Beispiel für rein muköse Drüsen.",
+      "source": "Digitaler Schnitt JKU 68; VL-Skript ZUG Teil 1, S. 100"
+    },
+    {
+      "id": "ds-duo-epithel",
+      "type": "image",
+      "question": "Duodenum, starke Vergrößerung (JKU 68, HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-duodenum-epithel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 40,
+          "y": 92,
+          "ax": 38.2,
+          "ay": 80,
+          "answer": "Becherzelle"
+        },
+        {
+          "n": 2,
+          "x": 8,
+          "y": 95,
+          "ax": 12,
+          "ay": 84.5,
+          "answer": "Einschichtig hochprismatisches Epithel"
+        },
+        {
+          "n": 3,
+          "x": 25,
+          "y": 63,
+          "answer": "Lamina propria mit freien Bindegewebszellen"
+        }
+      ],
+      "distractors": [
+        "Kinozilien",
+        "Mehrkernige Deckzelle"
+      ],
+      "explanation": "Hochprismatisch: Zellen höher als breit, längsovale Kerne in einer Reihe. Becherzellen sind intraepitheliale (unizelluläre) Drüsen und erscheinen im HE-Schnitt hell, weil der Schleim kaum angefärbt wird.",
+      "source": "Digitaler Schnitt JKU 68; VL-Skript ZUG Teil 1, S. 92, 94, 100"
+    },
+    {
+      "id": "ds-duo-epitheltyp",
+      "type": "single",
+      "question": "Welches Epithel kleidet die Schleimhaut des Duodenums aus?",
+      "image": "images/ds-duodenum-epithel.jpg",
+      "options": [
+        {
+          "text": "Einschichtig hochprismatisches Epithel (Zylinderepithel)",
+          "correct": true
+        },
+        {
+          "text": "Einschichtig mehrreihiges Flimmerepithel",
+          "explain": "Das findet man in den Atemwegen."
+        },
+        {
+          "text": "Mehrschichtig unverhorntes Plattenepithel",
+          "explain": "Das findet man z. B. im Ösophagus."
+        },
+        {
+          "text": "Einschichtig isoprismatisches Epithel"
+        }
+      ],
+      "explanation": "Laut Skript kommt hochprismatisches Epithel in vielen Hohlorganen vor, z. B. Magen, Darm, Gallenblase und Uterus.",
+      "source": "VL-Skript ZUG Teil 1, S. 92 und 94"
+    },
+    {
+      "id": "ds-duo-becherzelle",
+      "type": "single",
+      "question": "Die hellen, rundlichen Zellen im Epithel (Pfeil 1 der Vorfrage) sind Becherzellen. Wie lassen sie sich als Drüse einordnen?",
+      "image": "images/ds-duodenum-epithel.jpg",
+      "options": [
+        {
+          "text": "Intraepitheliale, unizelluläre exokrine Drüse",
+          "correct": true
+        },
+        {
+          "text": "Extraepitheliale, zusammengesetzte Drüse"
+        },
+        {
+          "text": "Endokrine Drüse ohne Ausführungsgang"
+        },
+        {
+          "text": "Holokrine Drüse"
+        }
+      ],
+      "explanation": "Intraepithelial: Drüsenzellen liegen zwischen den Zellen eines Oberflächenepithels. Becherzellen sind das Beispiel für unizelluläre Drüsen.",
+      "source": "VL-Skript ZUG Teil 1, S. 100"
+    },
+    {
+      "id": "ds-duo-brunner",
+      "type": "single",
+      "question": "Welche Beschaffenheit hat das Sekret der Drüsen in der Submukosa des Duodenums (Brunner-Drüsen)?",
+      "image": "images/ds-duodenum-schleimhaut.jpg",
+      "options": [
+        {
+          "text": "Mukös (zähflüssig, schleimig, enthält Muzine)",
+          "correct": true
+        },
+        {
+          "text": "Serös (dünnflüssig, eiweißreich)"
+        },
+        {
+          "text": "Gemischt seromukös"
+        },
+        {
+          "text": "Holokrin (ganze Zelle wird zum Sekret)"
+        }
+      ],
+      "explanation": "Mukös: zähflüssig, enthält Muzine, weites Lumen. Beispiele laut Skript: Brunner-Drüsen im Duodenum, Ösophagus.",
+      "source": "VL-Skript ZUG Teil 1, S. 100"
+    },
+    {
+      "id": "ds-to-uebersicht",
+      "type": "image",
+      "question": "Trachea und Ösophagus, Querschnitt (JKU 65, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-trachea-oesophagus-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 30,
+          "y": 67,
+          "answer": "Lumen des Ösophagus"
+        },
+        {
+          "n": 2,
+          "x": 8.8,
+          "y": 72.6,
+          "answer": "Muskelwand des Ösophagus"
+        },
+        {
+          "n": 3,
+          "x": 68,
+          "y": 34,
+          "answer": "Lumen der Trachea"
+        },
+        {
+          "n": 4,
+          "x": 88,
+          "y": 20,
+          "ax": 93.6,
+          "ay": 38,
+          "answer": "Trachealknorpel (hyaliner Knorpel)"
+        }
+      ],
+      "distractors": [
+        "Schilddrüse",
+        "Elastischer Knorpel"
+      ],
+      "explanation": "Die Trachea wird durch hufeisenförmige Spangen aus hyalinem Knorpel offen gehalten (im Azan blau). Der Ösophagus hat eine dicke Muskelwand und ein gefaltetes, mehrschichtiges Plattenepithel.",
+      "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 95, 97, 183"
+    },
+    {
+      "id": "ds-to-trachea-wand",
+      "type": "image",
+      "question": "Trachea, Wand (JKU 65, Azan): Ordne die markierten Strukturen von innen nach außen zu.",
+      "image": "images/ds-trachea-wand.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 25,
+          "y": 45,
+          "answer": "Lumen"
+        },
+        {
+          "n": 2,
+          "x": 45,
+          "y": 62,
+          "ax": 52.3,
+          "ay": 64,
+          "answer": "Respiratorisches Epithel"
+        },
+        {
+          "n": 3,
+          "x": 58,
+          "y": 20,
+          "answer": "Lockeres Bindegewebe mit Gefäßen"
+        },
+        {
+          "n": 4,
+          "x": 70,
+          "y": 62,
+          "answer": "Hyaliner Knorpel"
+        },
+        {
+          "n": 5,
+          "x": 79,
+          "y": 30,
+          "answer": "Adventitia mit Fettzellen"
+        }
+      ],
+      "distractors": [
+        "Elastischer Knorpel",
+        "Mehrschichtiges Plattenepithel"
+      ],
+      "explanation": "Hyaliner Knorpel kommt laut Skript in den Atemwegen vor. Er ist von Perichondrium umgeben und frei von Blutgefäßen.",
+      "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 95, 180–183"
+    },
+    {
+      "id": "ds-to-trachea-epithel",
+      "type": "image",
+      "question": "Respiratorisches Epithel der Trachea, starke Vergrößerung (JKU 65, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-trachea-epithel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 22,
+          "y": 40,
+          "ax": 33,
+          "ay": 44,
+          "answer": "Kinozilien"
+        },
+        {
+          "n": 2,
+          "x": 22,
+          "y": 70,
+          "ax": 39.5,
+          "ay": 66,
+          "answer": "Einschichtig mehrreihiges Epithel"
+        },
+        {
+          "n": 3,
+          "x": 75,
+          "y": 30,
+          "answer": "Lamina propria (lockeres Bindegewebe)"
+        },
+        {
+          "n": 4,
+          "x": 64,
+          "y": 73,
+          "answer": "Blutgefäß"
+        },
+        {
+          "n": 5,
+          "x": 97,
+          "y": 15,
+          "answer": "Hyaliner Knorpel"
+        }
+      ],
+      "distractors": [
+        "Mikrovilli (Bürstensaum)",
+        "Hornschicht"
+      ],
+      "explanation": "Mehrreihig: Alle Zellen sitzen der Basallamina auf, aber nicht alle erreichen die Oberfläche. Deshalb liegen die Kerne scheinbar in mehreren Reihen. Kinozilien (9×2+2) bewegen den Schleimfilm.",
+      "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 87 und 95"
+    },
+    {
+      "id": "ds-to-trachea-typ",
+      "type": "single",
+      "question": "Wie bezeichnet man das Epithel, das die Trachea auskleidet?",
+      "image": "images/ds-trachea-epithel.jpg",
+      "options": [
+        {
+          "text": "Einschichtig mehrreihiges Flimmerepithel (respiratorisches Epithel)",
+          "correct": true
+        },
+        {
+          "text": "Mehrschichtiges hochprismatisches Epithel"
+        },
+        {
+          "text": "Mehrschichtig unverhorntes Plattenepithel"
+        },
+        {
+          "text": "Einschichtig hochprismatisches Epithel mit Bürstensaum"
+        }
+      ],
+      "explanation": "Die Kerne liegen scheinbar in mehreren Reihen. Die oberste Kernreihe gehört zu den Hauptzellen, die bis an die Oberfläche reichen, die unterste zu den Basalzellen (Regeneration).",
+      "source": "VL-Skript ZUG Teil 1, S. 95"
+    },
+    {
+      "id": "ds-to-zilien",
+      "type": "single",
+      "question": "Welche Oberflächendifferenzierung trägt das Trachealepithel (Pfeil 1 der Bildfrage)?",
+      "image": "images/ds-trachea-epithel.jpg",
+      "options": [
+        {
+          "text": "Kinozilien, aktiv beweglich, Mikrotubuli im 9×2+2-Muster",
+          "correct": true
+        },
+        {
+          "text": "Mikrovilli, unbeweglich, Aktinfilamente"
+        },
+        {
+          "text": "Stereozilien, lange Aktinfilamentbündel"
+        },
+        {
+          "text": "Primäre Zilien, 9+0-Muster"
+        }
+      ],
+      "explanation": "Kinozilien kommen laut Skript im Flimmerepithel der Atemwege, in der Tuba uterina, den Ductuli efferentes und im Ependym vor.",
+      "source": "VL-Skript ZUG Teil 1, S. 87"
+    },
+    {
+      "id": "ds-to-oeso-wand",
+      "type": "image",
+      "question": "Ösophagus, Wand (JKU 65, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-oesophagus-wand.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 92,
+          "y": 38,
+          "answer": "Lumen"
+        },
+        {
+          "n": 2,
+          "x": 83,
+          "y": 30,
+          "ax": 80,
+          "ay": 9,
+          "answer": "Mehrschichtiges Plattenepithel"
+        },
+        {
+          "n": 3,
+          "x": 60,
+          "y": 30,
+          "answer": "Lockeres Bindegewebe unter dem Epithel"
+        },
+        {
+          "n": 4,
+          "x": 33,
+          "y": 36,
+          "answer": "Muskelschicht (Tunica muscularis)"
+        }
+      ],
+      "distractors": [
+        "Hyaliner Knorpel",
+        "Respiratorisches Epithel"
+      ],
+      "explanation": "Im Azan erscheint kollagenes Bindegewebe blau, Muskulatur rötlich-braun. Das Epithel ist gefaltet und mehrschichtig.",
+      "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 97"
+    },
+    {
+      "id": "ds-to-oeso-epithel",
+      "type": "image",
+      "question": "Ösophagus, Epithel (JKU 65, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-oesophagus-epithel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 50,
+          "y": 12,
+          "answer": "Lumen"
+        },
+        {
+          "n": 2,
+          "x": 38,
+          "y": 25,
+          "ax": 43,
+          "ay": 42,
+          "answer": "Superfizialschicht mit abgeflachten Zellen"
+        },
+        {
+          "n": 3,
+          "x": 62,
+          "y": 93,
+          "ax": 50,
+          "ay": 77.5,
+          "answer": "Basalzellschicht (Proliferationszone)"
+        },
+        {
+          "n": 4,
+          "x": 10,
+          "y": 80,
+          "answer": "Bindegewebe der Lamina propria"
+        },
+        {
+          "n": 5,
+          "x": 30,
+          "y": 95,
+          "ax": 40.5,
+          "ay": 90,
+          "answer": "Blutgefäß"
+        }
+      ],
+      "distractors": [
+        "Kinozilien",
+        "Becherzelle"
+      ],
+      "explanation": "Beim mehrschichtigen Epithel erreichen nur die Basalzellen die Basalmembran. Die Zellen wandern nach oben, reifen und flachen ab. Die Kerne werden flacher, bleiben aber bis in die oberste lebende Schicht erkennbar.",
+      "source": "Digitaler Schnitt JKU 65; VL-Skript ZUG Teil 1, S. 97"
+    },
+    {
+      "id": "ds-to-oeso-typ",
+      "type": "single",
+      "question": "Wie wird das Epithel des Ösophagus im Kurs eingeordnet?",
+      "image": "images/ds-oesophagus-epithel.jpg",
+      "options": [
+        {
+          "text": "Mehrschichtig unverhorntes Plattenepithel",
+          "correct": true
+        },
+        {
+          "text": "Mehrschichtig verhorntes Plattenepithel",
+          "explain": "Verhornt ist z. B. die Epidermis."
+        },
+        {
+          "text": "Urothel"
+        },
+        {
+          "text": "Mehrschichtiges prismatisches Epithel"
+        }
+      ],
+      "explanation": "Laut Skript kommt unverhorntes Plattenepithel in Cornea, Plica vocalis, Mundhöhle, Ösophagus, Pharynx, Vagina und After vor. Präparat im Skript S. 98: Ösophagus.",
+      "source": "VL-Skript ZUG Teil 1, S. 97–98"
+    },
+    {
+      "id": "ds-to-basal",
+      "type": "single",
+      "question": "Welche Zellen des Ösophagusepithels erreichen die Basalmembran?",
+      "image": "images/ds-oesophagus-epithel.jpg",
+      "options": [
+        {
+          "text": "Nur die Basalzellen",
+          "correct": true
+        },
+        {
+          "text": "Alle Zellen, wie beim mehrreihigen Epithel"
+        },
+        {
+          "text": "Nur die Superfizialzellen"
+        },
+        {
+          "text": "Keine, das Epithel liegt frei auf dem Muskel"
+        }
+      ],
+      "explanation": "Die Basalzellen bilden die Proliferationszone. Gliederung: Basalzellschicht, Intermediärschicht, Superfizialschicht.",
+      "source": "VL-Skript ZUG Teil 1, S. 97"
+    },
+    {
+      "id": "ds-ur-uebersicht",
+      "type": "image",
+      "question": "Ureter, Querschnitt (JKU 79, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-ureter-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 44,
+          "y": 50,
+          "ax": 46.5,
+          "ay": 51,
+          "answer": "Sternförmiges Lumen"
+        },
+        {
+          "n": 2,
+          "x": 43,
+          "y": 40,
+          "answer": "Urothel"
+        },
+        {
+          "n": 3,
+          "x": 37,
+          "y": 66,
+          "answer": "Muskelwand mit Bindegewebe"
+        },
+        {
+          "n": 4,
+          "x": 27,
+          "y": 30,
+          "answer": "Adventitia mit Fettgewebe"
+        }
+      ],
+      "distractors": [
+        "Hyaliner Knorpel",
+        "Respiratorisches Epithel"
+      ],
+      "explanation": "Im ungedehnten Zustand ist die Schleimhaut des Ureters in Falten gelegt, das Lumen erscheint sternförmig. Das Urothel ist dann deutlich höher als im gedehnten Zustand.",
+      "source": "Digitaler Schnitt JKU 79; VL-Skript ZUG Teil 1, S. 99"
+    },
+    {
+      "id": "ds-ur-urothel",
+      "type": "image",
+      "question": "Ureter, starke Vergrößerung (JKU 79, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-ureter-urothel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 19,
+          "y": 50,
+          "answer": "Lumen"
+        },
+        {
+          "n": 2,
+          "x": 55,
+          "y": 30,
+          "answer": "Urothel (Übergangsepithel)"
+        },
+        {
+          "n": 3,
+          "x": 80,
+          "y": 40,
+          "answer": "Lamina propria (kollagenes Bindegewebe)"
+        },
+        {
+          "n": 4,
+          "x": 32,
+          "y": 45,
+          "ax": 39,
+          "ay": 37,
+          "answer": "Apikale Deckzellschicht"
+        }
+      ],
+      "distractors": [
+        "Hornschicht",
+        "Becherzellen"
+      ],
+      "explanation": "Das Urothel hat eine typische apikale Schicht großer, oft mehrkerniger **Deckzellen**. Ihre apikale Membran enthält Uroplakin-Plaques, die zusammen mit gut ausgebildeten Tight Junctions die Barriere gegen den Harn bilden.",
+      "source": "Digitaler Schnitt JKU 79; VL-Skript ZUG Teil 1, S. 99"
+    },
+    {
+      "id": "ds-ur-typ",
+      "type": "single",
+      "question": "Welcher Epitheltyp ist hier dargestellt (Ureter)?",
+      "image": "images/ds-ureter-urothel.jpg",
+      "options": [
+        {
+          "text": "Urothel (Übergangsepithel)",
+          "correct": true
+        },
+        {
+          "text": "Mehrschichtig unverhorntes Plattenepithel",
+          "explain": "Dort werden die oberen Zellen flach, beim Urothel bleiben die Deckzellen groß."
+        },
+        {
+          "text": "Einschichtig mehrreihiges Epithel"
+        },
+        {
+          "text": "Mehrschichtiges prismatisches Epithel"
+        }
+      ],
+      "explanation": "Urothel kleidet Nierenbecken, Ureter, Harnblase und den proximalen Teil der Urethra aus.",
+      "source": "VL-Skript ZUG Teil 1, S. 86 und 99"
+    },
+    {
+      "id": "ds-ur-dehnung",
+      "type": "single",
+      "question": "Warum ist das Urothel in diesem Präparat so hoch und das Lumen sternförmig?",
+      "image": "images/ds-ureter-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Der Ureter ist ungedehnt; Urothel ist im ungedehnten Zustand deutlich höher als im gedehnten",
+          "correct": true
+        },
+        {
+          "text": "Das Urothel ist verhornt und deshalb verdickt"
+        },
+        {
+          "text": "Es handelt sich um einen Tumor"
+        },
+        {
+          "text": "Das Urothel ist immer gleich hoch, das ist ein Schnittartefakt"
+        }
+      ],
+      "explanation": "Urothel ist sehr dehnungsfähig und passt sich dem Füllungszustand an. Bei Dehnung werden Reserve-Plaques (diskusförmige Vesikel) in die apikale Membran eingebaut.",
+      "source": "VL-Skript ZUG Teil 1, S. 99"
+    },
+    {
+      "id": "ds-ur-barriere",
+      "type": "multiple",
+      "question": "Welche Barriereeinrichtungen schützen das Urothel laut Skript vor dem Harn?",
+      "image": "images/ds-ureter-urothel.jpg",
+      "options": [
+        {
+          "text": "Gut ausgebildete Zonula occludens mit vielen Leisten",
+          "correct": true
+        },
+        {
+          "text": "Plattenförmige Areale der apikalen Membran mit Uroplakin",
+          "correct": true
+        },
+        {
+          "text": "Eine Hornschicht aus abgestorbenen Zellen",
+          "explain": "Urothel ist nicht verhornt."
+        },
+        {
+          "text": "Ein dichter Bürstensaum aus Mikrovilli"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 99"
+    },
+    {
+      "id": "ds-li-uebersicht",
+      "type": "image",
+      "question": "Lippe (JKU 60, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-lippe-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 20,
+          "y": 78,
+          "ax": 20,
+          "ay": 71,
+          "answer": "Mehrschichtiges Plattenepithel"
+        },
+        {
+          "n": 2,
+          "x": 25,
+          "y": 30,
+          "answer": "Skelettmuskulatur (M. orbicularis oris)"
+        },
+        {
+          "n": 3,
+          "x": 12,
+          "y": 60,
+          "answer": "Kollagenes Bindegewebe unter dem Epithel"
+        }
+      ],
+      "distractors": [
+        "Hyaliner Knorpel",
+        "Glatte Muskulatur"
+      ],
+      "explanation": "Azan: Kollagenfasern blau, Muskelfasern rot. Das Epithel ist über Bindegewebspapillen fest mit dem darunterliegenden Bindegewebe verzahnt.",
+      "source": "Digitaler Schnitt JKU 60"
+    },
+    {
+      "id": "ds-li-epithel",
+      "type": "image",
+      "question": "Lippe, Epithel (JKU 60, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-lippe-epithel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 40,
+          "y": 45,
+          "answer": "Mehrschichtiges Plattenepithel"
+        },
+        {
+          "n": 2,
+          "x": 57,
+          "y": 26,
+          "ax": 51.7,
+          "ay": 48,
+          "answer": "Bindegewebspapille"
+        },
+        {
+          "n": 3,
+          "x": 58,
+          "y": 9,
+          "answer": "Kollagenes Bindegewebe (blau)"
+        },
+        {
+          "n": 4,
+          "x": 82,
+          "y": 20,
+          "ax": 77.5,
+          "ay": 36,
+          "answer": "Basalzellschicht"
+        },
+        {
+          "n": 5,
+          "x": 30,
+          "y": 92,
+          "ax": 40,
+          "ay": 79,
+          "answer": "Oberflächliche, stark abgeflachte Zellen"
+        }
+      ],
+      "distractors": [
+        "Basallamina mit Kinozilien",
+        "Becherzellen"
+      ],
+      "explanation": "Die Basalzellen grenzen an das Bindegewebe und bilden die Proliferationszone. Zur Oberfläche hin flachen die Zellen ab.",
+      "source": "Digitaler Schnitt JKU 60; VL-Skript ZUG Teil 1, S. 97"
+    },
+    {
+      "id": "ds-li-epitheltyp",
+      "type": "single",
+      "question": "Als welcher Epitheltyp wird das Epithel der Lippenschleimhaut (JKU 60) im Kurs geführt?",
+      "image": "images/ds-lippe-epithel.jpg",
+      "options": [
+        {
+          "text": "Mehrschichtig unverhorntes Plattenepithel",
+          "correct": true
+        },
+        {
+          "text": "Einschichtiges Plattenepithel"
+        },
+        {
+          "text": "Mehrschichtiges prismatisches Epithel"
+        },
+        {
+          "text": "Urothel"
+        }
+      ],
+      "explanation": "Laut Skript kommt unverhorntes Plattenepithel u. a. in der **Mundhöhle** vor. Zur Kontrolle: Unverhornt bedeutet, dass alle Zellen in allen Schichten erkennbare Kerne haben.",
+      "source": "VL-Skript ZUG Teil 1, S. 97"
+    },
+    {
+      "id": "ds-li-bgw",
+      "type": "image",
+      "question": "Lippe, Bindegewebe unter dem Epithel (JKU 60, Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-lippe-bindegewebe.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 21,
+          "y": 56,
+          "answer": "Mehrschichtiges Plattenepithel"
+        },
+        {
+          "n": 2,
+          "x": 41,
+          "y": 51,
+          "answer": "Lockeres faseriges Bindegewebe"
+        },
+        {
+          "n": 3,
+          "x": 68,
+          "y": 37,
+          "answer": "Univakuoläres Fettgewebe"
+        },
+        {
+          "n": 4,
+          "x": 47,
+          "y": 24,
+          "ax": 49.8,
+          "ay": 34,
+          "answer": "Quer angeschnittene Skelettmuskelfasern"
+        }
+      ],
+      "distractors": [
+        "Plurivakuoläres Fettgewebe",
+        "Straffes parallelfaseriges Bindegewebe"
+      ],
+      "explanation": "Lockeres BGW verbindet Epithelien verschieblich mit der Unterlage, z. B. mit Muskelgewebe. Fettzellen erscheinen leer, weil das Fett bei der Präparation herausgelöst wird.",
+      "source": "Digitaler Schnitt JKU 60; VL-Skript ZUG Teil 1, S. 173 und 177"
+    },
+    {
+      "id": "ds-li-locker",
+      "type": "multiple",
+      "question": "Woran erkennt man das lockere Bindegewebe in diesem Präparat bzw. was zeichnet es laut Skript aus?",
+      "image": "images/ds-lippe-bindegewebe.jpg",
+      "options": [
+        {
+          "text": "Fibroblasten bilden ein weiträumiges Maschennetz",
+          "correct": true
+        },
+        {
+          "text": "Hoher Wassergehalt und alle Typen mobiler Abwehrzellen",
+          "correct": true
+        },
+        {
+          "text": "Es verbindet Epithelien verschieblich mit der Unterlage",
+          "correct": true
+        },
+        {
+          "text": "Dicke, streng parallel angeordnete Kollagenfaserbündel",
+          "explain": "Das ist straffes parallelfaseriges BGW (Sehne)."
+        },
+        {
+          "text": "Es ist frei von Blutgefäßen"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 173"
+    },
+    {
+      "id": "ds-li-azan",
+      "type": "matching",
+      "question": "Azan-Färbung der Lippe: Ordne die Farben den Geweben zu.",
+      "image": "images/ds-lippe-bindegewebe.jpg",
+      "pairs": [
+        {
+          "left": "Blau",
+          "right": "Kollagenes Bindegewebe"
+        },
+        {
+          "left": "Rot",
+          "right": "Muskelfasern"
+        },
+        {
+          "left": "Leer (weiß)",
+          "right": "Fettzellen (Fett herausgelöst)"
+        }
+      ],
+      "source": "Digitaler Schnitt JKU 60"
+    }
+  ]
+}

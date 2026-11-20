@@ -83,7 +83,7 @@
       "type": "matching",
       "question": "Ordne die Filamente ihren Eigenschaften zu.",
       "pairs": [
-        { "left": "Dünne Filamente", "right": "ca. 6 nm, Aktin und Tropomyosin" },
+        { "left": "Dünne Filamente", "right": "ca. 6 nm, Aktin, Tropomyosin und Troponin" },
         { "left": "Dicke Filamente", "right": "ca. 15 nm, Myosin II" }
       ]
     },
