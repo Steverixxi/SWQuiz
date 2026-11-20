@@ -153,11 +153,18 @@ function choice(q, { shuffle: doShuffle }) {
 
 // ---------- drag & drop assignment (matching + image labels) ----------
 
+// Während eines Drags ist Textauswahl überall aus (auch in sonst markierbaren Feldern).
+function setDragging(on) {
+  document.documentElement.classList.toggle('is-dragging', on);
+  if (on) window.getSelection()?.removeAllRanges();
+}
+
 function makeDraggable(chip, { onDrop, onTap }) {
   let start = null;
   let ghost = null;
   chip.addEventListener('pointerdown', (e) => {
     if (chip.closest('.locked')) return;
+    e.preventDefault(); // keine Textauswahl beim Ziehen
     start = { x: e.clientX, y: e.clientY, id: e.pointerId };
     chip.setPointerCapture(e.pointerId);
   });
@@ -172,6 +179,7 @@ function makeDraggable(chip, { onDrop, onTap }) {
       ghost.dataset.dy = String(start.y - r.top);
       document.body.append(ghost);
       chip.style.opacity = '.35';
+      setDragging(true);
     }
     if (ghost) {
       ghost.style.left = `${e.clientX - Number(ghost.dataset.dx)}px`;
@@ -187,6 +195,7 @@ function makeDraggable(chip, { onDrop, onTap }) {
     if (ghost) {
       ghost.remove();
       ghost = null;
+      setDragging(false);
       chip.style.opacity = '';
       document.querySelectorAll('.slot.over').forEach((s) => s.classList.remove('over'));
       const target = document.elementFromPoint(e.clientX, e.clientY)?.closest('.slot, .pool');
@@ -210,18 +219,18 @@ function assign(q, { shuffle: doShuffle }) {
   let picked = null;
   let locked = false;
 
-  const el = h('div', { class: 'assign' });
-  const head = h('div');
-  head.append(kind(isImage ? 'Bildfrage · Strukturen zuordnen' : 'Zuordnung'));
+  // Layout: Begriffe (pool) stehen über den Feldern. Mit Bild auf breiten
+  // Bildschirmen Bild links, Begriffe + Felder rechts, damit alles auf eine Seite passt.
+  const el = h('div', { class: `assign${q.image ? ' with-image' : ''}` });
+  el.append(kind(isImage ? 'Bildfrage · Strukturen zuordnen' : 'Zuordnung'));
   let pins = new Map();
   if (q.image) {
     const img = imageBlock(q, isImage ? q.labels : []);
     pins = img.pins;
-    head.append(img.el);
+    el.append(img.el);
   }
-  head.append(...header(q));
-  head.append(h('div', { class: 'q-hint' }, 'Ziehe die Begriffe in die Felder, oder tippe erst einen Begriff und dann ein Feld an.'));
-  el.append(head);
+  el.append(...header(q));
+  el.append(h('div', { class: 'q-hint' }, 'Ziehe die Begriffe in die Felder, oder tippe erst einen Begriff und dann ein Feld an.'));
 
   const slotsEl = h('div', { class: 'slots' });
   const pool = h('div', { class: 'pool' });
@@ -246,7 +255,7 @@ function assign(q, { shuffle: doShuffle }) {
   pool.addEventListener('click', (e) => {
     if (!locked && picked != null && !e.target.closest('.chip')) unplace(picked);
   });
-  el.append(slotsEl, pool);
+  el.append(pool, slotsEl);
 
   const chipEls = new Map();
   for (const c of chips) {
@@ -293,6 +302,11 @@ function assign(q, { shuffle: doShuffle }) {
     for (const c of chips) if (!inSlots.has(c.id)) pool.append(chipEls.get(c.id));
   }
   render();
+  // Begriffe kleben beim Scrollen unter der Kopfzeile, deren Höhe je nach Breite variiert
+  requestAnimationFrame(() => {
+    const top = document.querySelector('.study-top');
+    if (top) el.style.setProperty('--study-top-h', `${top.offsetHeight}px`);
+  });
 
   return {
     el,
@@ -373,6 +387,7 @@ function order(q, { shuffle: doShuffle }) {
   function startDrag(e, idx, row) {
     if (locked) return;
     e.preventDefault();
+    setDragging(true);
     row.classList.add('drag-ghost');
     let cur = idx;
     const onMove = (ev) => {
@@ -393,10 +408,13 @@ function order(q, { shuffle: doShuffle }) {
     const onUp = () => {
       window.removeEventListener('pointermove', onMove);
       window.removeEventListener('pointerup', onUp);
+      window.removeEventListener('pointercancel', onUp);
+      setDragging(false);
       render();
     };
     window.addEventListener('pointermove', onMove);
     window.addEventListener('pointerup', onUp);
+    window.addEventListener('pointercancel', onUp, { once: true });
   }
   render();
 
