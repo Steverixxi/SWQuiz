@@ -4,14 +4,14 @@
 // check() locks the question, shows the solution and returns { correct } where
 // correct is true / false, or null for self-graded flashcards.
 
-import { h, rich, inline, shuffle } from './util.js';
+import { h, rich, inline, shuffle, icon } from './util.js';
 import { api } from './api.js';
 
 const LETTERS = 'ABCDEFGHIJKLMNOP';
 
 export function renderQuestion(q, ctx = {}) {
   const r = RENDERERS[q.type];
-  if (!r) return { el: h('div', { class: 'error-box' }, `Unbekannter Fragetyp: ${q.type}`), check: () => ({ correct: null }) };
+  if (!r) return { el: h('div', { class: 'notice' }, `Unbekannter Fragetyp: ${q.type}`), check: () => ({ correct: null }) };
   return r(q, { shuffle: ctx.shuffle !== false && q.shuffle !== false });
 }
 
@@ -53,6 +53,7 @@ function imageBlock(q, labels = []) {
       wrap.append(pin);
     }
   }
+  wrap.append(h('span', { class: 'zoom-hint' }, icon('magnifying-glass-plus')));
   wrap.addEventListener('click', () => lightboxWithPins(wrap));
   return { el: wrap, pins };
 }
@@ -69,6 +70,10 @@ function lightboxWithPins(wrap) {
   el.onclick = () => (el.hidden = true);
 }
 
+function kind(text) {
+  return h('div', { class: 'q-kind' }, text);
+}
+
 function header(q) {
   const parts = [];
   if (q.question) parts.push(rich('div', q.question, { class: 'q-text' }));
@@ -78,8 +83,8 @@ function header(q) {
 function explanationBox(q, correct, extra) {
   const cls = correct === true ? 'ok' : correct === false ? 'bad' : '';
   const box = h('div', { class: `feedback ${cls}` });
-  if (correct === true) box.append(h('div', { class: 'head' }, 'Richtig'));
-  if (correct === false) box.append(h('div', { class: 'head' }, 'Leider falsch'));
+  if (correct === true) box.append(h('div', { class: 'head' }, icon('circle-check'), 'Richtig'));
+  if (correct === false) box.append(h('div', { class: 'head' }, icon('circle-xmark'), 'Nicht richtig'));
   if (extra) box.append(extra);
   if (q.explanation) box.append(rich('div', q.explanation));
   if (q.source) box.append(h('div', { class: 'src' }, `Quelle: ${q.source}`));
@@ -95,7 +100,7 @@ function choice(q, { shuffle: doShuffle }) {
   const selected = new Set();
   let locked = false;
   const el = h('div');
-  el.append(h('div', { class: 'q-meta' }, h('span', { class: 'tag' }, multi ? 'Multiple Choice · mehrere richtig' : 'Single Choice')));
+  el.append(kind(multi ? 'Multiple Choice · mehrere Antworten richtig' : 'Single Choice · eine Antwort richtig'));
   if (q.image) el.append(imageBlock(q).el);
   el.append(...header(q));
   const list = h('div', { class: 'options' });
@@ -207,7 +212,7 @@ function assign(q, { shuffle: doShuffle }) {
 
   const el = h('div', { class: 'assign' });
   const head = h('div');
-  head.append(h('div', { class: 'q-meta' }, h('span', { class: 'tag' }, isImage ? 'Bild · Strukturen zuordnen' : 'Zuordnung')));
+  head.append(kind(isImage ? 'Bildfrage · Strukturen zuordnen' : 'Zuordnung'));
   let pins = new Map();
   if (q.image) {
     const img = imageBlock(q, isImage ? q.labels : []);
@@ -306,7 +311,7 @@ function assign(q, { shuffle: doShuffle }) {
         pins.get(t.key)?.classList.add(ok ? 'ok' : 'bad');
         if (!ok) {
           correct = false;
-          slot.append(h('span', { class: 'fix', html: '→ ' + inline(t.answer) }));
+          slot.append(h('span', { class: 'fix', html: inline(t.answer) }));
         }
       }
       const box = explanationBox(q, correct);
@@ -331,7 +336,7 @@ function order(q, { shuffle: doShuffle }) {
   let locked = false;
   let touched = false;
   const el = h('div');
-  el.append(h('div', { class: 'q-meta' }, h('span', { class: 'tag' }, 'Reihenfolge')));
+  el.append(kind('Reihenfolge'));
   if (q.image) el.append(imageBlock(q).el);
   el.append(...header(q));
   el.append(h('div', { class: 'q-hint' }, 'Bringe die Einträge in die richtige Reihenfolge (ziehen oder Pfeile).'));
@@ -350,15 +355,15 @@ function order(q, { shuffle: doShuffle }) {
     list.innerHTML = '';
     items.forEach((it, idx) => {
       const row = h('div', { class: 'order-item' },
-        h('span', { class: 'grip' }, '⋮⋮'),
+        h('span', { class: 'grip' }, icon('grip-vertical')),
         h('span', { class: 'pos' }, String(idx + 1)),
         h('span', { class: 'txt', html: inline(it.text) }),
-        h('button', { class: 'mv', type: 'button', title: 'nach oben', onclick: () => move(idx, idx - 1) }, '↑'),
-        h('button', { class: 'mv', type: 'button', title: 'nach unten', onclick: () => move(idx, idx + 1) }, '↓'));
+        h('button', { class: 'mv', type: 'button', title: 'nach oben', onclick: () => move(idx, idx - 1) }, icon('arrow-up')),
+        h('button', { class: 'mv', type: 'button', title: 'nach unten', onclick: () => move(idx, idx + 1) }, icon('arrow-down')));
       if (locked) {
         row.classList.add(it.i === idx ? 'ok' : 'bad');
         row.querySelectorAll('.mv').forEach((b) => b.remove());
-        if (it.i !== idx) row.append(h('span', { class: 'faint' }, `richtig: ${it.i + 1}`));
+        if (it.i !== idx) row.append(h('span', { class: 'faint' }, `richtig: Platz ${it.i + 1}`));
       }
       row.querySelector('.grip').addEventListener('pointerdown', (e) => startDrag(e, idx, row));
       list.append(row);
@@ -414,7 +419,7 @@ function order(q, { shuffle: doShuffle }) {
 
 function flashcard(q) {
   const el = h('div');
-  el.append(h('div', { class: 'q-meta' }, h('span', { class: 'tag' }, 'Karteikarte')));
+  el.append(kind('Karteikarte'));
   if (q.image && !q.imageOnBack) el.append(imageBlock(q).el);
   el.append(rich('div', q.front, { class: 'q-text' }));
   return {

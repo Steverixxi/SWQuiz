@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Checks all exam folders and prints every problem. Exit code 1 on errors.
 // Usage: npm run validate            (all folders)
-//        npm run validate -- zug-histologie
+//        npm run validate -- zug
 
 import fs from 'node:fs';
 import path from 'node:path';

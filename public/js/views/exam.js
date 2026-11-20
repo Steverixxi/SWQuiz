@@ -1,81 +1,76 @@
-import { h, countdownText, formatDate, plural, markdown, inline } from '../util.js';
+import { h, icon, formatDate, plural, markdown, inline } from '../util.js';
 import { api } from '../api.js';
-import { progressBar, forecastChart } from './dashboard.js';
+import { progressBar, forecastChart, daysText, breakdown } from './dashboard.js';
 import { TYPE_LABELS } from '../questions.js';
 
-const STATUS = { new: 'Neu', learning: 'Lernphase', relearning: 'Wiederholen', review: 'Gelernt' };
+const STATUS = { new: 'neu', learning: 'Lernphase', relearning: 'Lernphase', review: 'gelernt' };
 
 export async function examView(id) {
   const [e, questions] = await Promise.all([api.exam(id), api.questions(id)]);
   const el = h('div', { class: 'page' });
-  const cd = countdownText(e.daysLeft);
-  el.append(h('a', { class: 'back', href: '#/' }, '‹ Dashboard'));
+  el.append(h('a', { class: 'back', href: '#/' }, icon('arrow-left'), 'Übersicht'));
   el.append(h('div', { class: 'page-head' },
     h('div', {},
-      h('div', { class: 'muted' }, e.exam),
+      e.exam !== e.topic ? h('div', { class: 'eyebrow' }, e.exam) : null,
       h('h1', {}, e.topic),
-      h('div', { class: 'muted' }, `Prüfung am ${formatDate(e.date)}${e.daysLeft != null && e.daysLeft >= 0 ? ` · ${cd.n === 'Heute' ? 'heute' : `noch ${cd.n} ${cd.u}`}` : ''}`)),
+      h('div', { class: 'muted', style: { marginTop: '4px' } }, `Prüfung am ${formatDate(e.date)} · ${daysText(e.daysLeft)}`)),
     e.openToday > 0
-      ? h('a', { class: 'btn primary big', href: `#/study/${e.id}` }, `Jetzt üben (${e.openToday})`)
-      : h('span', { class: 'tag' }, 'Für heute erledigt')));
+      ? h('a', { class: 'btn primary lg', href: `#/study/${e.id}` }, `Lernen`, h('span', { class: 'faint', style: { color: 'inherit', opacity: 0.7 } }, String(e.openToday)))
+      : h('span', { class: 'muted' }, 'Für heute erledigt')));
 
-  if (e.description) el.append(h('p', { class: 'muted', html: inline(e.description) }));
   if (e.errors.length) {
-    el.append(h('div', { class: 'error-box', style: { marginBottom: '16px' } },
-      h('b', {}, `${e.errors.length} Fehler in den Dateien (diese Fragen werden übersprungen):`),
+    el.append(h('div', { class: 'notice', style: { marginBottom: '20px' } },
+      h('b', {}, `${e.errors.length} Fehler in den Dateien. Diese Fragen werden übersprungen:`),
       h('ul', {}, e.errors.slice(0, 30).map((x) => h('li', {}, x)))));
   }
 
-  el.append(h('div', { class: 'grid cols-4' },
-    stat(String(e.newToday), 'neue Karten heute', 'var(--new)'),
-    stat(String(e.counts.dueLearning), 'in Lernphase', 'var(--learn)'),
-    stat(String(e.counts.dueReview), 'Wiederholungen fällig', 'var(--review)'),
-    stat(`${Math.round(e.progress * 100)} %`, `gelernt (${e.counts.total - e.counts.new} von ${e.counts.total} gesehen)`)));
-
-  el.append(h('div', { class: 'card', style: { padding: '16px 18px', marginTop: '16px', display: 'flex', flexDirection: 'column', gap: '10px' } },
-    progressBar(e.counts),
+  el.append(h('div', { class: 'panel', style: { padding: '18px 20px' } },
+    breakdown({ newCount: e.newToday, learning: e.counts.dueLearning, review: e.counts.dueReview }),
+    h('div', { style: { marginTop: '14px' } }, progressBar(e.counts)),
     h('div', { class: 'legend' },
-      h('span', {}, h('span', { class: 'pill-dot', style: { background: 'var(--review)' } }), `${e.counts.mature} sicher (≥ 21 Tage)`),
-      h('span', {}, h('span', { class: 'pill-dot', style: { background: 'color-mix(in srgb, var(--review) 50%, transparent)' } }), `${e.counts.young} gelernt`),
-      h('span', {}, h('span', { class: 'pill-dot', style: { background: 'var(--learn)' } }), `${e.counts.learning} in Lernphase`),
-      h('span', {}, h('span', { class: 'pill-dot', style: { background: 'var(--bg-sunk)', border: '1px solid var(--line-2)' } }), `${e.counts.new} neu`))));
+      h('span', {}, h('i', { class: 'sw', style: { background: 'var(--text)' } }), `${e.counts.mature} sicher`),
+      h('span', {}, h('i', { class: 'sw', style: { background: 'var(--text-3)' } }), `${e.counts.young} gelernt`),
+      h('span', {}, h('i', { class: 'sw', style: { background: 'var(--line-2)' } }), `${e.counts.learning} in Lernphase`),
+      h('span', {}, h('i', { class: 'sw', style: { background: 'var(--sunk)', boxShadow: 'inset 0 0 0 1px var(--line-2)' } }), `${e.counts.new} neu`),
+      h('span', { style: { marginLeft: 'auto' } }, plural(e.counts.total, 'Karte', 'Karten')))));
 
-  el.append(h('div', { class: 'section-title' }, 'Kapitel'));
-  el.append(h('div', { class: 'card list' },
-    e.chapters.map((c) =>
-      h('div', { class: 'row click', onclick: () => (location.hash = `#/study/${e.id}/${encodeURIComponent(c.name)}`) },
-        h('div', { class: 'grow' },
-          h('div', { style: { fontWeight: 600 } }, c.name),
-          h('div', { style: { marginTop: '6px' } }, progressBar(c))),
-        h('span', { class: 'faint', style: { fontSize: '13px', whiteSpace: 'nowrap' } }, plural(c.total, 'Karte', 'Karten')),
-        c.due ? h('span', { class: 'badge hot' }, String(c.due)) : null,
-        h('span', { class: 'faint' }, '›')))));
+  el.append(h('div', { class: 'section' },
+    h('div', { class: 'section-head' }, h('h2', {}, 'Kapitel'), h('span', { class: 'faint' }, 'Kapitel einzeln lernen')),
+    h('div', { class: 'panel rows' },
+      e.chapters.map((c) =>
+        h('a', { class: 'row', href: `#/study/${e.id}/${encodeURIComponent(c.name)}` },
+          h('div', { class: 'grow' },
+            h('div', { class: 'title ellipsis', style: { fontWeight: 550 } }, c.name),
+            progressBar(c)),
+          h('div', { class: 'right' }, c.due ? `${c.due} fällig` : h('span', { class: 'faint' }, plural(c.total, 'Karte', 'Karten'))),
+          h('span', { class: 'chev' }, icon('chevron-right')))))));
 
   if (e.notes.length) {
-    el.append(h('div', { class: 'section-title' }, 'Lernunterlagen'));
-    el.append(h('div', { class: 'card list' },
-      e.notes.map((n) =>
-        h('a', { class: 'row click', href: `#/exam/${e.id}/notes/${n.file}` },
-          h('span', {}, '📄'), h('div', { class: 'grow' }, n.title), h('span', { class: 'faint' }, '›')))));
+    el.append(h('div', { class: 'section' },
+      h('div', { class: 'section-head' }, h('h2', {}, 'Lernunterlagen')),
+      h('div', { class: 'panel rows' },
+        e.notes.map((n) =>
+          h('a', { class: 'row', href: `#/exam/${e.id}/notes/${n.file}` },
+            icon('file-lines', 'regular'), h('div', { class: 'grow' }, n.title), h('span', { class: 'chev' }, icon('chevron-right')))))));
   }
 
-  el.append(h('div', { class: 'section-title' }, 'Wiederholungen der nächsten 14 Tage'));
-  el.append(h('div', { class: 'card' }, forecastChart(e.forecast)));
+  el.append(h('div', { class: 'section' },
+    h('div', { class: 'section-head' }, h('h2', {}, 'Wiederholungen'), h('span', { class: 'faint' }, 'nächste 14 Tage')),
+    h('div', { class: 'panel' }, forecastChart(e.forecast))));
 
-  el.append(h('div', { class: 'section-title' }, h('span', {}, `Alle Fragen (${questions.length})`)));
-  const body = h('div', { class: 'card list' });
+  const list = h('details', { class: 'panel qlist' },
+    h('summary', {}, h('span', {}, `Alle Fragen`), h('span', { class: 'faint', style: { fontWeight: 400 } }, String(questions.length))));
   for (const q of questions) {
     const st = q.state;
-    const due = st.due ? new Date(st.due).toLocaleDateString('de-AT', { day: 'numeric', month: 'short' }) : null;
-    body.append(h('div', { class: 'row' },
+    const due = st.status === 'review' && st.due ? new Date(st.due).toLocaleDateString('de-AT', { day: 'numeric', month: 'short' }) : null;
+    list.append(h('div', { class: 'row' },
       h('div', { class: 'grow' },
-        h('div', { html: inline(q.question ?? q.front ?? '') , style: { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' } }),
-        h('div', { class: 'faint', style: { fontSize: '12.5px' } }, `${q.id} · ${q.chapter ?? 'Allgemein'} · ${q.file}`)),
+        h('div', { class: 'ellipsis', html: inline(q.question ?? q.front ?? '') }),
+        h('div', { class: 'sub ellipsis' }, `${q.chapter ?? 'Allgemein'} · ${q.id}`)),
       h('span', { class: 'tag' }, TYPE_LABELS[q.type] ?? q.type),
-      h('span', { class: 'tag' }, STATUS[st.status] ?? st.status),
-      due && st.status === 'review' ? h('span', { class: 'faint', style: { fontSize: '12.5px', whiteSpace: 'nowrap' } }, due) : null));
+      h('span', { class: 'tag', style: { width: '90px', textAlign: 'right' } }, due ? `fällig ${due}` : STATUS[st.status] ?? st.status)));
   }
-  el.append(body);
+  el.append(h('div', { class: 'section' }, list));
   return { el };
 }
 
@@ -83,11 +78,7 @@ export async function noteView(examId, file) {
   const [e, text] = await Promise.all([api.exam(examId), api.note(examId, file)]);
   const dir = file.includes('/') ? file.slice(0, file.lastIndexOf('/') + 1) : '';
   const el = h('div', { class: 'page' },
-    h('a', { class: 'back', href: `#/exam/${examId}` }, `‹ ${e.topic}`),
-    h('div', { class: 'card notes-body', html: markdown(text, api.asset(examId, dir)) }));
+    h('a', { class: 'back', href: `#/exam/${examId}` }, icon('arrow-left'), e.topic),
+    h('div', { class: 'panel notes-body', html: markdown(text, api.asset(examId, `notes/${dir}`)) }));
   return { el };
-}
-
-function stat(v, k, color) {
-  return h('div', { class: 'card stat' }, h('div', { class: 'v', style: color ? { color } : {} }, v), h('div', { class: 'k' }, k));
 }

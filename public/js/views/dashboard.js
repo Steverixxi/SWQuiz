@@ -1,4 +1,4 @@
-import { h, countdownText, formatDate, plural } from '../util.js';
+import { h, icon, formatDate } from '../util.js';
 import { api } from '../api.js';
 
 export function progressBar(c) {
@@ -13,86 +13,65 @@ export function forecastChart(values) {
   const max = Math.max(1, ...values);
   const day = (i) => {
     if (i === 0) return 'Heute';
-    if (i === 1) return 'Morgen';
     const d = new Date();
     d.setDate(d.getDate() + i);
-    return d.toLocaleDateString('de-AT', { weekday: 'short' });
+    return d.toLocaleDateString('de-AT', { weekday: 'short' }).replace('.', '');
   };
   return h('div', { class: 'forecast' },
     values.map((v, i) =>
       h('div', { class: `col${i === 0 ? ' today' : ''}`, title: `${day(i)}: ${v} Wiederholungen` },
-        h('div', { class: 'num' }, v ? String(v) : ''),
-        h('div', { class: 'b', style: { height: `${(v / max) * 70}%` } }),
+        h('div', { class: 'n' }, v ? String(v) : ''),
+        h('div', { class: 'b', style: { height: `${(v / max) * 64}%` } }),
         h('div', { class: 'lbl' }, day(i)))));
 }
 
-export function examCard(e) {
-  const cd = countdownText(e.daysLeft);
-  const card = h('div', { class: 'card exam-card', onclick: () => (location.hash = `#/exam/${e.id}`) },
-    h('div', { class: 'top' },
-      h('span', { class: 'dot', style: { background: e.color ?? 'var(--accent)', marginTop: '6px' } }),
-      h('div', {},
-        h('div', { class: 'title' }, e.topic),
-        h('div', { class: 'exam-name' }, `${e.exam} · ${formatDate(e.date)}`)),
-      h('div', { class: `countdown${e.daysLeft != null && e.daysLeft >= 0 && e.daysLeft <= 7 ? ' soon' : ''}` },
-        h('div', { class: 'n' }, cd.n), h('div', { class: 'u' }, cd.u))),
-    h('div', { class: 'counts' },
-      h('span', {}, h('b', { class: 'c-new' }, String(e.newToday)), ' neu'),
-      h('span', {}, h('b', { class: 'c-learn' }, String(e.counts.dueLearning)), ' in Lernphase'),
-      h('span', {}, h('b', { class: 'c-review' }, String(e.counts.dueReview)), ' fällig'),
-      h('span', { class: 'faint' }, plural(e.counts.total, 'Karte', 'Karten'))),
-    progressBar(e.counts),
-    h('div', { style: { display: 'flex', gap: '8px', justifyContent: 'space-between', alignItems: 'center' } },
-      h('span', { class: 'faint', style: { fontSize: '12.5px' } }, `${Math.round(e.progress * 100)} % gelernt · ${Math.round(e.seen * 100)} % gesehen`),
-      e.openToday > 0
-        ? h('a', { class: 'btn primary', href: `#/study/${e.id}`, onclick: (ev) => ev.stopPropagation() }, `Üben (${e.openToday})`)
-        : h('span', { class: 'tag' }, 'Für heute erledigt')));
-  if (e.errors.length) card.append(h('div', { class: 'error-box' }, `${e.errors.length} Fehler in den Dateien, siehe Thema`));
-  return card;
+export function daysText(daysLeft) {
+  if (daysLeft == null) return 'kein Prüfungsdatum';
+  if (daysLeft < 0) return 'Prüfung vorbei';
+  if (daysLeft === 0) return 'Prüfung heute';
+  if (daysLeft === 1) return 'Prüfung morgen';
+  return `noch ${daysLeft} Tage`;
+}
+
+export function breakdown({ newCount, learning, review }) {
+  return h('div', { class: 'breakdown' },
+    h('span', {}, h('b', { class: 'c-new' }, String(newCount)), ' neu'),
+    h('span', {}, h('b', { class: 'c-learn' }, String(learning)), ' in Lernphase'),
+    h('span', {}, h('b', { class: 'c-review' }, String(review)), ' Wiederholungen'));
 }
 
 export async function dashboardView() {
   const d = await api.dashboard();
   const el = h('div', { class: 'page' });
   const today = new Date().toLocaleDateString('de-AT', { weekday: 'long', day: 'numeric', month: 'long' });
-  el.append(h('div', { class: 'page-head' },
-    h('div', {}, h('h1', {}, 'Dashboard'), h('div', { class: 'muted' }, today))));
+  el.append(h('div', { class: 'page-head' }, h('div', {}, h('div', { class: 'eyebrow' }, today), h('h1', {}, 'Übersicht'))));
 
   const active = d.exams.filter((e) => !e.archived);
   const learnDue = active.reduce((a, e) => a + e.counts.dueLearning, 0);
   const reviewDue = active.reduce((a, e) => a + e.counts.dueReview, 0);
-  el.append(h('div', { class: 'card hero' },
-    h('div', {},
-      h('div', { class: 'muted' }, 'Heute offen, über alle Themen'),
-      h('div', { class: 'big-num' }, String(d.totals.openToday)),
-      h('div', { class: 'pills' },
-        h('span', {}, h('span', { class: 'pill-dot', style: { background: 'var(--new)' } }), `${d.totals.newToday} neu`),
-        h('span', {}, h('span', { class: 'pill-dot', style: { background: 'var(--learn)' } }), `${learnDue} in Lernphase`),
-        h('span', {}, h('span', { class: 'pill-dot', style: { background: 'var(--review)' } }), `${reviewDue} Wiederholungen`))),
-    d.totals.openToday > 0
-      ? h('a', { class: 'btn primary big', href: '#/study/all' }, 'Alles Fällige üben', h('span', { class: 'kbd' }, 'Leertaste'))
-      : h('div', { class: 'muted' }, active.length ? 'Alles erledigt für heute 🎉' : 'Lege eine Prüfung im Ordner exams/ an.')));
-
   const acc = d.totals.reviewsToday ? Math.round((d.totals.correctToday / d.totals.reviewsToday) * 100) : null;
-  const next = active.filter((e) => e.daysLeft != null && e.daysLeft >= 0).sort((a, b) => a.daysLeft - b.daysLeft)[0];
-  el.append(h('div', { class: 'grid cols-4', style: { marginTop: '16px' } },
-    stat(String(d.totals.reviewsToday), 'heute beantwortet'),
-    stat(acc == null ? '–' : `${acc} %`, 'heute richtig (Gut/Einfach)'),
-    stat(`${d.streak} 🔥`, d.streak === 1 ? 'Tag in Folge' : 'Tage in Folge'),
-    stat(next ? countdownText(next.daysLeft).n : '–', next ? `bis ${next.topic}` : 'keine Prüfung geplant')));
+  const metaParts = [];
+  if (d.totals.reviewsToday) metaParts.push(`Heute ${d.totals.reviewsToday} beantwortet, ${acc} % mit Gut oder Einfach`);
+  if (d.streak > 1) metaParts.push(`${d.streak} Tage in Folge gelernt`);
 
-  el.append(h('div', { class: 'section-title' }, 'Themen'));
-  if (!d.exams.length) {
-    el.append(h('div', { class: 'card empty' },
-      h('div', { class: 'em' }, '📚'),
-      h('div', {}, 'Noch keine Prüfungen. Lege einen Ordner in exams/ an, siehe AGENTS.md.')));
-  } else {
-    const sorted = [...active].sort((a, b) => (a.daysLeft ?? 9999) - (b.daysLeft ?? 9999));
-    el.append(h('div', { class: 'grid cols-2' }, sorted.map(examCard)));
-  }
+  el.append(h('div', { class: 'panel summary' },
+    h('div', {},
+      h('div', { class: 'big' }, String(d.totals.openToday), h('small', {}, d.totals.openToday === 1 ? 'Karte heute offen' : 'Karten heute offen')),
+      breakdown({ newCount: d.totals.newToday, learning: learnDue, review: reviewDue }),
+      metaParts.length ? h('div', { class: 'meta-line' }, metaParts.join(' · ')) : null),
+    d.totals.openToday > 0
+      ? h('a', { class: 'btn primary lg', href: '#/study/all' }, 'Alles Fällige lernen', h('span', { class: 'kbd' }, 'Leertaste'))
+      : h('div', { class: 'muted' }, active.length ? 'Für heute ist alles erledigt.' : '')));
 
-  el.append(h('div', { class: 'section-title' }, 'Wiederholungen der nächsten 14 Tage'));
-  el.append(h('div', { class: 'card' }, forecastChart(d.forecast)));
+  el.append(h('div', { class: 'section' },
+    h('div', { class: 'section-head' }, h('h2', {}, 'Prüfungen')),
+    d.exams.length
+      ? h('div', { class: 'panel rows' }, [...active].sort((a, b) => (a.daysLeft ?? 9999) - (b.daysLeft ?? 9999)).map(examRow))
+      : h('div', { class: 'panel empty' }, icon('folder-open'), h('div', {}, 'Noch keine Prüfungen. Lege einen Ordner in exams/ an (siehe AGENTS.md).'))));
+
+  el.append(h('div', { class: 'section' },
+    h('div', { class: 'section-head' }, h('h2', {}, 'Wiederholungen'), h('span', { class: 'faint' }, 'nächste 14 Tage')),
+    h('div', { class: 'panel' }, forecastChart(d.forecast))));
 
   const onKey = (e) => {
     if (e.key === ' ' && d.totals.openToday > 0 && document.activeElement === document.body) {
@@ -104,6 +83,14 @@ export async function dashboardView() {
   return { el, cleanup: () => window.removeEventListener('keydown', onKey) };
 }
 
-function stat(v, k) {
-  return h('div', { class: 'card stat' }, h('div', { class: 'v' }, v), h('div', { class: 'k' }, k));
+function examRow(e) {
+  const name = e.exam === e.topic ? e.topic : `${e.topic}`;
+  return h('a', { class: 'row', href: `#/exam/${e.id}` },
+    h('div', { class: 'grow' },
+      h('div', { class: 'title ellipsis' }, name),
+      h('div', { class: 'sub' }, `${formatDate(e.date)} · ${daysText(e.daysLeft)} · ${Math.round(e.progress * 100)} % gelernt`),
+      progressBar(e.counts)),
+    h('div', { class: 'right' }, e.openToday ? `${e.openToday} offen` : h('span', { class: 'faint' }, 'erledigt')),
+    h('span', { class: 'chev' }, icon('chevron-right')),
+    e.errors.length ? h('span', { class: 'tag', title: 'Fehler in den Dateien' }, icon('triangle-exclamation')) : null);
 }

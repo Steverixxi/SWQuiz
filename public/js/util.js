@@ -120,13 +120,5 @@ export function lightbox(src) {
   el.onclick = () => (el.hidden = true);
 }
 
-export const ICONS = {
-  home: '<path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
-  play: '<path d="M7 4.5v15l12-7.5z"/>',
-  book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/>',
-  gear: '<circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/>',
-  x: '<path d="M6 6l12 12M18 6 6 18"/>',
-  undo: '<path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/>',
-  list: '<path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01"/>',
-};
-export const icon = (name) => h('span', { html: `<svg viewBox="0 0 24 24" class="ico">${ICONS[name]}</svg>`, style: { display: 'inline-flex' } });
+/** Font Awesome icon, e.g. icon('house') or icon('clock', 'regular'). */
+export const icon = (name, style = 'solid') => h('i', { class: `fa-${style} fa-${name}`, 'aria-hidden': 'true' });

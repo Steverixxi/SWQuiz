@@ -1,6 +1,6 @@
 // SWQuiz web app: hash router + sidebar.
 
-import { h, icon, countdownText } from './util.js';
+import { h, icon } from './util.js';
 import { api } from './api.js';
 import { dashboardView } from './views/dashboard.js';
 import { examView, noteView } from './views/exam.js';
@@ -28,17 +28,16 @@ function renderSidebar() {
   const d = lastDash;
   if (!d) return;
   const route = location.hash || '#/';
-  const item = (href, iconName, label, badge, opts = {}) =>
+  const item = (href, iconName, label, count, opts = {}) =>
     h('a', { class: `nav-item${route === href || (opts.prefix && route.startsWith(opts.prefix)) ? ' active' : ''}`, href },
-      opts.dot ? h('span', { class: 'dot', style: { background: opts.dot } }) : icon(iconName),
+      icon(iconName),
       h('span', { class: 'label' }, label, opts.sub ? h('span', { class: 'sub' }, opts.sub) : null),
-      badge != null && badge > 0 ? h('span', { class: `badge${opts.hot ? ' hot' : ''}` }, String(badge)) : null);
+      count ? h('span', { class: 'count' }, String(count)) : null);
 
   nav.innerHTML = '';
-  nav.append(item('#/', 'home', 'Dashboard'));
-  nav.append(item('#/study/all', 'play', 'Alles Fällige üben', d.totals.openToday, { hot: true }));
+  nav.append(item('#/', 'house', 'Übersicht'));
+  nav.append(item('#/study/all', 'layer-group', 'Alles Fällige', d.totals.openToday));
 
-  // group topics by exam
   const groups = new Map();
   for (const e of d.exams) {
     const key = e.archived ? 'Archiv' : e.exam;
@@ -46,14 +45,10 @@ function renderSidebar() {
     groups.get(key).push(e);
   }
   for (const [name, list] of groups) {
-    nav.append(h('div', { class: 'nav-section' }, name));
+    const single = list.length === 1 && list[0].topic === name;
+    nav.append(h('div', { class: 'nav-section' }, single ? 'Prüfungen' : name));
     for (const e of list) {
-      const cd = countdownText(e.daysLeft);
-      nav.append(item(`#/exam/${e.id}`, 'book', e.topic, e.openToday, {
-        dot: e.color ?? 'var(--accent)',
-        sub: e.daysLeft == null ? 'kein Datum' : e.daysLeft < 0 ? 'Prüfung vorbei' : e.daysLeft === 0 ? 'Prüfung heute' : `noch ${cd.n} ${cd.u}`,
-        prefix: `#/exam/${e.id}`,
-      }));
+      nav.append(item(`#/exam/${e.id}`, 'book-open', e.topic, e.openToday, { sub: dayText(e.daysLeft), prefix: `#/exam/${e.id}` }));
     }
   }
   if (!d.exams.length) nav.append(h('div', { class: 'nav-section' }, 'Noch keine Prüfungen'));
@@ -63,10 +58,18 @@ function renderSidebar() {
   tabbar.innerHTML = '';
   const tab = (href, iconName, label, active) => h('a', { href, class: active ? 'active' : '' }, icon(iconName), label);
   tabbar.append(
-    tab('#/', 'home', 'Dashboard', route === '#/' || route.startsWith('#/exam')),
-    tab('#/study/all', 'play', `Üben${d.totals.openToday ? ` (${d.totals.openToday})` : ''}`, route.startsWith('#/study')),
+    tab('#/', 'house', 'Übersicht', route === '#/' || route.startsWith('#/exam')),
+    tab('#/study/all', 'layer-group', d.totals.openToday ? `Lernen (${d.totals.openToday})` : 'Lernen', route.startsWith('#/study')),
     tab('#/settings', 'gear', 'Einstellungen', route === '#/settings'),
   );
+}
+
+function dayText(daysLeft) {
+  if (daysLeft == null) return 'kein Datum';
+  if (daysLeft < 0) return 'vorbei';
+  if (daysLeft === 0) return 'heute';
+  if (daysLeft === 1) return 'morgen';
+  return `in ${daysLeft} Tagen`;
 }
 
 async function route() {
@@ -85,7 +88,7 @@ async function route() {
     else if (parts[0] === 'settings') view = await settingsView();
     else view = { el: h('div', { class: 'page empty' }, 'Seite nicht gefunden') };
   } catch (e) {
-    view = { el: h('div', { class: 'page' }, h('div', { class: 'error-box' }, `Fehler: ${e.message}. Läuft der Server (npm start)?`)) };
+    view = { el: h('div', { class: 'page' }, h('div', { class: 'notice' }, `Fehler: ${e.message}. Läuft der Server (npm start)?`)) };
   }
   main.innerHTML = '';
   main.append(view.el);

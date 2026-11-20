@@ -16,10 +16,10 @@ const FIELDS = [
 export async function settingsView() {
   const { defaults, settings, config } = await api.settings();
   const el = h('div', { class: 'page' });
-  el.append(h('div', { class: 'page-head' }, h('div', {}, h('h1', {}, 'Einstellungen'), h('div', { class: 'muted' }, 'Gelten für alle Prüfungen und werden mit synchronisiert'))));
+  el.append(h('div', { class: 'page-head' }, h('div', {}, h('h1', {}, 'Einstellungen'), h('div', { class: 'muted' }, 'Gelten für alle Prüfungen und werden über den Fortschrittsordner synchronisiert'))));
 
   const inputs = {};
-  const form = h('div', { class: 'card form' });
+  const form = h('div', { class: 'panel form' });
   for (const [key, title, desc, kind] of FIELDS) {
     const val = settings[key] ?? defaults[key];
     const input = h('input', { value: Array.isArray(val) ? val.join(', ') : String(val), placeholder: String(defaults[key]) });
@@ -31,8 +31,8 @@ export async function settingsView() {
     h('button', { class: 'btn primary', onclick: save }, 'Speichern'),
     h('button', { class: 'btn', onclick: reset }, 'Standard wiederherstellen')));
 
-  el.append(h('div', { class: 'section-title' }, 'Speicherorte'));
-  el.append(h('div', { class: 'card form' },
+  el.append(h('div', { class: 'section section-head' }, h('h2', {}, 'Speicherorte')));
+  el.append(h('div', { class: 'panel form' },
     h('div', {}, h('div', { class: 'h' }, 'Prüfungen'), h('div', { class: 'd' }, 'Ordner mit meta.json und Fragen')), h('code', { class: 'path' }, config.examsDir),
     h('div', {}, h('div', { class: 'h' }, 'Lernfortschritt'), h('div', { class: 'd' }, 'In einen Nextcloud-Ordner legen, damit alle Geräte synchron bleiben')), h('code', { class: 'path' }, config.dataDir),
     h('div', {}, h('div', { class: 'h' }, 'Dieses Gerät'), h('div', { class: 'd' }, 'Jedes Gerät schreibt seine eigene Datei, so gibt es keine Sync-Konflikte')), h('code', { class: 'path' }, config.device)));

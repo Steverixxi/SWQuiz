@@ -31,17 +31,17 @@ export async function studyView({ exam, chapter, onChange }) {
     const status = data?.state?.status;
     const cur = status === 'new' ? 'new' : status === 'review' ? 'review' : status ? 'learning' : null;
     top.append(
-      h('a', { class: 'btn ghost', href: backHref, title: 'Beenden (Esc)' }, icon('x')),
+      h('a', { class: 'btn icon', href: backHref, title: 'Beenden (Esc)' }, icon('xmark')),
       h('div', { class: 'where' },
-        h('b', {}, data?.card ? data.card.topic : exam === 'all' ? 'Alles Fällige' : 'Üben'),
+        h('b', {}, data?.card ? data.card.chapter ?? data.card.topic : exam === 'all' ? 'Alles Fällige' : 'Lernen'),
         h('span', { class: 'faint' }, data?.card
-          ? [data.card.chapter, data.card.daysLeft != null && data.card.daysLeft >= 0 ? `Prüfung in ${data.card.daysLeft} T` : null].filter(Boolean).join(' · ')
+          ? [data.card.topic, data.card.daysLeft != null && data.card.daysLeft >= 0 ? `Prüfung in ${data.card.daysLeft} ${data.card.daysLeft === 1 ? 'Tag' : 'Tagen'}` : null].filter(Boolean).join(' · ')
           : chapter ?? '')),
       h('div', { class: 'study-counts', title: 'neu · Lernphase · fällig' },
         h('span', { class: `c-new${cur === 'new' ? ' cur' : ''}` }, String(c.new)),
         h('span', { class: `c-learn${cur === 'learning' ? ' cur' : ''}` }, String(c.learning)),
         h('span', { class: `c-review${cur === 'review' ? ' cur' : ''}` }, String(c.review))),
-      h('button', { class: 'btn ghost', title: 'Letzte Bewertung rückgängig (Z)', onclick: undo }, icon('undo')),
+      h('button', { class: 'btn icon', title: 'Letzte Bewertung rückgängig (Z)', onclick: undo }, icon('rotate-left')),
     );
   }
 
@@ -53,7 +53,7 @@ export async function studyView({ exam, chapter, onChange }) {
     body.innerHTML = '';
     actions.innerHTML = '';
     if (data.error) {
-      body.append(h('div', { class: 'error-box' }, data.error));
+      body.append(h('div', { class: 'notice' }, data.error));
       return;
     }
     if (data.done) {
@@ -66,12 +66,12 @@ export async function studyView({ exam, chapter, onChange }) {
           : `Nächste Wiederholung am ${next.toLocaleDateString('de-AT', { weekday: 'long', day: 'numeric', month: 'long' })}`
         : '';
       body.append(h('div', { class: 'done-wrap' },
-        h('div', { class: 'em' }, '🎉'),
-        h('h2', {}, answered ? `Fertig für jetzt, ${answered} Karten geschafft!` : 'Hier ist gerade nichts fällig'),
+        icon('circle-check'),
+        h('h2', {}, answered ? `Fertig für jetzt. ${answered} ${answered === 1 ? 'Karte' : 'Karten'} gelernt.` : 'Gerade ist nichts fällig'),
         h('div', { class: 'muted' }, nextTxt),
         h('div', { style: { marginTop: '24px', display: 'flex', gap: '10px', justifyContent: 'center' } },
           h('a', { class: 'btn', href: backHref }, 'Zurück'),
-          exam !== 'all' ? h('a', { class: 'btn', href: '#/study/all' }, 'Alles Fällige üben') : null)));
+          exam !== 'all' ? h('a', { class: 'btn', href: '#/study/all' }, 'Alles Fällige lernen') : null)));
       return;
     }
     actions.hidden = false;
@@ -88,13 +88,13 @@ export async function studyView({ exam, chapter, onChange }) {
     actions.innerHTML = '';
     const label = renderer.selfGraded ? 'Antwort zeigen' : 'Prüfen';
     actions.append(h('div', { class: 'inner' },
-      h('button', { class: 'btn primary big', style: { minWidth: '240px' }, onclick: reveal }, label, h('span', { class: 'kbd' }, 'Leertaste'))));
+      h('button', { class: 'btn primary lg', style: { minWidth: '220px' }, onclick: reveal }, label, h('span', { class: 'kbd' }, 'Leertaste'))));
   }
 
   function reveal() {
     if (phase !== 'answer') return;
     if (!renderer.selfGraded && renderer.hasInput && !renderer.hasInput()) {
-      toast('Noch keine Antwort gewählt. Leertaste nochmal zeigt die Lösung.');
+      toast('Keine Antwort gewählt. Nochmal drücken zeigt die Lösung.');
       renderer.hasInput = () => true;
       return;
     }
@@ -107,7 +107,7 @@ export async function studyView({ exam, chapter, onChange }) {
       RATINGS.map(({ r, t }) =>
         h('button', { class: `rate r${r}${suggested === r ? ' sugg' : ''}`, onclick: () => rate(r) },
           h('span', { class: 't' }, t),
-          h('span', { class: 'd' }, `${p[r].label}`, h('span', { class: 'kbd', style: { marginLeft: '6px' } }, String(r)))))));
+          h('span', { class: 'd' }, p[r].label, h('span', { class: 'kbd' }, String(r)))))));
   }
 
   async function rate(r) {
