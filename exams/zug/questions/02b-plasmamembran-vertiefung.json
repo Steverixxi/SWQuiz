@@ -1,0 +1,118 @@
+{
+  "chapter": "VL 2 – Plasmamembran (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 2 (S. 10–15)",
+  "questions": [
+    { "id": "pmv-kopfgruppen", "type": "matching", "question": "Ordne die Membranlipide ihrem hydrophilen Kopf zu.",
+      "pairs": [
+        { "left": "Phosphatidylserin", "right": "Serinphosphat" },
+        { "left": "Cholesterin", "right": "OH-Gruppe" },
+        { "left": "Galactocerebrosid", "right": "OH-Gruppe und ein Zucker" },
+        { "left": "Phosphatidylcholin", "right": "Phosphatgruppe mit Cholin-Rest" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 12" },
+    { "id": "pmv-innen", "type": "multiple", "question": "Welche Phospholipide liegen laut Skript hauptsächlich auf der **Innenseite** der Plasmamembran?",
+      "options": [
+        { "text": "Phosphatidylserin", "correct": true },
+        { "text": "Phosphatidylethanolamin", "correct": true },
+        { "text": "Glykolipide", "explain": "Glykolipide liegen hauptsächlich außen (Glykokalyx)." },
+        { "text": "Galactocerebrosid", "explain": "Glykolipid mit Zucker, außen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 12" },
+    { "id": "pmv-cholesterol", "type": "single", "question": "Welchen Einfluss hat **Cholesterol** laut Skript auf die Membran?",
+      "options": [
+        { "text": "Die kurzen, starren Moleküle beeinflussen die Stabilität der Membran", "correct": true },
+        { "text": "Es ist das häufigste Membranlipid" , "explain": "Phospholipide sind die vorherrschende Gruppe." },
+        { "text": "Es macht die Membran für Ionen durchlässig" },
+        { "text": "Es bildet die Glykokalyx" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 12" },
+    { "id": "pmv-verankerung", "type": "multiple", "question": "Wie können Membranproteine laut Skript mit der Lipiddoppelschicht interagieren?",
+      "options": [
+        { "text": "Als Transmembranproteine über α-Helix- oder β-Faltblattstrukturen", "correct": true },
+        { "text": "Über amphipathische α-Helices", "correct": true },
+        { "text": "Über kovalente Verknüpfung mit einem Lipid (z. B. GPI)", "correct": true },
+        { "text": "Über nicht-kovalente Wechselwirkungen mit anderen Membranproteinen", "correct": true },
+        { "text": "Über Peptidbindungen mit Cholesterin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 12" },
+    { "id": "pmv-semifluid", "type": "multiple", "question": "Welche Funktionen der Plasmamembran nennt das Skript neben der Barrierefunktion?",
+      "options": [
+        { "text": "Beteiligung an der Signalübertragung", "correct": true },
+        { "text": "Molekültransport", "correct": true },
+        { "text": "Bewegungsvorgänge", "correct": true },
+        { "text": "Speicherung der Erbinformation" }
+      ], "explanation": "Das Skript beschreibt die Plasmamembran als „semifluide“ Einheit.", "source": "VL-Skript ZUG Teil 1, S. 12" },
+    { "id": "pmv-aufnahmewege", "type": "matching", "question": "Ordne zu, wie die Zelle welche Stoffe aufnimmt oder abgibt.",
+      "pairs": [
+        { "left": "Diffusion", "right": "Kleine Moleküle" },
+        { "left": "Aktiver Transport", "right": "Größere oder geladene Moleküle" },
+        { "left": "Endozytose und Exozytose", "right": "Makromoleküle" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 14" },
+    { "id": "pmv-druecke", "type": "single", "question": "Wie verhalten sich **hydrostatischer und onkotischer Druck** in der Kapillare normalerweise?",
+      "options": [
+        { "text": "Sie wirken gegensinnig und sind im Gleichgewicht, nur wenig Flüssigkeit tritt ins Interstitium und wird von Lymphgefäßen eingesammelt", "correct": true },
+        { "text": "Beide drücken Flüssigkeit aus dem Gefäß" },
+        { "text": "Der onkotische Druck entsteht durch Natrium" },
+        { "text": "Sie haben nichts mit Ödemen zu tun" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 14" },
+    { "id": "pmv-hydropisch", "type": "multiple", "question": "Welche Ursachen nennt das Skript für eine **hydropische Schwellung** (erhöhter intrazellulärer Wasseranteil)?",
+      "options": [
+        { "text": "Energiemangel", "correct": true },
+        { "text": "Zellmembranschaden", "correct": true },
+        { "text": "Störungen des Elektrolythaushalts", "correct": true },
+        { "text": "Überschuss an Albumin im Plasma" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 14" },
+    { "id": "pmv-oedem-fall", "type": "single", "question": "Ein Patient mit Leberzirrhose entwickelt Aszites. Welche Ödemform liegt laut Skript zugrunde?",
+      "options": [
+        { "text": "Onkotisches Ödem durch Proteinmangel (niedriger kolloidosmotischer Druck)", "correct": true },
+        { "text": "Kapillartoxisches Ödem" },
+        { "text": "Osmotisches Ödem durch Niereninsuffizienz" },
+        { "text": "Hydropische Schwellung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 14" },
+    { "id": "pmv-kdel-zyklus", "type": "order", "question": "Bringe den Rücktransport ER-residenter Proteine in die richtige Reihenfolge.",
+      "items": [
+        "ER-Protein mit KDEL-Sequenz gelangt in den Golgi",
+        "Bindung an den KDEL-Rezeptor in der Membran der Golgi-Zisternen",
+        "Verpackung in Vesikel und Rücktransport zum ER",
+        "Dissoziation vom Rezeptor durch die Ionenverhältnisse im ER",
+        "Rezeptor wandert in Vesikeln zurück zum Golgi"
+      ], "source": "VL-Skript ZUG Teil 1, S. 14" },
+    { "id": "pmv-kdel-aa", "type": "single", "question": "Für welche Aminosäuren steht die Retentionssequenz **K-D-E-L**?",
+      "options": [
+        { "text": "Lys-Asp-Glu-Leu", "correct": true },
+        { "text": "Lys-Asn-Gln-Leu" },
+        { "text": "Lys-Asp-Glu-Lys" },
+        { "text": "Leu-Asp-Glu-Lys" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 14" },
+    { "id": "pmv-golgi-oligo", "type": "single", "question": "Was geschieht laut VL 2 im Golgi mit den Oligosacchariden, die im ER an Proteine angebracht wurden?",
+      "options": [
+        { "text": "Sie werden modifiziert und in ihre endgültige Form gebracht", "correct": true },
+        { "text": "Sie werden vollständig entfernt" },
+        { "text": "Sie werden ins Zytosol abgegeben" },
+        { "text": "Sie bleiben unverändert" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 14" },
+    { "id": "pmv-transmitter-beladung", "type": "single", "question": "Wie werden Neurotransmitter in **synaptische Vesikel** aufgenommen?",
+      "options": [
+        { "text": "Aktiv über einen Transmitter-Protonen-Antiport, der Protonengradient stammt von einer V-Typ-ATPase", "correct": true },
+        { "text": "Durch passive Diffusion" },
+        { "text": "Über den Na^+^-Glukose-Symport" },
+        { "text": "Durch Gap junctions" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 15" },
+    { "id": "pmv-vesikel-recycling", "type": "multiple", "question": "Was passiert laut Skript nach der Transmitterfreisetzung mit dem synaptischen Vesikel?",
+      "options": [
+        { "text": "Es wird innerhalb von Sekunden durch clathrinvermittelte Endozytose zurückgewonnen", "correct": true },
+        { "text": "Der Clathrinbesatz wird unter ATP-Verbrauch entfernt", "correct": true },
+        { "text": "Es fusioniert mit frühen Endosomen", "correct": true },
+        { "text": "Es wird wieder mit Transmitter befüllt", "correct": true },
+        { "text": "Es wird im Lysosom vollständig abgebaut" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 15" },
+    { "id": "pmv-exo-kontinuierlich", "type": "matching", "question": "Ordne die Exozytoseform ihrem Beispiel zu.",
+      "pairs": [
+        { "left": "Kontinuierliche Exozytose", "right": "Lipide, Hydrolasen" },
+        { "left": "Regulierte Exozytose", "right": "Neurotransmitter, Insulin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 15" },
+    { "id": "pmv-osmose-def", "type": "single", "question": "Wie definiert das Skript **Osmose**?",
+      "options": [
+        { "text": "Bewegung von Wasser durch eine semipermeable Membran von niedriger zu höherer Konzentration gelöster Stoffe", "correct": true },
+        { "text": "Bewegung gelöster Stoffe von höherer zu niedrigerer Konzentration", "explain": "Das ist Diffusion." },
+        { "text": "Aktiver Transport von Wasser unter ATP-Verbrauch" },
+        { "text": "Bewegung von Wasser von höherer zu niedrigerer Konzentration gelöster Stoffe" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 13" }
+  ]
+}
