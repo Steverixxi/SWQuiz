@@ -1,0 +1,329 @@
+{
+  "chapter": "VL 12 – Binde- und Stützgewebe (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 12 (S. 152–199)",
+  "questions": [
+    { "id": "bgv-kopfmesenchym", "type": "single", "question": "Welche Ausnahme gilt bei der Herkunft des Bindegewebes?",
+      "options": [ { "text": "Das Kopfmesenchym ist ektodermalen Ursprungs", "correct": true }, { "text": "Das Bindegewebe der Haut stammt aus dem Entoderm" }, { "text": "Knochen stammt aus dem Neuroektoderm" }, { "text": "Es gibt keine Ausnahme" } ],
+      "explanation": "Sonst leitet sich das Bindegewebe aus dem Mesenchym ab, das aus dem Mesoderm hervorgeht.", "source": "VL-Skript ZUG Teil 1, S. 154" },
+    { "id": "bgv-mesenchymzellen", "type": "multiple", "question": "Welche Merkmale haben **Mesenchymzellen**?",
+      "options": [
+        { "text": "Fortsatzreich, motil, teilungsfreudig", "correct": true },
+        { "text": "Keine ausgeprägte Zellpolarität", "correct": true },
+        { "text": "Über wenige Nexus und kleine Kontakte verbunden", "correct": true },
+        { "text": "EZM viskös, hyaluronsäurereich, wenige dünne Kollagenfibrillen", "correct": true },
+        { "text": "Über Desmosomen fest zu einem Epithel verbunden" }
+      ], "explanation": "Dichte Ansammlungen von Mesenchymzellen heißen Blasteme.", "source": "VL-Skript ZUG Teil 1, S. 155" },
+    { "id": "bgv-msc-klinik", "type": "multiple", "question": "Welche klinischen Fakten zu mesenchymalen Stammzellen nennt das Skript?",
+      "options": [
+        { "text": "Gewinnung zur Stammzelltransplantation meist aus dem Knochenmark (Crista iliaca)", "correct": true },
+        { "text": "Weichteilsarkome leiten sich vermutlich von MSC ab", "correct": true },
+        { "text": "Weichteilsarkome machen ca. 6 % der Krebserkrankungen im Kindes- und Jugendalter aus", "correct": true },
+        { "text": "MSC werden aus dem Blut von Erwachsenen gewonnen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 155" },
+    { "id": "bgv-fibroblast-motil", "type": "multiple", "question": "Welche Aussagen zu **Fibroblasten** stimmen laut Skript?",
+      "options": [
+        { "text": "Sie bewegen sich mit bis zu 1 µm/min (Myosin II im Zytoskelett).", "correct": true },
+        { "text": "Sie sind über Integrine mit Matrixkomponenten wie Fibronectin verbunden.", "correct": true },
+        { "text": "Pathologische Überaktivität führt zu Fibrose bzw. Sklerose.", "correct": true },
+        { "text": "Bei Wundheilung steigt ihre Mitoserate.", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 156" },
+    { "id": "bgv-retikulumzelle", "type": "single", "question": "Wo kommen **Retikulumzellen** vor, und was bilden sie?",
+      "options": [
+        { "text": "Im retikulären BGW lymphatischer Organe und des roten Knochenmarks; Prokollagen für retikuläre Fasern", "correct": true },
+        { "text": "In der Haut; Melanin" },
+        { "text": "Im Darm; Schrittmacherpotentiale" },
+        { "text": "Im Fettgewebe; Leptin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 158" },
+    { "id": "bgv-lipogenese", "type": "matching", "question": "Ordne die Regulation des Fettstoffwechsels zu.",
+      "pairs": [
+        { "left": "Lipogenese", "right": "Stimuliert durch Insulin" },
+        { "left": "Lipolyse", "right": "Stimuliert durch Glucagon und Adrenalin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 159" },
+    { "id": "bgv-adipozyt-entstehung", "type": "multiple", "question": "Welche Aussagen zur Entstehung weißer Fettzellen stimmen?",
+      "options": [
+        { "text": "Aus fibrozytenähnlichen Vorläuferzellen", "correct": true },
+        { "text": "Durch Bildung und Verschmelzung kleiner Fettkugeln", "correct": true },
+        { "text": "Der Prozess ist zum Teil reversibel", "correct": true },
+        { "text": "Reife Fettzellen teilen sich noch", "explain": "Nur frühe und mittlere Stadien sind teilungsfähig." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 159" },
+    { "id": "bgv-univakuolaer-detail", "type": "multiple", "question": "Welche Merkmale hat die **univakuoläre** Fettzelle?",
+      "options": [
+        { "text": "Bis zu 120 µm groß, kugelförmig", "correct": true },
+        { "text": "Kern an den Rand gedrängt und abgeflacht", "correct": true },
+        { "text": "Fetttropfen von Perilipin A/B und Vimentin umgeben", "correct": true },
+        { "text": "Basallamina aus Typ-IV-Kollagen und Laminin, umgeben von retikulären Fasern", "correct": true },
+        { "text": "Viele Mitochondrien mit Thermogenin", "explain": "Das ist typisch für plurivakuoläres (braunes) Fett." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 160" },
+    { "id": "bgv-thermogenin", "type": "single", "question": "Wie bildet **plurivakuoläres** Fettgewebe Wärme?",
+      "options": [
+        { "text": "Thermogenin in der inneren Mitochondrienmembran entkoppelt die oxidative Phosphorylierung", "correct": true },
+        { "text": "Durch Muskelzittern" },
+        { "text": "Durch Lipoproteinlipase im Kapillarendothel" },
+        { "text": "Durch Glykolyse im Zytoplasma" }
+      ], "explanation": "Die Energie der protonenmotorischen Kraft wird in Wärme umgewandelt. Das Gewebe ist reich sympathisch innerviert; Noradrenalin fördert den Triglyceridabbau.", "source": "VL-Skript ZUG Teil 1, S. 177" },
+    { "id": "bgv-braun-vorkommen", "type": "multiple", "question": "Wo kommt **plurivakuoläres** Fettgewebe laut Skript vor?",
+      "options": [ { "text": "Beim Neugeborenen: Schultergürtel, Nierenhilum, Achselhöhle", "correct": true }, { "text": "Beim Erwachsenen um große Arterien und im Mediastinum", "correct": true }, { "text": "Bei Winterschläfern", "correct": true }, { "text": "In der Orbita als Baufett", "explain": "Baufett ist univakuolär." } ], "source": "VL-Skript ZUG Teil 1, S. 177" },
+    { "id": "bgv-lpl", "type": "single", "question": "Welche Rolle spielt die **Lipoproteinlipase** im univakuolären Fettgewebe?",
+      "options": [
+        { "text": "Sie sitzt lumenseitig im Kapillarendothel und spaltet Triglyceride der Chylomikronen zu freien Fettsäuren", "correct": true },
+        { "text": "Sie entkoppelt die Atmungskette" },
+        { "text": "Sie baut Kollagen ab" },
+        { "text": "Sie bildet Leptin" }
+      ], "explanation": "Jede Fettzelle steht mit mindestens einer Kapillare in Verbindung.", "source": "VL-Skript ZUG Teil 1, S. 177" },
+    { "id": "bgv-speicherfett", "type": "matching", "question": "Ordne das Fett seinem Vorkommen zu.",
+      "pairs": [
+        { "left": "Baufett", "right": "Orbita, große Gelenke, Hand- und Fußsohlen" },
+        { "left": "Speicherfett", "right": "Bauch- und Flankenhaut, Retroperitoneum, Mesenterien, Gesäß" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 177" },
+    { "id": "bgv-cajal", "type": "multiple", "question": "Welche Aussagen zu **interstitiellen Zellen** stimmen?",
+      "options": [
+        { "text": "Sie bilden weder EZM noch speichern sie Fett.", "correct": true },
+        { "text": "Interstitielle Zellen von Cajal haben im Darm Schrittmacherfunktion für die Peristaltik.", "correct": true },
+        { "text": "Im EM: wenig rER, sehr lange plattenförmige Ausläufer (Telozyten).", "correct": true },
+        { "text": "Sie bilden Nexus zu anderen Zellen.", "correct": true },
+        { "text": "Sie kommen nur im Darm vor.", "explain": "Sie finden sich im lockeren BGW aller Organe." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 163" },
+    { "id": "bgv-mastzelle", "type": "multiple", "question": "Welche Aussagen zu **Mastzellen** stimmen?",
+      "options": [
+        { "text": "Entstehen aus hämatopoietischen Vorläufern, reifen im Gewebe unter SCF (c-kit-Rezeptor)", "correct": true },
+        { "text": "Viele basophile Granula", "correct": true },
+        { "text": "Hochaffine IgE-Rezeptoren", "correct": true },
+        { "text": "Enthalten Histamin, Heparin, Prostaglandine, Leukotriene", "correct": true },
+        { "text": "Stammen wie Makrophagen aus dem Dottersack" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 164" },
+    { "id": "bgv-mastzell-typen", "type": "matching", "question": "Ordne die Mastzell-Typen zu.",
+      "pairs": [
+        { "left": "Mukosale Mastzellen", "right": "Mukosa von Atemwegen, Darm, Harnwegen; Tryptase" },
+        { "left": "Bindegewebs-Mastzellen", "right": "Submukosa, Haut, perivaskulär; Tryptase, Chymase, Carboxypeptidase A" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 164" },
+    { "id": "bgv-melanozyt", "type": "multiple", "question": "Welche Aussagen zu **Melanozyten** stimmen?",
+      "options": [
+        { "text": "Bilden Melanin in Melanosomen", "correct": true },
+        { "text": "Keine Zytokeratinfilamente und keine Desmosomen", "correct": true },
+        { "text": "Mit Keratinozyten über eigene Cadherine verbunden", "correct": true },
+        { "text": "Vorkommen u. a. Stratum basale, Haarbulbus, Iris, Choroidea, Pia mater", "correct": true },
+        { "text": "Über Hemidesmosomen an der Basallamina verankert", "explain": "Sie haben keine Hemidesmosomen, aber dort Kollagen Typ XVII (BP 180)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 165" },
+    { "id": "bgv-melanosom", "type": "multiple", "question": "Welche Aussagen zu **Melanosomen** stimmen?",
+      "options": [
+        { "text": "Elliptisch, ca. 1 µm, membranbegrenzt", "correct": true },
+        { "text": "Mit Lysosomen verwandt (Protonenpumpe, saurer pH, saure Hydrolasen)", "correct": true },
+        { "text": "Stadien I–III sind Prämelanosomen, Stadium IV ist voll mit Melanin gefüllt", "correct": true },
+        { "text": "Bildung angeregt durch Sonnenlicht, α-MSH, ACTH und Zytokine", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 165" },
+    { "id": "bgv-makrophage", "type": "multiple", "question": "Welche Aussagen zu **Makrophagen** stimmen laut Skript?",
+      "options": [
+        { "text": "Gewebeständige Makrophagen stammen aus Vorläufern im Dottersack.", "correct": true },
+        { "text": "Rekrutierte Makrophagen entstehen aus eingewanderten Monozyten.", "correct": true },
+        { "text": "Im H.E.-Präparat blass und schwer erkennbar, Nachweis immunhistochemisch", "correct": true },
+        { "text": "Lysosomenreich, oft ca. 20 µm groß", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 166" },
+    { "id": "bgv-ezm-lm", "type": "matching", "question": "Ordne zu: Was ist im Lichtmikroskop sichtbar?",
+      "pairs": [
+        { "left": "Kollagene, retikuläre und elastische Fasern", "right": "Sichtbar" },
+        { "left": "GAG, Proteoglykane, Glykoproteine", "right": "Nicht sichtbar (Grundsubstanz)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 167" },
+    { "id": "bgv-kollagen-bildner", "type": "multiple", "question": "Welche Zellen synthetisieren laut Skript Kollagen?",
+      "options": [ { "text": "Fibroblasten", "correct": true }, { "text": "Chondroblasten", "correct": true }, { "text": "Endothelzellen", "correct": true }, { "text": "Glatte Muskelzellen", "correct": true } ],
+      "explanation": "Alle Kollagene bilden eine Tripelhelix.", "source": "VL-Skript ZUG Teil 1, S. 168" },
+    { "id": "bgv-kollagen-detail", "type": "matching", "question": "Ordne das Vorkommen dem Kollagentyp zu.",
+      "pairs": [
+        { "left": "Cornea, Sklera, Dentin, Dura mater, Anulus fibrosus", "right": "Typ I" },
+        { "left": "Nucleus pulposus, Glaskörper, Tektorialmembran", "right": "Typ II" },
+        { "left": "Disse-Raum, lymphatische Organe, Gefäßwand", "right": "Typ III" },
+        { "left": "Basalmembran, perizellulär im Knorpel", "right": "Typ IV" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 168" },
+    { "id": "bgv-elastin", "type": "single", "question": "Welches Enzym vernetzt Tropoelastin zu unlöslichem Elastin?",
+      "options": [ { "text": "Lysyloxidase", "correct": true }, { "text": "Kollagenase" }, { "text": "Lipoproteinlipase" }, { "text": "Tyrosinase" } ], "source": "VL-Skript ZUG Teil 1, S. 169" },
+    { "id": "bgv-fibrillin", "type": "single", "question": "Wo kommen **Mikrofibrillen aus Fibrillin** auch unabhängig von elastischen Fasern vor?",
+      "options": [ { "text": "In den Zonulafasern der Augenlinse und begleitend zu Kollagenfasern (Dermis, Gelenke)", "correct": true }, { "text": "Nur in der Aorta" }, { "text": "In Basallaminae als Hauptbestandteil" }, { "text": "Im Knochen als Mineral" } ], "source": "VL-Skript ZUG Teil 1, S. 169" },
+    { "id": "bgv-fibronectin", "type": "matching", "question": "Ordne die Formen des Fibronectins zu.",
+      "pairs": [
+        { "left": "Plasmafibronectin", "right": "In der Leber gebildet, im Blut gelöst; Wundheilung, Gerinnung" },
+        { "left": "Fibrilläres Fibronectin", "right": "Von Fibrozyten gebildet; Bindung an Kollagen und Integrine, Zellmigration" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 170" },
+    { "id": "bgv-gag", "type": "multiple", "question": "Welche Aussagen zu **Glykosaminoglykanen** stimmen?",
+      "options": [
+        { "text": "Lineare, saure Polysaccharide aus sich wiederholenden Disacchariden", "correct": true },
+        { "text": "Polyanionisch und hydrophil", "correct": true },
+        { "text": "Bilden nicht komprimierbare, visköse Gele", "correct": true },
+        { "text": "Beispiele: Hyaluronan, Heparansulfat, Chondroitinsulfat, Keratansulfat", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 170" },
+    { "id": "bgv-mmp", "type": "single", "question": "Welche Enzyme sorgen für den permanenten **Turnover** der EZM?",
+      "options": [ { "text": "Proteasen, überwiegend Matrix-Metalloproteasen und Serinproteasen", "correct": true }, { "text": "DNA-Polymerasen" }, { "text": "Lipasen" }, { "text": "Kinasen" } ], "source": "VL-Skript ZUG Teil 1, S. 170" },
+    { "id": "bgv-mesenchym-msc", "type": "multiple", "question": "Wofür enthält das **embryonale Mesenchym** multipotente Stammzellen?",
+      "options": [ { "text": "Alle Hauptzellen der Binde- und Stützgewebe", "correct": true }, { "text": "Muskel- und Endothelzellen", "correct": true }, { "text": "Mesothelzellen", "correct": true }, { "text": "Odontoblasten", "correct": true } ], "source": "VL-Skript ZUG Teil 1, S. 172" },
+    { "id": "bgv-locker", "type": "multiple", "question": "Welche Aussagen zum **lockeren** Bindegewebe stimmen?",
+      "options": [
+        { "text": "Fibroblasten bilden ein weiträumiges Maschennetz", "correct": true },
+        { "text": "Hoher Wassergehalt, alle Typen mobiler Zellen", "correct": true },
+        { "text": "Stroma von Organen, verbindet Epithel verschieblich mit der Unterlage", "correct": true },
+        { "text": "Kollagenfasern regelmäßig in dicken Bündeln angeordnet", "explain": "Das ist straffes BGW." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 173" },
+    { "id": "bgv-straff", "type": "matching", "question": "Ordne das straffe Bindegewebe seinem Vorkommen zu.",
+      "pairs": [
+        { "left": "Geflechtartig", "right": "Kornea, Organkapseln" },
+        { "left": "Parallelfaserig", "right": "Sehnen, Bänder, Aponeurosen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 174" },
+    { "id": "bgv-gallertig", "type": "single", "question": "Was ist die **Wharton-Sulze**?",
+      "options": [ { "text": "Gallertiges BGW der Nabelschnur mit hyaluronan- und wasserreicher Grundsubstanz", "correct": true }, { "text": "Retikuläres BGW der Milz" }, { "text": "Braunes Fettgewebe des Neugeborenen" }, { "text": "Knorpelmatrix des Kehlkopfs" } ],
+      "explanation": "Sie ist prall-elastisch und verhindert ein Abknicken. Gallertiges BGW kommt auch in der Zahnpulpa vor.", "source": "VL-Skript ZUG Teil 1, S. 175" },
+    { "id": "bgv-spinozellulaer", "type": "single", "question": "Wo kommt **spinozelluläres** Bindegewebe vor?",
+      "options": [ { "text": "Im Ovar (Rinde), mit fischzugartig angeordneten Fibroblasten", "correct": true }, { "text": "In Lymphknoten" }, { "text": "In der Nabelschnur" }, { "text": "In der Sehne" } ],
+      "explanation": "Die Fibroblasten können sich in endokrine Zellen umwandeln.", "source": "VL-Skript ZUG Teil 1, S. 176" },
+    { "id": "bgv-retikulaer", "type": "multiple", "question": "Welche Aussagen zum **retikulären** Bindegewebe stimmen?",
+      "options": [
+        { "text": "Bindegewebe sekundärer lymphatischer Organe und des Knochenmarks", "correct": true },
+        { "text": "Retikulumzellen bilden überwiegend Typ-III-Kollagen", "correct": true },
+        { "text": "In den Lücken liegen Lymphozyten, Makrophagen und APCs", "correct": true },
+        { "text": "Jedes Bindegewebe mit retikulären Fasern ist retikuläres Bindegewebe", "explain": "Das Skript warnt ausdrücklich davor." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 176" },
+    { "id": "bgv-knorpel-allg", "type": "multiple", "question": "Welche Aussagen zum **Knorpelgewebe** stimmen?",
+      "options": [
+        { "text": "Fest, druckelastisch, schneidbar", "correct": true },
+        { "text": "Ausgereift (fast) gefäßfrei, Ausnahme Kehlkopfknorpel", "correct": true },
+        { "text": "Grundsätzlich ohne Nerven", "correct": true },
+        { "text": "Chondroblasten teilen sich, Chondrozyten nicht mehr", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 180" },
+    { "id": "bgv-chondron", "type": "matching", "question": "Ordne die Begriffe des hyalinen Knorpels zu.",
+      "pairs": [
+        { "left": "Chondron (isogene Gruppe)", "right": "Zellgruppe aus einem sich teilenden Chondroblasten" },
+        { "left": "Territorium", "right": "Chondron plus territorialer Matrixsaum" },
+        { "left": "Interterritorium", "right": "Matrix zwischen den Territorien, am wenigsten basophil" },
+        { "left": "Knorpelkapsel", "right": "Perizelluläre Matrix (1 µm), besonders basophil" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 181–182" },
+    { "id": "bgv-knorpel-zahlen", "type": "multiple", "question": "Welche Zahlen zum hyalinen Knorpel nennt das Skript?",
+      "options": [
+        { "text": "Ca. 20 % Zellen, 80 % hydratisiertes extrazelluläres Material", "correct": true },
+        { "text": "Maximale Diffusionsstrecke 3–4 mm", "correct": true },
+        { "text": "Kollagen Typ II: Halbwertszeit ca. 100 Tage im wachsenden, mehrere Jahre im adulten Knorpel", "correct": true },
+        { "text": "Aggrecan bindet das 50-fache seines Volumens an Wasser", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 182–183" },
+    { "id": "bgv-chondrozyt-o2", "type": "single", "question": "Wie gewinnen Chondrozyten wegen der schlechten O~2~-Versorgung Energie?",
+      "options": [ { "text": "Anaerobe Glykolyse, Laktat steigt in der Matrix", "correct": true }, { "text": "Über Thermogenin" }, { "text": "Über eigene Kapillaren" }, { "text": "Über Photosynthese" } ], "source": "VL-Skript ZUG Teil 1, S. 182" },
+    { "id": "bgv-kalkknorpel", "type": "multiple", "question": "Was gilt für die Verkalkung der Knorpelmatrix (Kalkknorpel)?",
+      "options": [ { "text": "Besonders bei Kehlkopf- und Rippenknorpeln", "correct": true }, { "text": "Beginnt in der Adoleszenz", "correct": true }, { "text": "Bei Männern ausgeprägter als bei Frauen", "correct": true }, { "text": "Betrifft vor allem den Gelenkknorpel von Kindern" } ], "source": "VL-Skript ZUG Teil 1, S. 182" },
+    { "id": "bgv-perichondrium", "type": "matching", "question": "Ordne die Schichten des Perichondriums zu.",
+      "pairs": [
+        { "left": "Stratum chondrogenicum", "right": "Innen, zellreich, Zellen werden zu Fibroblasten oder Chondroblasten" },
+        { "left": "Stratum fibrosum", "right": "Außen, straffes BGW (Typ I), mit Gefäßen und Nerven" }
+      ], "explanation": "Gelenkknorpel hat kein Perichondrium.", "source": "VL-Skript ZUG Teil 1, S. 183" },
+    { "id": "bgv-aggrecan-ketten", "type": "single", "question": "Wie viele Seitenketten trägt ein Aggrecan-Molekül etwa?",
+      "options": [ { "text": "ca. 100 Chondroitinsulfat- und 20–80 Keratansulfat-Ketten", "correct": true }, { "text": "1 Hyaluronan-Kette" }, { "text": "ca. 10 Heparin-Ketten" }, { "text": "Keine; Aggrecan ist ein reines Protein" } ],
+      "explanation": "Aggrecan ist an Hyaluronsäure aufgereiht und durch Link-Protein stabilisiert.", "source": "VL-Skript ZUG Teil 1, S. 183" },
+    { "id": "bgv-asbest", "type": "single", "question": "Was ist die **„Asbestfaserung“** des Knorpels?",
+      "options": [ { "text": "Im Alter sichtbare faserige Strukturen durch Verlust der Grundsubstanz und Wasserverlust", "correct": true }, { "text": "Eine Vergiftung durch Asbest" }, { "text": "Normale Kollagenfasern im jungen hyalinen Knorpel" }, { "text": "Verkalkung des Faserknorpels" } ],
+      "explanation": "Osteoarthritis ist die häufigste Erkrankung des Gelenkknorpels.", "source": "VL-Skript ZUG Teil 1, S. 183" },
+    { "id": "bgv-knorpel-glykoproteine", "type": "matching", "question": "Ordne die Knorpel-Glykoproteine ihrer Funktion zu.",
+      "pairs": [
+        { "left": "Matrix-GIA-Protein", "right": "Wirkt der Calcifizierung entgegen" },
+        { "left": "Chondronectin", "right": "Matrixhaftung der Chondrozyten" },
+        { "left": "Matrilin", "right": "Cartilage-Matrix-Protein" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 183" },
+    { "id": "bgv-elast-faserknorpel", "type": "matching", "question": "Ordne die Merkmale dem Knorpeltyp zu.",
+      "pairs": [
+        { "left": "Elastischer Knorpel", "right": "Gelblich, große Chondrozyten, elastische Netze, mit Perichondrium" },
+        { "left": "Faserknorpel", "right": "Weiß, Typ-I-Kollagen in Bündeln, kein Perichondrium" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 184" },
+    { "id": "bgv-knochen-zahlen", "type": "multiple", "question": "Welche Zahlen zum Knochengewebe nennt das Skript?",
+      "options": [
+        { "text": "Gesamtgewicht beim Erwachsenen ca. 4 kg, Calciumgehalt ca. 1 kg", "correct": true },
+        { "text": "Wassergehalt 10–20 %", "correct": true },
+        { "text": "Organische Matrix zu 90 % aus Kollagen Typ I", "correct": true },
+        { "text": "Wasserfreie Matrix zu 70 % organisch", "explain": "70 % anorganisch, 30 % organisch." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 186" },
+    { "id": "bgv-knochenproteine", "type": "matching", "question": "Ordne die nichtkollagenen Knochenproteine ihrer Wirkung zu.",
+      "pairs": [
+        { "left": "Osteocalcin", "right": "Hemmt die Mineralisierung, Bildung durch Vitamin D3 gefördert" },
+        { "left": "Osteonectin", "right": "Hemmt Zelladhäsion, fördert Migration" },
+        { "left": "Osteopontin", "right": "Integrin-vermittelte Adhäsion, auch in Niere und Urin" },
+        { "left": "Bone-Sialoprotein", "right": "Fördert die Bildung von Hydroxylapatit" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 186" },
+    { "id": "bgv-compacta-spongiosa", "type": "matching", "question": "Ordne die Merkmale zu.",
+      "pairs": [
+        { "left": "Substantia compacta", "right": "ca. 80 % des Knochengewebes, Osteone, 0,5–3 mm (Röhrenknochen bis 15 mm)" },
+        { "left": "Substantia spongiosa", "right": "ca. 20 % des Knochengewebes, Trabekel ca. 0,2 mm, nach Belastung ausgerichtet" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 188" },
+    { "id": "bgv-lymphe-knochen", "type": "single", "question": "Wo kommen beim Knochen **Lymphgefäße** vor?",
+      "options": [ { "text": "Nur im Periost; im Knochen selbst fehlen sie", "correct": true }, { "text": "In den Havers-Kanälen" }, { "text": "Im roten Knochenmark" }, { "text": "In den Volkmann-Kanälen" } ], "source": "VL-Skript ZUG Teil 1, S. 188" },
+    { "id": "bgv-osteon-zahlen", "type": "multiple", "question": "Welche Zahlen zu **Osteonen** nennt das Skript?",
+      "options": [
+        { "text": "Ca. 21 Millionen im Skelett", "correct": true },
+        { "text": "Ca. 2,5 mm lang, ca. 200 µm Durchmesser", "correct": true },
+        { "text": "Ca. 30 konzentrische Lamellen", "correct": true },
+        { "text": "Havers-Kanal ca. 50 µm mit 1–2 Gefäßen", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 189" },
+    { "id": "bgv-havers-volkmann", "type": "matching", "question": "Ordne die Gefäßkanäle des Knochens zu.",
+      "pairs": [
+        { "left": "Havers-Kanal", "right": "Längs im Zentrum des Osteons, von Lamellen umgeben" },
+        { "left": "Volkmann-Kanal", "right": "Quer, verbindet Havers-Gefäße, nicht von Lamellen umgeben" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 189" },
+    { "id": "bgv-periost", "type": "multiple", "question": "Welche Aussagen zum **Periost** stimmen?",
+      "options": [
+        { "text": "Über Sharpey-Fasern fest mit dem Knochen verbunden", "correct": true },
+        { "text": "Stratum osteogenicum (Kambium) mit Osteoblastenvorläufern: appositionelles Dickenwachstum", "correct": true },
+        { "text": "Stark sensibel innerviert, wichtig für Frakturheilung", "correct": true },
+        { "text": "Bedeckt auch den Gelenkknorpel", "explain": "Es fehlt am Gelenkknorpel, an synovialbedeckten Abschnitten und an Sehnenansätzen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 192" },
+    { "id": "bgv-endost", "type": "single", "question": "Woraus besteht das **Endost**?",
+      "options": [ { "text": "Aus endostalen Saumzellen (ruhenden Osteoblasten), über Nexus verbunden", "correct": true }, { "text": "Aus straffem Bindegewebe mit Sharpey-Fasern" }, { "text": "Aus Osteoklasten" }, { "text": "Aus hyalinem Knorpel" } ],
+      "explanation": "Die Saumzellen weichen auseinander, um Osteoklasten Zugang zur Matrix zu geben.", "source": "VL-Skript ZUG Teil 1, S. 192" },
+    { "id": "bgv-oberflaeche", "type": "single", "question": "Welche innere Knochenoberfläche ist laut Skript am **größten**?",
+      "options": [ { "text": "Spongiosa-Trabekel (ca. 11 m²)", "correct": true }, { "text": "Havers-Kanäle (ca. 3,5 m²)" }, { "text": "Compacta (ca. 1 m²)" }, { "text": "Alle gleich groß" } ],
+      "explanation": "Die Spongiosa spielt daher die größte Rolle bei der Knochenresorption.", "source": "VL-Skript ZUG Teil 1, S. 192" },
+    { "id": "bgv-osteoblast", "type": "multiple", "question": "Welche Merkmale haben **Osteoblasten**?",
+      "options": [
+        { "text": "Kubisch, 15–30 µm, reich an rauem ER (basophil)", "correct": true },
+        { "text": "Bilden das Osteoid", "correct": true },
+        { "text": "Leitenzym alkalische Phosphatase", "correct": true },
+        { "text": "Vielkernig mit Faltensaum", "explain": "Das sind Osteoklasten." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 193" },
+    { "id": "bgv-osteoblast-reg", "type": "matching", "question": "Ordne die Wirkung auf Osteoblasten laut Skript zu.",
+      "pairs": [
+        { "left": "Parathormon", "right": "Wirkt direkt hemmend" },
+        { "left": "Calcitriol (Vitamin D3)", "right": "Wirkt partiell stimulierend" },
+        { "left": "Retinsäure (Vitamin A)", "right": "Fördert die Differenzierung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 193" },
+    { "id": "bgv-osteozyt", "type": "multiple", "question": "Welche Aussagen zu **Osteozyten** stimmen?",
+      "options": [
+        { "text": "Dominierender Zelltyp des Knochens, inaktive Osteoblasten", "correct": true },
+        { "text": "Fortsätze in Canaliculi (ca. 0,4 µm)", "correct": true },
+        { "text": "Über Nexus (Connexin 43) verbunden", "correct": true },
+        { "text": "Können wieder zu aktiven Osteoblasten werden", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 194" },
+    { "id": "bgv-osteoklast", "type": "multiple", "question": "Welche Aussagen zu **Osteoklasten** stimmen?",
+      "options": [
+        { "text": "Vielkernige Riesenzellen (30–100 µm, bis 25 Kerne) in Howship-Lakunen", "correct": true },
+        { "text": "Faltensaum (ruffled border) mit ca. 10-facher Oberflächenvergrößerung", "correct": true },
+        { "text": "Pumpen H^+^, Cl^−^ folgt: Salzsäure (pH 5) löst die Kristalle", "correct": true },
+        { "text": "Ein Osteoklast baut so viel ab, wie ca. 100 Osteoblasten aufbauen", "correct": true },
+        { "text": "Leitenzym alkalische Phosphatase", "explain": "Das ist das Leitenzym der Osteoblasten." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 195" },
+    { "id": "bgv-umsatz", "type": "matching", "question": "Ordne den jährlichen Knochenumsatz zu.",
+      "pairs": [ { "left": "Gesamte Knochenmasse", "right": "ca. 12 % pro Jahr" }, { "left": "Compacta", "right": "ca. 4 %" }, { "left": "Spongiosa", "right": "ca. 30 %" } ], "source": "VL-Skript ZUG Teil 1, S. 196" },
+    { "id": "bgv-desmal", "type": "multiple", "question": "Welche Aussagen zur **desmalen** Ossifikation stimmen?",
+      "options": [
+        { "text": "Mesenchymzellen werden direkt zu Osteoblasten (ab 6. Embryonalwoche)", "correct": true },
+        { "text": "Es entstehen primäre Bälkchen aus Geflechtknochen", "correct": true },
+        { "text": "Bildet Deckknochen: Schädeldach, Gesichtsschädel, Schlüsselbeinschaft", "correct": true },
+        { "text": "Läuft über ein knorpeliges Modell", "explain": "Das ist die chondrale Ossifikation." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 196–197" },
+    { "id": "bgv-chondral", "type": "multiple", "question": "Welche Aussagen zur **chondralen** Ossifikation stimmen?",
+      "options": [
+        { "text": "Gefäße wachsen nach VEGF-Abgabe der Knorpelzellen ein", "correct": true },
+        { "text": "Perichondrale Knochenmanschette ab der 7. Embryonalwoche", "correct": true },
+        { "text": "Epiphysenfugen bleiben 16–20 Jahre aktiv und verknöchern zur Linea epiphysealis", "correct": true },
+        { "text": "Bildet die meisten Knochen des Körpers", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 198" },
+    { "id": "bgv-epiphysenfuge", "type": "order", "question": "Bringe die Zonen der Epiphysenfuge von der Epiphyse zur Diaphyse in die richtige Reihenfolge.",
+      "items": [ "Reservezone", "Proliferationszone (Säulenknorpel)", "Hypertrophiezone (Blasenknorpel)", "Resorptionszone", "Ossifikationszone" ], "source": "VL-Skript ZUG Teil 1, S. 199" },
+    { "id": "bgv-zonen-merkmal", "type": "matching", "question": "Ordne die Zone der Epiphysenfuge ihrem Merkmal zu.",
+      "pairs": [
+        { "left": "Reservezone", "right": "Hyaliner Knorpel, einzeln liegende Chondrozyten" },
+        { "left": "Proliferationszone", "right": "Starke Mitose, säulenförmige Anordnung" },
+        { "left": "Hypertrophiezone", "right": "Blasig aufgetriebene, stoffwechselaktive Zellen" },
+        { "left": "Resorptionszone", "right": "Verkalkte Längswände, Chondrozyten sterben durch Apoptose" },
+        { "left": "Ossifikationszone", "right": "Kapillaren sprossen ein, Osteoblasten bilden Geflechtknochen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 199" }
+  ]
+}
