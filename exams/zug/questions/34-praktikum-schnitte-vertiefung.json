@@ -1,0 +1,256 @@
+{
+  "chapter": "Praktikum – weitere digitale Schnitte",
+  "source": "Digitale Schnitte JKU (OMERO), Datensatz Zelle und Gewebe",
+  "questions": [
+    { "id": "ds2-nerv-laengs-uebersicht", "type": "image",
+      "question": "Peripherer Nerv, Längsschnitt (HE), Übersicht: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-nerv-laengs-uebersicht.jpg",
+      "labels": [
+        { "n": 1, "x": 47, "y": 31, "answer": "Fettzellen im Epineurium" },
+        { "n": 2, "x": 60, "y": 18, "ax": 44.8, "ay": 44, "answer": "Größeres Blutgefäß im Epineurium" },
+        { "n": 3, "x": 30, "y": 70, "answer": "Nervenfaserbündel (Faszikel) mit gewellt verlaufenden Nervenfasern" }
+      ],
+      "distractors": ["Skelettmuskelfasern", "Hyaliner Knorpel"],
+      "explanation": "Das **Epineurium** ist die äußere Hülle größerer Nerven. Es besteht aus straffem kollagenem Bindegewebe mit elastischen Fasern und enthält **Fettzellen und größere Blutgefäße**. Es fasst mehrere Nervenfaserbündel zusammen.",
+      "source": "Digitaler Schnitt Peripherer Nerv (HE); VL-Skript ZUG Teil 2, S. 133" },
+    { "id": "ds2-nerv-laengs-huellen", "type": "image",
+      "question": "Peripherer Nerv, Längsschnitt (HE), mittlere Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-nerv-laengs-huellen.jpg",
+      "labels": [
+        { "n": 1, "x": 50, "y": 34, "answer": "Fettzellen im Epineurium" },
+        { "n": 2, "x": 38, "y": 56, "answer": "Epineurium (straffes kollagenes Bindegewebe)" },
+        { "n": 3, "x": 96, "y": 76, "ax": 88.5, "ay": 59.5, "answer": "Größeres Blutgefäß im Epineurium" },
+        { "n": 4, "x": 55, "y": 88, "answer": "Faszikel mit gewellt verlaufenden Nervenfasern" }
+      ],
+      "distractors": ["Endoneurium um ein einzelnes Axon", "Glatte Muskulatur"],
+      "explanation": "Von außen nach innen: Das **Epineurium** (straffes kollagenes BGW mit Fettzellen und größeren Gefäßen) fasst die Bündel zusammen. Das **Perineurium** geht davon aus und bündelt die Nervenfasern zu Faszikeln. Das **Endoneurium** (retikuläres BGW) umhüllt einzelne Axone und ist bei dieser Vergrößerung nicht als eigene Schicht abgrenzbar.",
+      "source": "Digitaler Schnitt Peripherer Nerv (HE); VL-Skript ZUG Teil 2, S. 133" },
+    { "id": "ds2-nerv-laengs-endoneurium", "type": "single",
+      "question": "Im Längsschnitt eines peripheren Nervs siehst du die einzelnen Nervenfasern eines Faszikels. Welche Bindegewebshülle umgibt jedes **einzelne Axon**?",
+      "image": "images/ds-nerv-laengs-fasern.jpg",
+      "options": [
+        { "text": "Endoneurium (retikuläres Bindegewebe)", "correct": true },
+        { "text": "Perineurium", "explain": "Das Perineurium bündelt die Nervenfasern zu Faszikeln." },
+        { "text": "Epineurium", "explain": "Das Epineurium ist die äußere Hülle und fasst mehrere Faszikel zusammen." },
+        { "text": "Dura mater", "explain": "Das Epineurium setzt die Dura mater fort, umhüllt aber nicht einzelne Axone." }
+      ],
+      "explanation": "Das Endothel der Kapillaren im Endoneurium bildet die **Blut-Nerven-Schranke**.",
+      "source": "Digitaler Schnitt Peripherer Nerv (HE); VL-Skript ZUG Teil 2, S. 133" },
+    { "id": "ds2-nerv-perineuralscheide", "type": "single",
+      "question": "Woraus besteht die **Perineuralscheide**, die den Endoneuralraum eines Faszikels umgibt?",
+      "options": [
+        { "text": "Aus ca. 20 Lagen flacher Perineuralzellen im Wechsel mit Kollagenfasern, verbunden durch Tight Junctions", "correct": true },
+        { "text": "Aus Fettzellen und größeren Blutgefäßen", "explain": "Das beschreibt das Epineurium." },
+        { "text": "Aus retikulärem Bindegewebe um jedes Axon", "explain": "Das ist das Endoneurium." },
+        { "text": "Aus Myelinscheiden der Schwann-Zellen" }
+      ],
+      "explanation": "Sie entspricht der Pars epitheloidea des Perineuriums und bleibt bis in die Faserenden erhalten. Jede Lage ist außen und innen von einer Basallamina bedeckt.",
+      "source": "VL-Skript ZUG Teil 2, S. 133" },
+
+    { "id": "ds2-spinalganglion-erkennen", "type": "single",
+      "question": "Was zeigt dieser digitale Schnitt mit dicht liegenden, großen runden Nervenzellkörpern in einer Bindegewebskapsel?",
+      "image": "images/ds-spinalganglion-lupe.jpg",
+      "options": [
+        { "text": "Spinalganglion", "correct": true },
+        { "text": "Peripherer Nerv im Querschnitt", "explain": "Ein Nerv enthält Faszikel aus Nervenfasern, aber keine Ansammlung von Somata." },
+        { "text": "Graue Substanz des Rückenmarks", "explain": "Dort liegen multipolare Neurone verstreut im Neuropil, ohne Bindegewebskapsel." },
+        { "text": "Kleinhirnrinde" }
+      ],
+      "explanation": "Spinalganglien enthalten die Somata der primären afferenten Neurone (mehr als 10.000 pro Ganglion). Außen liegt das Epineurium als Bindegewebskapsel.",
+      "source": "Digitaler Schnitt Spinalganglion; VL-Skript ZUG Teil 2, S. 141" },
+    { "id": "ds2-spinalganglion-neurontyp", "type": "single",
+      "question": "Welcher Neurontyp hat seine Somata in dem gezeigten Spinalganglion?",
+      "image": "images/ds-spinalganglion-uebersicht.jpg",
+      "options": [
+        { "text": "Pseudounipolare, primär sensorische Neurone ohne Synapsen im Ganglion", "correct": true },
+        { "text": "Multipolare Motoneurone", "explain": "Diese liegen in der grauen Substanz des Rückenmarks." },
+        { "text": "Multipolare vegetative Neurone mit synaptischer Verschaltung", "explain": "Das beschreibt vegetative Ganglien." },
+        { "text": "Purkinje-Zellen", "explain": "Purkinje-Zellen liegen im Kleinhirn." }
+      ],
+      "explanation": "Ein Zweig läuft nach peripher zu einer rezeptorischen Endigung, der andere nach zentral ins ZNS. Weil die Erregung zum Soma läuft, ist der periphere Zweig eigentlich ein Dendrit, wird aber wegen gemeinsamer Eigenschaften als (dendritisches) Axon bezeichnet.",
+      "source": "Digitaler Schnitt Spinalganglion; VL-Skript ZUG Teil 2, S. 141" },
+    { "id": "ds2-spinalganglion-neurone", "type": "image",
+      "question": "Spinalganglion, starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-spinalganglion-neurone.jpg",
+      "labels": [
+        { "n": 1, "x": 90, "y": 62, "ax": 76, "ay": 42, "answer": "Soma eines pseudounipolaren Neurons" },
+        { "n": 2, "x": 38, "y": 88, "ax": 51.2, "ay": 51.8, "answer": "Zellkern mit Nukleolus" }
+      ],
+      "distractors": ["Myelinisierte Nervenfaser", "Purkinje-Zelle"],
+      "explanation": "Die Somata im Spinalganglion sind groß und rund. Im Lebenden werden sie von **Satellitenzellen (Mantelzellen)** umgeben, das ist die periphere Glia. Die hellen Säume um die Somata entstehen beim Präparieren.",
+      "source": "Digitaler Schnitt Spinalganglion; VL-Skript ZUG Teil 2, S. 112, 141" },
+    { "id": "ds2-spinalganglion-satelliten", "type": "single",
+      "question": "Welche Gliazellen umgeben die Somata der pseudounipolaren Neurone im Spinalganglion?",
+      "options": [
+        { "text": "Satellitenzellen (Mantelzellen)", "correct": true },
+        { "text": "Astrozyten", "explain": "Astrozyten gehören zur zentralen Glia." },
+        { "text": "Oligodendrozyten", "explain": "Sie myelinisieren im ZNS." },
+        { "text": "Ependymzellen", "explain": "Sie kleiden die Liquorräume des ZNS aus." }
+      ],
+      "explanation": "Zur peripheren Glia gehören Schwann-Zellen und Satellitenzellen. Auch in vegetativen Ganglien sind die Somata von Satellitenzellen umgeben.",
+      "source": "VL-Skript ZUG Teil 2, S. 112, 141–142" },
+
+    { "id": "ds2-nabelschnur-lupe", "type": "image",
+      "question": "Nabelschnur quer, Übersicht: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-nabelschnur-lupe.jpg",
+      "labels": [
+        { "n": 1, "x": 74, "y": 24, "ax": 60, "ay": 42, "answer": "Blutgefäß der Nabelschnur" },
+        { "n": 2, "x": 27, "y": 38, "answer": "Gallertiges Bindegewebe (Wharton-Sulze)" }
+      ],
+      "distractors": ["Hyaliner Knorpel", "Retikuläres Bindegewebe"],
+      "explanation": "Die Gefäße der Nabelschnur liegen in **gallertigem Bindegewebe**. Es ist prall-elastisch und verhindert so ein Abknicken.",
+      "source": "Digitaler Schnitt Nabelschnur; VL-Skript ZUG Teil 1, S. 175" },
+    { "id": "ds2-nabelschnur-gallertig", "type": "single",
+      "question": "Welches Bindegewebe zeigt dieser Ausschnitt aus der Nabelschnur, und was kennzeichnet es?",
+      "image": "images/ds-nabelschnur-gallertig.jpg",
+      "options": [
+        { "text": "Gallertiges BGW: verzweigte Fibrozyten, hyaluronan- und wasserreiche Grundsubstanz, einzelne Kollagenfasern", "correct": true },
+        { "text": "Straffes geflechtartiges BGW mit dicht gepackten Kollagenfasern", "explain": "Hier liegen nur einzelne Kollagenfasern locker in viel Grundsubstanz." },
+        { "text": "Retikuläres BGW aus Retikulumzellen und Typ-III-Kollagen" },
+        { "text": "Univakuoläres Fettgewebe" }
+      ],
+      "explanation": "Die verzweigten Fibrozyten erinnern noch an Mesenchym. Weitere Vorkommen laut Skript: Zahnpulpa. Funktion: prall-elastisch, verhindert ein Abknicken.",
+      "source": "Digitaler Schnitt Nabelschnur; VL-Skript ZUG Teil 1, S. 175" },
+
+    { "id": "ds2-hyalin-perichondrium", "type": "image",
+      "question": "Hyaliner Knorpel mit Perichondrium (Astrablau): Ordne die markierten Schichten zu.",
+      "image": "images/ds-hyalin-astrablau-perichondrium.jpg",
+      "labels": [
+        { "n": 1, "x": 25, "y": 17.6, "answer": "Hyaliner Knorpel mit abgerundeten Chondrozyten" },
+        { "n": 2, "x": 66, "y": 44, "answer": "Stratum chondrogenicum (zellreich, abgeplattete Zellen)" },
+        { "n": 3, "x": 50, "y": 79, "answer": "Stratum fibrosum (straffes kollagenes BGW)" }
+      ],
+      "distractors": ["Faserknorpel", "Osteon"],
+      "explanation": "Das Perichondrium hat zwei Schichten: innen das zellreiche **Stratum chondrogenicum** mit abgeplatteten Zellen, die sich zu Fibroblasten oder Chondroblasten differenzieren können, außen das **Stratum fibrosum** aus straffem kollagenem BGW (Typ I) mit Blutgefäßen und Nervenfasern.",
+      "source": "Digitaler Schnitt Hyaliner Knorpel (Astrablau); VL-Skript ZUG Teil 1, S. 183" },
+    { "id": "ds2-hyalin-perichondrium-kollagen", "type": "matching",
+      "question": "Ordne zu: Welcher Kollagentyp überwiegt wo?",
+      "pairs": [
+        { "left": "Knorpelmatrix des hyalinen Knorpels", "right": "Typ II (ca. 90 %)" },
+        { "left": "Stratum fibrosum des Perichondriums", "right": "Typ I" }
+      ],
+      "distractors": ["Typ III", "Typ IV"],
+      "source": "VL-Skript ZUG Teil 1, S. 183" },
+    { "id": "ds2-hyalin-ohne-perichondrium", "type": "single",
+      "question": "Welcher hyaline Knorpel ist laut Skript **nicht** von Perichondrium bedeckt?",
+      "options": [
+        { "text": "Gelenkknorpel", "correct": true },
+        { "text": "Trachealknorpel" },
+        { "text": "Rippenknorpel" },
+        { "text": "Knorpel des Nasenskeletts" }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 183" },
+
+    { "id": "ds2-knochen-osteone", "type": "image",
+      "question": "Knochenschliff (Schmorl), Compacta: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-knochen-schliff-osteone.jpg",
+      "labels": [
+        { "n": 1, "x": 6, "y": 22, "ax": 17.9, "ay": 46.9, "answer": "Havers-Kanal" },
+        { "n": 2, "x": 21, "y": 35, "answer": "Osteon (Havers-System aus Speziallamellen)" },
+        { "n": 3, "x": 40, "y": 24, "ax": 28.75, "ay": 44.7, "answer": "Zementlinie (Grenze des Osteons)" }
+      ],
+      "distractors": ["Markhöhle", "Generallamellen"],
+      "explanation": "Osteone bestehen aus ca. 30 konzentrischen **Speziallamellen** um einen zentralen **Havers-Kanal**. Außen werden sie scharf durch die **Zementlinie** begrenzt (1–2 µm, kollagenfrei, basophil). Zwischen den Osteonen liegen Schaltlamellen als Reste alter, abgebauter Osteone.",
+      "source": "Digitaler Schnitt Knochen (Schmorl); VL-Skript ZUG Teil 1, S. 187, 189" },
+    { "id": "ds2-knochen-havers", "type": "image",
+      "question": "Knochenschliff (Schmorl), ein Osteon bei starker Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-knochen-schliff-havers.jpg",
+      "labels": [
+        { "n": 1, "x": 70, "y": 22, "ax": 55, "ay": 45, "answer": "Havers-Kanal" },
+        { "n": 2, "x": 18, "y": 82, "ax": 33.75, "ay": 66.4, "answer": "Osteozyten-Lakune" },
+        { "n": 3, "x": 12, "y": 22, "ax": 26.7, "ay": 45, "answer": "Zementlinie" },
+        { "n": 4, "x": 85, "y": 88, "ax": 61.7, "ay": 76, "answer": "Speziallamellen (konzentrisch um den Kanal)" }
+      ],
+      "distractors": ["Schaltlamellen", "Volkmann-Kanal"],
+      "explanation": "Die Osteozyten-Lakunen liegen ringförmig um den Havers-Kanal. Sie sind über feine Kanälchen mit den Fortsätzen der Osteozyten untereinander und zentral mit dem Havers-Kanal verbunden.",
+      "source": "Digitaler Schnitt Knochen (Schmorl); VL-Skript ZUG Teil 1, S. 187, 189" },
+    { "id": "ds2-knochen-masse", "type": "matching",
+      "question": "Ordne die Größenangaben aus dem Skript zu.",
+      "pairs": [
+        { "left": "Dicke einer Knochenlamelle", "right": "3–7 µm" },
+        { "left": "Durchmesser eines Havers-Kanals", "right": "ca. 50 µm" },
+        { "left": "Dicke der Zementlinie", "right": "1–2 µm" },
+        { "left": "Länge eines Osteons", "right": "ca. 2,5 mm" }
+      ],
+      "distractors": ["ca. 5 mm"],
+      "source": "VL-Skript ZUG Teil 1, S. 187, 189" },
+    { "id": "ds2-knochen-zementlinie", "type": "multiple",
+      "question": "Welche Aussagen zur **Zementlinie** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie begrenzt das Osteon nach außen.", "correct": true },
+        { "text": "Sie ist kollagenfrei und basophil.", "correct": true },
+        { "text": "Sie markiert scharf die Grenze zwischen Osteonen und Schaltlamellen.", "correct": true },
+        { "text": "Sie besteht aus besonders vielen Kollagen-Typ-I-Fasern.", "explain": "Sie ist gerade kollagenfrei." }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 187, 189" },
+
+    { "id": "ds2-kleinhirn-purkinje", "type": "image",
+      "question": "Kleinhirnrinde (Golgi-Silberimprägnation): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-kleinhirn-purkinje.jpg",
+      "labels": [
+        { "n": 1, "x": 30, "y": 82, "ax": 44.6, "ay": 57.2, "answer": "Soma einer Purkinje-Zelle" },
+        { "n": 2, "x": 66, "y": 12, "ax": 52.5, "ay": 39.6, "answer": "Dendriten (Oberflächenvergrößerung für viele Synapsen)" }
+      ],
+      "distractors": ["Pseudounipolares Neuron", "Satellitenzelle"],
+      "explanation": "Die großen Somata der **Purkinje-Zellen** liegen in einer Reihe. Ihre Dendriten dienen der Oberflächenvergrößerung, eine Purkinje-Zelle trägt ca. 250.000 Synapsen.",
+      "source": "Digitaler Schnitt Kleinhirn (Golgi); VL-Skript ZUG Teil 2, S. 112" },
+    { "id": "ds2-kleinhirn-synapsen", "type": "single",
+      "question": "Wozu dient der ausgedehnte Dendritenbaum der gezeigten Purkinje-Zelle laut Skript?",
+      "image": "images/ds-kleinhirn-purkinje-detail.jpg",
+      "options": [
+        { "text": "Oberflächenvergrößerung für mehr Synapsen (ca. 250.000 pro Neuron)", "correct": true },
+        { "text": "Schnelle Weiterleitung der Erregung vom Soma weg", "explain": "Das ist die Aufgabe des Axons." },
+        { "text": "Bildung von Myelin" },
+        { "text": "Speicherung von Glykogen" }
+      ],
+      "explanation": "Dendriten nehmen Erregungen von anderen Zellen auf und leiten sie zum Soma.",
+      "source": "Digitaler Schnitt Kleinhirn (Golgi); VL-Skript ZUG Teil 2, S. 112" },
+
+    { "id": "ds2-rm-nissl-neuron", "type": "image",
+      "question": "Graue Substanz des Rückenmarks (Nissl-Färbung): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-rm-nissl-neuron.jpg",
+      "labels": [
+        { "n": 1, "x": 30, "y": 88, "ax": 45.8, "ay": 71.1, "answer": "Soma mit Nissl-Substanz (rER)" },
+        { "n": 2, "x": 70, "y": 92, "ax": 49.4, "ay": 68.5, "answer": "Euchromatinreicher Zellkern mit Nukleolus" },
+        { "n": 3, "x": 66, "y": 44, "ax": 51.7, "ay": 60.1, "answer": "Dendrit" },
+        { "n": 4, "x": 82, "y": 70, "ax": 61.9, "ay": 79.9, "answer": "Kleiner Gliazellkern" },
+        { "n": 5, "x": 20, "y": 30, "answer": "Neuropil" }
+      ],
+      "distractors": ["Satellitenzelle", "Myelinscheide"],
+      "explanation": "Das große **multipolare Neuron** hat viel rER im Soma, das in der Nissl-Färbung als Nissl-Scholle erscheint. Dendriten enthalten rER, **Axone nicht**: Das ist im Lichtmikroskop ein wichtiges Kriterium zur Unterscheidung.",
+      "source": "Digitaler Schnitt Rückenmark (Nissl); VL-Skript ZUG Teil 2, S. 112–114, 118" },
+    { "id": "ds2-rm-nissl-axon", "type": "single",
+      "question": "Du siehst in der Nissl-Färbung einen Fortsatz eines Neurons, der Nissl-Substanz enthält. Was folgt daraus?",
+      "image": "images/ds-rm-nissl-neuron.jpg",
+      "options": [
+        { "text": "Es ist ein Dendrit, denn Axone enthalten kein rER.", "correct": true },
+        { "text": "Es ist ein Axon, denn Axone enthalten besonders viel rER." },
+        { "text": "Es ist ein Gliafortsatz." },
+        { "text": "Daraus lässt sich nichts ableiten." }
+      ],
+      "explanation": "Nissl-Substanz ist rER. Kein rER in Axonen ist im LM erkennbar und ein wichtiges Kriterium für Axon gegenüber Dendrit.",
+      "source": "VL-Skript ZUG Teil 2, S. 112–114" },
+
+    { "id": "ds2-haut-fingerbeere", "type": "image",
+      "question": "Haut der Fingerbeere (Azan): Ordne die markierten Gewebe zu.",
+      "image": "images/ds-haut-fingerbeere-papillen.jpg",
+      "labels": [
+        { "n": 1, "x": 85, "y": 18, "answer": "Mehrschichtig verhorntes Plattenepithel (Epidermis)" },
+        { "n": 2, "x": 22, "y": 62, "answer": "Bindegewebe unter dem Epithel (Dermis)" }
+      ],
+      "distractors": ["Unverhorntes Plattenepithel", "Hyaliner Knorpel"],
+      "explanation": "Die Fingerbeere ist das Kurspräparat für **verhorntes Plattenepithel**. Das Epithel greift zapfenartig in das darunterliegende Bindegewebe. Die oberste Schicht besteht aus abgestorbenen, kernlosen Zellen (Hornhaut).",
+      "source": "Digitaler Schnitt Haut Fingerbeere (Azan); VL-Skript ZUG Teil 1, S. 97–98" },
+    { "id": "ds2-haut-verhornt-merkmale", "type": "multiple",
+      "question": "Welche Merkmale des **verhornten Plattenepithels** (Präparat Fingerbeere) nennt das Skript?",
+      "options": [
+        { "text": "5–6 bis zu 20 Zellschichten", "correct": true },
+        { "text": "Basal kubische bis prismatische, apikal abgeflachte Zellen", "correct": true },
+        { "text": "Zellen der obersten Schicht ohne Zellkern (Hornhaut)", "correct": true },
+        { "text": "Zellen der Intermediärzone durch besonders viele Desmosomen verbunden", "correct": true },
+        { "text": "Alle Zellen in allen Schichten haben erkennbare Kerne", "explain": "Das gilt für unverhorntes Plattenepithel." }
+      ],
+      "explanation": "Nur die Basalzellen erreichen die Basalmembran. Sie bilden die Proliferationszone, die Zellen wandern nach superfizial und reifen dabei aus.",
+      "source": "VL-Skript ZUG Teil 1, S. 97" }
+  ]
+}
