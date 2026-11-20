@@ -1,0 +1,6 @@
+{
+  "port": 4321,
+  "examsDir": "exams",
+  "dataDir": "~/Nextcloud/SWQuiz-Daten",
+  "device": "macbook"
+}

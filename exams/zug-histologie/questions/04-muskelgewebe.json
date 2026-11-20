@@ -1,0 +1,97 @@
+{
+  "chapter": "VL 20 – Muskelgewebe",
+  "source": "VL-Skript ZUG Teil 2, VL 20",
+  "questions": [
+    {
+      "id": "mu-typen",
+      "type": "matching",
+      "question": "Ordne die Muskelgewebstypen ihrer Kernlage bzw. Baueinheit zu.",
+      "pairs": [
+        { "left": "Skelettmuskulatur", "right": "Vielkernige Muskelfaser mit randständigen Kernen" },
+        { "left": "Herzmuskulatur", "right": "Verzweigte Einzelzellen mit zentralem Kern, Glanzstreifen" },
+        { "left": "Glatte Muskulatur", "right": "Spindelförmige Einzelzellen mit zigarrenförmigem Kern" }
+      ]
+    },
+    {
+      "id": "mu-glanzstreifen",
+      "type": "single",
+      "question": "Wie heißen die Zellverbindungen zwischen Herzmuskelzellen?",
+      "options": [
+        { "text": "Glanzstreifen (Disci intercalares)", "correct": true },
+        { "text": "Z-Scheiben" },
+        { "text": "Triaden" },
+        { "text": "Sarkolemmfalten" }
+      ]
+    },
+    {
+      "id": "mu-huellen",
+      "type": "order",
+      "question": "Ordne die bindegewebigen Hüllen der Skelettmuskulatur von innen (einzelne Faser) nach außen.",
+      "items": ["Endomysium", "Perimysium internum", "Perimysium externum", "Epimysium", "Muskelfaszie"]
+    },
+    {
+      "id": "mu-sarkomer-def",
+      "type": "single",
+      "question": "Was ist ein Sarkomer?",
+      "options": [
+        { "text": "Der Abschnitt einer Myofibrille zwischen zwei Z-Linien", "correct": true },
+        { "text": "Der Abschnitt zwischen zwei M-Linien" },
+        { "text": "Eine ganze Muskelfaser" },
+        { "text": "Ein Bündel aus mehreren Muskelfasern" }
+      ],
+      "explanation": "Ruhelänge ca. 2,2 µm."
+    },
+    {
+      "id": "mu-banden",
+      "type": "matching",
+      "question": "Ordne die Banden des Sarkomers ihrem Inhalt zu.",
+      "pairs": [
+        { "left": "A-Bande", "right": "Myosin- und Aktinfilamente überlappen" },
+        { "left": "I-Bande", "right": "Nur Aktinfilamente" },
+        { "left": "H-Zone", "right": "Nur Myosinfilamente" },
+        { "left": "Z-Linie", "right": "Verankerung der Aktin-Plus-Enden über α-Aktinin" },
+        { "left": "M-Linie", "right": "Mitte der A-Bande, verbindet Myosinfilamente" }
+      ]
+    },
+    {
+      "id": "mu-kontraktion",
+      "type": "multiple",
+      "question": "Was passiert bei der Kontraktion eines Sarkomers?",
+      "options": [
+        { "text": "Die I-Bande wird kürzer", "correct": true },
+        { "text": "Die H-Zone wird kürzer", "correct": true },
+        { "text": "Die A-Bande bleibt gleich breit", "correct": true },
+        { "text": "Die A-Bande wird kürzer" },
+        { "text": "Die Aktinfilamente verkürzen sich selbst" }
+      ],
+      "explanation": "Gleitfilamentmechanismus: Aktin gleitet tiefer zwischen die Myosinfilamente."
+    },
+    {
+      "id": "mu-titin",
+      "type": "single",
+      "question": "Welche Funktion hat Titin im Sarkomer?",
+      "options": [
+        { "text": "Es reicht von der M- zur Z-Linie und wirkt in der I-Bande als elastische Feder", "correct": true },
+        { "text": "Es verhindert die Depolymerisation der Aktinfilamente am Plus-Ende" },
+        { "text": "Es ist das Motorprotein der dicken Filamente" },
+        { "text": "Es speichert Calcium" }
+      ],
+      "explanation": "Am Plus-Ende verhindert Cap-Z die Depolymerisation. Motorprotein der dicken Filamente ist Myosin II."
+    },
+    {
+      "id": "mu-filamente",
+      "type": "matching",
+      "question": "Ordne die Filamente ihren Eigenschaften zu.",
+      "pairs": [
+        { "left": "Dünne Filamente", "right": "ca. 6 nm, Aktin und Tropomyosin" },
+        { "left": "Dicke Filamente", "right": "ca. 15 nm, Myosin II" }
+      ]
+    },
+    {
+      "id": "mu-flash-muskelfaser",
+      "type": "flashcard",
+      "front": "Was ist eine Skelettmuskelfaser, und wie groß ist sie?",
+      "back": "Ein vielkerniges Zellindividuum (Synzytium). Dicke mikroskopisch (10–100 µm), Länge makroskopisch (mehrere cm). Sie enthält Myofibrillen aus Ketten von Sarkomeren."
+    }
+  ]
+}

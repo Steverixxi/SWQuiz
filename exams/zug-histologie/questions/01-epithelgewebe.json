@@ -1,0 +1,357 @@
+{
+  "chapter": "VL 8 – Epithelgewebe",
+  "source": "VL-Skript ZUG Teil 1, VL 8 (S. 80–102)",
+  "questions": [
+    {
+      "id": "epi-grundgewebe",
+      "type": "multiple",
+      "question": "Welche der folgenden zählen zu den 4 Grundgeweben des menschlichen Körpers?",
+      "options": [
+        { "text": "Epithelgewebe", "correct": true },
+        { "text": "Binde- und Stützgewebe", "correct": true },
+        { "text": "Muskelgewebe", "correct": true },
+        { "text": "Nervengewebe", "correct": true },
+        { "text": "Drüsengewebe", "explain": "Drüsen gehören zum Epithelgewebe (Drüsenepithel)." },
+        { "text": "Fettgewebe", "explain": "Fettgewebe ist ein spezielles Bindegewebe." }
+      ]
+    },
+    {
+      "id": "epi-bauplan-gefaesse",
+      "type": "single",
+      "question": "Wie werden Epithelien in aller Regel ernährt?",
+      "options": [
+        { "text": "Durch Diffusion aus dem darunterliegenden Bindegewebe", "correct": true },
+        { "text": "Durch Kapillaren, die zwischen den Epithelzellen verlaufen" },
+        { "text": "Ausschließlich über das Lumen bzw. die äußere Umgebung" },
+        { "text": "Über Lymphgefäße in der Basallamina" }
+      ],
+      "explanation": "Epithelien sind gefäßfrei (Ausnahmen: **Stria vascularis** und **Corpus luteum**) und werden durch Diffusion aus dem Bindegewebe versorgt."
+    },
+    {
+      "id": "epi-ausnahme-gefaesse",
+      "type": "multiple",
+      "question": "Welche Epithelien bilden eine Ausnahme von der Regel, dass Epithelien keine Blutgefäße enthalten?",
+      "options": [
+        { "text": "Stria vascularis", "correct": true },
+        { "text": "Corpus luteum", "correct": true },
+        { "text": "Epidermis" },
+        { "text": "Urothel" },
+        { "text": "Respiratorisches Epithel" }
+      ]
+    },
+    {
+      "id": "epi-intermediaerfilament",
+      "type": "single",
+      "question": "Aus welchem Intermediärfilament bestehen die typischen Intermediärfilamente von Epithelzellen?",
+      "options": [
+        { "text": "Zytokeratin", "correct": true },
+        { "text": "Vimentin", "explain": "Vimentin ist das vorrangige Intermediärfilament im Mesothel und vielen Endoepithelien, aber nicht das typische Epithelfilament." },
+        { "text": "Desmin" },
+        { "text": "Lamin" }
+      ]
+    },
+    {
+      "id": "epi-zellkontakte-zuordnung",
+      "type": "matching",
+      "question": "Ordne die Zellkontakte ihrer Funktion bzw. ihrem Bestandteil zu.",
+      "pairs": [
+        { "left": "Zonula occludens (Tight Junction)", "right": "Verschlusskontakt, Occludin/Claudin" },
+        { "left": "Zonula adhaerens", "right": "Cadherine, Verankerung des Aktinzytoskeletts" },
+        { "left": "Desmosom", "right": "Cadherine, Verankerung von Intermediärfilamenten" },
+        { "left": "Nexus (Gap Junction)", "right": "Connexine, elektrische Kopplung" },
+        { "left": "Hemidesmosom", "right": "Integrine, Zell-Matrix-Kontakt mit Intermediärfilamenten" }
+      ],
+      "distractors": ["Selektine, Leukozytenrollen"]
+    },
+    {
+      "id": "epi-basallamina-aufbau",
+      "type": "matching",
+      "question": "Ordne die Schichten der Basalmembran ihren Bestandteilen zu.",
+      "pairs": [
+        { "left": "Lamina densa", "right": "Kollagen Typ IV, Laminin, Nidogen, Perlecan" },
+        { "left": "Lamina rara", "right": "Teile des Laminins, Integrine, Kollagen Typ XVII" },
+        { "left": "Lamina fibroreticularis", "right": "Kollagen Typ III und VII, Fibrillin" }
+      ],
+      "explanation": "Basallamina (Lamina densa + Lamina rara, 50–150 nm, nur im EM sichtbar) wird vom Epithel selbst gebildet. Die Lamina fibroreticularis gehört bereits zum Bindegewebe. Zusammen ergeben sie die lichtmikroskopisch sichtbare Basalmembran."
+    },
+    {
+      "id": "epi-basallamina-em",
+      "type": "single",
+      "question": "Womit kann man die Basallamina (ca. 50–150 nm) sichtbar machen?",
+      "options": [
+        { "text": "Nur im Elektronenmikroskop", "correct": true },
+        { "text": "Im Lichtmikroskop in jeder HE-Färbung" },
+        { "text": "Nur mit Polarisationsmikroskopie" },
+        { "text": "Gar nicht, sie ist eine rein funktionelle Grenze" }
+      ],
+      "explanation": "Lichtmikroskopisch sieht man nur die **Basalmembran** (Basallamina + Lamina fibroreticularis)."
+    },
+    {
+      "id": "epi-oberflaeche-zuordnung",
+      "type": "matching",
+      "question": "Ordne die Oberflächenspezialisierungen ihrem Bauprinzip zu.",
+      "pairs": [
+        { "left": "Kinozilien", "right": "Mikrotubuli im 9×2+2-Muster, aktiv beweglich" },
+        { "left": "Primäre Zilien", "right": "Mikrotubuli im 9+0-Muster, sensorisch" },
+        { "left": "Mikrovilli", "right": "Unbeweglich, 1–2 µm lang, Bürstensaum" },
+        { "left": "Stereozilien", "right": "Lange Aktinfilamentbündel, z. B. Ductus epididymidis" },
+        { "left": "Caveolae", "right": "50–100 nm Membraneinstülpungen mit Caveolin" }
+      ]
+    },
+    {
+      "id": "epi-kinetosom",
+      "type": "single",
+      "question": "Welches Mikrotubulus-Muster hat das Kinetosom (Basalkörperchen) einer Kinozilie?",
+      "options": [
+        { "text": "9 × 3", "correct": true },
+        { "text": "9 × 2 + 2" },
+        { "text": "9 + 0" },
+        { "text": "9 × 2 + 1" }
+      ],
+      "explanation": "Axonem der Kinozilie: 9×2+2. Kinetosom: 9×3 (wie ein Zentriol)."
+    },
+    {
+      "id": "epi-mikrovilli-vorkommen",
+      "type": "multiple",
+      "question": "Wo findet man Mikrovilli als Bürstensaum?",
+      "options": [
+        { "text": "Resorbierende Epithelzellen des Gastrointestinaltrakts", "correct": true },
+        { "text": "Nierentubuli", "correct": true },
+        { "text": "Plexus choroideus", "correct": true },
+        { "text": "Haarzellen im Innenohr", "explain": "Dort sind es Stereozilien." },
+        { "text": "Flimmerepithel der Atemwege", "explain": "Dort sind es Kinozilien." }
+      ]
+    },
+    {
+      "id": "epi-einteilung-reihenfolge",
+      "type": "single",
+      "question": "Ein Epithel, bei dem alle Zellen der Basallamina aufsitzen, aber nicht alle die freie Oberfläche erreichen, nennt man …",
+      "options": [
+        { "text": "einschichtig mehrreihig", "correct": true },
+        { "text": "mehrschichtig" },
+        { "text": "einschichtig isoprismatisch" },
+        { "text": "Übergangsepithel" }
+      ],
+      "explanation": "Mehrreihiges Epithel: Zellkerne liegen scheinbar in mehreren Reihen, alle Zellen berühren aber die Basallamina. Die unterste Kernreihe sind Basalzellen (Regeneration)."
+    },
+    {
+      "id": "epi-mehrreihig-vorkommen",
+      "type": "multiple",
+      "question": "Wo kommt einschichtiges, mehrreihiges Epithel vor?",
+      "options": [
+        { "text": "Respiratorisches Epithel der Atemwege", "correct": true },
+        { "text": "Regio respiratoria der Nase", "correct": true },
+        { "text": "Nebenhodengang (Ductus epididymidis)", "correct": true },
+        { "text": "Ösophagus" },
+        { "text": "Harnblase" }
+      ]
+    },
+    {
+      "id": "epi-plattenepithel-einschichtig",
+      "type": "multiple",
+      "question": "Welche Epithelien sind einschichtige Plattenepithelien?",
+      "options": [
+        { "text": "Mesothel von Pleura, Peritoneum und Perikard", "correct": true },
+        { "text": "Endothel von Herz, Blut- und Lymphgefäßen", "correct": true },
+        { "text": "Epithel der Schilddrüsenfollikel", "explain": "Isoprismatisch (kubisch)." },
+        { "text": "Epidermis", "explain": "Mehrschichtig verhornt." }
+      ]
+    },
+    {
+      "id": "epi-mesothel",
+      "type": "single",
+      "question": "Welches Intermediärfilament herrscht im Mesothel vor?",
+      "options": [
+        { "text": "Vimentin", "correct": true },
+        { "text": "Zytokeratin 20" },
+        { "text": "Desmin" },
+        { "text": "GFAP" }
+      ],
+      "explanation": "Laut Skript ist Vimentin das vorrangige Intermediärfilament im Mesothel (auch in vielen anderen Endoepithelien). Der apikale Zellpol trägt Mikrovilli."
+    },
+    {
+      "id": "epi-caveolae",
+      "type": "multiple",
+      "question": "Welche Aussagen zu Caveolae treffen zu?",
+      "options": [
+        { "text": "Sie sind 50–100 nm große Einstülpungen der Zellmembran", "correct": true },
+        { "text": "Sie werden von Caveolin eingehüllt", "correct": true },
+        { "text": "Sie können mit Hilfe von Dynamin abgeschnürt werden", "correct": true },
+        { "text": "Sie sind mit Clathrin verbunden", "explain": "Caveolae sind gerade nicht mit Clathrin verbunden." },
+        { "text": "Ein Caveolin-3-Defekt führt zu Gliedergürteldystrophien", "correct": true }
+      ]
+    },
+    {
+      "id": "epi-kubisch-vorkommen",
+      "type": "multiple",
+      "question": "Wo kommt einschichtiges isoprismatisches (kubisches) Epithel vor?",
+      "options": [
+        { "text": "Kleine Gallengänge", "correct": true },
+        { "text": "Schilddrüsenfollikel", "correct": true },
+        { "text": "Sammelrohr der Niere", "correct": true },
+        { "text": "Magen" , "explain": "Hochprismatisch." },
+        { "text": "Gallenblase", "explain": "Hochprismatisch." }
+      ]
+    },
+    {
+      "id": "epi-unverhornt-vorkommen",
+      "type": "multiple",
+      "question": "Wo findet man mehrschichtiges unverhorntes Plattenepithel?",
+      "options": [
+        { "text": "Ösophagus", "correct": true },
+        { "text": "Cornea", "correct": true },
+        { "text": "Vagina", "correct": true },
+        { "text": "Plica vocalis", "correct": true },
+        { "text": "Epidermis", "explain": "Verhornt." },
+        { "text": "Papillae filiformes der Zunge", "explain": "Verhornt." }
+      ]
+    },
+    {
+      "id": "epi-verhornt-merkmal",
+      "type": "single",
+      "question": "Was unterscheidet die oberste Schicht des verhornten Plattenepithels vom unverhornten?",
+      "options": [
+        { "text": "Die Zellen sind abgestorben und haben keinen Zellkern mehr", "correct": true },
+        { "text": "Die Zellen sind besonders hochprismatisch" },
+        { "text": "Die Zellen tragen Kinozilien" },
+        { "text": "Die Zellen sind mehrkernige Deckzellen" }
+      ]
+    },
+    {
+      "id": "epi-urothel",
+      "type": "multiple",
+      "question": "Welche Aussagen zum Urothel (Übergangsepithel) treffen zu?",
+      "options": [
+        { "text": "Es hat eine apikale Schicht aus oft mehrkernigen Deckzellen", "correct": true },
+        { "text": "Im ungedehnten Zustand ist es deutlich höher als im gedehnten", "correct": true },
+        { "text": "Die apikale Membran enthält Uroplakine", "correct": true },
+        { "text": "Es kleidet Nierenbecken, Ureter und Harnblase aus", "correct": true },
+        { "text": "Es ist verhornt, um vor Harn zu schützen" }
+      ]
+    },
+    {
+      "id": "epi-sekretion-zuordnung",
+      "type": "matching",
+      "question": "Ordne die Sekretionsmechanismen einem Beispiel zu.",
+      "pairs": [
+        { "left": "Merokrin / ekkrin (Exozytose)", "right": "Schweißdrüsen" },
+        { "left": "Apokrin (Apozytose)", "right": "Laktierende Brustdrüse" },
+        { "left": "Holokrin", "right": "Talgdrüsen" }
+      ],
+      "explanation": "Holokrin: Die ganze Zelle stirbt ab und wird zum Sekret."
+    },
+    {
+      "id": "epi-sekret-zuordnung",
+      "type": "matching",
+      "question": "Ordne die Drüsen nach der Beschaffenheit ihres Sekrets zu.",
+      "pairs": [
+        { "left": "Rein serös", "right": "Parotis" },
+        { "left": "Rein mukös", "right": "Brunner-Drüsen im Duodenum" },
+        { "left": "Gemischt seromukös", "right": "Glandula submandibularis" }
+      ],
+      "distractors": ["Talgdrüse"]
+    },
+    {
+      "id": "epi-endokrin",
+      "type": "single",
+      "question": "Was kennzeichnet endokrine Drüsen?",
+      "options": [
+        { "text": "Sie geben Hormone ohne Ausführungsgang direkt ins Blut ab", "correct": true },
+        { "text": "Sie geben ihr Sekret über einen Ausführungsgang an eine Oberfläche ab" },
+        { "text": "Sie bestehen immer nur aus einer einzelnen Zelle" },
+        { "text": "Sie sezernieren ausschließlich holokrin" }
+      ]
+    },
+    {
+      "id": "epi-parazellulaer",
+      "type": "single",
+      "question": "Welche Struktur bestimmt vor allem die Qualität des parazellulären Transports durch ein Epithel?",
+      "options": [
+        { "text": "Die Zonula occludens (Zahl der Strands und Art der Claudine)", "correct": true },
+        { "text": "Die Desmosomen" },
+        { "text": "Die Basallamina" },
+        { "text": "Der Transport durch das Zytosol" }
+      ]
+    },
+    {
+      "id": "epi-bild-mehrschichtig",
+      "type": "image",
+      "question": "Ordne die drei Präparate dem richtigen Epitheltyp zu.",
+      "image": "images/epithel-mehrschichtig.jpg",
+      "labels": [
+        { "n": 1, "x": 3.5, "y": 8, "answer": "Unverhorntes Plattenepithel (Ösophagus)" },
+        { "n": 2, "x": 33, "y": 8, "answer": "Mehrschichtiges prismatisches Epithel" },
+        { "n": 3, "x": 68, "y": 8, "answer": "Verhorntes Plattenepithel (Fingerbeere)" }
+      ],
+      "distractors": ["Urothel", "Einschichtig mehrreihiges Epithel"],
+      "explanation": "1: alle Schichten mit erkennbaren Kernen, keine Hornschicht. 2: 2–5 Schichten mit kubischen bis zylindrischen Superfizialzellen (laut Skript Präparat Zunge, z. B. Ausführungsgang). 3: kernlose Hornschicht obenauf.",
+      "source": "VL-Skript ZUG Teil 1, S. 98"
+    },
+    {
+      "id": "epi-bild-trachea",
+      "type": "image",
+      "question": "Respiratorisches Epithel der Trachea: Ordne die markierten Strukturen zu.",
+      "image": "images/trachea.jpg",
+      "labels": [
+        { "n": 1, "x": 7, "y": 37, "ax": 31, "ay": 37, "answer": "Becherzelle" },
+        { "n": 2, "x": 7, "y": 64, "ax": 20.5, "ay": 64, "answer": "Kinozilien" },
+        { "n": 3, "x": 64, "y": 46, "answer": "Lamina propria (Bindegewebe)" }
+      ],
+      "distractors": ["Mikrovilli (Bürstensaum)", "Hornschicht"],
+      "explanation": "Einschichtig mehrreihiges Flimmerepithel mit intraepithelialen Becherzellen (unizelluläre Drüsen).",
+      "source": "VL-Skript ZUG Teil 1, S. 95"
+    },
+    {
+      "id": "epi-bild-trachea-typ",
+      "type": "single",
+      "question": "Um welchen Epitheltyp handelt es sich (Präparat: Trachea)?",
+      "image": "images/trachea.jpg",
+      "options": [
+        { "text": "Einschichtig mehrreihiges Epithel mit Kinozilien", "correct": true },
+        { "text": "Mehrschichtig unverhorntes Plattenepithel" },
+        { "text": "Einschichtig isoprismatisches Epithel" },
+        { "text": "Urothel" }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 95"
+    },
+    {
+      "id": "epi-bild-schilddruese",
+      "type": "image",
+      "question": "Schilddrüse: Ordne die markierten Strukturen zu.",
+      "image": "images/schilddruese.jpg",
+      "labels": [
+        { "n": 1, "x": 62, "y": 28, "answer": "Kolloid im Follikellumen" },
+        { "n": 2, "x": 56, "y": 46, "ax": 56, "ay": 57, "answer": "Einschichtig kubisches Follikelepithel" },
+        { "n": 3, "x": 8, "y": 22, "ax": 13, "ay": 40, "answer": "Blutgefäß mit Erythrozyten" }
+      ],
+      "distractors": ["Becherzelle", "Mehrschichtiges Plattenepithel"],
+      "source": "VL-Skript ZUG Teil 1, S. 93"
+    },
+    {
+      "id": "epi-bild-duodenum",
+      "type": "single",
+      "question": "Welcher Epitheltyp überzieht die Zotten in diesem Präparat (Duodenum)?",
+      "image": "images/duodenum.jpg",
+      "options": [
+        { "text": "Einschichtig hochprismatisches Epithel", "correct": true },
+        { "text": "Einschichtig isoprismatisches Epithel" },
+        { "text": "Mehrschichtig unverhorntes Plattenepithel" },
+        { "text": "Einschichtig mehrreihiges Epithel" }
+      ],
+      "explanation": "Hochprismatisch: Höhe größer als Breite, längsovale Kerne in einer Reihe.",
+      "source": "VL-Skript ZUG Teil 1, S. 94"
+    },
+    {
+      "id": "epi-flash-basalmembran",
+      "type": "flashcard",
+      "front": "Woraus setzt sich die lichtmikroskopisch sichtbare **Basalmembran** zusammen?",
+      "back": "Aus der **Basallamina** (Lamina rara + Lamina densa, vom Epithel gebildet, nur im EM sichtbar) und der **Lamina fibroreticularis** (gehört zum Bindegewebe; Kollagen III, VII, Fibrillin)."
+    },
+    {
+      "id": "epi-flash-epithel-funktionen",
+      "type": "flashcard",
+      "front": "Nenne Grundfunktionen, die alle Epithelien erfüllen.",
+      "back": "Schutz vor mechanischer Schädigung und Mikroorganismen, mechanische Stabilität, Diffusionsbarriere (Schutz vor Wasserverlust, Gewebeschranken), Resorption, Transport, Oberflächenvergrößerung, Sonderfunktion Reizaufnahme."
+    }
+  ]
+}

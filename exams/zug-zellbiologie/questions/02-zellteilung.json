@@ -1,0 +1,56 @@
+{
+  "chapter": "VL 24/25 – Zellteilung",
+  "source": "VL-Skript ZUG Teil 2, VL 24 und 25",
+  "questions": [
+    {
+      "id": "zd-mitose-phasen",
+      "type": "order",
+      "question": "Bringe die Phasen der Mitose in die richtige Reihenfolge.",
+      "items": ["Prophase", "Prometaphase", "Metaphase", "Anaphase", "Telophase"]
+    },
+    {
+      "id": "zd-mitose-meiose",
+      "type": "matching",
+      "question": "Ordne die Ergebnisse der Mitose oder Meiose zu.",
+      "pairs": [
+        { "left": "2 diploide, genetisch identische Tochterzellen", "right": "Mitose" },
+        { "left": "4 haploide, genetisch verschiedene Tochterzellen", "right": "Meiose" }
+      ],
+      "distractors": ["Apoptose"]
+    },
+    {
+      "id": "zd-meiose-phasen",
+      "type": "order",
+      "question": "Bringe die Abschnitte der Meiose in die richtige Reihenfolge.",
+      "items": ["Prophase I", "Metaphase I", "Anaphase I", "Telophase I", "Prophase II", "Metaphase II", "Anaphase II", "Telophase II"]
+    },
+    {
+      "id": "zd-meiose-rekombination",
+      "type": "single",
+      "question": "In welcher Phase der Meiose findet das Crossing-over (Rekombination) statt?",
+      "options": [
+        { "text": "Prophase I", "correct": true },
+        { "text": "Metaphase II" },
+        { "text": "Anaphase I" },
+        { "text": "Telophase II" }
+      ]
+    },
+    {
+      "id": "zd-meiose-II-spindel",
+      "type": "single",
+      "question": "Was passiert laut Skript in der Prophase II?",
+      "options": [
+        { "text": "Der Spindelapparat bildet sich erneut", "correct": true },
+        { "text": "Die homologen Chromosomen paaren sich" },
+        { "text": "Die DNA wird repliziert" },
+        { "text": "Die Kernhülle bildet sich neu" }
+      ]
+    },
+    {
+      "id": "zd-flash-anaphase",
+      "type": "flashcard",
+      "front": "Was ist der Unterschied zwischen Anaphase I und Anaphase II der Meiose?",
+      "back": "In der **Anaphase I** werden die **homologen Chromosomen** getrennt (Reduktion des Chromosomensatzes). In der **Anaphase II** werden die **Schwesterchromatiden** getrennt (wie in der Mitose)."
+    }
+  ]
+}

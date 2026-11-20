@@ -1,0 +1,146 @@
+{
+  "chapter": "VL 19 – Apoptose, Nekrose, Autophagie",
+  "source": "VL-Skript ZUG Teil 2, VL 19",
+  "questions": [
+    {
+      "id": "zt-apoptose-nekrose",
+      "type": "matching",
+      "question": "Ordne die Merkmale der Apoptose oder der Nekrose zu.",
+      "pairs": [
+        { "left": "Zelle schrumpft, Blebbing, apoptotische Körperchen", "right": "Apoptose" },
+        { "left": "Zelle schwillt an, Membran wird durchlässig, Entzündung", "right": "Nekrose" }
+      ],
+      "distractors": ["Mitose"]
+    },
+    {
+      "id": "zt-apoptose-merkmale",
+      "type": "multiple",
+      "question": "Welche Aussagen zur Apoptose treffen zu?",
+      "options": [
+        { "text": "Sie ist energieaufwendig", "correct": true },
+        { "text": "Sie ist tolerogen und soll keine Entzündung auslösen", "correct": true },
+        { "text": "Phosphatidylserin wird als „eat-me“-Signal nach außen exponiert", "correct": true },
+        { "text": "Der Zellinhalt wird in die Umgebung freigesetzt", "explain": "Das ist typisch für Nekrose." },
+        { "text": "Sie braucht keine zusätzliche Energie", "explain": "Das gilt für die Nekrose." }
+      ]
+    },
+    {
+      "id": "zt-caspasen",
+      "type": "single",
+      "question": "Wofür steht der Name „Caspase“?",
+      "options": [
+        { "text": "Cystein im aktiven Zentrum, Spaltung nach Aspartat", "correct": true },
+        { "text": "Calcium-abhängige Serin-Protease" },
+        { "text": "Cytochrom-aktivierte Spaltase" },
+        { "text": "Caspar-Protein, benannt nach dem Entdecker" }
+      ],
+      "explanation": "Caspasen liegen als inaktive Procaspasen vor und werden von Initiator-Caspasen proteolytisch aktiviert. So entsteht eine Kaskade."
+    },
+    {
+      "id": "zt-caspase-ziele",
+      "type": "multiple",
+      "question": "Welche Ziele spalten bzw. aktivieren Exekutor-Caspasen?",
+      "options": [
+        { "text": "Nukleäre Lamine (die Kernhülle bricht zusammen)", "correct": true },
+        { "text": "Die Endonuklease CAD wird aktiviert (DNA-Abbau)", "correct": true },
+        { "text": "Zytoskelett-Proteine und Adhäsionsmoleküle", "correct": true },
+        { "text": "Ribosomale RNA wird gezielt neu synthetisiert" }
+      ]
+    },
+    {
+      "id": "zt-intrinsisch-extrinsisch",
+      "type": "matching",
+      "question": "Ordne die Merkmale dem intrinsischen oder extrinsischen Apoptoseweg zu.",
+      "pairs": [
+        { "left": "Ausgelöst durch DNA-Schaden oder O₂-Mangel, Cytochrom-c-Freisetzung aus Mitochondrien", "right": "Intrinsischer Weg" },
+        { "left": "Ausgelöst über Death-Rezeptoren, z. B. durch zytotoxische T-Zellen oder NK-Zellen", "right": "Extrinsischer Weg" }
+      ]
+    },
+    {
+      "id": "zt-bcl2",
+      "type": "matching",
+      "question": "Ordne die Proteine der Bcl-2-Familie zu.",
+      "pairs": [
+        { "left": "Bcl-2", "right": "Anti-apoptotisch" },
+        { "left": "Bax", "right": "Pro-apoptotisch, bildet Poren in der Mitochondrienmembran" },
+        { "left": "Bad", "right": "Pro-apoptotisch, bindet und hemmt Bcl-2" }
+      ]
+    },
+    {
+      "id": "zt-bcl2-krebs",
+      "type": "single",
+      "question": "Was passiert bei einer Überexpression anti-apoptotischer Bcl-2-Proteine?",
+      "options": [
+        { "text": "Die Apoptose wird zu stark gehemmt, was die Krebsentstehung fördert", "correct": true },
+        { "text": "Es kommt zu vermehrter Apoptose und Neurodegeneration" },
+        { "text": "Die Zelle geht in Nekroptose" },
+        { "text": "Es hat keine Auswirkung" }
+      ]
+    },
+    {
+      "id": "zt-p53",
+      "type": "single",
+      "question": "In welchem Anteil aller Tumoren ist p53 laut Skript mutiert?",
+      "options": [
+        { "text": "ca. 50 %", "correct": true },
+        { "text": "ca. 5 %" },
+        { "text": "ca. 90 %" },
+        { "text": "ca. 20 %" }
+      ]
+    },
+    {
+      "id": "zt-ueberlebensfaktoren",
+      "type": "multiple",
+      "question": "Was können Überlebensfaktoren für Zellen sein?",
+      "options": [
+        { "text": "Wachstumsfaktoren (z. B. EGF)", "correct": true },
+        { "text": "Morphogene (z. B. Wnt)", "correct": true },
+        { "text": "Zytokine", "correct": true },
+        { "text": "Neurotransmitter", "correct": true },
+        { "text": "Cytochrom c im Zytoplasma", "explain": "Freies Cytochrom c treibt die Apoptose an." }
+      ]
+    },
+    {
+      "id": "zt-nekroptose",
+      "type": "multiple",
+      "question": "Welche Aussagen zur Nekroptose treffen zu?",
+      "options": [
+        { "text": "Sie ist eine regulierte Form der Nekrose", "correct": true },
+        { "text": "RIP1, RIP3 und MLKL sind zentrale Akteure", "correct": true },
+        { "text": "Normalerweise blockiert Caspase-8 diesen Weg", "correct": true },
+        { "text": "Morphologisch schrumpft die Zelle wie bei Apoptose" },
+        { "text": "Sie ist ein passiver, ungeregelter Vorgang" }
+      ]
+    },
+    {
+      "id": "zt-apoptose-zahl",
+      "type": "single",
+      "question": "Wie viele Zellen gehen laut Skript täglich im menschlichen Körper in Apoptose?",
+      "options": [
+        { "text": "ca. 1 Milliarde (10⁹)", "correct": true },
+        { "text": "ca. 1 Million (10⁶)" },
+        { "text": "ca. 1 Billion (10¹²)" },
+        { "text": "ca. 1000" }
+      ]
+    },
+    {
+      "id": "zt-ablauf",
+      "type": "order",
+      "question": "Bringe die Schritte der intrinsischen Apoptose in die richtige Reihenfolge.",
+      "items": [
+        "Zellschaden, z. B. DNA-Schaden",
+        "Bax bildet Poren in der äußeren Mitochondrienmembran",
+        "Freisetzung von Cytochrom c ins Zytoplasma",
+        "Aktivierung der Initiator-Caspase",
+        "Aktivierung der Exekutor-Caspasen",
+        "Abbau von Laminen und DNA, apoptotische Körperchen"
+      ]
+    },
+    {
+      "id": "zt-flash-tolerogen",
+      "type": "flashcard",
+      "front": "Warum sagt man, Apoptose ist **tolerogen**?",
+      "back": "Die Zelle wird kontrolliert abgebaut und in Membranvesikel verpackt. Phosphatidylserin-abhängige Phagozytose durch Makrophagen verhindert die Freisetzung proinflammatorischer Zytokine, es entsteht also keine Entzündung und Nachbarzellen bleiben unbeschädigt."
+    }
+  ]
+}

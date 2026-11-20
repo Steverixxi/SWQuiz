@@ -1,0 +1,258 @@
+{
+  "chapter": "VL 12 – Binde- und Stützgewebe",
+  "source": "VL-Skript ZUG Teil 1, VL 12 (S. 152–199)",
+  "questions": [
+    {
+      "id": "bgw-herkunft",
+      "type": "single",
+      "question": "Woraus leitet sich das Bindegewebe ab?",
+      "options": [
+        { "text": "Aus dem Mesenchym, das überwiegend aus dem Mesoderm stammt", "correct": true },
+        { "text": "Ausschließlich aus dem Ektoderm" },
+        { "text": "Aus dem Entoderm" },
+        { "text": "Aus der Neuralleiste, ohne Ausnahme" }
+      ],
+      "explanation": "Ausnahme: Das Kopfmesenchym ist ektodermalen Ursprungs."
+    },
+    {
+      "id": "bgw-zns",
+      "type": "single",
+      "question": "Welche Aussage zum Bindegewebe im ZNS ist laut Skript richtig?",
+      "options": [
+        { "text": "Bindegewebe kommt so gut wie nicht im ZNS vor; EZM-Moleküle sind vorhanden, faserige Bestandteile wie Kollagen fehlen", "correct": true },
+        { "text": "Das ZNS ist besonders reich an straffem kollagenem Bindegewebe" },
+        { "text": "Das ZNS besteht überwiegend aus retikulärem Bindegewebe" },
+        { "text": "Im ZNS fehlt jegliche Extrazellulärmatrix" }
+      ]
+    },
+    {
+      "id": "bgw-fibroblast-fibrozyt",
+      "type": "single",
+      "question": "Wie verhalten sich Fibroblast und Fibrozyt zueinander?",
+      "options": [
+        { "text": "Es sind zwei umkehrbare Funktionszustände desselben Zelltyps", "correct": true },
+        { "text": "Fibrozyten sind die Vorläuferzellen der Fibroblasten und können sich nicht mehr zurückverwandeln" },
+        { "text": "Es sind zwei völlig unterschiedliche Zelllinien" },
+        { "text": "Fibrozyten sind abgestorbene Fibroblasten" }
+      ],
+      "explanation": "Fibrozyten sind Fibroblasten mit stark verminderter Syntheseleistung (Erhaltungsumsatz). Deshalb wird meist für beide „Fibroblast“ verwendet."
+    },
+    {
+      "id": "bgw-fibroblast-merkmale",
+      "type": "multiple",
+      "question": "Welche Merkmale passen zu aktiven Fibroblasten?",
+      "options": [
+        { "text": "Viel raues ER", "correct": true },
+        { "text": "Über Integrine mit Matrixkomponenten verbunden", "correct": true },
+        { "text": "Beweglich (bis zu 1 µm/min) dank Zytoskelett mit Myosin II", "correct": true },
+        { "text": "Bilden Melanin in Melanosomen" },
+        { "text": "Besitzen hochaffine IgE-Rezeptoren" }
+      ]
+    },
+    {
+      "id": "bgw-zellen-zuordnung",
+      "type": "matching",
+      "question": "Ordne die freien bzw. ortsständigen Zellen des Bindegewebes ihrem Kennzeichen zu.",
+      "pairs": [
+        { "left": "Mastzelle", "right": "Basophile Granula mit Histamin und Heparin, IgE-Rezeptoren" },
+        { "left": "Makrophage", "right": "Phagozytose, lysosomenreich" },
+        { "left": "Melanozyt", "right": "Bildet Melanin in Melanosomen" },
+        { "left": "Retikulumzelle", "right": "Bildet 3D-Netz mit retikulären Fasern in lymphatischen Organen" },
+        { "left": "Interstitielle Zelle (Cajal)", "right": "Schrittmacher der Darmperistaltik" }
+      ]
+    },
+    {
+      "id": "bgw-mastzelle-allergie",
+      "type": "single",
+      "question": "Welche Zellen sind die Effektorzellen bei allergischen Erkrankungen?",
+      "options": [
+        { "text": "Mastzellen", "correct": true },
+        { "text": "Fibroblasten" },
+        { "text": "Adipozyten" },
+        { "text": "Retikulumzellen" }
+      ]
+    },
+    {
+      "id": "bgw-makrophagen-namen",
+      "type": "matching",
+      "question": "Ordne die gewebespezifischen Makrophagen ihrem Organ zu.",
+      "pairs": [
+        { "left": "Alveolarmakrophagen", "right": "Lunge" },
+        { "left": "Kupffer-Zellen", "right": "Leber" }
+      ],
+      "distractors": ["Niere", "Haut"]
+    },
+    {
+      "id": "bgw-kollagen-typen",
+      "type": "matching",
+      "question": "Ordne die Kollagentypen ihrem typischen Vorkommen zu.",
+      "pairs": [
+        { "left": "Typ I", "right": "Sehnen, Knochen, Haut, Cornea" },
+        { "left": "Typ II", "right": "Knorpel, Nucleus pulposus, Glaskörper" },
+        { "left": "Typ III", "right": "Retikuläre Fasern, lymphatische Organe, Gefäßwand" },
+        { "left": "Typ IV", "right": "Basalmembran" }
+      ],
+      "explanation": "Alle Kollagene bilden eine Tripelhelix."
+    },
+    {
+      "id": "bgw-lm-sichtbar",
+      "type": "single",
+      "question": "Welcher Bestandteil der Extrazellulärmatrix ist im Lichtmikroskop sichtbar?",
+      "options": [
+        { "text": "Die Fasern (kollagene, retikuläre und elastische)", "correct": true },
+        { "text": "Die Glykosaminoglykane" },
+        { "text": "Die Proteoglykane" },
+        { "text": "Die Adhäsionsproteine" }
+      ],
+      "explanation": "Die Grundsubstanz (GAG, Proteoglykane, Glykoproteine, Flüssigkeit) ist lichtmikroskopisch amorph und kontrastlos."
+    },
+    {
+      "id": "bgw-elastische-fasern",
+      "type": "multiple",
+      "question": "Welche Aussagen zu elastischen Fasern treffen zu?",
+      "options": [
+        { "text": "Sie bestehen aus Elastin und Mikrofibrillen aus Fibrillin", "correct": true },
+        { "text": "Lysyloxidase vernetzt die Moleküle kovalent", "correct": true },
+        { "text": "Sie kommen in dehnbaren Geweben wie Lunge und Arterien vor", "correct": true },
+        { "text": "Sie bestehen aus Kollagen Typ II" },
+        { "text": "Sie werden als Tropoelastin von Mastzellen gebildet" }
+      ]
+    },
+    {
+      "id": "bgw-hyaluronan",
+      "type": "single",
+      "question": "Was ist das Besondere an Hyaluronan unter den Glykosaminoglykanen?",
+      "options": [
+        { "text": "Es ist als einziges GAG unsulfatiert und nicht an ein Core-Protein gebunden", "correct": true },
+        { "text": "Es ist das einzige GAG mit positiver Ladung" },
+        { "text": "Es kommt nur im Knorpel vor" },
+        { "text": "Es ist ein Kollagen" }
+      ]
+    },
+    {
+      "id": "bgw-proteoglykane",
+      "type": "matching",
+      "question": "Ordne die Proteoglykane ihrer Rolle zu.",
+      "pairs": [
+        { "left": "Aggrecan", "right": "Hauptproteoglykan des Knorpels" },
+        { "left": "Decorin / Biglykan", "right": "Binden Kollagenfibrillen, ordnen sie räumlich" },
+        { "left": "Syndecan", "right": "Membranständig, bindet Wachstumsfaktoren" },
+        { "left": "Perlecan", "right": "Bestandteil der Basallamina" }
+      ]
+    },
+    {
+      "id": "bgw-arten-vorkommen",
+      "type": "matching",
+      "question": "Ordne die Bindegewebsarten ihrem Vorkommen zu.",
+      "pairs": [
+        { "left": "Gallertiges BGW", "right": "Nabelschnur (Wharton-Sulze)" },
+        { "left": "Straffes, geflechtartiges BGW", "right": "Kornea" },
+        { "left": "Straffes, parallelfaseriges BGW", "right": "Sehnen und Bänder" },
+        { "left": "Retikuläres BGW", "right": "Lymphknoten, Milz, Knochenmark" },
+        { "left": "Spinozelluläres BGW", "right": "Rinde des Ovars" }
+      ]
+    },
+    {
+      "id": "bgw-locker-straff",
+      "type": "multiple",
+      "question": "Anhand welcher Merkmale unterscheidet man lockeres von straffem Bindegewebe?",
+      "options": [
+        { "text": "Kollagenfasergehalt", "correct": true },
+        { "text": "Anteil an Typ-I-Kollagen", "correct": true },
+        { "text": "Anordnung der Fasern", "correct": true },
+        { "text": "Gehalt an Zytokeratin" },
+        { "text": "Vorkommen von Blutgefäßen" }
+      ]
+    },
+    {
+      "id": "bgw-fett-uni-pluri",
+      "type": "matching",
+      "question": "Ordne die Merkmale dem univakuolären (weißen) oder plurivakuolären (braunen) Fettgewebe zu.",
+      "pairs": [
+        { "left": "Ein großer Fetttropfen, Kern an den Rand gedrängt", "right": "Univakuoläres Fettgewebe" },
+        { "left": "Viele Lipidtröpfchen, viele Mitochondrien, Wärmebildung", "right": "Plurivakuoläres Fettgewebe" }
+      ],
+      "distractors": ["Gallertiges Bindegewebe"]
+    },
+    {
+      "id": "bgw-adipokine",
+      "type": "matching",
+      "question": "Ordne die Hormone des Fettgewebes ihrer Wirkung zu.",
+      "pairs": [
+        { "left": "Leptin", "right": "Reguliert Appetit und Thermogenese" },
+        { "left": "Adiponectin", "right": "Erhöht die Insulinsensitivität" },
+        { "left": "Resistin", "right": "Induziert Insulinresistenz" }
+      ]
+    },
+    {
+      "id": "bgw-baufett",
+      "type": "multiple",
+      "question": "Wo findet man Baufett (nicht Speicherfett)?",
+      "options": [
+        { "text": "Orbita", "correct": true },
+        { "text": "Große Gelenke", "correct": true },
+        { "text": "Hand- und Fußsohlen", "correct": true },
+        { "text": "Bauch- und Flankenhaut", "explain": "Speicherfett." },
+        { "text": "Mesenterien", "explain": "Speicherfett." }
+      ]
+    },
+    {
+      "id": "bgw-bild-typen",
+      "type": "image",
+      "question": "Ordne die drei Präparate der richtigen Bindegewebsart zu.",
+      "image": "images/bgw-typen.jpg",
+      "labels": [
+        { "n": 1, "x": 3.5, "y": 9, "answer": "Retikuläres BGW (Lymphknoten)" },
+        { "n": 2, "x": 38.5, "y": 9, "answer": "Straffes parallelfaseriges BGW (Sehne)" },
+        { "n": 3, "x": 73, "y": 9, "answer": "Spinozelluläres BGW (Ovar)" }
+      ],
+      "distractors": ["Gallertiges BGW (Nabelschnur)", "Univakuoläres Fettgewebe"],
+      "explanation": "1: dichte Lymphozyten in einem Netz aus Retikulumzellen. 2: parallele Kollagenfaserbündel mit schmalen Fibrozytenkernen. 3: dicht gelagerte Fibroblasten in „Fischzügen“.",
+      "source": "VL-Skript ZUG Teil 1, S. 174 und 176"
+    },
+    {
+      "id": "bgw-bild-kornea",
+      "type": "single",
+      "question": "Präparat Kornea: Welche Art Bindegewebe bildet das Stroma?",
+      "image": "images/kornea.jpg",
+      "options": [
+        { "text": "Straffes, geflechtartiges Bindegewebe", "correct": true },
+        { "text": "Straffes, parallelfaseriges Bindegewebe" },
+        { "text": "Lockeres Bindegewebe" },
+        { "text": "Gallertiges Bindegewebe" }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 174"
+    },
+    {
+      "id": "bgw-bild-fett-pluri",
+      "type": "image",
+      "question": "Was zeigen die Ziffern 1 und 2 in diesem Präparat (die Ziffern stehen im Bild)?",
+      "image": "images/fett-plurivakuolaer.jpg",
+      "labels": [
+        { "n": 1, "answer": "Plurivakuoläres Fettgewebe" },
+        { "n": 2, "answer": "Bindegewebsseptum" }
+      ],
+      "distractors": ["Univakuoläres Fettgewebe", "Seröse Azini einer Drüse"],
+      "source": "VL-Skript ZUG Teil 1, S. 178"
+    },
+    {
+      "id": "bgw-bild-fett-uni",
+      "type": "image",
+      "question": "Was zeigen die Ziffern 1 bis 3 in diesem Präparat (die Ziffern stehen im Bild)?",
+      "image": "images/fett-univakuolaer.jpg",
+      "labels": [
+        { "n": 1, "answer": "Univakuoläres Fettgewebe" },
+        { "n": 2, "answer": "Seröse Azini einer Drüse" },
+        { "n": 3, "answer": "Streifenstücke einer Drüse" }
+      ],
+      "distractors": ["Plurivakuoläres Fettgewebe", "Bindegewebsseptum"],
+      "source": "VL-Skript ZUG Teil 1, S. 178"
+    },
+    {
+      "id": "bgw-flash-mesenchym",
+      "type": "flashcard",
+      "front": "Welche Zellen können aus mesenchymalen Stammzellen hervorgehen?",
+      "back": "Fibrozyten, Chondrozyten, Osteoblasten, Stromazellen des Knochenmarks, Adipozyten sowie glatte, Skelett- und Herzmuskelzellen (außerdem Endothel- und Mesothelzellen)."
+    }
+  ]
+}

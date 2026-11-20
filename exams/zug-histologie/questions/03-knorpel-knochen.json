@@ -1,0 +1,184 @@
+{
+  "chapter": "VL 12 – Knorpel und Knochen",
+  "source": "VL-Skript ZUG Teil 1, VL 12 (S. 180–199)",
+  "questions": [
+    {
+      "id": "kn-knorpel-versorgung",
+      "type": "single",
+      "question": "Wie werden die Chondrozyten im ausgereiften Gelenkknorpel versorgt?",
+      "options": [
+        { "text": "Durch Diffusion, gefördert durch intermittierende Druckbelastung", "correct": true },
+        { "text": "Über Kapillaren in den Interterritorien" },
+        { "text": "Über das Perichondrium, das den Gelenkknorpel bedeckt" },
+        { "text": "Über Havers-Kanäle" }
+      ],
+      "explanation": "Gelenkknorpel ist gefäßfrei und hat kein Perichondrium. Maximale Diffusionsstrecke 3–4 mm. Wegen schlechter O~2~-Versorgung arbeiten Chondrozyten überwiegend mit anaerober Glykolyse."
+    },
+    {
+      "id": "kn-knorpeltypen-vorkommen",
+      "type": "matching",
+      "question": "Ordne die Knorpeltypen ihrem Vorkommen zu.",
+      "pairs": [
+        { "left": "Hyaliner Knorpel", "right": "Gelenkflächen, Atemwege, Rippenansätze" },
+        { "left": "Elastischer Knorpel", "right": "Ohrmuschel, Epiglottis, Tuba auditiva" },
+        { "left": "Faserknorpel", "right": "Anulus fibrosus, Symphyse, Menisci" }
+      ]
+    },
+    {
+      "id": "kn-faserknorpel",
+      "type": "multiple",
+      "question": "Welche Merkmale treffen auf Faserknorpel zu?",
+      "options": [
+        { "text": "Hoher Gehalt an Kollagen Typ I", "correct": true },
+        { "text": "Kein Perichondrium", "correct": true },
+        { "text": "Chondrozyten oft einzeln und in Längsreihen", "correct": true },
+        { "text": "Große Mengen elastischer Netze in den Interterritorien", "explain": "Das ist elastischer Knorpel." },
+        { "text": "Kommt in der Ohrmuschel vor" }
+      ]
+    },
+    {
+      "id": "kn-regeneration",
+      "type": "single",
+      "question": "Wie heilen Defekte im hyalinen und elastischen Knorpel?",
+      "options": [
+        { "text": "Kaum, sie werden evtl. durch bindegewebige Narben verschlossen", "correct": true },
+        { "text": "Vollständig durch Teilung der Chondrozyten" },
+        { "text": "Durch Einwanderung von Osteoblasten" },
+        { "text": "Durch Umwandlung von Fettgewebe" }
+      ]
+    },
+    {
+      "id": "kn-matrix",
+      "type": "single",
+      "question": "Wie ist die Matrix des hyalinen Knorpels ungefähr zusammengesetzt?",
+      "options": [
+        { "text": "ca. 80 % Wasser, ca. 20 % organische Matrixmoleküle", "correct": true },
+        { "text": "ca. 20 % Wasser, ca. 80 % Hydroxylapatit" },
+        { "text": "ca. 50 % Kollagen Typ I, 50 % Elastin" },
+        { "text": "ca. 70 % anorganisch, 30 % organisch" }
+      ]
+    },
+    {
+      "id": "kn-aggrecan",
+      "type": "multiple",
+      "question": "Welche Aussagen zu Aggrecan treffen zu?",
+      "options": [
+        { "text": "Es ist an Hyaluronsäure-Molekülen aufgereiht", "correct": true },
+        { "text": "Es trägt viele Chondroitinsulfat- und Keratansulfat-Ketten", "correct": true },
+        { "text": "Es kann ein Vielfaches seines Volumens an Wasser binden und erzeugt so Quelldruck", "correct": true },
+        { "text": "Es ist positiv geladen" },
+        { "text": "Es ist das Hauptprotein der Knochenmatrix" }
+      ]
+    },
+    {
+      "id": "kn-kollagen-lm",
+      "type": "single",
+      "question": "Warum sieht man die Kollagenfasern im hyalinen Knorpel im Lichtmikroskop nicht?",
+      "options": [
+        { "text": "Sie haben einen ähnlichen Brechungsindex wie die Grundsubstanz (maskiert)", "correct": true },
+        { "text": "Hyaliner Knorpel enthält kein Kollagen" },
+        { "text": "Sie werden bei der Präparation immer herausgelöst" },
+        { "text": "Sie sind kleiner als 1 nm" }
+      ]
+    },
+    {
+      "id": "kn-territorien",
+      "type": "single",
+      "question": "Was versteht man unter einem Territorium im hyalinen Knorpel?",
+      "options": [
+        { "text": "Ein Chondron (isogene Zellgruppe) zusammen mit seinem territorialen Matrixsaum", "correct": true },
+        { "text": "Den Bereich zwischen zwei Osteonen" },
+        { "text": "Die äußere Schicht des Perichondriums" },
+        { "text": "Einen Bereich ohne Zellen zwischen den Chondronen" }
+      ],
+      "explanation": "Zwischen den Territorien liegen die Interterritorien, die am wenigsten basophil sind."
+    },
+    {
+      "id": "kn-wachstum",
+      "type": "matching",
+      "question": "Ordne die Wachstumsformen des Knorpels zu.",
+      "pairs": [
+        { "left": "Interstitielles Wachstum", "right": "Von innen durch Zellteilung und Matrixsynthese" },
+        { "left": "Appositionelles Wachstum", "right": "An der Oberfläche aus dem Perichondrium" }
+      ]
+    },
+    {
+      "id": "kn-bild-knorpeltypen",
+      "type": "image",
+      "question": "Ordne die drei Präparate dem richtigen Knorpeltyp zu.",
+      "image": "images/knorpeltypen.jpg",
+      "labels": [
+        { "n": 1, "x": 4, "y": 6, "answer": "Faserknorpel" },
+        { "n": 2, "x": 38, "y": 6, "answer": "Hyaliner Knorpel" },
+        { "n": 3, "x": 72, "y": 6, "answer": "Elastischer Knorpel" }
+      ],
+      "distractors": ["Geflechtknochen"],
+      "explanation": "1: wenige Zellen zwischen dicken, sichtbaren Kollagenfasern. 2: isogene Gruppen in homogener Matrix mit basophilen Knorpelhöfen. 3: große Chondrozyten und Netze elastischer Fasern.",
+      "source": "VL-Skript ZUG Teil 1, S. 185"
+    },
+    {
+      "id": "kn-knochen-zusammensetzung",
+      "type": "single",
+      "question": "Wie setzt sich die wasserfreie Knochenmatrix zusammen?",
+      "options": [
+        { "text": "ca. 70 % anorganisch (Mineralien), ca. 30 % organisch", "correct": true },
+        { "text": "ca. 30 % anorganisch, ca. 70 % organisch" },
+        { "text": "ca. 90 % Kollagen Typ II" },
+        { "text": "ca. 50 % Calciumcarbonat, 50 % Elastin" }
+      ],
+      "explanation": "Hauptmineral: Hydroxylapatit-Kristalle aus Calciumphosphat. Wichtigste organische Komponente: Kollagen Typ I."
+    },
+    {
+      "id": "kn-lamellen",
+      "type": "matching",
+      "question": "Ordne die Lamellenarten des Lamellenknochens zu.",
+      "pairs": [
+        { "left": "Speziallamellen", "right": "Konzentrisch um einen Havers-Kanal (Osteon)" },
+        { "left": "Schaltlamellen", "right": "Reste alter, abgebauter Osteone" },
+        { "left": "Generallamellen", "right": "An äußerer und innerer Oberfläche der Compacta" },
+        { "left": "Trabekellamellen", "right": "Unregelmäßig in der Spongiosa" }
+      ]
+    },
+    {
+      "id": "kn-geflechtknochen",
+      "type": "multiple",
+      "question": "Wo kommt beim Erwachsenen noch Geflechtknochen vor bzw. wann wird er gebildet?",
+      "options": [
+        { "text": "Bei der Kallusbildung während der Frakturheilung", "correct": true },
+        { "text": "Im knöchernen Labyrinth des Felsenbeins", "correct": true },
+        { "text": "An den Suturen der Schädelknochen", "correct": true },
+        { "text": "In der Diaphyse langer Röhrenknochen als Hauptform" }
+      ]
+    },
+    {
+      "id": "kn-zementlinie",
+      "type": "single",
+      "question": "Was markiert die Grenze zwischen Osteonen und Schaltlamellen?",
+      "options": [
+        { "text": "Zementlinien", "correct": true },
+        { "text": "Sharpey-Fasern" },
+        { "text": "Volkmann-Kanäle" },
+        { "text": "Canaliculi" }
+      ]
+    },
+    {
+      "id": "kn-bild-osteone",
+      "type": "single",
+      "question": "Knochenschliff: Was ist mit den Ziffern 1 und 2 markiert?",
+      "image": "images/osteone.jpg",
+      "options": [
+        { "text": "Osteone (Havers-Systeme) mit zentralem Havers-Kanal", "correct": true },
+        { "text": "Chondrone" },
+        { "text": "Trabekel der Spongiosa" },
+        { "text": "Generallamellen" }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 190"
+    },
+    {
+      "id": "kn-flash-osteon",
+      "type": "flashcard",
+      "front": "Beschreibe den Aufbau eines Osteons.",
+      "back": "Zylindrische Baueinheit der Compacta: konzentrische **Speziallamellen** um einen längs verlaufenden **Havers-Kanal** mit Gefäßen. In Lakunen zwischen den Lamellen sitzen **Osteozyten**, die über **Canaliculi** verbunden sind. Quer verlaufende **Volkmann-Kanäle** verbinden die Havers-Kanäle."
+    }
+  ]
+}
