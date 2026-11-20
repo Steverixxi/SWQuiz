@@ -1,0 +1,221 @@
+{
+  "chapter": "VL 17 – Prokaryonten, Eukaryonten, Viren (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 2, VL 17 (S. 3–27)",
+  "questions": [
+    { "id": "pvv-taxa", "type": "order", "question": "Bringe die Taxa am Beispiel **E. coli** in die Reihenfolge vom höchsten zum niedrigsten Rang.",
+      "items": [ "Bacteria", "Proteobacteria", "Gammaproteobacteria", "Enterobacteriales", "Enterobacteriaceae", "Escherichia", "Escherichia coli" ],
+      "explanation": "Taxonomie = Wissenschaft von Identifizierung, Klassifizierung und Nomenklatur von Organismen.", "source": "VL-Skript ZUG Teil 2, S. 5" },
+    { "id": "pvv-taxa-mensch", "type": "order", "question": "Bringe die Taxa von **Homo sapiens** in die Reihenfolge vom höchsten zum niedrigsten Rang.",
+      "items": [ "Eukaryota", "Animalia", "Chordata", "Mammalia", "Primates", "Hominidae", "Homo", "sapiens" ],
+      "source": "VL-Skript ZUG Teil 2, S. 5" },
+    { "id": "pvv-erreger", "type": "matching", "question": "Ordne die Bakterien der Erkrankung zu, die das Skript nennt.",
+      "pairs": [
+        { "left": "Helicobacter pylori", "right": "Ulkus" },
+        { "left": "Yersinia pestis", "right": "Pest" },
+        { "left": "Vibrio cholerae", "right": "Cholera" },
+        { "left": "Treponema pallidum", "right": "Syphilis" },
+        { "left": "Neisseria gonorrhoeae", "right": "Gonorrhoe" },
+        { "left": "A-Streptokokken", "right": "Scharlach, nekrotisierende Fasziitis, Tonsillitis" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 10" },
+    { "id": "pvv-riesenbakterium", "type": "single", "question": "Welches Beispiel für ein **Riesenbakterium** nennt das Skript?",
+      "options": [
+        { "text": "Das Schwefelbakterium Thiomargarita namibiensis, ca. 750 µm, Meeresboden", "correct": true },
+        { "text": "Escherichia coli, ca. 2 mm" },
+        { "text": "Treponema pallidum, ca. 1 cm" },
+        { "text": "Mykoplasmen, ca. 500 µm" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 10" },
+    { "id": "pvv-formen", "type": "matching", "question": "Ordne die Bakterienformen ihrer Größe bzw. ihrem Merkmal zu.",
+      "pairs": [
+        { "left": "Kokken", "right": "< 0,5 µm, arttypische Zellverbände (kein Mehrzeller)" },
+        { "left": "Stäbchen", "right": "1–5 µm lang" },
+        { "left": "Prokaryonten allgemein", "right": "0,3–10 µm" },
+        { "left": "Eukaryonten allgemein", "right": "5 µm – 1 mm" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 9, 19" },
+    { "id": "pvv-flagelle-zahlen", "type": "single", "question": "Wie schnell rotieren bakterielle Flagellen laut Skript maximal?",
+      "options": [
+        { "text": "Bis 100 Umdrehungen/s, das entspricht ca. 60 Zelllängen/s", "correct": true },
+        { "text": "Ca. 1 Umdrehung pro Minute" },
+        { "text": "Bis 10.000 Umdrehungen/s" },
+        { "text": "Flagellen rotieren nicht, sie schlagen peitschenartig" }
+      ], "explanation": "„Schiffsschraubenprinzip“: Basalkörper, Haken und Filament.", "source": "VL-Skript ZUG Teil 2, S. 11" },
+    { "id": "pvv-fimbrien-pili", "type": "matching", "question": "Ordne die Merkmale Fimbrien oder Pili zu.",
+      "pairs": [
+        { "left": "Fimbrien", "right": "2–5 µm, bis zu mehreren Tausend, Anheftung an Oberflächen" },
+        { "left": "Pili", "right": "Bis 10 µm, Fertilitätspilus und Twitching motility" },
+        { "left": "Flagellen", "right": "5–20 µm, aktive Bewegung nach dem Schiffsschraubenprinzip" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 11" },
+    { "id": "pvv-twitching", "type": "single", "question": "Wie funktioniert die **Twitching motility**?",
+      "options": [
+        { "text": "Ein Pol-Pilus haftet an einer Oberfläche, seine Depolymerisation zieht die Zelle nach vorne", "correct": true },
+        { "text": "Die Flagelle rotiert wie eine Schiffsschraube" },
+        { "text": "Die Zelle kontrahiert Aktin-Myosin-Bündel" },
+        { "text": "Die Zelle gleitet auf einem Schleimfilm aus LPS" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 11" },
+    { "id": "pvv-nukleoid-zahlen", "type": "multiple", "question": "Welche Zahlen bzw. Fakten zum **Nukleoid** nennt das Skript?",
+      "options": [
+        { "text": "Es füllt ca. 50 % des Zelllumens aus", "correct": true },
+        { "text": "Seine Größe liegt zwischen 500 und 10.000 kbp", "correct": true },
+        { "text": "Hoch angepasste Spezialisten haben meist ein kleines Genom", "correct": true },
+        { "text": "Seine Form ändert sich abhängig von der Genexpression", "correct": true },
+        { "text": "Es ist von einer Kernhülle umgeben" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 12" },
+    { "id": "pvv-mykoplasmen", "type": "single", "question": "Warum können **Mykoplasmen** ohne Zellwand überleben?",
+      "options": [
+        { "text": "Ihr Lebensraum innerhalb eines Wirtes bietet eine isotone Umgebung", "correct": true },
+        { "text": "Sie haben eine besonders dicke äußere Membran aus LPS" },
+        { "text": "Sie haben keinen Turgordruck, weil ihr Zytoplasma leer ist" },
+        { "text": "Sie bilden ständig Endosporen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 14" },
+    { "id": "pvv-transpeptidase", "type": "single", "question": "Welches Enzym ist die spezifische Angriffsstelle der **β-Lactam-Antibiotika**?",
+      "options": [
+        { "text": "Die Transpeptidase, die das Murein quervernetzt", "correct": true },
+        { "text": "Die bakterielle RNA-Polymerase" },
+        { "text": "Die Reverse Transkriptase" },
+        { "text": "Die β-Lactamase", "explain": "β-Lactamasen sind bakterielle Resistenzenzyme, die das Antibiotikum abbauen." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 14" },
+    { "id": "pvv-gram-anteil", "type": "matching", "question": "Ordne den Mureinanteil der Bakterienhülle zu.",
+      "pairs": [
+        { "left": "Grampositiv", "right": "Bis 25 Schichten, bis zu 50 % der Trockenmasse, Teichonsäure" },
+        { "left": "Gramnegativ", "right": "1–2 Schichten, 5–10 % der Trockenmasse, äußere Membran mit LPS" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 14" },
+    { "id": "pvv-gram-prinzip", "type": "single", "question": "Warum bleiben **grampositive** Bakterien nach dem Waschen mit Ethanol gefärbt?",
+      "options": [
+        { "text": "Der Farbstoff-Iod-Komplex lagert sich in der dicken Mureinschicht ab und wird vom Alkohol nicht ausgewaschen", "correct": true },
+        { "text": "Ihre äußere Membran hält den Farbstoff zurück", "explain": "Eine äußere Membran haben gramnegative Bakterien." },
+        { "text": "Sie nehmen Fuchsin stärker auf" },
+        { "text": "Sie besitzen keine Zellwand" }
+      ], "explanation": "Klinikbeispiel im Skript: Liquoruntersuchung bei Verdacht auf Meningitis.", "source": "VL-Skript ZUG Teil 2, S. 15" },
+    { "id": "pvv-lps-mensch", "type": "single", "question": "Wie empfindlich ist der **Mensch** laut Skript gegenüber LPS im Vergleich zur Maus?",
+      "options": [
+        { "text": "Etwa 1000-mal empfindlicher", "correct": true },
+        { "text": "Etwa 10-mal weniger empfindlich" },
+        { "text": "Gleich empfindlich" },
+        { "text": "Menschen reagieren nicht auf LPS" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 16" },
+    { "id": "pvv-zytokine", "type": "multiple", "question": "Welche Zytokine setzen Makrophagen beim **Endotoxinschock** laut Skript frei?",
+      "options": [
+        { "text": "IL-1", "correct": true },
+        { "text": "IL-6", "correct": true },
+        { "text": "IL-8", "correct": true },
+        { "text": "TNF-α", "correct": true },
+        { "text": "Insulin" }
+      ], "explanation": "Zusätzlich wird CD14 freigesetzt. Leukozytenadhäsion führt zu Vasodilatation.", "source": "VL-Skript ZUG Teil 2, S. 16" },
+    { "id": "pvv-endospore-bau", "type": "multiple", "question": "Welche Merkmale haben **Endosporen** laut Skript?",
+      "options": [
+        { "text": "Eine Zelle bildet genau eine Spore, keine Vermehrung", "correct": true },
+        { "text": "Sporenrinde (Cortex) und Sporenhülle umgeben eine Kopie des Genoms", "correct": true },
+        { "text": "Geringer Wasseranteil (10–30 %)", "correct": true },
+        { "text": "Bildung bei Nährstoffmangel, z. B. bei Bacillus und Clostridium", "correct": true },
+        { "text": "Sie dienen der schnellen Vermehrung" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 17" },
+    { "id": "pvv-archaea-zellwand", "type": "multiple", "question": "Wie unterscheidet sich die **Zellwand der Archaebakterien** von der der Eubakterien?",
+      "options": [
+        { "text": "Pseudopeptidoglykan statt Peptidoglykan", "correct": true },
+        { "text": "N-Acetyltalosaminuronsäure statt N-Acetylmuraminsäure", "correct": true },
+        { "text": "Die Peptide der Quervernetzung enthalten keine D-Aminosäuren", "correct": true },
+        { "text": "Sie besteht aus Cellulose" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pvv-archaea-eukaryot", "type": "multiple", "question": "Welche Gemeinsamkeiten von **Archaebakterien mit Eukaryonten** nennt das Skript?",
+      "options": [
+        { "text": "Die RNA-Polymerase ist der eukaryotischen ähnlicher", "correct": true },
+        { "text": "Die Proteinsynthese beginnt mit Methionin (Eubakterien: N-Formylmethionin)", "correct": true },
+        { "text": "Sie besitzen einen Zellkern" },
+        { "text": "Sie haben 80S-Ribosomen mit Antibiotika-Empfindlichkeit" }
+      ], "explanation": "Die Ribosomen der Archaebakterien sind unempfindlich gegenüber Hemmstoffen wie Antibiotika.", "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pvv-archaea-typen", "type": "matching", "question": "Ordne die extremophilen Archaebakterien ihrem Standort bzw. Stoffwechsel zu.",
+      "pairs": [
+        { "left": "Hyperthermophile", "right": "Heiße Quellen" },
+        { "left": "Extrem Halophile", "right": "Salzseen" },
+        { "left": "Methanogene", "right": "Methan als Stoffwechsel-Endprodukt" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pvv-mikrobiom-zahlen", "type": "matching", "question": "Ordne die Bakterienzahlen laut Skript zu.",
+      "pairs": [
+        { "left": "Mund", "right": "10 Milliarden" },
+        { "left": "Haut", "right": "1 Billion" },
+        { "left": "Verdauungstrakt", "right": "100 Billionen, > 400 Arten (99 %)" },
+        { "left": "Verhältnis menschliche Zellen : Bakterienzellen", "right": "1 : 1,3" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pvv-toxo-epidemio", "type": "multiple", "question": "Welche epidemiologischen Fakten zur **Toxoplasmose** nennt das Skript?",
+      "options": [
+        { "text": "Jeder zweite Mensch ist Träger, die Seroprävalenz steigt um ca. 1 % pro Lebensjahr", "correct": true },
+        { "text": "45–70 % der Katzen besitzen Immunität, 1–2 % sind aktuelle Träger", "correct": true },
+        { "text": "80–90 % der Infektionen verlaufen symptomlos, Zysten persistieren lebenslang", "correct": true },
+        { "text": "Seit 1975 Screening im Mutter-Kind-Pass, pränatale Infektionen sanken von 20–35 auf 1–2 pro 10.000", "correct": true },
+        { "text": "Der Erreger ist ein Bakterium", "explain": "Toxoplasma gondii ist ein protozoischer Parasit (eukaryotischer Einzeller)." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 19" },
+    { "id": "pvv-toxo-verhalten", "type": "single", "question": "Welche **Verhaltensänderung** durch Toxoplasma bei Nagetieren nennt das Skript?",
+      "options": [
+        { "text": "Sie verlieren die Scheu vor Katzengeruch und den Fluchtreflex", "correct": true },
+        { "text": "Sie werden nachtblind" },
+        { "text": "Sie meiden Wasser" },
+        { "text": "Sie fressen kein Fleisch mehr" }
+      ], "explanation": "Beim Menschen nennt das Skript erhöhte Risikobereitschaft.", "source": "VL-Skript ZUG Teil 2, S. 19" },
+    { "id": "pvv-viren-einteilung", "type": "multiple", "question": "Nach welchen Kriterien werden **Viren** laut Skript unterschieden?",
+      "options": [
+        { "text": "RNA- oder DNA-Virus", "correct": true },
+        { "text": "Einzel- oder doppelsträngige Nukleinsäure", "correct": true },
+        { "text": "Größe und Kapsidstruktur", "correct": true },
+        { "text": "Behüllt oder unbehüllt", "correct": true },
+        { "text": "Wirt (Tiere, Pflanzen, Pilze, Prokaryonten)", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 21" },
+    { "id": "pvv-hiv-rezeptor", "type": "multiple", "question": "Welche Aussagen zur **HIV-Infektion** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie benötigt den CD4-Rezeptor und den Zytokinrezeptor CCR5", "correct": true },
+        { "text": "AIDS tritt ca. 9–11 Jahre nach Infektion auf (< 200 CD4^+^-Zellen/µl)", "correct": true },
+        { "text": "Übertragung durch Blut, Ejakulat, Vaginalsekret, in der Schwangerschaft bzw. Geburt und durch Muttermilch", "correct": true },
+        { "text": "HIV gehört zu den Retroviren, Gattung Lentiviren", "correct": true },
+        { "text": "HIV ist ein unbehülltes DNA-Virus" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 22–23" },
+    { "id": "pvv-hiv-phasen", "type": "matching", "question": "Ordne die Phasen der HIV-Infektion zu.",
+      "pairs": [
+        { "left": "Akute Phase", "right": "Fortlaufende Zerstörung der CD4^+^-Helferzellen" },
+        { "left": "Chronische Phase", "right": "Virusspezifische Immunantwort, CD4^+^-Zellen werden noch ersetzt" },
+        { "left": "AIDS", "right": "Schwerer Immundefekt, hohe Infektanfälligkeit" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 23" },
+    { "id": "pvv-crispr-verbreitung", "type": "multiple", "question": "Welche Fakten zu **CRISPR-Cas** als Abwehrsystem nennt das Skript?",
+      "options": [
+        { "text": "Etwa 50 % der Bakterienarten und fast alle Archaeen besitzen es", "correct": true },
+        { "text": "Virale DNA wird zwischen Palindrom-Sequenzen (Repeats) als Spacer eingebaut", "correct": true },
+        { "text": "Die Gesamtheit der Spacer ist das Gedächtnis aller Infektionen", "correct": true },
+        { "text": "Der CRISPR-Cas-Komplex erkennt das PAM-Motiv und schneidet passende virale DNA", "correct": true },
+        { "text": "Es kommt nur in Eukaryonten vor" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 24" },
+    { "id": "pvv-viroid-details", "type": "multiple", "question": "Welche Aussagen zu **Viroiden** treffen laut Skript zu?",
+      "options": [
+        { "text": "Kurze, zirkuläre ssRNA ohne Hülle, kodiert keine Proteine", "correct": true },
+        { "text": "Kleinste bekannte Krankheitserreger (ca. 50 nm)", "correct": true },
+        { "text": "Durch Haarnadelstruktur sehr resistent gegen RNasen und Hitze", "correct": true },
+        { "text": "Pflanzenpathogen, z. B. Kartoffelspindelknollen-Viroid (Nachweis per Northern Blot)", "correct": true },
+        { "text": "Häufige Erreger beim Menschen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 25" },
+    { "id": "pvv-wirkort", "type": "multiple", "question": "An welchen **Wirkorten** setzen Antibiotika laut Skript an?",
+      "options": [
+        { "text": "Proteinsynthese am Ribosom", "correct": true },
+        { "text": "Zellwandsynthese (Murein)", "correct": true },
+        { "text": "DNA-Replikation", "correct": true },
+        { "text": "Stoffwechselprozesse", "correct": true },
+        { "text": "Virale Kapside" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 26" },
+    { "id": "pvv-resistenz-weitere", "type": "matching", "question": "Ordne weitere Resistenzmechanismen ihrem Beispiel zu.",
+      "pairs": [
+        { "left": "Reduzierte Aufnahme", "right": "Säurefeste Zellwand der Mykobakterien" },
+        { "left": "Alternative Stoffwechselwege", "right": "Ersatz eines blockierten Stoffwechselprodukts, z. B. bei Staphylococcus aureus" },
+        { "left": "Biofilme", "right": "Dicht besiedelte Schleimmatrix mit nach außen abgegebenen Schutzsubstanzen" },
+        { "left": "Efflux-Pumpen", "right": "Transporter schleusen das Antibiotikum aus" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 27" },
+    { "id": "pvv-entwicklung-zahlen", "type": "multiple", "question": "Welche Zahlen zur **Antibiotika-Entwicklung** nennt das Skript?",
+      "options": [
+        { "text": "10–14 Jahre vom Labor bis zur Vermarktung", "correct": true },
+        { "text": "Von ca. 10.000 Wirkstoffen wird 1 zugelassen", "correct": true },
+        { "text": "Patentlaufzeit 20 Jahre, davon ca. 7 Jahre Zeit, um Geld zu verdienen", "correct": true },
+        { "text": "Entwicklung dauert ca. 6 Monate" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 27" },
+    { "id": "pvv-bronchitis", "type": "single", "question": "Welcher Anteil der Bronchitiden ist laut Skript **bakteriell**?",
+      "options": [
+        { "text": "Nur ca. 5 %", "correct": true },
+        { "text": "Ca. 50 %" },
+        { "text": "Ca. 75 %" },
+        { "text": "Ca. 95 %" }
+      ], "explanation": "Bei Viren wirken Antibiotika nicht, unkritische Anwendung fördert Resistenzen.", "source": "VL-Skript ZUG Teil 2, S. 26" }
+  ]
+}
