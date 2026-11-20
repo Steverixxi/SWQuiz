@@ -1,0 +1,740 @@
+{
+  "chapter": "Praktikum 3 – Muskelgewebe (digitale Schnitte)",
+  "source": "Digitale Schnitte JKU (OMERO), Praktikum 3",
+  "questions": [
+    {
+      "id": "ds-skm-laengs-uebersicht",
+      "type": "image",
+      "question": "Skelettmuskel längs (HE), Übersicht: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-skm-laengs-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 10,
+          "y": 13,
+          "answer": "Skelettmuskelfasern, längs"
+        },
+        {
+          "n": 2,
+          "x": 79.2,
+          "y": 66,
+          "answer": "Perimysium-Septum mit Fettzellen"
+        },
+        {
+          "n": 3,
+          "x": 58.3,
+          "y": 48.4,
+          "answer": "Blutgefäß"
+        }
+      ],
+      "distractors": [
+        "Glatte Muskelzellen",
+        "Sehne"
+      ],
+      "explanation": "Das Perimysium sind Bindegewebssepten, die vom Epimysium in den Muskel einstrahlen und ihn in Bündel teilen. In breiteren Septen verlaufen Blutgefäße und Nerven, oft mit Fettzellen.",
+      "source": "Digitaler Schnitt Quergestreifte Muskeln längs (HE); VL-Skript ZUG Teil 2, VL 20, S. 59–60"
+    },
+    {
+      "id": "ds-skm-laengs-fasern",
+      "type": "image",
+      "question": "Skelettmuskel längs (HE), mittlere Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-skm-laengs-fasern.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 30.2,
+          "y": 46,
+          "answer": "Skelettmuskelfaser"
+        },
+        {
+          "n": 2,
+          "x": 79,
+          "y": 56.8,
+          "answer": "Fettzellen im Bindegewebe"
+        },
+        {
+          "n": 3,
+          "x": 96,
+          "y": 84.7,
+          "answer": "Bindegewebe (Perimysium)"
+        }
+      ],
+      "distractors": [
+        "Glanzstreifen",
+        "Herzmuskelzelle"
+      ],
+      "explanation": "Jede Skelettmuskelfaser ist ein langes, vielkerniges Synzytium mit feiner Querstreifung. Die hellen Spalten zwischen den Fasern entstehen meist bei der Präparation, dort liegt im Leben das zarte Endomysium.",
+      "source": "Digitaler Schnitt Quergestreifte Muskeln längs (HE); VL-Skript ZUG Teil 2, VL 20, S. 60–61"
+    },
+    {
+      "id": "ds-skm-querstreifung",
+      "type": "single",
+      "question": "Skelettmuskelfasern längs, starke Vergrößerung: Was erzeugt die feine Bänderung quer zur Faserrichtung?",
+      "image": "images/ds-skm-laengs-streifung.jpg",
+      "options": [
+        {
+          "text": "Die auf gleicher Höhe liegenden Sarkomere der Myofibrillen (A- und I-Banden)",
+          "correct": true
+        },
+        {
+          "text": "Die Glanzstreifen zwischen den Zellen",
+          "explain": "Glanzstreifen gibt es nur im Herzmuskel."
+        },
+        {
+          "text": "Kollagenfasern des Endomysiums",
+          "explain": "Das Endomysium umgibt die Faser außen und erzeugt keine Querstreifung."
+        },
+        {
+          "text": "Reihen von Zellkernen",
+          "explain": "Die Kerne liegen randständig und sind länglich, sie bilden keine Querbänder."
+        }
+      ],
+      "explanation": "Träger der Querstreifung sind die **Myofibrillen**. Ihre Sarkomere liegen auf gleicher Höhe. In HE ist die **A-Bande rot** (dunkler), die **I-Bande hell**, in ihr der feine Z-Streifen. Ein Sarkomer reicht von Z-Streifen zu Z-Streifen.",
+      "source": "Digitaler Schnitt Quergestreifte Muskeln längs (HE); VL-Skript ZUG Teil 2, VL 20, S. 61"
+    },
+    {
+      "id": "ds-skm-banden",
+      "type": "matching",
+      "question": "Ordne die Strukturen der Querstreifung im HE-Längsschnitt (Bild) zu.",
+      "image": "images/ds-skm-laengs-streifung.jpg",
+      "pairs": [
+        {
+          "left": "A-Bande",
+          "right": "Dunkle, rote Bande"
+        },
+        {
+          "left": "I-Bande",
+          "right": "Helle Bande"
+        },
+        {
+          "left": "Z-Streifen",
+          "right": "Feine Linie in der I-Bande"
+        },
+        {
+          "left": "Sarkomer",
+          "right": "Abschnitt zwischen zwei Z-Streifen"
+        }
+      ],
+      "distractors": [
+        "Glanzstreifen zwischen zwei Zellen"
+      ],
+      "explanation": "Laut Skript: A-Bande rot, I-Bande hell, Z-Streifen als feine Linie in der I-Bande, Sarkomer zwischen zwei Z-Streifen.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 61"
+    },
+    {
+      "id": "ds-skm-quer-detail",
+      "type": "image",
+      "question": "Skelettmuskel quer (HE), starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-skm-quer-detail.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 25,
+          "y": 47,
+          "answer": "Muskelfaser, quer (polygonal)"
+        },
+        {
+          "n": 2,
+          "x": 35,
+          "y": 78,
+          "ax": 45.75,
+          "ay": 60,
+          "answer": "Randständiger Zellkern"
+        },
+        {
+          "n": 3,
+          "x": 60,
+          "y": 82,
+          "ax": 60.8,
+          "ay": 60.1,
+          "answer": "Perimysium (Bindegewebsseptum)"
+        }
+      ],
+      "distractors": [
+        "Zentraler Zellkern",
+        "Glanzstreifen"
+      ],
+      "explanation": "Im Querschnitt sind Skelettmuskelfasern **polygonal**, die länglichen, abgeflachten **Kerne liegen randständig** direkt unter dem Sarkolemm. Gruppen von Fasern werden vom Perimysium zu Bündeln zusammengefasst.",
+      "source": "Digitaler Schnitt Quergestreifte Muskeln quer (HE); VL-Skript ZUG Teil 2, VL 20, S. 58–61"
+    },
+    {
+      "id": "ds-skm-quer-typ",
+      "type": "single",
+      "question": "Querschnitt (HE): Polygonale Fasern, Kerne am Rand jeder Faser. Welches Muskelgewebe ist das?",
+      "image": "images/ds-skm-quer-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Skelettmuskulatur",
+          "correct": true
+        },
+        {
+          "text": "Herzmuskulatur",
+          "explain": "Herzmuskelzellen haben einen zentralen, rund-ovalen Kern und sind verzweigt."
+        },
+        {
+          "text": "Glatte Muskulatur",
+          "explain": "Glatte Muskelzellen haben einen zentralen, zigarrenförmigen Kern und sind viel kleiner."
+        }
+      ],
+      "explanation": "Die **randständige Lage der Kerne** ist das wichtigste Erkennungsmerkmal der Skelettmuskelfaser im Querschnitt. Herz- und glatte Muskelzellen haben zentrale Kerne.",
+      "source": "Digitaler Schnitt Quergestreifte Muskeln quer (HE); VL-Skript ZUG Teil 2, VL 20, S. 58"
+    },
+    {
+      "id": "ds-skm-huellen",
+      "type": "matching",
+      "question": "Ordne die Bindegewebshüllen des Skelettmuskels zu.",
+      "image": "images/ds-skm-quer-uebersicht.jpg",
+      "pairs": [
+        {
+          "left": "Endomysium",
+          "right": "Umgibt mit der Basalmembran die einzelne Muskelfaser"
+        },
+        {
+          "left": "Perimysium",
+          "right": "Septen, die den Muskel in Bündel unterteilen"
+        },
+        {
+          "left": "Epimysium",
+          "right": "Lockeres BGW unter der Faszie"
+        },
+        {
+          "left": "Muskelfaszie",
+          "right": "Straffes BGW um den ganzen Muskel"
+        }
+      ],
+      "distractors": [
+        "Perineurium"
+      ],
+      "explanation": "Endomysium um jede Faser, Perimysium (externum: Sekundärbündel, internum: Primärbündel), Epimysium unter der Faszie, außen die Muskelfaszie aus straffem BGW.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 60"
+    },
+    {
+      "id": "ds-skm-synzytium",
+      "type": "multiple",
+      "question": "Welche Aussagen zur Skelettmuskelfaser in diesem Präparat sind richtig?",
+      "image": "images/ds-skm-laengs-fasern.jpg",
+      "options": [
+        {
+          "text": "Sie ist ein vielkerniges Synzytium.",
+          "correct": true
+        },
+        {
+          "text": "Sie entsteht durch Verschmelzung einkerniger Myoblasten.",
+          "correct": true
+        },
+        {
+          "text": "Ihr Sarkoplasma ist eosinophil.",
+          "correct": true
+        },
+        {
+          "text": "Ihre Kerne liegen länglich und abgeflacht am Rand.",
+          "correct": true
+        },
+        {
+          "text": "Benachbarte Fasern sind über Glanzstreifen verbunden.",
+          "explain": "Glanzstreifen verbinden Herzmuskelzellen."
+        },
+        {
+          "text": "Sie hat einen zentralen, zigarrenförmigen Kern.",
+          "explain": "Das ist die glatte Muskelzelle."
+        }
+      ],
+      "explanation": "Skelettmuskelfaser: vielkernige, sehr lange Zelle (Synzytium) aus verschmolzenen Myoblasten, 40–100 µm dick, Kerne randständig, länglich, abgeflacht. Sarkoplasma eosinophil (Mitochondrien, Myofibrillen, Myoglobin).",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 59–61"
+    },
+    {
+      "id": "ds-skm-schnittebene",
+      "type": "single",
+      "question": "In welcher Schnittebene wurde dieser Skelettmuskel geschnitten? Woran erkennst du das?",
+      "image": "images/ds-skm-quer-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Quer: polygonale Faserprofile mit Kernen am Rand, keine Querstreifung sichtbar",
+          "correct": true
+        },
+        {
+          "text": "Längs: lange Fasern mit sichtbarer Querstreifung",
+          "explain": "Das wäre der Längsschnitt (Präparat 1)."
+        },
+        {
+          "text": "Quer: runde Zellen mit zentralem Kern",
+          "explain": "So sieht glatte Muskulatur im Querschnitt aus."
+        }
+      ],
+      "explanation": "Im **Querschnitt** sieht man die Fasern als polygonale Felder mit randständigen Kernen. Die Querstreifung ist nur im **Längsschnitt** sichtbar.",
+      "source": "Digitaler Schnitt Quergestreifte Muskeln quer (HE); VL-Skript ZUG Teil 2, VL 20, S. 61"
+    },
+    {
+      "id": "ds-hz-quer",
+      "type": "image",
+      "question": "Herzmuskel quer (Azan), starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-herz-quer.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 20,
+          "y": 85,
+          "answer": "Herzmuskelzellen, quer"
+        },
+        {
+          "n": 2,
+          "x": 85,
+          "y": 88,
+          "ax": 74.1,
+          "ay": 58,
+          "answer": "Zentral gelegener Zellkern"
+        }
+      ],
+      "distractors": [
+        "Randständiger Zellkern",
+        "Glatte Muskelzelle"
+      ],
+      "explanation": "Kardiomyozyten sind meist einkernig, der große, kissenförmige **Kern liegt im Zentrum** der Zelle. Im Querschnitt haben die Zellen unregelmäßige Umrisse, weil sie sich verzweigen.",
+      "source": "Digitaler Schnitt Herzmuskel (Azan); VL-Skript ZUG Teil 2, VL 20, S. 70"
+    },
+    {
+      "id": "ds-hz-laengs",
+      "type": "image",
+      "question": "Herzmuskel längs (Azan), starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-herz-laengs.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 60,
+          "y": 75,
+          "answer": "Quergestreifte Herzmuskelzellen"
+        },
+        {
+          "n": 2,
+          "x": 87,
+          "y": 55,
+          "answer": "Interstitielles Bindegewebe"
+        }
+      ],
+      "distractors": [
+        "Skelettmuskelfaser",
+        "Glatte Muskelzellen"
+      ],
+      "explanation": "Auch Herzmuskelzellen sind **quergestreift**: Ihre Sarkomere sind bis ca. 2,5 µm lang und gleichen denen der Skelettmuskulatur. Die Zellen verzweigen sich und sind an ihren Enden über Glanzstreifen verbunden. Zwischen ihnen liegt gefäßreiches Bindegewebe.",
+      "source": "Digitaler Schnitt Herzmuskel (Azan); VL-Skript ZUG Teil 2, VL 20, S. 70–71"
+    },
+    {
+      "id": "ds-hz-typ",
+      "type": "multiple",
+      "question": "Woran unterscheidest du diese Herzmuskulatur von Skelettmuskulatur?",
+      "image": "images/ds-herz-laengs.jpg",
+      "options": [
+        {
+          "text": "Die Kerne liegen zentral.",
+          "correct": true
+        },
+        {
+          "text": "Die Zellen verzweigen sich.",
+          "correct": true
+        },
+        {
+          "text": "Die Zellen sind über Glanzstreifen verbunden.",
+          "correct": true
+        },
+        {
+          "text": "Es gibt keine Querstreifung.",
+          "explain": "Herzmuskulatur ist ebenfalls quergestreift."
+        },
+        {
+          "text": "Jede Zelle ist ein vielkerniges Synzytium aus verschmolzenen Myoblasten.",
+          "explain": "Das gilt für die Skelettmuskelfaser. Kardiomyozyten sind meist einkernig und bilden nur ein funktionelles Synzytium."
+        }
+      ],
+      "explanation": "Herzmuskulatur: verzweigte Einzelzellen, über Glanzstreifen verbunden (funktionelles Synzytium), zentraler rund-ovaler Kern, quergestreift.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 58, 70"
+    },
+    {
+      "id": "ds-hz-kern",
+      "type": "single",
+      "question": "Was liegt typischerweise an den beiden Enden des zentralen Kerns einer Herzmuskelzelle?",
+      "image": "images/ds-herz-quer.jpg",
+      "options": [
+        {
+          "text": "Myofilamentfreie Zytoplasmafelder mit Organellen, Glykogen und im Alter Lipofuszin",
+          "correct": true
+        },
+        {
+          "text": "Die Glanzstreifen",
+          "explain": "Glanzstreifen liegen an den Zellenden, nicht am Kern."
+        },
+        {
+          "text": "Satellitenzellen",
+          "explain": "Satellitenzellen gehören zur Skelettmuskulatur."
+        },
+        {
+          "text": "Weitere Kerne in einer Reihe",
+          "explain": "Kardiomyozyten sind meist einkernig, selten zweikernig."
+        }
+      ],
+      "explanation": "An beiden Kernpolen liegen **myofilamentfreie Zytoplasmafelder** mit Organellen, Glykogen, Lipidtropfen und mit zunehmendem Alter **Lipofuszin** (braunes Abnutzungspigment).",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 70"
+    },
+    {
+      "id": "ds-hz-glanzstreifen",
+      "type": "matching",
+      "question": "Ordne die Kontakte des Glanzstreifens ihrer Lage und Funktion zu.",
+      "image": "images/ds-herz-laengs.jpg",
+      "pairs": [
+        {
+          "left": "Fascia adhaerens",
+          "right": "Transversal: Verankerung der Aktinfilamente, entspricht einem Z-Streifen"
+        },
+        {
+          "left": "Desmosom",
+          "right": "Transversal: feste mechanische Verbindung, Desmin verankert"
+        },
+        {
+          "left": "Nexus (Connexin 43)",
+          "right": "Longitudinal: elektrische Kopplung"
+        }
+      ],
+      "distractors": [
+        "Zonula occludens als Diffusionsbarriere"
+      ],
+      "explanation": "Glanzstreifen verlaufen im Längsschnitt treppenförmig. In den transversalen Abschnitten liegen Fasciae adhaerentes (Cadherine) und Desmosomen, in den longitudinalen Abschnitten große Nexus, über die sich die Erregung verzögerungsfrei ausbreitet.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 71"
+    },
+    {
+      "id": "ds-hz-raeumlich",
+      "type": "single",
+      "question": "Herzmuskel, mittlere Vergrößerung: Warum sind im selben Schnitt Zellen längs, schräg und quer getroffen?",
+      "image": "images/ds-herz-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Weil sich die Herzmuskelzellen dreidimensional verzweigen und eine komplexe räumliche Struktur bilden",
+          "correct": true
+        },
+        {
+          "text": "Weil das Präparat aus mehreren Organen zusammengesetzt ist",
+          "explain": "Alle Anteile sind Myokard."
+        },
+        {
+          "text": "Weil Herzmuskelzellen kugelförmig sind",
+          "explain": "Kardiomyozyten sind 50–120 µm lang und 15–20 µm dick."
+        }
+      ],
+      "explanation": "Durch die **3D-Verzweigungen** der Herzmuskelzellen entsteht eine komplexe räumliche Struktur. Deshalb sieht man in einem Schnitt Bündel in verschiedenen Richtungen.",
+      "source": "Digitaler Schnitt Herzmuskel (Azan); VL-Skript ZUG Teil 2, VL 20, S. 70"
+    },
+    {
+      "id": "ds-hz-kopplung",
+      "type": "single",
+      "question": "Wie breitet sich die Erregung in diesem Myokard von Zelle zu Zelle aus?",
+      "image": "images/ds-herz-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Über Nexus in den longitudinalen Anteilen der Glanzstreifen",
+          "correct": true
+        },
+        {
+          "text": "Über eine motorische Endplatte an jeder Zelle",
+          "explain": "Motorische Endplatten gibt es an Skelettmuskelfasern."
+        },
+        {
+          "text": "Über Desmosomen",
+          "explain": "Desmosomen dienen der mechanischen Verbindung."
+        },
+        {
+          "text": "Über T-Tubuli zwischen benachbarten Zellen",
+          "explain": "T-Tubuli sind Einstülpungen der eigenen Zellmembran."
+        }
+      ],
+      "explanation": "Die Herzmuskelzellen sind über **Nexus** (v. a. Connexin 43) elektrisch gekoppelt. Die Erregung entsteht myogen im Erregungsleitungssystem.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 70–71"
+    },
+    {
+      "id": "ds-hz-purkinje",
+      "type": "single",
+      "question": "Wodurch unterscheiden sich Purkinje-Myozyten von den Arbeitsmyozyten dieses Präparats?",
+      "image": "images/ds-herz-laengs.jpg",
+      "options": [
+        {
+          "text": "Sie sind kürzer und dicker, glykogenreich, fibrillenarm und haben keine Glanzstreifen.",
+          "correct": true
+        },
+        {
+          "text": "Sie sind vielkernige Synzytien mit randständigen Kernen.",
+          "explain": "Das beschreibt Skelettmuskelfasern."
+        },
+        {
+          "text": "Sie haben keine Querstreifung und einen zigarrenförmigen Kern.",
+          "explain": "Das beschreibt glatte Muskelzellen."
+        }
+      ],
+      "explanation": "Purkinje-Myozyten: ca. 50 µm lang und 30 µm dick, glykogenreiches Zytoplasma, Myofibrillen v. a. in der Peripherie, **ohne Glanzstreifen**. Sie übertragen die Erregung auf das Myokard.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 73"
+    },
+    {
+      "id": "ds-hb-uebersicht",
+      "type": "image",
+      "question": "Harnblase (HE), Übersicht: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-blase-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 15,
+          "y": 6.6,
+          "answer": "Gefaltete Schleimhaut mit Urothel"
+        },
+        {
+          "n": 2,
+          "x": 50,
+          "y": 60,
+          "answer": "Bündel glatter Muskulatur"
+        },
+        {
+          "n": 3,
+          "x": 60,
+          "y": 14.7,
+          "answer": "Lumen"
+        }
+      ],
+      "distractors": [
+        "Skelettmuskulatur",
+        "Hyaliner Knorpel"
+      ],
+      "explanation": "Die leere Harnblase hat eine stark gefaltete Schleimhaut mit Urothel. Darunter liegt eine dicke Wand aus **Bündeln glatter Muskulatur**, die in verschiedene Richtungen verlaufen und durch lockeres Bindegewebe getrennt sind.",
+      "source": "Digitaler Schnitt Harnblase (HE); VL-Skript ZUG Teil 1, S. 99; Teil 2, VL 20, S. 74"
+    },
+    {
+      "id": "ds-hb-muskulatur",
+      "type": "image",
+      "question": "Harnblasenwand (HE), mittlere Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-blase-muskulatur.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 30.9,
+          "y": 31.4,
+          "answer": "Glatte Muskelbündel, quer"
+        },
+        {
+          "n": 2,
+          "x": 85.9,
+          "y": 87.1,
+          "answer": "Glatte Muskelbündel, längs"
+        },
+        {
+          "n": 3,
+          "x": 38.5,
+          "y": 56.8,
+          "answer": "Lockeres Bindegewebe zwischen den Bündeln"
+        },
+        {
+          "n": 4,
+          "x": 50.1,
+          "y": 65.3,
+          "answer": "Kleines Blutgefäß"
+        }
+      ],
+      "distractors": [
+        "Skelettmuskelfasern mit randständigen Kernen",
+        "Knorpelspange"
+      ],
+      "explanation": "Glatte Muskulatur besteht aus **Schichten oder Bündeln unterschiedlich angeordneter Zellen**. Deshalb sieht man im selben Schnitt quer und längs getroffene Bündel. Dazwischen liegt lockeres Bindegewebe mit Gefäßen und Nerven.",
+      "source": "Digitaler Schnitt Harnblase (HE); VL-Skript ZUG Teil 1, S. 173; Teil 2, VL 20, S. 74"
+    },
+    {
+      "id": "ds-hb-laengs",
+      "type": "image",
+      "question": "Glatte Muskulatur längs (Harnblase, HE), starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-glatte-muskulatur-laengs.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 40,
+          "y": 8,
+          "ax": 47.25,
+          "ay": 31.2,
+          "answer": "Zigarrenförmiger, zentraler Zellkern"
+        },
+        {
+          "n": 2,
+          "x": 30,
+          "y": 88,
+          "answer": "Glatte Muskelzellen, längs"
+        }
+      ],
+      "distractors": [
+        "Randständiger Kern",
+        "Glanzstreifen"
+      ],
+      "explanation": "Glatte Muskelzellen sind schlank und spindelförmig, mit einem **mittig gelegenen, zigarrenförmigen Kern**. Das Zytoplasma ist in HE einheitlich rot, **ohne Querstreifung**.",
+      "source": "Digitaler Schnitt Harnblase (HE); VL-Skript ZUG Teil 2, VL 20, S. 74"
+    },
+    {
+      "id": "ds-hb-quer",
+      "type": "image",
+      "question": "Glatte Muskulatur quer (Harnblase, HE), starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-glatte-muskulatur-quer.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 30,
+          "y": 70,
+          "ax": 41.1,
+          "ay": 49.3,
+          "answer": "Zentraler Kern im Zellquerschnitt"
+        },
+        {
+          "n": 2,
+          "x": 72,
+          "y": 13,
+          "answer": "Bündel glatter Muskelzellen"
+        }
+      ],
+      "distractors": [
+        "Randständiger Kern einer Skelettmuskelfaser",
+        "Isogene Gruppe"
+      ],
+      "explanation": "Im Querschnitt sind glatte Muskelzellen kleine, runde bis polygonale Profile. Nur Zellen, die in Kernhöhe getroffen sind, zeigen einen **zentralen runden Kern**, deshalb wirken die Kerne unregelmäßig verteilt.",
+      "source": "Digitaler Schnitt Harnblase (HE); VL-Skript ZUG Teil 2, VL 20, S. 74–75"
+    },
+    {
+      "id": "ds-hb-typ",
+      "type": "single",
+      "question": "Woran erkennst du im Längsschnitt, dass hier glatte und nicht quergestreifte Muskulatur vorliegt?",
+      "image": "images/ds-glatte-muskulatur-laengs.jpg",
+      "options": [
+        {
+          "text": "Keine Querstreifung, zentraler zigarrenförmiger Kern in spindelförmigen Zellen",
+          "correct": true
+        },
+        {
+          "text": "Randständige Kerne und Querstreifung",
+          "explain": "Das ist Skelettmuskulatur."
+        },
+        {
+          "text": "Verzweigte Zellen mit Glanzstreifen",
+          "explain": "Das ist Herzmuskulatur."
+        },
+        {
+          "text": "Großer Abstand der Zellen durch viel Grundsubstanz",
+          "explain": "Das passt eher zu Bindegewebe oder Knorpel."
+        }
+      ],
+      "explanation": "In der glatten Muskulatur sind Aktin und Myosin **ohne besonderes Anordnungsprinzip** angeordnet, daher fehlt die Querstreifung. Kern: mittig, zigarrenförmig, hell, mit deutlichem Nukleolus.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 59, 74"
+    },
+    {
+      "id": "ds-hb-kern-kontraktion",
+      "type": "single",
+      "question": "Wie sieht der Kern einer glatten Muskelzelle im kontrahierten Zustand aus?",
+      "image": "images/ds-glatte-muskulatur-laengs.jpg",
+      "options": [
+        {
+          "text": "Korkenzieherartig verformt",
+          "correct": true
+        },
+        {
+          "text": "Randständig verlagert",
+          "explain": "Randständige Kerne kennzeichnen die Skelettmuskelfaser."
+        },
+        {
+          "text": "In mehrere Kerne zerfallen",
+          "explain": "Glatte Muskelzellen sind einkernig."
+        }
+      ],
+      "explanation": "Laut Skript ist der Kern in kontrahierten glatten Muskelzellen **korkenzieherartig** verformt.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 74"
+    },
+    {
+      "id": "ds-hb-merkmale",
+      "type": "multiple",
+      "question": "Welche Aussagen zur glatten Muskulatur in dieser Blasenwand sind richtig?",
+      "image": "images/ds-blase-muskulatur.jpg",
+      "options": [
+        {
+          "text": "Sie wird vom vegetativen Nervensystem innerviert.",
+          "correct": true
+        },
+        {
+          "text": "Sie vermittelt langsame Bewegungen und ermüdet nicht rasch.",
+          "correct": true
+        },
+        {
+          "text": "Die Aktinfilamente enden in Verdichtungszonen (dense bodies).",
+          "correct": true
+        },
+        {
+          "text": "Die Zellen sind etwa 20–200 µm lang und von einer Basallamina umgeben.",
+          "correct": true
+        },
+        {
+          "text": "Jede Zelle wird über eine motorische Endplatte erregt.",
+          "explain": "Transmitter wird aus Varikositäten weit präterminal freigesetzt, ein Axon innerviert viele Zellen."
+        },
+        {
+          "text": "Ihr Aktin ist mit Troponin besetzt.",
+          "explain": "Aktin der glatten Muskulatur ist ohne Troponin, typisch ist Caldesmon."
+        }
+      ],
+      "explanation": "Glatte Muskulatur: vegetativ innerviert, langsam, ausdauernd, Zellen 20–200 µm lang, 3–10 µm dick. Dense bodies entsprechen den Z-Linien. Aktin ohne Troponin.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 74, 76–77"
+    },
+    {
+      "id": "ds-hb-vorkommen",
+      "type": "multiple",
+      "question": "Wo kommt glatte Muskulatur wie in dieser Harnblase außerdem vor?",
+      "image": "images/ds-blase-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Magen-Darm-Trakt",
+          "correct": true
+        },
+        {
+          "text": "Blutgefäße",
+          "correct": true
+        },
+        {
+          "text": "Atemwege",
+          "correct": true
+        },
+        {
+          "text": "Innere Augenmuskulatur",
+          "correct": true
+        },
+        {
+          "text": "Zwerchfell",
+          "explain": "Das Zwerchfell ist Skelettmuskulatur."
+        },
+        {
+          "text": "Äußere Augenmuskeln",
+          "explain": "Die äußeren Augenmuskeln sind Skelettmuskulatur."
+        }
+      ],
+      "explanation": "Glatte Muskulatur: Magen-Darm-Trakt, Atemwege, Gefäße, Harnwege, Geschlechtsorgane, innere Augenmuskulatur.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 58"
+    },
+    {
+      "id": "ds-hb-vergleich",
+      "type": "matching",
+      "question": "Ordne den drei Muskelgeweben (Präparate Skelettmuskel, Herz, Harnblase) die Kernlage zu.",
+      "image": "images/ds-glatte-muskulatur-quer.jpg",
+      "pairs": [
+        {
+          "left": "Skelettmuskulatur",
+          "right": "Mehrere randständige, abgeflachte, längliche Kerne"
+        },
+        {
+          "left": "Herzmuskulatur",
+          "right": "Ein zentraler, rund-ovaler (kissenförmiger) Kern"
+        },
+        {
+          "left": "Glatte Muskulatur",
+          "right": "Ein zentraler, zigarrenförmiger Kern"
+        }
+      ],
+      "distractors": [
+        "Kein Kern"
+      ],
+      "explanation": "Die Kernlage ist das schnellste Unterscheidungsmerkmal der drei Muskelgewebe im Präparat.",
+      "source": "VL-Skript ZUG Teil 2, VL 20, S. 58"
+    }
+  ]
+}
