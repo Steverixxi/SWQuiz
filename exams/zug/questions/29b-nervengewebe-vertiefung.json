@@ -1,0 +1,309 @@
+{
+  "chapter": "VL 29 – Nervengewebe (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 2, VL 29 (S. 111–142)",
+  "questions": [
+    { "id": "ngv-systematik-glia", "type": "matching", "question": "Ordne die Gliazellen ihrer Gruppe zu.",
+      "pairs": [
+        { "left": "Astrozyten", "right": "Zentrale Makroglia" },
+        { "left": "Mikroglia", "right": "Zentrale Glia, Immuneffektoren (Makrophagen des ZNS)" },
+        { "left": "Schwannzellen", "right": "Periphere Glia, Myelin im PNS" },
+        { "left": "Satellitenzellen", "right": "Periphere Glia, umgeben Somata in Ganglien" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 112, 126, 142" },
+    { "id": "ngv-neuron-kontakte", "type": "multiple", "question": "Mit welchen Strukturen stehen Neurone laut Skript in Kontakt?",
+      "options": [
+        { "text": "Andere Neurone", "correct": true },
+        { "text": "Gliazellen", "correct": true },
+        { "text": "Blutgefäße", "correct": true },
+        { "text": "Zellen der EZM bzw. Bindegewebe (im PNS)", "correct": true }
+      ], "explanation": "Daraus ergeben sich funktionelle Wechselwirkungen.", "source": "VL-Skript ZUG Teil 2, S. 113" },
+    { "id": "ngv-soma-funktion", "type": "single", "question": "Wie bezeichnet das Skript die Funktion des **Somas (Perikaryon)**?",
+      "options": [
+        { "text": "Metabolische Zentrale und Verrechnungsstation", "correct": true },
+        { "text": "Effektorischer, fortleitender Fortsatz" },
+        { "text": "Ort der Myelinbildung" },
+        { "text": "Reine Speicherstruktur ohne Stoffwechsel" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 113" },
+    { "id": "ngv-neuron-organellen", "type": "multiple", "question": "Welche Merkmale hat ein **typisches Neuron** laut Skript?",
+      "options": [
+        { "text": "Deutlicher euchromatinreicher Kern, der stark gelappt sein kann", "correct": true },
+        { "text": "Reichlich Mitochondrien, auch in Dendriten und Axon", "correct": true },
+        { "text": "Zahlreiche kleinere Golgi-Apparate", "correct": true },
+        { "text": "Viel rER im Soma (Nissl-Schollen) und reichlich glattes ER, auch in Dendriten und Dornen", "correct": true },
+        { "text": "Viel rER im Axon", "explain": "Im Axon fehlt rER, das ist ein wichtiges Unterscheidungskriterium." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 113" },
+    { "id": "ngv-dendrit-funktion", "type": "multiple", "question": "Welche Aufgaben haben **Dendriten**?",
+      "options": [
+        { "text": "Sie nehmen Erregungen anderer Zellen auf und leiten sie zum Soma", "correct": true },
+        { "text": "Sie vergrößern die Oberfläche, damit mehr Synapsen Platz haben", "correct": true },
+        { "text": "Sie leiten Erregung vom Soma weg zur Zielzelle", "explain": "Das ist die Aufgabe des Axons." },
+        { "text": "Sie bilden Myelin" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 113" },
+    { "id": "ngv-golgi-typ-merkmale", "type": "multiple", "question": "Welche Merkmale haben **Golgi-Typ-II-Neurone** (Interneurone)?",
+      "options": [
+        { "text": "Kleines Soma", "correct": true },
+        { "text": "Eher lokales, oft verzweigtes Axon", "correct": true },
+        { "text": "Integration von Signalen, meist inhibitorisch", "correct": true },
+        { "text": "Langes Axon zur Fortleitung über große Entfernung", "explain": "Golgi-Typ I (Projektionsneuron)." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 115" },
+    { "id": "ngv-aktin-neuron", "type": "single", "question": "Welche Rolle haben **Aktinfilamente** im Neuron laut Skript?",
+      "options": [
+        { "text": "Sie bilden unter der Plasmamembran der gesamten Zelle ein Stützgerüst (Formgebung)", "correct": true },
+        { "text": "Sie sind die Schienen des schnellen axonalen Transports" , "explain": "Das sind Mikrotubuli (Kinesin, Dynein)." },
+        { "text": "Sie bilden die Myelinscheide" },
+        { "text": "Sie kommen im Neuron nicht vor" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 116" },
+    { "id": "ngv-axon-proteinsynthese", "type": "single", "question": "Wo findet im Axon laut Skript **ausnahmsweise** Proteinbiosynthese statt?",
+      "options": [
+        { "text": "Im Wachstumskegel", "correct": true },
+        { "text": "Am Axonhügel" },
+        { "text": "An den Ranvier-Schnürringen" },
+        { "text": "In der präsynaptischen aktiven Zone" }
+      ], "explanation": "Sonst fehlen im Axon raues ER und Golgi-Apparat.", "source": "VL-Skript ZUG Teil 2, S. 116" },
+    { "id": "ngv-anterograd-fracht", "type": "matching", "question": "Ordne die Fracht dem axonalen Transport zu.",
+      "pairs": [
+        { "left": "Schneller anterograder Transport", "right": "Vesikel, Mitochondrien" },
+        { "left": "Langsamer anterograder Transport", "right": "Proteine" },
+        { "left": "Retrograder Transport", "right": "Verbrauchte Organellen in autophagischen Vesikeln zum Abbau im Soma" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 116" },
+    { "id": "ngv-synapse-def", "type": "single", "question": "Wie definiert das Skript eine **Synapse**?",
+      "options": [
+        { "text": "Kontaktstelle zwischen zwei Neuronen oder zwischen Neuron und Effektorzelle, die der Reizübertragung dient", "correct": true },
+        { "text": "Jede Kontaktstelle zwischen zwei Gliazellen" },
+        { "text": "Der Übergang vom Soma zum Axon" },
+        { "text": "Der Ranvier-Schnürring" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 120" },
+    { "id": "ngv-synapse-abstand", "type": "matching", "question": "Ordne die Abstände zwischen den Zellen zu.",
+      "pairs": [
+        { "left": "Elektrische Synapse", "right": "Ca. 3,5 nm" },
+        { "left": "Chemische Synapse (ZNS)", "right": "20–40 nm" },
+        { "left": "Neuromuskuläre Endplatte", "right": "50–100 nm" },
+        { "left": "Viszeromotorische Varikosität", "right": "Bis zu mehreren hundert nm" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 120, 137, 138" },
+    { "id": "ngv-elektrisch-chemisch", "type": "matching", "question": "Ordne die Eigenschaften der Synapsenart zu.",
+      "pairs": [
+        { "left": "Elektrische Synapse", "right": "Seltener, sehr schnell, uni- oder bidirektional" },
+        { "left": "Chemische Synapse", "right": "Häufigster Typ, unidirektional, erregend oder hemmend" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 120" },
+    { "id": "ngv-synapse-morph", "type": "matching", "question": "Ordne die morphologischen Synapsentypen zu.",
+      "pairs": [
+        { "left": "Axodendritisch", "right": "Axonende und Dendrit" },
+        { "left": "Axosomatisch", "right": "Axonende und Soma" },
+        { "left": "Axoaxonal", "right": "Axonende und Axoninitialsegment bzw. präterminaler Axonabschnitt" },
+        { "left": "Dendrodendritisch", "right": "Zwischen Dendriten" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 120" },
+    { "id": "ngv-transmitter-klassen", "type": "multiple", "question": "Nach welchen Transmittertypen klassifiziert das Skript Synapsen?",
+      "options": [
+        { "text": "Cholinerg, adrenerg", "correct": true },
+        { "text": "Dopaminerg, serotonerg", "correct": true },
+        { "text": "Glutamaterg, GABAerg", "correct": true },
+        { "text": "Peptiderg", "correct": true },
+        { "text": "Connexinerg" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 120" },
+    { "id": "ngv-exzitatorisch-em", "type": "single", "question": "Im EM-Bild siehst du eine axodendritische Synapse mit **runden** Vesikeln und einer **postsynaptischen Verdichtung, die breiter ist** als die präsynaptische. Was liegt vor?",
+      "options": [
+        { "text": "Exzitatorische, asymmetrische Synapse (Gray-Typ I)", "correct": true },
+        { "text": "Inhibitorische, symmetrische Synapse (Gray-Typ II)", "explain": "Gray II: runde und ovale Vesikel, gleich breite Verdichtungen." },
+        { "text": "Elektrische Synapse" },
+        { "text": "Neuromuskuläre Endplatte" }
+      ], "explanation": "Postsynaptisch entsteht eine Depolarisation.", "source": "VL-Skript ZUG Teil 2, S. 121" },
+    { "id": "ngv-gliotransmitter", "type": "multiple", "question": "Welche Aussagen zu **Gliotransmittern** treffen laut Skript zu?",
+      "options": [
+        { "text": "Starke synaptische Aktivität erhöht das intrazelluläre Ca^2+^ in Astrozyten", "correct": true },
+        { "text": "Astrozyten setzen dann neuromodulierende Substanzen wie ATP frei", "correct": true },
+        { "text": "Diese können entferntere Synapsen dämpfen (laterale Hemmung)", "correct": true },
+        { "text": "Gliotransmitter werden von Oligodendrozyten in die Myelinscheide abgegeben" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 122" },
+    { "id": "ngv-aktive-zone", "type": "matching", "question": "Ordne die Orte an der chemischen Synapse zu.",
+      "pairs": [
+        { "left": "Aktive Zone (präsynaptische Verdichtung)", "right": "Ort der Exozytose der Transmittervesikel" },
+        { "left": "Postsynaptische Verdichtung", "right": "Ort der Rezeptoren" },
+        { "left": "Synaptischer Spalt", "right": "Diffusion des Transmitters" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 122" },
+    { "id": "ngv-transmitter-ende", "type": "multiple", "question": "Wodurch wird die **Transmitterwirkung beendet**?",
+      "options": [
+        { "text": "Rücktransport in die Präsynapse", "correct": true },
+        { "text": "Enzymatischer Verdau im synaptischen Spalt", "correct": true },
+        { "text": "Aufnahme durch Astrozyten (z. B. Glutamat)", "correct": true },
+        { "text": "Diffusion durch Gap junctions in die Postsynapse" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 122, 123" },
+    { "id": "ngv-astro-bindegewebe", "type": "single", "question": "Warum wird Astrozyten klassisch eine **mechanische Stützfunktion** zugeschrieben?",
+      "options": [
+        { "text": "Weil das ZNS kein faseriges Bindegewebe besitzt", "correct": true },
+        { "text": "Weil Astrozyten Kollagen Typ I bilden" },
+        { "text": "Weil Astrozyten Myelin bilden" },
+        { "text": "Weil sie die größten Zellen des ZNS sind" }
+      ], "explanation": "Astrozyten sind die häufigste Gliazelle im ZNS.", "source": "VL-Skript ZUG Teil 2, S. 123" },
+    { "id": "ngv-ependym-kontakte", "type": "multiple", "question": "Welche Aussagen zu **Ependymzellen** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie sind durch Nexus, Desmosomen und eine apikale Zonula adhaerens verbunden", "correct": true },
+        { "text": "Sie tragen Kinozilien und Mikrovilli", "correct": true },
+        { "text": "Sie entfernen überschüssige Neurotransmitter und puffern K^+^", "correct": true },
+        { "text": "Sie regulieren den Austausch zwischen interstitieller Flüssigkeit des Neuropils und Liquor", "correct": true },
+        { "text": "Sie sind durch dichte Zonulae occludentes verbunden und bilden die Blut-Hirn-Schranke" , "explain": "Laut Skript werden Nexus, Desmosomen und Zonula adhaerens genannt. Die Blut-Hirn-Schranke bilden die Endothelzellen." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 124" },
+    { "id": "ngv-mikroglia-herkunft", "type": "single", "question": "Woher stammen **Mikrogliazellen** embryologisch?",
+      "options": [
+        { "text": "Aus dem Monozyten-Makrophagen-System des Knochenmarks, Einwanderung schon in der Fetalperiode", "correct": true },
+        { "text": "Aus der Neuralleiste" , "explain": "Aus der Neuralleiste stammen laut Skript die Perizyten bzw. myokontraktilen Zellen." },
+        { "text": "Aus dem Ependym" },
+        { "text": "Aus dem Entoderm" }
+      ], "explanation": "Mikroglia machen ca. 10 % der Gliazellen des ZNS aus.", "source": "VL-Skript ZUG Teil 2, S. 126" },
+    { "id": "ngv-mikroglia-funktion", "type": "multiple", "question": "Welche Funktionen haben **aktivierte Mikrogliazellen**?",
+      "options": [
+        { "text": "Amöboide Bewegung", "correct": true },
+        { "text": "Phagozytose von Zellfragmenten und Fremdkörpern", "correct": true },
+        { "text": "Antigenpräsentation", "correct": true },
+        { "text": "Eliminierung apoptotischer Neurone und Gliazellen in der Embryonalentwicklung", "correct": true },
+        { "text": "Bildung der Myelinscheide" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 126" },
+    { "id": "ngv-nvu-bestandteile", "type": "multiple", "question": "Welche Aussagen zur **neurovaskulären Einheit** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie besteht aus Endothelzellen, Perizyten, Myozyten, Gliazellen und Neuronen", "correct": true },
+        { "text": "Astrozytenendfüße bilden selbst keine dichte Barriere, induzieren aber die Zonulae occludentes der Endothelzellen", "correct": true },
+        { "text": "Dendriten und Axonendigungen von Interneuronen erreichen die Endothelzellen und regulieren die Gefäßweite", "correct": true },
+        { "text": "Die Perizyten stammen aus der Neuralleiste", "correct": true },
+        { "text": "Die Gefäße des ZNS sind ein reines stromales Versorgungssystem", "explain": "Sie gelten als genuiner Bestandteil des Nervengewebes." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 127" },
+    { "id": "ngv-myelin-proteine", "type": "multiple", "question": "Welche **myelinspezifischen Proteine** nennt das Skript?",
+      "options": [
+        { "text": "Basisches Myelinprotein (MBP)", "correct": true },
+        { "text": "Proteolipid-Protein (PLP/DM20)", "correct": true },
+        { "text": "Myelin-assoziiertes Glykoprotein (MAG)", "correct": true },
+        { "text": "Connexin-32 und CNP", "correct": true },
+        { "text": "Desmoglein-3" }
+      ], "explanation": "Myelin: ca. 70 % Lipide, bis 30 % Proteine. Spezifische Proteine unterscheiden ZNS- von PNS-Myelin.", "source": "VL-Skript ZUG Teil 2, S. 128" },
+    { "id": "ngv-cholesterin", "type": "single", "question": "Welche Lipidkomponente ist laut Skript **unverzichtbar**, damit die Isolationsschicht eines Nervs aufgebaut oder repariert werden kann?",
+      "options": [
+        { "text": "Cholesterin", "correct": true },
+        { "text": "Triglyceride" },
+        { "text": "Plasmalogene" },
+        { "text": "Phytansäure" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 128" },
+    { "id": "ngv-nervenfaser-def", "type": "single", "question": "Wie definiert das Skript eine **Nervenfaser**?",
+      "options": [
+        { "text": "Axon plus begleitende Gliazelle (mit oder ohne Myelin)", "correct": true },
+        { "text": "Nur das myelinisierte Axon" },
+        { "text": "Ein Bündel von Axonen mit Perineurium" },
+        { "text": "Der Dendrit eines pseudounipolaren Neurons" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 128" },
+    { "id": "ngv-mesaxon", "type": "matching", "question": "Ordne die Mesaxone zu.",
+      "pairs": [
+        { "left": "Äußeres Mesaxon (Mesaxon externum)", "right": "Übergang der Myelinwicklung in die Außenmembran der Zelle" },
+        { "left": "Inneres Mesaxon (Mesaxon internum)", "right": "Fortsetzung zur letzten Membranschicht, die dem Axon anliegt" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 128" },
+    { "id": "ngv-marklos", "type": "multiple", "question": "Welche Aussagen zu **marklosen** Nervenfasern treffen laut Skript zu?",
+      "options": [
+        { "text": "Auch sie sind von Gliazellen umgeben", "correct": true },
+        { "text": "Im PNS werden sie von Schwannzellen ummantelt (nicht-kompaktes Myelin, Remak-Bündel)", "correct": true },
+        { "text": "Sie haben gar keine Hüllzellen", "explain": "Laut Skript sind alle Axone von Hüllzellen umgeben." },
+        { "text": "Sie bilden kompaktes Myelin" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 129" },
+    { "id": "ngv-nodal-paranodal", "type": "matching", "question": "Ordne die Regionen der myelinisierten Faser zu.",
+      "pairs": [
+        { "left": "Internodium", "right": "Abschnitt zwischen 2 Nodien, entspricht einer Schwann-Zelle bzw. einem Oligodendrozytenfortsatz" },
+        { "left": "Paranodium", "right": "Nicht-kompaktes Myelin vor der nodalen Region" },
+        { "left": "Nodale Region", "right": "„Nacktes“ Axon mit sehr dichten spannungsabhängigen Ionenkanälen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 130" },
+    { "id": "ngv-sli-ort", "type": "multiple", "question": "Welche Aussagen zu **Schmidt-Lantermann-Inzisuren** treffen zu?",
+      "options": [
+        { "text": "Sie kommen nur im PNS vor", "correct": true },
+        { "text": "Es sind segmentierte Zytoplasmaräume der Schwann-Zellen quer zur Faserrichtung", "correct": true },
+        { "text": "Gap junctions verbinden die Zytoplasmaräume (funktionelle „Kurzschlüsse“)", "correct": true },
+        { "text": "Sie verkürzen die Versorgungswege bis 1000-fach", "correct": true },
+        { "text": "Sie kommen im ZNS-Myelin der Oligodendrozyten vor" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 128, 130" },
+    { "id": "ngv-meningen", "type": "matching", "question": "Ordne die Hüllen des peripheren Nervs ihrer Entsprechung an den Meningen zu.",
+      "pairs": [
+        { "left": "Epineurium", "right": "Dura mater" },
+        { "left": "Perineurium", "right": "Kontinuierliche Verbindung zur Arachnoidea" },
+        { "left": "Endoneurium", "right": "Interzellularraum verbunden mit dem Subarachnoidalraum" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 133" },
+    { "id": "ngv-epineurium", "type": "multiple", "question": "Welche Aussagen zum **Epineurium** treffen laut Skript zu?",
+      "options": [
+        { "text": "Es umgibt größere Nerven und fasst mehrere Bündel zusammen", "correct": true },
+        { "text": "Es enthält Fettzellen und größere Blutgefäße", "correct": true },
+        { "text": "Es besteht aus straffem kollagenem Bindegewebe mit elastischen Fasern", "correct": true },
+        { "text": "Es besteht aus retikulärem Bindegewebe", "explain": "Das ist das Endoneurium." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 134" },
+    { "id": "ngv-blut-nerven-schranke", "type": "single", "question": "Was bildet laut Skript die **Blut-Nerven-Schranke**?",
+      "options": [
+        { "text": "Das Endothel der Kapillaren im Endoneurium", "correct": true },
+        { "text": "Die Astrozytenendfüße" },
+        { "text": "Das Epineurium" },
+        { "text": "Die Schmidt-Lantermann-Inzisuren" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 134" },
+    { "id": "ngv-perineurium-teile", "type": "single", "question": "Welcher Teil des Perineuriums bildet die **Perineuralscheide**?",
+      "options": [
+        { "text": "Die innere Pars epitheloidea", "correct": true },
+        { "text": "Die äußere Pars fibrosa" },
+        { "text": "Das Endoneurium" },
+        { "text": "Die Dura mater" }
+      ], "explanation": "Sie bleibt bis in die Faserenden erhalten: ca. 20 Lagen flacher Perineuralzellen mit Tight junctions, außen und innen mit Basallamina.", "source": "VL-Skript ZUG Teil 2, S. 134" },
+    { "id": "ngv-motorische-einheit", "type": "multiple", "question": "Welche Aussagen zur **motorischen Einheit** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie besteht aus einem α-Motoneuron und allen von ihm innervierten Muskelfasern", "correct": true },
+        { "text": "Ein α-Motoneuron kann mehrere tausend Muskelfasern innervieren", "correct": true },
+        { "text": "Jede Muskelfaser wird von genau einem α-Motoneuron innerviert", "correct": true },
+        { "text": "Jede Muskelfaser wird von mehreren Motoneuronen gleichzeitig innerviert" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 137" },
+    { "id": "ngv-endplatte-details", "type": "multiple", "question": "Welche Details zur **neuromuskulären Endplatte** nennt das Skript?",
+      "options": [
+        { "text": "Die Axonendigung wird von einer Schwann-Zelle ohne Markscheide bedeckt", "correct": true },
+        { "text": "Im synaptischen Spalt liegt eine gemeinsame Basallamina von Muskelzelle und Schwann-Zellen", "correct": true },
+        { "text": "Die postsynaptische Membran ist stark gefaltet und enthält bis zu 10.000 nikotinische AChR", "correct": true },
+        { "text": "Nikotinische AChR sind ionotrope Rezeptoren (Rezeptor und Ionenkanal zugleich)", "correct": true },
+        { "text": "Der Transmitter ist Noradrenalin" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 137" },
+    { "id": "ngv-viszeromotorisch-ziele", "type": "multiple", "question": "Welche Zielzellen werden von **viszeromotorischen** (postganglionären, marklosen autonomen) Fasern innerviert?",
+      "options": [
+        { "text": "Glatte Muskulatur", "correct": true },
+        { "text": "Herzmuskulatur", "correct": true },
+        { "text": "Exokrine Drüsenzellen", "correct": true },
+        { "text": "Skelettmuskulatur", "explain": "Diese wird über motorische Endplatten von α-Motoneuronen innerviert." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 138" },
+    { "id": "ngv-spindel-zahlen", "type": "multiple", "question": "Welche Zahlen zur **Muskelspindel** nennt das Skript?",
+      "options": [
+        { "text": "1–7 mm lang, mittig 100–200 µm dick", "correct": true },
+        { "text": "3–10 intrafusale Muskelfasern", "correct": true },
+        { "text": "2–10 Kernkettenfasern und 1–4 Kernsackfasern", "correct": true },
+        { "text": "Bis 1,5 mm lang und 120 µm dick", "explain": "Das sind die Maße des Golgi-Sehnenorgans." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 139" },
+    { "id": "ngv-spindel-aequator", "type": "single", "question": "Warum ist der **Äquator** der intrafusalen Muskelfasern nicht kontraktil?",
+      "options": [
+        { "text": "Dort fehlen die Myofibrillen, sie liegen nur an den Enden", "correct": true },
+        { "text": "Dort fehlt die Innervation" },
+        { "text": "Dort liegen keine Zellkerne" },
+        { "text": "Dort ist die Kapsel verkalkt" }
+      ], "explanation": "Adäquater Reiz ist die Dehnung dieser äquatorialen Abschnitte.", "source": "VL-Skript ZUG Teil 2, S. 139" },
+    { "id": "ngv-spindel-vs-sehne", "type": "matching", "question": "Ordne die Merkmale Muskelspindel oder Golgi-Sehnenorgan zu.",
+      "pairs": [
+        { "left": "Muskelspindel", "right": "Parallel zu den Skelettmuskelzellen, misst Länge, afferent und efferent innerviert" },
+        { "left": "Golgi-Sehnenorgan", "right": "In Serie mit der Muskulatur, misst Spannung, Kapsel aus Perineuralzellen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 139–140" },
+    { "id": "ngv-sehnenorgan-aufbau", "type": "multiple", "question": "Welche Aussagen zum Aufbau des **Golgi-Sehnenorgans** treffen laut Skript zu?",
+      "options": [
+        { "text": "Es liegt am Übergang von Skelettmuskulatur zu Sehne oder Aponeurose", "correct": true },
+        { "text": "Es enthält schlanke Kollagenfaserbündel, die mit sensorischen Nervenendigungen verknüpft sind", "correct": true },
+        { "text": "Myelinisierte afferente Axone verlieren im Inneren ihre Markscheide und verzweigen sich", "correct": true },
+        { "text": "Es enthält intrafusale Muskelfasern", "explain": "Intrafusale Fasern gibt es in der Muskelspindel." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 140" },
+    { "id": "ngv-spinalganglion-zellen", "type": "matching", "question": "Ordne die Zellen im Spinalganglion zu.",
+      "pairs": [
+        { "left": "A-Zellen", "right": "Mechanorezeptiv, ca. 80 %" },
+        { "left": "B-Zellen", "right": "Nozizeptiv, ca. 20 %" },
+        { "left": "Satellitenzellen (Mantelzellen)", "right": "Umgeben die Somata der pseudounipolaren Neurone" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 141" },
+    { "id": "ngv-pseudounipolar-axon", "type": "single", "question": "Warum wird der periphere Fortsatz eines pseudounipolaren Neurons trotz Leitungsrichtung zum Soma als **(dendritisches) Axon** bezeichnet?",
+      "options": [
+        { "text": "Wegen gemeinsamer Eigenschaften mit Axonen", "correct": true },
+        { "text": "Weil er rER enthält" },
+        { "text": "Weil er Synapsen im Ganglion bildet" },
+        { "text": "Weil er nicht myelinisiert ist" }
+      ], "explanation": "Primär sensorische Neurone im Spinalganglion haben keine Synapsen.", "source": "VL-Skript ZUG Teil 2, S. 141" },
+    { "id": "ngv-ganglien-vergleich", "type": "matching", "question": "Ordne die Merkmale der Ganglienart zu.",
+      "pairs": [
+        { "left": "Spinalganglion", "right": "Pseudounipolare Neurone, keine Synapsen, > 10.000 Somata" },
+        { "left": "Vegetatives Ganglion", "right": "Multipolare Neurone, synaptische Verschaltung" }
+      ], "distractors": ["Oligodendrozyten umhüllen die Somata"], "source": "VL-Skript ZUG Teil 2, S. 141–142" }
+  ]
+}
