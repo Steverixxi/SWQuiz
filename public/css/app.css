@@ -47,6 +47,13 @@
 [hidden] { display: none !important; }
 html, body { margin: 0; height: 100%; }
 body { background: var(--bg); color: var(--text); font: 15px/1.5 var(--font); -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
+/* Text ist standardmäßig nicht markierbar (App-Gefühl, nichts wird beim Ziehen markiert).
+   Markierbar nur dort, wo man etwas kopieren oder nachschlagen will. */
+body { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+input, textarea, select, [contenteditable="true"], .selectable, .q-text, .feedback, .option .why, .flash-back, .notes-body, code, pre {
+  -webkit-user-select: text; user-select: text; -webkit-touch-callout: default;
+}
+html.is-dragging, html.is-dragging * { -webkit-user-select: none !important; user-select: none !important; cursor: grabbing !important; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; color: inherit; }
 h1, h2, h3 { margin: 0; font-weight: 650; letter-spacing: -0.012em; }
@@ -178,20 +185,39 @@ details.qlist .row { padding: 10px 18px; font-size: 14px; }
 .option.wrong .key { background: var(--bad); border-color: var(--bad); color: #fff; }
 .option.missed { border-style: dashed; }
 
-.assign { display: flex; flex-direction: column; gap: 16px; }
-.slots { display: flex; flex-direction: column; gap: 8px; }
+/* Zuordnung: Begriffe oben, Felder darunter, kompakt, damit alles auf eine Seite passt */
+.assign { display: flex; flex-direction: column; }
+.assign .q-text { margin-bottom: 14px; }
+.assign .q-hint { margin: -8px 0 12px; }
+.assign .q-image { margin-bottom: 14px; }
+.assign .q-image img { max-height: 42vh; max-height: 42dvh; }
+.assign .pool { position: sticky; top: var(--study-top-h, 61px); z-index: 4; margin-bottom: 12px; box-shadow: 0 0 0 6px var(--bg); }
+.slots { display: flex; flex-direction: column; gap: 6px; }
 .slot-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; align-items: stretch; }
-.slot-row.image-row { grid-template-columns: 34px minmax(0, 1fr); }
-.slot-left { padding: 10px 12px; border-radius: var(--radius-sm); background: var(--sunk); font-weight: 550; display: flex; align-items: center; }
-.slot-num { display: grid; place-items: center; border-radius: 50%; width: 28px; height: 28px; align-self: center; border: 2px solid var(--text); font-weight: 700; font-size: 13.5px; }
-.slot { min-height: 44px; border: 1px dashed var(--line-2); border-radius: var(--radius-sm); display: flex; align-items: center; flex-wrap: wrap; padding: 4px; gap: 4px; position: relative; }
+.slot-row.image-row { grid-template-columns: 30px minmax(0, 1fr); }
+.slots:has(.image-row:nth-child(6)) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 14px; }
+.slot-left { padding: 7px 12px; border-radius: var(--radius-sm); background: var(--sunk); font-weight: 550; display: flex; align-items: center; font-size: 14.5px; line-height: 1.35; }
+.slot-num { display: grid; place-items: center; border-radius: 50%; width: 26px; height: 26px; align-self: center; border: 2px solid var(--text); font-weight: 700; font-size: 13px; }
+.slot { min-height: 38px; border: 1px dashed var(--line-2); border-radius: var(--radius-sm); display: flex; align-items: center; flex-wrap: wrap; padding: 3px; gap: 4px; position: relative; }
+.assign .feedback { margin-top: 16px; }
+/* Breiter Bildschirm + Bild: Bild links (fix), Begriffe und Felder rechts */
+@media (min-width: 1100px) {
+  .study-body:has(.assign.with-image) { max-width: 1180px; }
+  .assign.with-image { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); column-gap: 28px; align-items: start; }
+  .assign.with-image > * { grid-column: 2; }
+  .assign.with-image > .q-image { grid-column: 1; grid-row: 1 / span 30; position: sticky; top: calc(var(--study-top-h, 61px) + 16px); margin: 0; }
+  .assign.with-image .q-image img { max-height: calc(100dvh - var(--study-top-h, 61px) - 140px); }
+  .assign.with-image .pool { position: static; box-shadow: none; }
+  .assign.with-image .slots:has(.image-row:nth-child(6)) { grid-template-columns: 1fr; }
+  .assign.with-image .slots:has(.image-row:nth-child(9)) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 .slot.over, .slot.target { border-color: var(--text-2); background: var(--sunk); }
 .slot.ok { border-style: solid; border-color: var(--ok); background: var(--ok-soft); }
 .slot.bad { border-style: solid; border-color: var(--bad); background: var(--bad-soft); }
 .slot .fix { font-size: 13px; color: var(--ok); font-weight: 600; padding: 2px 8px; }
-.pool { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px; border-radius: var(--radius); background: var(--sunk); min-height: 54px; }
+.pool { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px; border-radius: var(--radius); background: var(--sunk); min-height: 48px; }
 .pool:empty::after { content: "Alle Begriffe zugeordnet"; color: var(--text-3); font-size: 13px; align-self: center; padding-left: 4px; }
-.chip { padding: 7px 12px; border-radius: var(--radius-sm); background: var(--surface); border: 1px solid var(--line-2); font-size: 14px; cursor: grab; user-select: none; touch-action: none; max-width: 100%; }
+.chip { padding: 6px 11px; border-radius: var(--radius-sm); background: var(--surface); border: 1px solid var(--line-2); font-size: 14px; cursor: grab; user-select: none; touch-action: none; max-width: 100%; }
 .slot .chip { flex: 1; border-color: transparent; }
 .chip.picked { border-color: var(--text); box-shadow: inset 0 0 0 1px var(--text); }
 .chip.dragging { position: fixed; z-index: 1000; pointer-events: none; cursor: grabbing; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
