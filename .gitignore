@@ -3,3 +3,4 @@ progress/
 swquiz.config.json
 .DS_Store
 *.log
+.swquiz-sync.tgz
