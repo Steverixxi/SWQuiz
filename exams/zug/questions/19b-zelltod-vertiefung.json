@@ -1,0 +1,156 @@
+{
+  "chapter": "VL 19 – Apoptose, Nekrose, Autophagie",
+  "source": "VL-Skript ZUG Teil 2, VL 19 (S. 30–56)",
+  "questions": [
+    { "id": "ztv-warum", "type": "multiple", "question": "Warum müssen Zellen laut Skript sterben?",
+      "options": [ { "text": "Weil sie geschädigt sind", "correct": true }, { "text": "Weil sie von einem Virus befallen sind", "correct": true }, { "text": "Weil sie nicht mehr gebraucht werden", "correct": true }, { "text": "Um ein Gleichgewicht zu erhalten", "correct": true } ], "source": "VL-Skript ZUG Teil 2, S. 31" },
+    { "id": "ztv-formen", "type": "multiple", "question": "Welche Formen zählen laut Skript zum **programmierten/regulierten** Zelltod?",
+      "options": [ { "text": "Apoptose", "correct": true }, { "text": "Nekroptose", "correct": true }, { "text": "Pyroptose", "correct": true }, { "text": "Keratinozyten-Verhornung", "correct": true }, { "text": "Klassische (traumatische) Nekrose", "explain": "Sie ist der traumatische, unfreiwillige Zelltod." } ],
+      "explanation": "Früher wurde Apoptose mit programmiertem Zelltod gleichgesetzt; heute kennt man viele Formen.", "source": "VL-Skript ZUG Teil 2, S. 31" },
+    { "id": "ztv-vogt", "type": "single", "question": "Wann und von wem wurde die Apoptose laut Skript erstmals beschrieben?",
+      "options": [ { "text": "1842 von Carl Vogt", "correct": true }, { "text": "1866 von Ernst Haeckel" }, { "text": "2016 von Yoshinori Ohsumi", "explain": "Er erhielt 2016 den Nobelpreis für die Entdeckung der Autophagie." }, { "text": "2012 bei der Beschreibung der Ferroptose" } ], "source": "VL-Skript ZUG Teil 2, S. 32" },
+    { "id": "ztv-energie", "type": "matching", "question": "Ordne den Energiebedarf zu.",
+      "pairs": [ { "left": "Apoptose", "right": "Energieaufwendig" }, { "left": "Nekrose", "right": "Braucht keine zusätzliche Energie" } ], "source": "VL-Skript ZUG Teil 2, S. 32, 42" },
+    { "id": "ztv-ueberleben", "type": "multiple", "question": "Was nennt das Skript als **Überlebensfaktoren**?",
+      "options": [ { "text": "Wachstumsfaktoren (z. B. EGF)", "correct": true }, { "text": "Morphogene (z. B. Wnt)", "correct": true }, { "text": "Zytokine und Neurotransmitter", "correct": true }, { "text": "Proteoglykane", "correct": true }, { "text": "Cytochrom c", "explain": "Wird bei Apoptose aus den Mitochondrien freigesetzt." } ], "source": "VL-Skript ZUG Teil 2, S. 32" },
+    { "id": "ztv-embryo", "type": "single", "question": "Welches Beispiel für Apoptose in der **Embryonalentwicklung** nennt das Skript?",
+      "options": [ { "text": "Gewebe zwischen Fingern und Zehen stirbt ab", "correct": true }, { "text": "Verhornung der Epidermis" }, { "text": "Bildung von NETs" }, { "text": "Abbau eines Mitochondriums nach 10 Tagen" } ], "source": "VL-Skript ZUG Teil 2, S. 32" },
+    { "id": "ztv-tzellen", "type": "single", "question": "Welcher Anteil reifender Lymphozyten stirbt laut Skript bei der T-Zell-Selektion durch Apoptose?",
+      "options": [ { "text": "ca. 90 %", "correct": true }, { "text": "ca. 10 %" }, { "text": "ca. 50 %" }, { "text": "ca. 1 %" } ],
+      "explanation": "Apoptose wird eingeleitet, wenn T-Zellen keinen MHC-Komplex erkennen (positive Selektion) oder sich gegen körpereigenes Gewebe richten (negative Selektion).", "source": "VL-Skript ZUG Teil 2, S. 33" },
+    { "id": "ztv-neutrophile", "type": "single", "question": "Warum werden laut Skript ständig große Mengen **Neutrophile** produziert, die meist ungenutzt in Apoptose gehen?",
+      "options": [ { "text": "Damit jederzeit viele Neutrophile für eine Infektion mobilisiert werden können", "correct": true }, { "text": "Weil sie sich nicht teilen können und ersetzt werden müssen, um die Leber zu versorgen" }, { "text": "Weil sie NETs nur einmal pro Tag bilden" }, { "text": "Weil sie Überlebensfaktoren produzieren" } ], "source": "VL-Skript ZUG Teil 2, S. 33" },
+    { "id": "ztv-ps", "type": "multiple", "question": "Welche Aussagen zum **Phosphatidylserin** bei der Apoptose stimmen?",
+      "options": [
+        { "text": "Es wird an der Zelloberfläche exponiert und dient als „eat-me“-Signal.", "correct": true },
+        { "text": "Makrophagen erkennen es und phagozytieren die Zellfragmente.", "correct": true },
+        { "text": "Die PS-abhängige Phagozytose verhindert die Freisetzung proinflammatorischer Zytokine.", "correct": true },
+        { "text": "Es löst eine starke Entzündung aus.", "explain": "Apoptose ist tolerogen." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 35" },
+    { "id": "ztv-veraenderungen", "type": "multiple", "question": "Welche Veränderungen sind typisch für die **Apoptose**?",
+      "options": [
+        { "text": "Freisetzung von Cytochrom c aus den Mitochondrien", "correct": true },
+        { "text": "Die Zelle schrumpft und verliert den Kontakt zu Nachbarzellen", "correct": true },
+        { "text": "Blebbing (blasenförmige Ausbuchtungen)", "correct": true },
+        { "text": "DNA-Kondensation und -Fragmentierung, apoptotische Körperchen", "correct": true },
+        { "text": "Anschwellen der Zelle mit Ruptur", "explain": "Das ist typisch für Nekrose." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 35" },
+    { "id": "ztv-caspase-name", "type": "single", "question": "Woher kommt der Name **Caspase**?",
+      "options": [ { "text": "Cystein im aktiven Zentrum, Spaltung nach Aspartat", "correct": true }, { "text": "Calcium-abhängige Spaltung von Serin" }, { "text": "Cytochrom-abhängige Spaltung von Aspartat" }, { "text": "Caspase = cell apoptosis protease" } ], "source": "VL-Skript ZUG Teil 2, S. 37" },
+    { "id": "ztv-caspase-ziele", "type": "matching", "question": "Ordne das Caspase-Substrat der Folge zu.",
+      "pairs": [
+        { "left": "Nukleäre Lamine", "right": "Kernmembran bricht irreversibel zusammen" },
+        { "left": "CAD (Caspase-aktivierte DNase)", "right": "DNA wird abgebaut" },
+        { "left": "Zytoskelett- und Adhäsionsproteine", "right": "Zelle löst sich von Nachbarn und rundet sich ab" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 37–38" },
+    { "id": "ztv-erste-caspase", "type": "single", "question": "Wie wird die **erste Initiator-Caspase** aktiviert?",
+      "options": [
+        { "text": "Initiator-Caspasen bilden einen Aktivator-Komplex und schneiden sich durch die räumliche Nähe gegenseitig", "correct": true },
+        { "text": "Durch Exekutor-Caspasen" },
+        { "text": "Durch Phosphatidylserin" },
+        { "text": "Durch MLKL" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 38" },
+    { "id": "ztv-bcl2-familie", "type": "matching", "question": "Ordne die Bcl-2-Proteine zu.",
+      "pairs": [
+        { "left": "Bcl-2, Mcl-1, Bcl-xL", "right": "Anti-apoptotisch, stabilisieren das Mitochondrienpotential" },
+        { "left": "Bax, Bak", "right": "Pro-apoptotisch, bilden Poren in der Mitochondrienmembran" },
+        { "left": "Bad", "right": "Pro-apoptotisch, bindet und hemmt Bcl-2" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 39" },
+    { "id": "ztv-extrinsisch", "type": "multiple", "question": "Welche Aussagen zum **extrinsischen** Apoptoseweg stimmen?",
+      "options": [
+        { "text": "Aktivierung über Death-Rezeptoren, z. B. durch zytotoxische T-Zellen oder NK-Zellen", "correct": true },
+        { "text": "Oft muss zusätzlich der intrinsische Weg aktiviert werden", "correct": true },
+        { "text": "Zellen können ihn hemmen, z. B. mit Death-Rezeptoren ohne Intrazellulärdomäne", "correct": true },
+        { "text": "Er wird vor allem durch DNA-Schaden und Sauerstoffmangel ausgelöst", "explain": "Das ist der intrinsische Weg." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 40" },
+    { "id": "ztv-fehlregulation", "type": "matching", "question": "Ordne die Fehlregulation der Apoptose ihrer Folge zu.",
+      "pairs": [
+        { "left": "Erhöhte Apoptose", "right": "Alzheimer, Parkinson, Chorea Huntington" },
+        { "left": "Verringerte Apoptose von Immunzellen", "right": "Autoimmunerkrankungen" },
+        { "left": "Mutiertes p53", "right": "Tumore (in ca. 50 % aller Tumore mutiert)" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 41" },
+    { "id": "ztv-nekrose-ursachen", "type": "multiple", "question": "Welche Ursachen der **Nekrose** nennt das Skript?",
+      "options": [ { "text": "Hypoxie", "correct": true }, { "text": "Hitze, Vergiftung, Strahlen", "correct": true }, { "text": "Mechanische Verletzungen und Infektionen", "correct": true }, { "text": "Fehlende Überlebensfaktoren", "explain": "Das führt zur Apoptose." } ],
+      "explanation": "Beispiel: Abschälen der Haut nach Sonnenbrand mit Entzündungsreaktion.", "source": "VL-Skript ZUG Teil 2, S. 42" },
+    { "id": "ztv-sekundaer", "type": "single", "question": "Was ist eine **sekundäre Nekrose**?",
+      "options": [
+        { "text": "Apoptotische Zellen bzw. Körperchen werden nekrotisch, z. B. in Zellkultur ohne Phagozyten oder bei Energiemangel", "correct": true },
+        { "text": "Eine zweite Nekrose nach einem Herzinfarkt" },
+        { "text": "Nekrose durch zytotoxische T-Zellen" },
+        { "text": "Nekrose, die eine Apoptose verhindert" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 45" },
+    { "id": "ztv-nekroptose-ablauf", "type": "order", "question": "Bringe den Ablauf der **Nekroptose** in die richtige Reihenfolge.",
+      "items": [ "Caspase-8 wird blockiert (z. B. durch cFLIPs)", "Hemmung von RIP1 durch Caspase-8 ist aufgehoben", "RIP1 interagiert mit RIP3", "MLKL wird aktiviert und wandert zur Plasmamembran", "Permeabilisierung der Membran, Zerstörung der Zelle" ], "source": "VL-Skript ZUG Teil 2, S. 46" },
+    { "id": "ztv-nekroptose-merkmale", "type": "multiple", "question": "Welche Aussagen zur **Nekroptose** stimmen?",
+      "options": [
+        { "text": "Regulierte, aktive Form der Nekrose", "correct": true },
+        { "text": "Morphologisch wie Nekrose (Anschwellen, Ruptur)", "correct": true },
+        { "text": "Wird angeschaltet, wenn eine Entzündung erwünscht ist", "correct": true },
+        { "text": "Necrostatin-1 hemmt RIP1", "correct": true },
+        { "text": "Sie ist tolerogen", "explain": "Intrazelluläre Substanzen werden freigesetzt." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 46–47" },
+    { "id": "ztv-pyroptose", "type": "multiple", "question": "Welche Aussagen zur **Pyroptose** stimmen?",
+      "options": [
+        { "text": "Caspase-abhängig, vor allem in Immunzellen", "correct": true },
+        { "text": "Ausschüttung proinflammatorischer Zytokine", "correct": true },
+        { "text": "Poren in der Plasmamembran, Wasser strömt ein, Zelle schwillt und lysiert", "correct": true },
+        { "text": "Beteiligt am LPS-induzierten septischen Schock", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 47" },
+    { "id": "ztv-spezielle", "type": "matching", "question": "Ordne die spezielle Form des regulierten Zelltods zu.",
+      "pairs": [
+        { "left": "Entosis", "right": "Zell-in-Zell-Internalisierung durch eine Nicht-Fresszelle" },
+        { "left": "Parthanatos", "right": "Überaktivierung von PARP1, Caspase-unabhängig" },
+        { "left": "Ferroptose", "right": "Eisenabhängig, starke Lipidperoxidation" },
+        { "left": "NETotischer Zelltod", "right": "Neutrophile stoßen Netze aus DNA und Histonen aus" },
+        { "left": "Immunogener Zelltod", "right": "Calreticulin, HMGB1, ATP als Gefahrensignale" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 49–50" },
+    { "id": "ztv-verhornung", "type": "multiple", "question": "Welche Aussagen zur **Keratinozyten-Verhornung** stimmen?",
+      "options": [
+        { "text": "Bildet das Stratum corneum aus toten Keratinozyten", "correct": true },
+        { "text": "Dauert ca. zwei Wochen", "correct": true },
+        { "text": "Organellen werden abgebaut, die Zellen werden metabolisch inaktiv", "correct": true },
+        { "text": "Ähnliche terminale Differenzierung mit Kernverlust bei Erythrozyten und Linsenepithel", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 48" },
+    { "id": "ztv-parthanatos", "type": "single", "question": "Was ist laut Skript ein Haupttrigger der PARP1-Aktivierung beim **Parthanatos**?",
+      "options": [ { "text": "NO (Stickstoffmonoxid)", "correct": true }, { "text": "Eisen" }, { "text": "Phosphatidylserin" }, { "text": "LPS" } ],
+      "explanation": "PARP1/2-Inhibitoren wirken gut bei Brustkrebs.", "source": "VL-Skript ZUG Teil 2, S. 49" },
+    { "id": "ztv-ferroptose", "type": "multiple", "question": "Welche Aussagen zur **Ferroptose** stimmen?",
+      "options": [
+        { "text": "2012 beschrieben", "correct": true },
+        { "text": "Hauptmerkmal ist die Anhäufung von ROS", "correct": true },
+        { "text": "Hemmbar durch Eisen-Chelatoren und lipophile Antioxidantien", "correct": true },
+        { "text": "Schrumpfende Mitochondrien mit erhöhter Membrandichte, Kerne normal", "correct": true },
+        { "text": "Caspase-8-abhängig über RIP1 und RIP3", "explain": "Das beschreibt die Nekroptose." }
+      ], "explanation": "Assoziiert mit Alzheimer, Parkinson, Krebs und Ischämie-Reperfusions-Schäden der Niere.", "source": "VL-Skript ZUG Teil 2, S. 49" },
+    { "id": "ztv-icd", "type": "single", "question": "Mit welchen Therapien wird laut Skript ein **immunogener Zelltod** ausgelöst?",
+      "options": [ { "text": "Chemotherapie mit Anthrazyklinen und Bortezomib", "correct": true }, { "text": "Necrostatin-1" }, { "text": "PARP-Inhibitoren" }, { "text": "Eisen-Chelatoren" } ], "source": "VL-Skript ZUG Teil 2, S. 50" },
+    { "id": "ztv-anoikis", "type": "single", "question": "Was ist **Anoikis**?",
+      "options": [
+        { "text": "Apoptose durch Verlust der Verbindung zur Matrix und zu Nachbarzellen; keine eigene Zelltod-Unterart", "correct": true },
+        { "text": "Eine eigene, eisenabhängige Zelltodform" },
+        { "text": "Eine Form der Nekrose durch Hitze" },
+        { "text": "Der Zelltod durch Verzehr einer Nicht-Fresszelle", "explain": "Das ist Entosis." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 51" },
+    { "id": "ztv-autophagie", "type": "multiple", "question": "Welche Aussagen zur **Autophagie** stimmen?",
+      "options": [
+        { "text": "Recycling von fehlgefalteten Proteinen und Organellen", "correct": true },
+        { "text": "Wird bei Mangel an Stickstoff und Aminosäuren am stärksten induziert", "correct": true },
+        { "text": "Hauptprodukte sind Aminosäuren", "correct": true },
+        { "text": "Nimmt mit dem Alter ab", "correct": true },
+        { "text": "Findet nur bei Hunger statt", "explain": "Autophagie passiert immer, wird aber bei Nährstoffmangel angeregt." }
+      ], "explanation": "Beispiel: Ein Mitochondrium einer Leberzelle wird nach ca. 10 Tagen abgebaut. Nobelpreis 2016: Yoshinori Ohsumi.", "source": "VL-Skript ZUG Teil 2, S. 53" },
+    { "id": "ztv-autophagie-arten", "type": "matching", "question": "Ordne die Arten der Autophagie zu.",
+      "pairs": [
+        { "left": "Makroautophagie", "right": "Phagophore, Doppelmembran-Autophagosom fusioniert mit Lysosom" },
+        { "left": "Mikroautophagie", "right": "Organellen fusionieren direkt mit dem Lysosom" },
+        { "left": "Chaperon-mediierte Autophagie", "right": "Chaperone bringen Proteine zum Rezeptor LAMP-2A" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 53–56" },
+    { "id": "ztv-makro-ablauf", "type": "order", "question": "Bringe die Makroautophagie in die richtige Reihenfolge.",
+      "items": [ "Bildung der Phagophore", "Zellregion wird vom Autophagosom (Doppelmembran) umschlossen", "Fusion mit dem Lysosom zum Autophagolysosom", "Abbau des Inhalts durch hydrolytische Enzyme" ], "source": "VL-Skript ZUG Teil 2, S. 54" },
+    { "id": "ztv-lysosom-ph", "type": "single", "question": "Welchen pH-Wert haben Lysosomen laut Skript?",
+      "options": [ { "text": "ca. 4,5–5", "correct": true }, { "text": "ca. 7,4" }, { "text": "ca. 2" }, { "text": "ca. 8,5" } ],
+      "explanation": "Die hydrolytischen Enzyme sind nur in saurer Umgebung funktionsfähig.", "source": "VL-Skript ZUG Teil 2, S. 54" },
+    { "id": "ztv-atg", "type": "single", "question": "Welche Proteine sind die Treiber der Autophagie?",
+      "options": [ { "text": "ATG-Proteine (autophagy related proteins)", "correct": true }, { "text": "Caspasen" }, { "text": "Bcl-2-Proteine" }, { "text": "RIP-Kinasen" } ], "source": "VL-Skript ZUG Teil 2, S. 54" }
+  ]
+}

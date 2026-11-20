@@ -1,0 +1,782 @@
+{
+  "chapter": "VL 15 – Labormethoden",
+  "source": "VL 15 Labormethoden, Folien Charwat 2026 (Moodle)",
+  "questions": [
+    {
+      "id": "lab-chrom-prinzip",
+      "type": "single",
+      "question": "Worauf beruht die Trennung bei der **Chromatographie**?",
+      "options": [
+        {
+          "text": "Unterschiedliche Verteilung der Stoffe zwischen einer stationären und einer mobilen Phase",
+          "correct": true
+        },
+        {
+          "text": "Unterschiedliche Wanderung im elektrischen Feld",
+          "explain": "Das ist die Elektrophorese."
+        },
+        {
+          "text": "Bindung von Antikörpern an Antigene"
+        },
+        {
+          "text": "Unterschiedliche Fluoreszenz einzelner Zellen"
+        }
+      ],
+      "explanation": "Die Stoffe haften unterschiedlich stark an der stationären Phase oder lösen sich verschieden gut in der mobilen Phase und wandern daher unterschiedlich schnell.",
+      "source": "VL 15 Labormethoden, Folien 4–5"
+    },
+    {
+      "id": "lab-chrom-begriffe",
+      "type": "matching",
+      "question": "Ordne die Begriffe der Chromatographie zu.",
+      "pairs": [
+        {
+          "left": "Retentionszeit",
+          "right": "Zeit, die ein Molekül zum Durchwandern der Säule braucht"
+        },
+        {
+          "left": "Elution",
+          "right": "Auswaschen der an die stationäre Phase gebundenen Moleküle"
+        },
+        {
+          "left": "Mobile Phase",
+          "right": "Flüssigkeit oder Gas, transportiert das Gemisch"
+        },
+        {
+          "left": "Stationäre Phase",
+          "right": "Unbewegliche Phase, z. B. Säulenfüllung"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 5"
+    },
+    {
+      "id": "lab-chrom-anwendung",
+      "type": "multiple",
+      "question": "Welche medizinischen Anwendungen der Chromatographie werden genannt?",
+      "options": [
+        {
+          "text": "Nachweis von Hormonen, Vitaminen und Metaboliten",
+          "correct": true
+        },
+        {
+          "text": "Nachweis von Drogen und Giften (Toxikologie, Rechtsmedizin)",
+          "correct": true
+        },
+        {
+          "text": "Qualitätskontrolle von Medikamenten",
+          "correct": true
+        },
+        {
+          "text": "Neugeborenen-Screening auf Stoffwechselstörungen",
+          "correct": true
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 6"
+    },
+    {
+      "id": "lab-chrom-arten",
+      "type": "matching",
+      "question": "Ordne das Chromatographieverfahren zu.",
+      "pairs": [
+        {
+          "left": "Gaschromatographie (GC)",
+          "right": "Mobile Phase ist ein Gas, für flüchtige Substanzen"
+        },
+        {
+          "left": "HPLC",
+          "right": "Flüssigchromatographie unter hohem Druck"
+        },
+        {
+          "left": "Säulenchromatographie",
+          "right": "Gefüllte Glassäule, oft präparativ für größere Mengen"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 8"
+    },
+    {
+      "id": "lab-saeulen",
+      "type": "matching",
+      "question": "Ordne die Art der Säulenchromatographie ihrem Trennprinzip zu.",
+      "pairs": [
+        {
+          "left": "Ionenaustauschchromatographie",
+          "right": "Wechselwirkung mit geladenen Molekülen"
+        },
+        {
+          "left": "Affinitätschromatographie",
+          "right": "Kügelchen kovalent mit einem spezifischen Bindungspartner beladen"
+        },
+        {
+          "left": "Gelfiltration",
+          "right": "Trennung nach Größe (molekulares Sieb)"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folien 9–10"
+    },
+    {
+      "id": "lab-gelfiltration",
+      "type": "single",
+      "question": "Welche Moleküle werden bei der **Gelfiltration** länger in der Säule zurückgehalten?",
+      "options": [
+        {
+          "text": "Kleine Moleküle, weil sie in die Poren der Kügelchen einwandern",
+          "correct": true
+        },
+        {
+          "text": "Große Moleküle, weil sie an den Kügelchen kleben"
+        },
+        {
+          "text": "Positiv geladene Moleküle"
+        },
+        {
+          "text": "Enzyme mit passendem Substrat"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 10"
+    },
+    {
+      "id": "lab-elution-affinitaet",
+      "type": "single",
+      "question": "Wie werden die Zielsubstanzen bei der Affinitätschromatographie **eluiert**?",
+      "options": [
+        {
+          "text": "Durch Änderung der Bedingungen wie pH-Wert oder Ionenkonzentration",
+          "correct": true
+        },
+        {
+          "text": "Durch Erhitzen auf 121 °C"
+        },
+        {
+          "text": "Durch UV-Licht"
+        },
+        {
+          "text": "Durch Zugabe von SDS"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 9"
+    },
+    {
+      "id": "lab-blots",
+      "type": "matching",
+      "question": "Ordne die Blotting-Technik ihrem Analyten zu.",
+      "pairs": [
+        {
+          "left": "Southern Blot",
+          "right": "DNA (heute eher PCR)"
+        },
+        {
+          "left": "Northern Blot",
+          "right": "RNA (z. B. Spleißvarianten)"
+        },
+        {
+          "left": "Western Blot",
+          "right": "Proteine"
+        },
+        {
+          "left": "Eastern Blot",
+          "right": "Posttranslationale Modifikationen"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 11"
+    },
+    {
+      "id": "lab-blot-schritte",
+      "type": "order",
+      "question": "Bringe die Schritte eines Blots in die richtige Reihenfolge.",
+      "items": [
+        "Auftrennung der Moleküle im Gel nach Größe oder Ladung",
+        "Transfer der Banden auf eine Membran (Nitrocellulose, PVDF)",
+        "Detektion mit Sonden oder Antikörpern"
+      ],
+      "source": "VL 15 Labormethoden, Folie 12"
+    },
+    {
+      "id": "lab-blot-anwendung",
+      "type": "multiple",
+      "question": "Wofür werden Blotting-Techniken laut Folien angewendet?",
+      "options": [
+        {
+          "text": "Identifizierung von Genmutationen",
+          "correct": true
+        },
+        {
+          "text": "Diagnose von Infektionen, z. B. HIV oder Borrelien (Antikörper im Blut)",
+          "correct": true
+        },
+        {
+          "text": "Protein-Quantifizierung",
+          "correct": true
+        },
+        {
+          "text": "Sterilisation von Lösungen"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 11"
+    },
+    {
+      "id": "lab-dna-faellen",
+      "type": "single",
+      "question": "Warum fällt DNA bei Zugabe von Ethanol/Isopropanol aus?",
+      "options": [
+        {
+          "text": "Das wenig polare Milieu verringert ihre Löslichkeit; sie fällt als weißer Schleier aus",
+          "correct": true
+        },
+        {
+          "text": "Alkohol spaltet die DNA in Nukleotide"
+        },
+        {
+          "text": "Alkohol lädt die DNA positiv auf"
+        },
+        {
+          "text": "Alkohol denaturiert die Histone zu SDS"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 13"
+    },
+    {
+      "id": "lab-gel-geschw",
+      "type": "multiple",
+      "question": "Wovon hängt die Wandergeschwindigkeit in der **Gelelektrophorese** ab?",
+      "options": [
+        {
+          "text": "Porengröße des Gels",
+          "correct": true
+        },
+        {
+          "text": "Angelegte Spannung",
+          "correct": true
+        },
+        {
+          "text": "Ladung der Moleküle",
+          "correct": true
+        },
+        {
+          "text": "Größe der Moleküle",
+          "correct": true
+        }
+      ],
+      "explanation": "Gele bestehen z. B. aus Agarose oder Polyacrylamid und wirken wie ein molekulares Sieb.",
+      "source": "VL 15 Labormethoden, Folie 14"
+    },
+    {
+      "id": "lab-sds",
+      "type": "multiple",
+      "question": "Warum gibt man **SDS** zu Proteinproben vor der Elektrophorese?",
+      "options": [
+        {
+          "text": "Es denaturiert die Proteine (Auffaltung unter Erhalt der Aminosäurereihenfolge).",
+          "correct": true
+        },
+        {
+          "text": "Es verleiht eine einheitliche negative Ladung.",
+          "correct": true
+        },
+        {
+          "text": "So erfolgt die Trennung nach Molekülgröße.",
+          "correct": true
+        },
+        {
+          "text": "Es verleiht eine positive Ladung, sodass Proteine zum Minuspol wandern.",
+          "explain": "Die negativ geladenen Moleküle wandern zum positiven Pol."
+        }
+      ],
+      "explanation": "SDS ist ein anionisches Tensid. Ohne SDS stören Faltung und pH-abhängige Ladung die Trennung.",
+      "source": "VL 15 Labormethoden, Folien 15–16, 46"
+    },
+    {
+      "id": "lab-richtung",
+      "type": "single",
+      "question": "In welche Richtung und wie trennen sich SDS-behandelte Proteine im Gel?",
+      "options": [
+        {
+          "text": "Zum positiven Pol; kleine Moleküle wandern weiter als große",
+          "correct": true
+        },
+        {
+          "text": "Zum negativen Pol; große Moleküle wandern weiter"
+        },
+        {
+          "text": "Zum positiven Pol; große Moleküle wandern weiter"
+        },
+        {
+          "text": "Sie bleiben in den Geltaschen"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 16"
+    },
+    {
+      "id": "lab-blot-membran",
+      "type": "multiple",
+      "question": "Welche Membranmaterialien nennen die Folien für das Blotten?",
+      "options": [
+        {
+          "text": "Nitrocellulose",
+          "correct": true
+        },
+        {
+          "text": "PVDF",
+          "correct": true
+        },
+        {
+          "text": "Nylon",
+          "correct": true
+        },
+        {
+          "text": "Agarose",
+          "explain": "Agarose ist ein Gelmaterial für die Auftrennung."
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 17"
+    },
+    {
+      "id": "lab-kapillarblot",
+      "type": "single",
+      "question": "Wie funktioniert der **Kapillar-Blot**?",
+      "options": [
+        {
+          "text": "Kapillarkräfte saugen Flüssigkeit vom Reservoir zum saugfähigen Material, die Probe bleibt in der Membran hängen",
+          "correct": true
+        },
+        {
+          "text": "Ein elektrisches Feld zieht die Probe auf die Membran",
+          "explain": "Das ist der Elektro-Blot."
+        },
+        {
+          "text": "Die Probe wird mit Druck durch eine Säule gepresst"
+        },
+        {
+          "text": "Die Probe wird durch UV-Licht fixiert"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folien 17–18"
+    },
+    {
+      "id": "lab-detektion",
+      "type": "order",
+      "question": "Bringe die Detektion beim Western Blot in die richtige Reihenfolge.",
+      "items": [
+        "Primärantikörper bindet spezifisch an das gesuchte Protein",
+        "Enzymgekoppelter Sekundärantikörper (z. B. Peroxidase) bindet an den Primärantikörper",
+        "Substrat wird vom Enzym umgesetzt, es entsteht ein Lichtsignal",
+        "Das Licht schwärzt einen aufgelegten Film"
+      ],
+      "source": "VL 15 Labormethoden, Folie 19"
+    },
+    {
+      "id": "lab-warum-blot",
+      "type": "multiple",
+      "question": "Warum detektiert man nicht direkt im Gel?",
+      "options": [
+        {
+          "text": "Aufkonzentration vom 3D-Gel auf eine 2D-Fläche",
+          "correct": true
+        },
+        {
+          "text": "Bessere Zugänglichkeit für Antikörper",
+          "correct": true
+        },
+        {
+          "text": "Mechanische Stabilität",
+          "correct": true
+        },
+        {
+          "text": "Das Gel ist radioaktiv"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 21"
+    },
+    {
+      "id": "lab-antikoerper",
+      "type": "multiple",
+      "question": "Welche Aussagen zu **Antikörpern (Immunglobulinen)** stimmen?",
+      "options": [
+        {
+          "text": "Werden von Plasmazellen (differenzierte B-Zellen) gebildet",
+          "correct": true
+        },
+        {
+          "text": "Bestehen aus 2 identischen schweren und 2 identischen leichten Ketten",
+          "correct": true
+        },
+        {
+          "text": "Haben konstante und variable Domänen",
+          "correct": true
+        },
+        {
+          "text": "Werden von T-Helferzellen sezerniert"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 23"
+    },
+    {
+      "id": "lab-epitop",
+      "type": "matching",
+      "question": "Ordne die Begriffe zu.",
+      "pairs": [
+        {
+          "left": "Antigen",
+          "right": "Meist Protein, von Antikörpern erkannt, mit mehreren Epitopen"
+        },
+        {
+          "left": "Epitop",
+          "right": "Molekülabschnitt eines Antigens, spezifisch erkannt"
+        },
+        {
+          "left": "CD (Cluster of differentiation)",
+          "right": "Oberflächenantigene zur Unterscheidung von Zelltypen"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 24"
+    },
+    {
+      "id": "lab-cd",
+      "type": "matching",
+      "question": "Ordne die CD-Marker der Zelle zu.",
+      "pairs": [
+        {
+          "left": "CD4^+^ (mit CD3^+^)",
+          "right": "T-Helferzellen"
+        },
+        {
+          "left": "CD8^+^ (mit CD3^+^)",
+          "right": "Zytotoxische T-Zellen"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 26"
+    },
+    {
+      "id": "lab-cd4cd8",
+      "type": "single",
+      "question": "Was gilt für den **CD4/CD8-Quotienten** bei HIV?",
+      "options": [
+        {
+          "text": "Normal etwa > 1, bei HIV erniedrigt; dient zur Verlaufskontrolle",
+          "correct": true
+        },
+        {
+          "text": "Normal < 0,1, bei HIV erhöht"
+        },
+        {
+          "text": "Er ist bei HIV unverändert"
+        },
+        {
+          "text": "Er wird nur bei bakteriellen Infektionen bestimmt"
+        }
+      ],
+      "explanation": "HIV bindet CD4 und einen Chemokinrezeptor auf T-Helferzellen.",
+      "source": "VL 15 Labormethoden, Folie 26"
+    },
+    {
+      "id": "lab-mono-poly",
+      "type": "matching",
+      "question": "Ordne die Antikörperart zu.",
+      "pairs": [
+        {
+          "left": "Monoklonal",
+          "right": "Aus einem einzelnen B-Lymphozyten, gegen ein Epitop"
+        },
+        {
+          "left": "Polyklonal",
+          "right": "Gemisch aus dem Serum immunisierter Tiere, gegen verschiedene Epitope"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 27"
+    },
+    {
+      "id": "lab-bezeichnung",
+      "type": "single",
+      "question": "Was bedeutet die Bezeichnung **„Mouse anti-human“**?",
+      "options": [
+        {
+          "text": "In Mäusen hergestellt, gegen menschliche Antigene gerichtet",
+          "correct": true
+        },
+        {
+          "text": "Im Menschen hergestellt, gegen Mausantigene gerichtet"
+        },
+        {
+          "text": "Aus Mäusen und Menschen gemischt"
+        },
+        {
+          "text": "Gegen Mäuse und Menschen gleichermaßen gerichtet"
+        }
+      ],
+      "explanation": "Zuerst die Wirtsspezies (Host), dann die Zielspezies (Target). Human anti-mouse wäre im Menschen hergestellt; solche Antikörper kann man eher nicht kaufen.",
+      "source": "VL 15 Labormethoden, Folien 28, 46"
+    },
+    {
+      "id": "lab-polyklonal-ablauf",
+      "type": "order",
+      "question": "Bringe die Herstellung **polyklonaler Antikörper** in die richtige Reihenfolge.",
+      "items": [
+        "Reines Antigen bereitstellen",
+        "Immunisierung eines Tieres (z. B. Kaninchen), wiederholt als Boost",
+        "Blutentnahme und Test des Serums auf spezifische Antikörper",
+        "Entnahme größerer Blutmengen",
+        "Aufreinigung über Säulenchromatographie"
+      ],
+      "source": "VL 15 Labormethoden, Folie 29"
+    },
+    {
+      "id": "lab-elisa",
+      "type": "single",
+      "question": "Was wird mit einem **ELISA** gemessen?",
+      "options": [
+        {
+          "text": "Antigene oder Antikörper einer Probe über eine enzymatische Farbreaktion",
+          "correct": true
+        },
+        {
+          "text": "Die Größe von DNA-Fragmenten"
+        },
+        {
+          "text": "Die Zahl lebender Zellen in einer Zählkammer"
+        },
+        {
+          "text": "Die Retentionszeit eines Hormons"
+        }
+      ],
+      "explanation": "Enzyme-linked immunosorbent assay: Bindung spezifischer Antikörper an Antigene (Schlüssel-Schloss-Prinzip).",
+      "source": "VL 15 Labormethoden, Folie 32"
+    },
+    {
+      "id": "lab-auslese",
+      "type": "matching",
+      "question": "Ordne die Auslesemethode zu.",
+      "pairs": [
+        {
+          "left": "Alkalische Phosphatase",
+          "right": "Nitrophenylphosphat (farblos) → p-Nitrophenol (gelb)"
+        },
+        {
+          "left": "FEIA",
+          "right": "Fluoreszenz"
+        },
+        {
+          "left": "ECLIA",
+          "right": "Elektrochemolumineszenz"
+        },
+        {
+          "left": "RIA",
+          "right": "Radioaktiv markierte Antikörper, weitgehend abgelöst"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 34"
+    },
+    {
+      "id": "lab-facs",
+      "type": "single",
+      "question": "Wofür steht **FACS**?",
+      "options": [
+        {
+          "text": "Fluorescence activated cell sorting (Durchflusszytometrie)",
+          "correct": true
+        },
+        {
+          "text": "Fast affinity column separation"
+        },
+        {
+          "text": "Fluorescent antibody chromatography system"
+        },
+        {
+          "text": "Filter assisted cell sterilisation"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 36"
+    },
+    {
+      "id": "lab-des-ster",
+      "type": "matching",
+      "question": "Ordne die Definitionen zu.",
+      "pairs": [
+        {
+          "left": "Desinfektion",
+          "right": "Keimzahlreduktion um mindestens 10^−5^ (1 Mio. KBE → 10 KBE)"
+        },
+        {
+          "left": "Sterilisation",
+          "right": "Befreiung von allen Mikroorganismen inkl. Sporen"
+        }
+      ],
+      "explanation": "Ausnahme bei der Sterilisation: Prionen.",
+      "source": "VL 15 Labormethoden, Folie 38"
+    },
+    {
+      "id": "lab-alkohol",
+      "type": "multiple",
+      "question": "Welche Aussagen zu **70 % Alkohol** als Desinfektionsmittel stimmen?",
+      "options": [
+        {
+          "text": "Der Wasseranteil ermöglicht das Eindringen durch die Zellwand, dann Denaturierung der Proteine.",
+          "correct": true
+        },
+        {
+          "text": "Wirkt gegen alle Bakterien und Hefen.",
+          "correct": true
+        },
+        {
+          "text": "Wirkt nicht gegen Bakteriensporen.",
+          "correct": true
+        },
+        {
+          "text": "100 % Alkohol wirkt noch besser.",
+          "explain": "Reiner Alkohol ist wirkungslos: Er fällt die äußeren Proteine aus und wird nicht aufgenommen."
+        }
+      ],
+      "explanation": "Grobe Verschmutzung reduziert die Wirkung stark: erst reinigen, dann desinfizieren.",
+      "source": "VL 15 Labormethoden, Folie 40"
+    },
+    {
+      "id": "lab-chem-ster",
+      "type": "multiple",
+      "question": "Welche Mittel nennen die Folien zur **chemischen Sterilisation**?",
+      "options": [
+        {
+          "text": "Ethylenoxid, Formaldehyd, H~2~O~2~, Ozon (Gase)",
+          "correct": true
+        },
+        {
+          "text": "Peressigsäure, Glutaraldehyd (Flüssigkeiten)",
+          "correct": true
+        },
+        {
+          "text": "70 % Ethanol",
+          "explain": "Das ist ein Desinfektionsmittel, keine Sterilisation."
+        }
+      ],
+      "explanation": "Besonders für thermolabile Materialien, z. B. künstliche Herzklappen.",
+      "source": "VL 15 Labormethoden, Folie 41"
+    },
+    {
+      "id": "lab-filtration",
+      "type": "multiple",
+      "question": "Welche Aussagen zur **Sterilfiltration** stimmen?",
+      "options": [
+        {
+          "text": "Für Lösungen mit thermolabilen Substanzen",
+          "correct": true
+        },
+        {
+          "text": "Porengrößen 0,2 µm oder 0,45 µm",
+          "correct": true
+        },
+        {
+          "text": "Entfernt Bakterien, Hefen und Pilze vollständig",
+          "correct": true
+        },
+        {
+          "text": "Hält auch Mykoplasmen und Viren zurück",
+          "explain": "Mykoplasmen und Viren werden nicht zurückgehalten."
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 42"
+    },
+    {
+      "id": "lab-temperaturen",
+      "type": "matching",
+      "question": "Ordne die Abtötungstemperatur zu.",
+      "pairs": [
+        {
+          "left": "Bakterien und Pilze",
+          "right": "> 60 °C"
+        },
+        {
+          "left": "Hefe- und Pilzsporen",
+          "right": "> 80 °C"
+        },
+        {
+          "left": "Bakteriensporen",
+          "right": "> 120 °C"
+        }
+      ],
+      "explanation": "Pasteurisieren: kurzzeitig 60–90 °C.",
+      "source": "VL 15 Labormethoden, Folie 43"
+    },
+    {
+      "id": "lab-autoklav",
+      "type": "single",
+      "question": "Mit welchen Standardbedingungen arbeitet ein **Autoklav**?",
+      "options": [
+        {
+          "text": "121 °C bei 2 bar für 20 min (feuchte Hitze)",
+          "correct": true
+        },
+        {
+          "text": "180–250 °C für 30 min",
+          "explain": "Das ist trockene Hitze, z. B. für Glas und Metall."
+        },
+        {
+          "text": "60–90 °C kurzzeitig",
+          "explain": "Das ist Pasteurisieren."
+        },
+        {
+          "text": "37 °C bei 5 % CO~2~"
+        }
+      ],
+      "explanation": "Vorteil feuchter Hitze: Bakteriensporen quellen und werden weniger temperaturresistent.",
+      "source": "VL 15 Labormethoden, Folie 44"
+    },
+    {
+      "id": "lab-hitze-material",
+      "type": "matching",
+      "question": "Ordne das Material dem Hitzeverfahren zu.",
+      "pairs": [
+        {
+          "left": "Plastik, Lösungen, hitzeempfindliche Geräte",
+          "right": "Feuchte Hitze (Autoklav)"
+        },
+        {
+          "left": "Glas, Metall, Porzellan",
+          "right": "Trockene Hitze 180–250 °C"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 44"
+    },
+    {
+      "id": "lab-gamma",
+      "type": "multiple",
+      "question": "Welche Aussagen zur **Gamma-Sterilisation** stimmen?",
+      "options": [
+        {
+          "text": "Hydroxylradikale zerstören die DNA",
+          "correct": true
+        },
+        {
+          "text": "Hohe Eindringtiefe, auch in der Endverpackung auf Paletten",
+          "correct": true
+        },
+        {
+          "text": "Rückstandsfrei, ohne nennenswerte Erwärmung",
+          "correct": true
+        },
+        {
+          "text": "Empfindliche Materialien können verspröden oder sich verfärben",
+          "correct": true
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folie 45"
+    },
+    {
+      "id": "lab-uv",
+      "type": "single",
+      "question": "Wofür eignet sich **UV-Strahlung** (260 nm)?",
+      "options": [
+        {
+          "text": "Oberflächendesinfektion; sie wird von Nukleinsäuren absorbiert",
+          "correct": true
+        },
+        {
+          "text": "Sterilisation verschlossener Flaschen mit Inhalt"
+        },
+        {
+          "text": "Sterilisation durch Proteindenaturierung im Inneren dicker Materialien"
+        },
+        {
+          "text": "Abtötung von Prionen"
+        }
+      ],
+      "source": "VL 15 Labormethoden, Folien 45–46"
+    }
+  ]
+}

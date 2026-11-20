@@ -1,0 +1,217 @@
+{
+  "chapter": "VL 17 – Prokaryonten, Eukaryonten, Viren",
+  "source": "VL-Skript ZUG Teil 2, VL 17 (S. 3–27)",
+  "questions": [
+    { "id": "pv-pro-euk", "type": "matching", "question": "Ordne die Merkmale zu.",
+      "pairs": [
+        { "left": "Prokaryoten", "right": "Kein Zellkern, keine Organellen, immer Einzeller, 70S-Ribosomen" },
+        { "left": "Eukaryoten", "right": "Membranumhüllter Zellkern, Organellen, Ein- und Mehrzeller, 80S-Ribosomen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 4, 9, 19" },
+    { "id": "pv-groessen", "type": "matching", "question": "Ordne die typische Größe zu.",
+      "pairs": [ { "left": "Prokaryoten", "right": "0,3–10 µm" }, { "left": "Eukaryoten", "right": "5 µm – 1 mm" }, { "left": "Kokken", "right": "< 0,5 µm" }, { "left": "Stäbchen", "right": "1–5 µm Länge" } ],
+      "source": "VL-Skript ZUG Teil 2, S. 9, 19" },
+    { "id": "pv-haeckel", "type": "single", "question": "Welche drei Reiche unterschied Ernst Haeckel 1866?",
+      "options": [ { "text": "Tiere, Pflanzen, Protisten", "correct": true }, { "text": "Bakterien, Archaeen, Eukaryoten", "explain": "Das sind die heutigen Domänen." }, { "text": "Pilze, Pflanzen, Tiere" }, { "text": "Viren, Bakterien, Tiere" } ], "source": "VL-Skript ZUG Teil 2, S. 4" },
+    { "id": "pv-domaenen", "type": "single", "question": "In welche zwei Domänen werden die Prokaryonten eingeteilt?",
+      "options": [ { "text": "Bacteria und Archaea", "correct": true }, { "text": "Gram-positiv und Gram-negativ" }, { "text": "Kokken und Stäbchen" }, { "text": "Proteobacteria und Firmicutes" } ], "source": "VL-Skript ZUG Teil 2, S. 6" },
+    { "id": "pv-asgard", "type": "single", "question": "Welche Prokaryoten-Gruppe ist laut Metagenomanalysen am nächsten mit den Eukaryoten verwandt?",
+      "options": [ { "text": "Asgard-Archäen", "correct": true }, { "text": "Proteobacteria" }, { "text": "Cyanobacteria" }, { "text": "Firmicutes" } ],
+      "explanation": "Sie besitzen ein komplexes intrazelluläres Netzwerk aus Aktinfilamenten.", "source": "VL-Skript ZUG Teil 2, S. 6" },
+    { "id": "pv-endosymbiont", "type": "multiple", "question": "Welche Merkmale sprechen für die **Endosymbiontentheorie** von Mitochondrien und Chloroplasten?",
+      "options": [
+        { "text": "Doppelte Membran", "correct": true },
+        { "text": "Ringförmige DNA", "correct": true },
+        { "text": "Eigene Ribosomen", "correct": true },
+        { "text": "Spezielle mRNA", "correct": true },
+        { "text": "Sie besitzen einen eigenen Zellkern" }
+      ], "explanation": "Aufgenommene Bakterien verloren die Fähigkeit zum eigenständigen Überleben; Genom und Syntheseapparat wurden abgebaut bzw. zusammengeschlossen.", "source": "VL-Skript ZUG Teil 2, S. 7" },
+    { "id": "pv-nukleoid", "type": "multiple", "question": "Welche Aussagen zum **Nukleoid** stimmen?",
+      "options": [
+        { "text": "Ein einzelnes, geschlossenes, ringförmiges DNA-Molekül", "correct": true },
+        { "text": "Füllt etwa 50 % des Zelllumens", "correct": true },
+        { "text": "In Schleifen organisiert (Supercoils)", "correct": true },
+        { "text": "Von einer Kernmembran umgeben", "explain": "Prokaryoten haben keinen Zellkern; das Nukleoid ist nur ein Kernäquivalent." }
+      ], "explanation": "Größe 500–10.000 kbp; hoch angepasste Spezialisten haben meist ein kleines Genom.", "source": "VL-Skript ZUG Teil 2, S. 12" },
+    { "id": "pv-binaer", "type": "multiple", "question": "Welche Aussagen zur **binären Zellteilung** von Bakterien stimmen?",
+      "options": [
+        { "text": "Kein Spindelapparat", "correct": true },
+        { "text": "Nachkommen sind genetisch identisch", "correct": true },
+        { "text": "Unter optimalen Bedingungen alle 20–25 Minuten", "correct": true },
+        { "text": "Sie ist eine Form der sexuellen Fortpflanzung", "explain": "Sie ist asexuell." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 12" },
+    { "id": "pv-anhaenge", "type": "matching", "question": "Ordne die bakteriellen Zellanhänge ihrer Funktion zu.",
+      "pairs": [
+        { "left": "Flagellen", "right": "Aktive Bewegung nach dem Schiffsschraubenprinzip" },
+        { "left": "Fimbrien", "right": "Anheftung an Oberflächen, bis zu mehreren Tausend" },
+        { "left": "Fertilitätspilus", "right": "Zell-Zell-Kontakt für den Austausch genetischer Information" },
+        { "left": "Pol-Pili", "right": "Zuck- und Gleitbewegung (Twitching motility)" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 11" },
+    { "id": "pv-flagelle", "type": "multiple", "question": "Welche Aussagen zu bakteriellen **Flagellen** stimmen?",
+      "options": [
+        { "text": "Bestehen aus Basalkörper, Haken und Filament", "correct": true },
+        { "text": "Rotieren mit bis zu 100 Umdrehungen/s (≈ 60 Zelllängen/s)", "correct": true },
+        { "text": "Meist ein Vielfaches der Zelllänge (5–20 µm)", "correct": true },
+        { "text": "Kommen ausschließlich bei Prokaryoten vor", "explain": "Flagellen gibt es auch bei Eukaryonten." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 11" },
+    { "id": "pv-gentransfer", "type": "matching", "question": "Ordne die Formen des bakteriellen Gentransfers zu.",
+      "pairs": [
+        { "left": "Transformation", "right": "Aufnahme freier DNA, Einbau durch homologe Rekombination" },
+        { "left": "Konjugation", "right": "Übertragung über den Sexpilus, benötigt F-Plasmid" },
+        { "left": "Transduktion", "right": "Übertragung durch einen Bakteriophagen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 13" },
+    { "id": "pv-zellwand-funktion", "type": "single", "question": "Warum benötigt eine Bakterienzelle eine **Zellwand**?",
+      "options": [ { "text": "Gelöste Stoffe erzeugen einen Turgordruck; ohne Zellwand würde die Zelle platzen", "correct": true }, { "text": "Für die Proteinsynthese" }, { "text": "Zur Speicherung der DNA" }, { "text": "Für die Fortbewegung" } ],
+      "explanation": "Ausnahme: Mykoplasmen besitzen keine Zellwand; im Wirt leben sie in isotoner Umgebung.", "source": "VL-Skript ZUG Teil 2, S. 14" },
+    { "id": "pv-murein", "type": "multiple", "question": "Welche Aussagen zum **Peptidoglykan (Murein)** stimmen?",
+      "options": [
+        { "text": "Heteropolymer aus N-Acetylglucosamin und N-Acetylmuraminsäure", "correct": true },
+        { "text": "Zucker sind 1,4-β-glykosidisch verknüpft", "correct": true },
+        { "text": "Quervernetzung durch die Transpeptidase", "correct": true },
+        { "text": "Die Transpeptidase ist Angriffsstelle der β-Lactam-Antibiotika (Penicillin)", "correct": true },
+        { "text": "Kommt auch in der Zellwand der Archaeen vor", "explain": "Archaeen haben Pseudopeptidoglykan." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 14, 18" },
+    { "id": "pv-grampos-neg", "type": "matching", "question": "Ordne den Zellwandaufbau zu.",
+      "pairs": [
+        { "left": "Grampositiv", "right": "Bis zu 25 Mureinschichten, Teichon- und Lipoteichonsäure" },
+        { "left": "Gramnegativ", "right": "1–2 Mureinschichten und äußere Membran mit LPS" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 14, 16" },
+    { "id": "pv-gram-schritte", "type": "order", "question": "Bringe die Schritte der **Gram-Färbung** in die richtige Reihenfolge.",
+      "items": [ "Färbung mit Kristallviolett", "Behandlung mit Lugolscher Lösung (Iod-Kaliumiodid)", "Entfärben mit 96 % Ethanol", "Gegenfärbung mit Fuchsin oder Safranin" ], "source": "VL-Skript ZUG Teil 2, S. 15" },
+    { "id": "pv-lps", "type": "multiple", "question": "Welche Aussagen zur **äußeren Membran** gramnegativer Bakterien stimmen?",
+      "options": [
+        { "text": "Asymmetrische Lipiddoppelschicht mit außen Lipopolysaccharid (LPS)", "correct": true },
+        { "text": "Permeabilitätsbarriere und Schutz vor Antibiotika", "correct": true },
+        { "text": "LPS wirkt als Endotoxin", "correct": true },
+        { "text": "Sie enthält Teichonsäure", "explain": "Teichonsäure ist typisch für Grampositive." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 16" },
+    { "id": "pv-endotoxinschock", "type": "multiple", "question": "Was gehört laut Skript zum **Endotoxinschock**?",
+      "options": [
+        { "text": "LPS bindet an Makrophagen, Zytokine (IL-1, IL-6, IL-8, TNF-α) werden freigesetzt", "correct": true },
+        { "text": "Verbrauchskoagulopathie", "correct": true },
+        { "text": "Schock durch Vasodilatation", "correct": true },
+        { "text": "Organversagen", "correct": true }
+      ], "explanation": "Menschen sind ca. 1000-mal empfindlicher als Mäuse.", "source": "VL-Skript ZUG Teil 2, S. 16" },
+    { "id": "pv-endo-exo", "type": "matching", "question": "Ordne die Merkmale den bakteriellen Toxinen zu.",
+      "pairs": [
+        { "left": "Endotoxine", "right": "LPS, bei Lyse frei, unspezifisch, schlechte Antigene" },
+        { "left": "Exotoxine", "right": "Proteine, sezerniert, hochspezifisch, gute Antigene" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 17" },
+    { "id": "pv-exotoxine", "type": "matching", "question": "Ordne das Exotoxin seinem Erreger zu.",
+      "pairs": [
+        { "left": "Botulinumtoxin", "right": "Clostridium botulinum" },
+        { "left": "Diphtherietoxin", "right": "Corynebacterium diphtheriae" },
+        { "left": "Tetanospasmin", "right": "Clostridium tetani" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 17" },
+    { "id": "pv-endosporen", "type": "multiple", "question": "Welche Aussagen zu **Endosporen** stimmen?",
+      "options": [
+        { "text": "Überdauerungsform, keine Vermehrung (1 Zelle → 1 Spore)", "correct": true },
+        { "text": "Werden bei Nährstoffmangel gebildet", "correct": true },
+        { "text": "Hohe Resistenz gegen Hitze, UV und Chemikalien", "correct": true },
+        { "text": "Typisch für Bacillus und Clostridium", "correct": true },
+        { "text": "Besonders hoher Wassergehalt", "explain": "Der Wasseranteil ist gering (10–30 %)." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 17" },
+    { "id": "pv-archaea", "type": "multiple", "question": "Welche Aussagen zu **Archaebakterien** stimmen?",
+      "options": [
+        { "text": "Oft extremophil: hyperthermophil, halophil, methanogen", "correct": true },
+        { "text": "Pseudopeptidoglykan mit N-Acetyltalosaminuronsäure statt N-Acetylmuraminsäure", "correct": true },
+        { "text": "Ribosomen unempfindlich gegenüber Antibiotika", "correct": true },
+        { "text": "Proteinsynthese beginnt mit Methionin, wie bei Eukaryoten", "correct": true },
+        { "text": "Proteinsynthese beginnt mit N-Formylmethionin", "explain": "Das gilt für Eubakterien." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pv-mikrobiom", "type": "single", "question": "Wo befinden sich laut Skript ca. 99 % der Bakterien des Menschen?",
+      "options": [ { "text": "Im Verdauungstrakt", "correct": true }, { "text": "Auf der Haut" }, { "text": "In der Lunge" }, { "text": "Im Mund" } ],
+      "explanation": "Das Verhältnis menschliche Zellen zu Bakterienzellen liegt bei etwa 1 : 1,3.", "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pv-toxo", "type": "multiple", "question": "Welche Aussagen zur **Toxoplasmose** stimmen?",
+      "options": [
+        { "text": "Erreger ist der eukaryotische Einzeller Toxoplasma gondii", "correct": true },
+        { "text": "Hauptwirt sind Katzen", "correct": true },
+        { "text": "80–90 % der Infektionen verlaufen symptomlos", "correct": true },
+        { "text": "Die Übertragungsrate auf den Fötus steigt mit der Schwangerschaftsdauer", "correct": true },
+        { "text": "Die schwersten Schäden entstehen bei Infektion im dritten Trimenon", "explain": "Größte Auswirkungen bei Infektion im ersten Trimenon, obwohl die Übertragungsrate dann am niedrigsten ist." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 18–19" },
+    { "id": "pv-toxo-rate", "type": "matching", "question": "Ordne die Rate der diaplazentaren Übertragung von Toxoplasma zu.",
+      "pairs": [ { "left": "1. Trimenon", "right": "15 %" }, { "left": "2. Trimenon", "right": "45 %" }, { "left": "3. Trimenon", "right": "70 %" } ], "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pv-toxo-therapie", "type": "matching", "question": "Ordne die Toxoplasmose-Therapie in der Schwangerschaft zu.",
+      "pairs": [
+        { "left": "Spiramycin", "right": "Verhindert die Übertragung auf den Fötus" },
+        { "left": "Pyrimethamin + Sulfadiazin", "right": "Bei erfolgter Infektion des Fötus" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 18" },
+    { "id": "pv-toxo-prophylaxe", "type": "multiple", "question": "Welche Verhaltensregeln gelten für Schwangere **ohne** Toxoplasmose-Immunität?",
+      "options": [ { "text": "Kein rohes Fleisch", "correct": true }, { "text": "Fleisch auf über 70 °C erhitzen", "correct": true }, { "text": "Katzen und Katzenkot meiden", "correct": true }, { "text": "Antibiotika vorbeugend über die ganze Schwangerschaft" } ], "source": "VL-Skript ZUG Teil 2, S. 19" },
+    { "id": "pv-viren-merkmale", "type": "multiple", "question": "Welche Aussagen zu **Viren** stimmen?",
+      "options": [
+        { "text": "Obligat intrazelluläre Parasiten ohne eigene metabolische Aktivität", "correct": true },
+        { "text": "Proteinmantel (Kapsid) und inneres Genom", "correct": true },
+        { "text": "Enthalten nur eine Form von Nukleinsäure: DNA oder RNA", "correct": true },
+        { "text": "Manche haben eine Phospholipidhülle", "correct": true },
+        { "text": "Sie sind im Lichtmikroskop meist gut sichtbar", "explain": "Meist unsichtbar im Lichtmikroskop." }
+      ], "explanation": "Virionen sind einzelne Viruspartikel außerhalb des Wirts.", "source": "VL-Skript ZUG Teil 2, S. 21" },
+    { "id": "pv-vermehrung", "type": "order", "question": "Bringe den Vermehrungszyklus von Viren in die richtige Reihenfolge.",
+      "items": [ "Adsorption", "Penetration", "Uncoating", "Reifung", "Zusammenbau", "Freisetzung (Budding)" ], "source": "VL-Skript ZUG Teil 2, S. 22" },
+    { "id": "pv-hiv", "type": "multiple", "question": "Welche Aussagen zu **HIV** stimmen?",
+      "options": [
+        { "text": "Retrovirus (Gattung Lentiviren), behülltes ss(+)RNA-Virus", "correct": true },
+        { "text": "Benötigt den CD4-Rezeptor und den Korezeptor CCR5", "correct": true },
+        { "text": "AIDS tritt ca. 9–11 Jahre nach Infektion auf (< 200 CD4^+^-Zellen/µl)", "correct": true },
+        { "text": "Doppelsträngiges DNA-Virus", "explain": "HIV hat ein lineares einzelsträngiges RNA-Genom." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 22–23" },
+    { "id": "pv-hiv-enzyme", "type": "matching", "question": "Ordne die HIV-Enzyme ihrer Funktion zu.",
+      "pairs": [
+        { "left": "Reverse Transkriptase", "right": "Schreibt RNA in DNA um" },
+        { "left": "Integrase", "right": "Baut die Virus-DNA ins Wirtsgenom ein" },
+        { "left": "Protease", "right": "Spaltet und aktiviert neu gebildete Proteine" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 22" },
+    { "id": "pv-ss-plus-minus", "type": "matching", "question": "Ordne die RNA-Polarität zu.",
+      "pairs": [
+        { "left": "ss(+)RNA", "right": "Wird direkt als mRNA verwendet" },
+        { "left": "ss(−)RNA", "right": "Dient als Matrize zur mRNA-Produktion" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 22" },
+    { "id": "pv-crispr", "type": "multiple", "question": "Welche Aussagen zu **CRISPR-Cas** stimmen?",
+      "options": [
+        { "text": "Abwehrsystem von Bakterien und Archaeen gegen Bakteriophagen", "correct": true },
+        { "text": "Virale DNA wird als Spacer zwischen palindromische Repeats eingebaut", "correct": true },
+        { "text": "Cas erkennt das PAM-Motiv und schneidet passende virale DNA", "correct": true },
+        { "text": "Etwa 50 % der Bakterienarten und fast alle Archaeen besitzen es", "correct": true },
+        { "text": "Es ist ein Teil des menschlichen Immunsystems", "explain": "Es ist ein bakterielles System, wird aber biotechnologisch als „Genschere“ genutzt." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 24" },
+    { "id": "pv-phagen", "type": "multiple", "question": "Welche Aussagen zu **Bakteriophagen** stimmen?",
+      "options": [
+        { "text": "Spezialisiert auf Bakterien und Archaeen", "correct": true },
+        { "text": "Polyedrischer Kopf (Kapsid) mit DNA", "correct": true },
+        { "text": "Injizieren ihre DNA und lysieren die Wirtszelle", "correct": true },
+        { "text": "Werden in der Gentechnik als Vektoren genutzt", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 24" },
+    { "id": "pv-viroid-prion", "type": "matching", "question": "Ordne die Merkmale zu.",
+      "pairs": [
+        { "left": "Viroide", "right": "Kurze zirkuläre ssRNA ohne Hülle, codieren keine Proteine, Pflanzenpathogene" },
+        { "left": "Prionen", "right": "Falsch gefaltete Proteine, die ihre Fehlfaltung übertragen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 25" },
+    { "id": "pv-prion-krankheiten", "type": "multiple", "question": "Welche Erkrankungen werden laut Skript durch **Prionen** verursacht?",
+      "options": [ { "text": "BSE", "correct": true }, { "text": "Creutzfeldt-Jakob-Krankheit", "correct": true }, { "text": "Scrapie", "correct": true }, { "text": "Kuru", "correct": true }, { "text": "Toxoplasmose", "explain": "Erreger ist ein Protozoon." } ],
+      "explanation": "Sie zählen zu den transmissiblen spongiformen Enzephalopathien.", "source": "VL-Skript ZUG Teil 2, S. 25" },
+    { "id": "pv-antibiotika-wirkung", "type": "matching", "question": "Ordne die Antibiotika-Wirkung zu.",
+      "pairs": [
+        { "left": "Bakteriostatisch", "right": "Hemmt die Vermehrung, z. B. Tetracycline (Ribosomen)" },
+        { "left": "Bakterizid", "right": "Tötet ab, z. B. β-Lactame (Zellwandsynthese)" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 26" },
+    { "id": "pv-antibiotika-viren", "type": "single", "question": "Warum ist eine Antibiotikagabe bei den meisten Bronchitiden laut Skript unkritisch und falsch?",
+      "options": [ { "text": "Nur ca. 5 % sind bakteriell; gegen Viren wirken Antibiotika nicht", "correct": true }, { "text": "Bronchitis wird immer durch Pilze verursacht" }, { "text": "Antibiotika wirken nur in der Haut" }, { "text": "Bronchitis-Bakterien haben keine Zellwand" } ], "source": "VL-Skript ZUG Teil 2, S. 26" },
+    { "id": "pv-tierhaltung", "type": "single", "question": "Welcher Anteil aller Antibiotika wird laut Skript in der **Tierhaltung** eingesetzt?",
+      "options": [ { "text": "ca. 75 %", "correct": true }, { "text": "ca. 25 %" }, { "text": "ca. 5 %" }, { "text": "ca. 50 %" } ], "source": "VL-Skript ZUG Teil 2, S. 26" },
+    { "id": "pv-resistenz", "type": "matching", "question": "Ordne den Resistenzmechanismus seinem Beispiel zu.",
+      "pairs": [
+        { "left": "Inaktivierende Enzyme", "right": "β-Lactamasen bei E. coli" },
+        { "left": "Alternative Proteine", "right": "PBP2a bei MRSA" },
+        { "left": "Reduzierte Aufnahme", "right": "Säurefeste Zellwand der Mykobakterien" },
+        { "left": "Efflux-Pumpen", "right": "Schleusen das Antibiotikum aus" },
+        { "left": "Biofilme", "right": "Dicht besiedelte Schleimmatrix" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 27" },
+    { "id": "pv-neuentwicklung", "type": "single", "question": "Warum gibt es laut Skript wenig Anreiz zur Entwicklung neuer Antibiotika?",
+      "options": [
+        { "text": "10–14 Jahre Entwicklung, nur 1 von ca. 10.000 Wirkstoffen zugelassen, nur ~7 Jahre Patentschutz zum Verdienen", "correct": true },
+        { "text": "Es gibt keine resistenten Erreger mehr" },
+        { "text": "Antibiotika dürfen nicht patentiert werden" },
+        { "text": "Die Entwicklung dauert nur wenige Monate" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 27" }
+  ]
+}

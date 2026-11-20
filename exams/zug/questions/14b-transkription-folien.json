@@ -1,0 +1,396 @@
+{
+  "chapter": "VL 14 – Transkription, RNA-Prozessierung, Translation",
+  "source": "VL 14 Folien Mairhofer WS26 (Moodle)",
+  "questions": [
+    {
+      "id": "tlv-termination-pol2",
+      "type": "order",
+      "question": "Bringe die **Termination** der Transkription durch RNA-Polymerase II in die richtige Reihenfolge.",
+      "items": [
+        "Das Terminatorsignal wird transkribiert und von Kernproteinen erkannt",
+        "CstF und CPSF binden",
+        "Die naszente mRNA wird unterhalb des Signals gespalten, die Polymerase dissoziiert",
+        "Die Polyadenylierung startet"
+      ],
+      "explanation": "RNA-Polymerase I und III haben abweichende Terminationsmechanismen.",
+      "source": "VL 14 Folien Mairhofer, Transkription – Termination"
+    },
+    {
+      "id": "tlv-tempo",
+      "type": "multiple",
+      "question": "Welche Aussagen zur Geschwindigkeit der Transkription stimmen laut Folien?",
+      "options": [
+        {
+          "text": "Bis zu 15 RNA-Polymerasen können gleichzeitig dasselbe Gen transkribieren.",
+          "correct": true
+        },
+        {
+          "text": "Theoretisch sind über tausend Transkripte eines Gens pro Stunde möglich.",
+          "correct": true
+        },
+        {
+          "text": "Ein Gen von 1500 Nukleotiden wird in ca. 50 Sekunden transkribiert.",
+          "correct": true
+        },
+        {
+          "text": "Die nächste RNA wird erst begonnen, wenn die erste fertig ist.",
+          "explain": "Die Synthese der nächsten RNA beginnt, bevor die erste fertig ist."
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Transkription"
+    },
+    {
+      "id": "tlv-cmyc",
+      "type": "single",
+      "question": "Welche Rolle spielt der Transkriptionsfaktor **c-Myc** bei Krebs?",
+      "options": [
+        {
+          "text": "Proto-Onkogen, oft hochreguliert; verstärkt die Transkription wachstumsfördernder Gene",
+          "correct": true
+        },
+        {
+          "text": "Tumorsuppressor, der Apoptose auslöst",
+          "explain": "Das ist eher p53."
+        },
+        {
+          "text": "Spleißfaktor, der bei MDS mutiert ist",
+          "explain": "Das ist SRSF2."
+        },
+        {
+          "text": "Bestandteil des Spleißosoms"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Transkription"
+    },
+    {
+      "id": "tlv-gene-exons",
+      "type": "matching",
+      "question": "Ordne das Gen seiner Exonzahl zu.",
+      "pairs": [
+        {
+          "left": "β-Globin-Gen",
+          "right": "3 Exons (ca. 2000 bp)"
+        },
+        {
+          "left": "Faktor-VIII-Gen",
+          "right": "26 Exons"
+        },
+        {
+          "left": "Dystrophin-Gen",
+          "right": "79 Exons (ca. 2,5 Mio. bp)"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Splicing"
+    },
+    {
+      "id": "tlv-spleissosom",
+      "type": "multiple",
+      "question": "Welche Aussagen zum Spleißosom stimmen laut Folien?",
+      "options": [
+        {
+          "text": "Neben den snRNAs sind ca. 90 Proteine beteiligt.",
+          "correct": true
+        },
+        {
+          "text": "Die Katalyse erfolgt durch RNA.",
+          "correct": true
+        },
+        {
+          "text": "snRNPs spielen eine Rolle bei bestimmten Autoimmunerkrankungen.",
+          "correct": true
+        },
+        {
+          "text": "Es besteht nur aus Proteinen."
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Splicing"
+    },
+    {
+      "id": "tlv-ese",
+      "type": "single",
+      "question": "Was sind **ESE, ISE, ESS und ISS**?",
+      "options": [
+        {
+          "text": "Kurze exonische bzw. intronische Splice-Enhancer- und Silencer-Motive, erkannt von SR-Proteinen oder hnRNPs",
+          "correct": true
+        },
+        {
+          "text": "Untereinheiten der RNA-Polymerase II"
+        },
+        {
+          "text": "Polyadenylierungssignale"
+        },
+        {
+          "text": "Transkriptionsfaktoren am Promotor"
+        }
+      ],
+      "explanation": "Sie beeinflussen, ob ein Exon eingeschlossen oder ausgelassen wird.",
+      "source": "VL 14 Folien Mairhofer, Splicing"
+    },
+    {
+      "id": "tlv-cis-trans",
+      "type": "matching",
+      "question": "Ordne die Formen pathologischer Spleißdefekte zu.",
+      "pairs": [
+        {
+          "left": "Cis-acting",
+          "right": "Mutation betrifft nur ein einzelnes Transkript"
+        },
+        {
+          "left": "Trans-acting",
+          "right": "Mutation in Spleißproteinen, potenziell viele Transkripte betroffen"
+        },
+        {
+          "left": "Repeat expansion",
+          "right": "Mangel oder Überschuss an Spleißfaktoren, v. a. neurodegenerativ"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, RNA-Splicing & pathologische Prozesse"
+    },
+    {
+      "id": "tlv-mds",
+      "type": "single",
+      "question": "Wie löst eine Punktmutation in **SRSF2** laut Folien ein MDS aus?",
+      "options": [
+        {
+          "text": "Veränderte ESE-Bindung führt zu Missplicing und Abbau der EZH2-mRNA, die für die Blutbildung essentiell ist",
+          "correct": true
+        },
+        {
+          "text": "SRSF2 blockiert die TATA-Box"
+        },
+        {
+          "text": "SRSF2 verhindert das Capping"
+        },
+        {
+          "text": "SRSF2 bindet an den CD4-Rezeptor"
+        }
+      ],
+      "explanation": "Mutationen in Spleißosom-Komponenten sind bei MDS sehr häufig. EZH2 ist Teil des Polycomb-Repressor-Komplexes.",
+      "source": "VL 14 Folien Mairhofer, RNA-Splicing & pathologische Prozesse"
+    },
+    {
+      "id": "tlv-nmd",
+      "type": "single",
+      "question": "Was passiert mit einem Transkript, das durch einen Spleißfehler einen **vorzeitigen Kettenabbruch** codiert?",
+      "options": [
+        {
+          "text": "Es wird durch nonsense-mediated decay abgebaut",
+          "correct": true
+        },
+        {
+          "text": "Es wird bevorzugt exportiert"
+        },
+        {
+          "text": "Es wird zu rRNA umgebaut"
+        },
+        {
+          "text": "Es wird zurück in DNA geschrieben"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, RNA-Prozessierung"
+    },
+    {
+      "id": "tlv-nobel-mrna",
+      "type": "single",
+      "question": "Wofür erhielten Katalin Karikó und Drew Weissman 2023 den Nobelpreis?",
+      "options": [
+        {
+          "text": "Für Nukleosid-Basenmodifikationen, die wirksame mRNA-Impfstoffe gegen COVID-19 ermöglichten",
+          "correct": true
+        },
+        {
+          "text": "Für die Entdeckung der Autophagie",
+          "explain": "Das war Yoshinori Ohsumi (2016)."
+        },
+        {
+          "text": "Für die Entdeckung von CRISPR-Cas"
+        },
+        {
+          "text": "Für die Erfindung der PCR"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Exkurs mRNA-Impfstoffe"
+    },
+    {
+      "id": "tlv-pseudouridin",
+      "type": "multiple",
+      "question": "Welche Aussagen zu **Pseudouridin** in mRNA-Impfstoffen stimmen laut Folien?",
+      "options": [
+        {
+          "text": "In vitro hergestellter mRNA fehlte diese in Zellen häufige Modifikation.",
+          "correct": true
+        },
+        {
+          "text": "Ohne sie wird die mRNA als fremd erkannt und schnell abgebaut.",
+          "correct": true
+        },
+        {
+          "text": "Mit ihr sinkt die Entzündungsantwort und die Proteinproduktion steigt stark.",
+          "correct": true
+        },
+        {
+          "text": "Im BioNTech-Impfstoff wurde Uridin vollständig durch N1-Methylpseudouridin ersetzt.",
+          "correct": true
+        },
+        {
+          "text": "Sie wird in Zellen bereits während der Transkription von der RNA-Polymerase eingebaut.",
+          "explain": "Sie wird posttranskriptionell durch Pseudouridin-Synthasen eingefügt."
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Exkurs mRNA-Impfstoffe"
+    },
+    {
+      "id": "tlv-m6a",
+      "type": "single",
+      "question": "Welche Rolle spielt **N6-Methyladenosin (m^6^A)** laut Folien?",
+      "options": [
+        {
+          "text": "Steuerung der Translationseffizienz",
+          "correct": true
+        },
+        {
+          "text": "Startsignal der Transkription"
+        },
+        {
+          "text": "Bindung des Sigma-Faktors"
+        },
+        {
+          "text": "Bestandteil der TATA-Box"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Exkurs mRNA-Modifikationen"
+    },
+    {
+      "id": "tlv-invitro-mrna",
+      "type": "single",
+      "question": "Was war nötig, damit in vitro hergestellte mRNA in Zellen effizient translatiert wird?",
+      "options": [
+        {
+          "text": "Eine vollständige mRNA mit 5′-Cap und Poly(A)-Schwanz",
+          "correct": true
+        },
+        {
+          "text": "Introns in der mRNA"
+        },
+        {
+          "text": "Thymin statt Uracil"
+        },
+        {
+          "text": "Ein bakterieller Promotor"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Exkurs mRNA-Impfstoffe"
+    },
+    {
+      "id": "tlv-mrna-vorteile",
+      "type": "multiple",
+      "question": "Welche Vorteile von mRNA-Impfstoffen nennen die Folien?",
+      "options": [
+        {
+          "text": "Entwicklung konnte sofort nach der Sequenzierung von SARS-CoV-2 starten",
+          "correct": true
+        },
+        {
+          "text": "Wichtig für neue „emerging viruses“",
+          "correct": true
+        },
+        {
+          "text": "Vielversprechend auch für Krebsimpfungen",
+          "correct": true
+        },
+        {
+          "text": "Sie verändern das Genom der Zelle dauerhaft"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Exkurs mRNA-Impfung"
+    },
+    {
+      "id": "tlv-translation-gewebe",
+      "type": "single",
+      "question": "Welche Gewebe sind laut Folien bei verringerter **Translationseffizienz** besonders anfällig?",
+      "options": [
+        {
+          "text": "Neuronen, Muskel, Niere, Blutbildung/Knochenmark",
+          "correct": true
+        },
+        {
+          "text": "Nur die Haut"
+        },
+        {
+          "text": "Nur das Fettgewebe"
+        },
+        {
+          "text": "Keine; Translationsdefekte zeigen sich in allen Geweben gleich"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Translation – erbliche pathologische Prozesse"
+    },
+    {
+      "id": "tlv-chaperone",
+      "type": "single",
+      "question": "Was hilft der Polypeptidkette oft bei der **korrekten Faltung**?",
+      "options": [
+        {
+          "text": "Chaperone",
+          "correct": true
+        },
+        {
+          "text": "Proteasomen"
+        },
+        {
+          "text": "Release-Faktoren"
+        },
+        {
+          "text": "snRNPs"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, posttranslationale Modifikationen"
+    },
+    {
+      "id": "tlv-ptm",
+      "type": "multiple",
+      "question": "Welche Aussagen zu **posttranslationalen Modifikationen** stimmen laut Folien?",
+      "options": [
+        {
+          "text": "Sie erhöhen die Komplexität des Proteoms etwa um den Faktor 10.",
+          "correct": true
+        },
+        {
+          "text": "Wichtigste: Phosphorylierung, Acetylierung, Glykosylierung, Ubiquitinylierung/SUMOylierung",
+          "correct": true
+        },
+        {
+          "text": "Erforschbar mit Massenspektrometrie und modifikationsspezifischen Antikörpern",
+          "correct": true
+        },
+        {
+          "text": "Bei c-Myc und p53 regulieren sie Aktivität, Stabilität und Abbau.",
+          "correct": true
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, posttranslationale Modifikationen"
+    },
+    {
+      "id": "tlv-ribosom-masse",
+      "type": "single",
+      "question": "Wie ist ein eukaryotisches Ribosom laut Folien zusammengesetzt?",
+      "options": [
+        {
+          "text": "4 rRNAs und ca. 80 Proteine, Masse ca. 4,2 Millionen Dalton",
+          "correct": true
+        },
+        {
+          "text": "1 rRNA und 20 Proteine"
+        },
+        {
+          "text": "Nur Proteine, keine RNA"
+        },
+        {
+          "text": "2 rRNAs und 500 Proteine"
+        }
+      ],
+      "source": "VL 14 Folien Mairhofer, Translation"
+    }
+  ]
+}
