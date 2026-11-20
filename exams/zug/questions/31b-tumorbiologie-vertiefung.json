@@ -1,0 +1,127 @@
+{
+  "chapter": "VL 31 – Tumorbiologie (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 2, VL 31 (S. 150–156)",
+  "questions": [
+    { "id": "tbv-tumor-begriff", "type": "single", "question": "Was bezeichnet der Begriff **Tumor** laut Skript?",
+      "options": [
+        { "text": "Körpereigene Zellen, die sich selbstständig vermehren können (Geschwulst, Volumenzunahme)", "correct": true },
+        { "text": "Ausschließlich bösartige Neubildungen" },
+        { "text": "Eine Infektion mit Viren" },
+        { "text": "Jede Entzündung" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tbv-boesartig", "type": "multiple", "question": "Welche Merkmale haben **bösartige** Tumore laut Skript?",
+      "options": [
+        { "text": "Meist schnelles Wachstum mit Infiltration bzw. Invasion", "correct": true },
+        { "text": "Keine oder nur unvollständige Kapsel", "correct": true },
+        { "text": "Ausbreitung entlang von Nerven und in Lymph- und Blutgefäßen (Metastasen)", "correct": true },
+        { "text": "Sie können nach Entfernung wiederkehren (Rezidiv)", "correct": true },
+        { "text": "Sie sind immer gut vom umliegenden Gewebe abgrenzbar", "explain": "Das gilt für gutartige Tumore." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tbv-dignitaet-kriterien", "type": "multiple", "question": "Nach welchen Kriterien beurteilt man laut Skript die **Dignität**?",
+      "options": [
+        { "text": "Wachstumsrate", "correct": true },
+        { "text": "Ausbreitung", "correct": true },
+        { "text": "Histologie (differenziert vs. undifferenziert)", "correct": true },
+        { "text": "Kompression vs. Invasion", "correct": true },
+        { "text": "Blutgruppe des Patienten" }
+      ], "explanation": "Klassifikation: UICC-Stadien und TNM-Klassifikation.", "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tbv-etymologie", "type": "matching", "question": "Ordne die Wortherkunft zu.",
+      "pairs": [
+        { "left": "Karzinom", "right": "Griech. „karkinos“ = Krebs" },
+        { "left": "Adenom", "right": "Griech. „aden“ = Drüse" },
+        { "left": "Sarkom", "right": "Griech. „sarx/sarkos“ = Fleisch" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 152" },
+    { "id": "tbv-ebv", "type": "single", "question": "Welche Erkrankung löst das **Epstein-Barr-Virus** u. a. aus?",
+      "options": [
+        { "text": "Das Pfeiffersche Drüsenfieber, im weiteren Verlauf Lymphknotenkrebs v. a. bei geschwächtem Immunsystem", "correct": true },
+        { "text": "Gebärmutterhalskrebs" },
+        { "text": "Hepatitis B" },
+        { "text": "Kaposi-Sarkom bei Gesunden" }
+      ], "explanation": "EBV gehört zur Gruppe der Herpesviren.", "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tbv-viren-uebertragung", "type": "matching", "question": "Ordne die Viren ihrer im Skript genannten Eigenschaft zu.",
+      "pairs": [
+        { "left": "HBV", "right": "Häufigste Infektionskrankheit weltweit, Impfung verfügbar" },
+        { "left": "HCV", "right": "V. a. Blutweg, keine Impfung, > 70 % der Leberkrebsfälle" },
+        { "left": "HPV 16/18", "right": "Häufigste sexuell übertragbare Viren, Gebärmutterhalskrebs" },
+        { "left": "HHV 8", "right": "Kaposi-Sarkom bei Immunschwäche" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tbv-mutationsrate", "type": "multiple", "question": "Warum haben Krebszellen laut Skript eine **erhöhte Mutationsrate**?",
+      "options": [
+        { "text": "Erhöhte Empfindlichkeit gegenüber mutagenen Agenzien", "correct": true },
+        { "text": "Reduzierte genomische Reparaturmechanismen", "correct": true },
+        { "text": "Beeinträchtigte Systeme, die geschädigte Zellen zur Seneszenz oder Apoptose zwingen", "correct": true },
+        { "text": "Weil sie sich nie teilen" }
+      ], "explanation": "Mehrstufige Tumorprogression ist eine Reihe klonaler Erweiterungen.", "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tbv-onko-suppressor", "type": "single", "question": "Was sagt das Skript über **Onkogene und Tumorsuppressorgene**?",
+      "options": [
+        { "text": "Sie kommen häufig innerhalb der gleichen Hauptsignalwege vor", "correct": true },
+        { "text": "Sie liegen immer auf demselben Chromosom" },
+        { "text": "Sie kommen nur in Viren vor" },
+        { "text": "Sie haben nichts mit Signalwegen zu tun" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 153" },
+    { "id": "tbv-lokal", "type": "multiple", "question": "Welche **lokalen Komplikationen** von Tumoren nennt das Skript?",
+      "options": [
+        { "text": "Kompression von Gefäßen oder Darmabschnitten, Nekrose, Ileus", "correct": true },
+        { "text": "Gallerückstau mit Ikterus", "correct": true },
+        { "text": "Harnstauungsniere", "correct": true },
+        { "text": "Peritonitis nach Durchbruch der Darmwand", "correct": true },
+        { "text": "Tumorkachexie", "explain": "Systemische Komplikation." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 154" },
+    { "id": "tbv-systemisch", "type": "multiple", "question": "Welche **systemischen Komplikationen** nennt das Skript?",
+      "options": [
+        { "text": "Anämie durch Blutung oder Verdrängung blutbildender Knochenmarkszellen", "correct": true },
+        { "text": "Erhöhtes Infektionsrisiko", "correct": true },
+        { "text": "Fieber durch fieberauslösende Substanzen des Tumors (z. B. Zytokine)", "correct": true },
+        { "text": "Tumorkachexie (Gewichtsverlust)", "correct": true },
+        { "text": "Fistelbildung zwischen Darm und Harnblase", "explain": "Lokale Komplikation." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 154" },
+    { "id": "tbv-behandlung", "type": "multiple", "question": "Welche **Behandlungsstrategien** nennt das Skript?",
+      "options": [
+        { "text": "Operation", "correct": true },
+        { "text": "Strahlen- und Chemotherapie", "correct": true },
+        { "text": "Knochenmarks- und Stammzelltherapie", "correct": true },
+        { "text": "Zielgerichtete Therapien, z. B. Iressa bei Lungenkrebs", "correct": true },
+        { "text": "Palliativ- und Schmerztherapie", "correct": true }
+      ], "explanation": "Die Strategie richtet sich nach Art, Lage, Größe des Tumors sowie Alter und Allgemeinzustand.", "source": "VL-Skript ZUG Teil 2, S. 154" },
+    { "id": "tbv-gewebe-normal", "type": "multiple", "question": "Wie verhalten sich **normale Zellen im Gewebeverband** laut Skript?",
+      "options": [
+        { "text": "Sie teilen sich, wenn es benötigt wird (z. B. Darmepithel)", "correct": true },
+        { "text": "Sie teilen sich nicht, wenn es nicht notwendig ist", "correct": true },
+        { "text": "Sie sterben, wenn es erforderlich ist (z. B. in der Embryonalentwicklung)", "correct": true },
+        { "text": "Sie teilen sich unbegrenzt mit Telomerase" , "explain": "Unbegrenzte Selbstreplikation ist ein Merkmal von Krebszellen." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 155" },
+    { "id": "tbv-nischen", "type": "matching", "question": "Ordne die Stammzellen ihrer geschützten Nische zu.",
+      "pairs": [
+        { "left": "Hämatopoetische Stammzellen", "right": "Im Knochen, Schutz vor ionisierender Strahlung" },
+        { "left": "Darmepithel-Stammzellen", "right": "Am Boden der Krypten, Schutz vor Mutagenen aus dem Lumen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 155" },
+    { "id": "tbv-membranpumpen", "type": "single", "question": "Warum machen **Membranpumpen** Tumorstammzellen beinahe unverwundbar?",
+      "options": [
+        { "text": "Sie transportieren potenzielle Mutagene und damit auch Chemotherapeutika effizient aus der Zelle", "correct": true },
+        { "text": "Sie pumpen Sauerstoff in die Zelle" },
+        { "text": "Sie verhindern die Angiogenese" },
+        { "text": "Sie aktivieren das Immunsystem" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 155" },
+    { "id": "tbv-fehlerrate", "type": "single", "question": "Wie hoch ist laut Skript die **Fehlerrate** von DNA-Replikation und Reparatur?",
+      "options": [
+        { "text": "Ca. 1 Fehler pro 10^9^ bis 10^10^ kopierten Nukleotiden", "correct": true },
+        { "text": "Ca. 1 Fehler pro 1000 Nukleotiden" },
+        { "text": "Ca. 1 Fehler pro Gen und Zellteilung" },
+        { "text": "Die Replikation ist fehlerfrei" }
+      ], "explanation": "Das entspricht etwa 10^-6^ bis 10^-7^ Mutationen pro Gen und Zellteilung.", "source": "VL-Skript ZUG Teil 2, S. 156" },
+    { "id": "tbv-groesse", "type": "multiple", "question": "Welche Aussagen zu Körpergröße, Lebensstil und Krebsrisiko macht das Skript?",
+      "options": [
+        { "text": "Je mehr Zellen und je öfter sie sich teilen, desto höher das Krebsrisiko", "correct": true },
+        { "text": "Pro 10 cm mehr Körpergröße steigt das Gesamtrisiko um etwa 10 %", "correct": true },
+        { "text": "30–60 % der Krebserkrankungen lassen sich auf den Lebensstil zurückführen", "correct": true },
+        { "text": "Der Lebensstil hat einen kleineren Effekt als die Körpergröße", "explain": "Laut Skript hat der Lebensstil einen viel größeren Effekt." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 156" },
+    { "id": "tbv-angiogenese-hemmer", "type": "multiple", "question": "Welche Substanzen nennt das Skript zur **Verhinderung der Neovaskularisation**?",
+      "options": [
+        { "text": "Endostatin", "correct": true },
+        { "text": "Neovastat", "correct": true },
+        { "text": "Thalidomid", "correct": true },
+        { "text": "Lonafarnib", "explain": "Farnesyltransferase-Hemmer bei Progerie (VL 3)." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 156" }
+  ]
+}

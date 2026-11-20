@@ -1,0 +1,123 @@
+{
+  "chapter": "VL 30 – Chemische Kommunikation (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 2, VL 30 (S. 143–149)",
+  "questions": [
+    { "id": "ckv-oberflaeche-liganden", "type": "single", "question": "Welche Liganden binden typischerweise an **Zelloberflächenrezeptoren**, im Unterschied zu intrazellulären Rezeptoren?",
+      "options": [
+        { "text": "Verschiedene Moleküle, auch große und hydrophile", "correct": true },
+        { "text": "Nur kleine, hydrophobe Moleküle wie Cortisol", "explain": "Diese durchqueren die Membran und binden intrazelluläre Rezeptoren." },
+        { "text": "Nur Ionen" },
+        { "text": "Nur DNA-Fragmente" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 146" },
+    { "id": "ckv-signalproteine", "type": "multiple", "question": "Was können **intrazelluläre Signalproteine** laut Skript mit einem eintreffenden Signal tun?",
+      "options": [
+        { "text": "Weiterleiten", "correct": true },
+        { "text": "Verstärken (Amplifikation)", "correct": true },
+        { "text": "Verteilen (Aufteilung)", "correct": true },
+        { "text": "Zusammenfassen (Integration)", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 146" },
+    { "id": "ckv-ionenkanal", "type": "multiple", "question": "Welche Aussagen zu **ligandengesteuerten Ionenkanälen** treffen laut Skript zu?",
+      "options": [
+        { "text": "Nach Ligandenbindung öffnen sie einen hydrophilen Kanal durch die Membran", "correct": true },
+        { "text": "Sie sind hochselektiv, z. B. nur für Ca^2+^ oder Cl^-^", "correct": true },
+        { "text": "Veränderte Ionenspiegel verändern die Aktivität z. B. ionenbindender Enzyme und spannungsempfindlicher Kanäle", "correct": true },
+        { "text": "Neurone besitzen ligandengesteuerte Kanäle für Neurotransmitter", "correct": true },
+        { "text": "Sie besitzen typischerweise sieben Transmembransegmente", "explain": "Das ist das Kennzeichen von GPCRs." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 146" },
+    { "id": "ckv-gpcr-zahlen", "type": "multiple", "question": "Welche Zahlen zu **GPCRs** nennt das Skript?",
+      "options": [
+        { "text": "Ca. 800 verschiedene Geruchsrezeptoren beim Menschen", "correct": true },
+        { "text": "Ca. 50 % der heutigen Medikamente wirken über einen GPCR", "correct": true },
+        { "text": "25 % der Top-200-Medikamente wirken über einen GPCR", "correct": true },
+        { "text": "GPCRs haben drei Transmembransegmente" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 146" },
+    { "id": "ckv-betablocker", "type": "single", "question": "Wie wirken **Betablocker** laut Skript?",
+      "options": [
+        { "text": "Als Antagonisten natürlicher oder synthetischer β-Sympathomimetika an einem GPCR", "correct": true },
+        { "text": "Als Tyrosinkinase-Inhibitoren" },
+        { "text": "Als Antikörper gegen ErbB2" },
+        { "text": "Als Phosphodiesterase-Hemmer" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 146" },
+    { "id": "ckv-gpcr-ruhe", "type": "single", "question": "In welchem Zustand befindet sich ein GPCR **ohne Ligand**?",
+      "options": [
+        { "text": "Inaktiv, oft bereits mit seinem G-Protein assoziiert", "correct": true },
+        { "text": "Dauerhaft aktiv mit GTP-gebundenem G-Protein" },
+        { "text": "Im Zellkern" },
+        { "text": "Als Dimer mit einer Tyrosinkinase" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 147" },
+    { "id": "ckv-rtk-beispiele", "type": "multiple", "question": "Welche Beispiele für Signalprozesse über **Rezeptor-Tyrosinkinasen** nennt das Skript?",
+      "options": [
+        { "text": "EGF", "correct": true },
+        { "text": "PDGF", "correct": true },
+        { "text": "NGF", "correct": true },
+        { "text": "Cortisol", "explain": "Bindet einen intrazellulären Rezeptor." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 147" },
+    { "id": "ckv-rtk-target", "type": "multiple", "question": "Warum und wie werden **Rezeptor-Tyrosinkinasen** als Drug Targets genutzt?",
+      "options": [
+        { "text": "Deregulierte RTKs sind für das Tumorwachstum relevant", "correct": true },
+        { "text": "Antikörper gegen die extrazelluläre Domäne", "correct": true },
+        { "text": "Selektive Inhibitoren der Kinase", "correct": true },
+        { "text": "Durch Aktivierung der Phosphodiesterase" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ckv-erbb2", "type": "multiple", "question": "Was passiert laut Skript bei **Überexpression von ErbB2**?",
+      "options": [
+        { "text": "Wachstumsfördernde Signale werden verstärkt (Heterodimere mit anderen Partnern)", "correct": true },
+        { "text": "Bei starker Überexpression kommt es zu ligandenunabhängiger Dimerisierung", "correct": true },
+        { "text": "ErbB2 verliert seine Kinaseaktivität" },
+        { "text": "Es entsteht eine Mukoviszidose" }
+      ], "explanation": "Herceptin (Trastuzumab) ist ein in CHO-Zellen produzierter humanisierter Antikörper gegen ErbB2.", "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ckv-phosphatase", "type": "single", "question": "Wodurch wird eine **Phosphorylierung** wieder rückgängig gemacht?",
+      "options": [
+        { "text": "Durch Phosphatasen, die Phosphatgruppen entfernen", "correct": true },
+        { "text": "Durch Kinasen" },
+        { "text": "Gar nicht, Phosphorylierung ist dauerhaft" },
+        { "text": "Durch Adenylcyclase" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ckv-phospho-andockstelle", "type": "single", "question": "Welche Wirkung kann eine Phosphorylierung laut Skript **neben** einer Formänderung haben?",
+      "options": [
+        { "text": "Sie kann eine Andockstelle für Interaktionspartner darstellen", "correct": true },
+        { "text": "Sie entfernt negative Ladung von der Proteinoberfläche", "explain": "Eine Phosphatgruppe bringt negative Ladung auf die Oberfläche." },
+        { "text": "Sie spaltet das Protein" },
+        { "text": "Sie bindet das Protein an die DNA" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 148" },
+    { "id": "ckv-ca-konz", "type": "single", "question": "Wie hoch ist die **Ca^2+^-Konzentration im Zytosol** laut Skript?",
+      "options": [
+        { "text": "Sehr niedrig, ca. 10^-4^ mM", "correct": true },
+        { "text": "Ca. 140 mM" },
+        { "text": "Ca. 2 mM, gleich wie extrazellulär" },
+        { "text": "Ca. 10 mM" }
+      ], "explanation": "Ionenpumpen in der Plasmamembran sind kontinuierlich aktiv, Ca^2+^ wird u. a. im ER gespeichert.", "source": "VL-Skript ZUG Teil 2, S. 149" },
+    { "id": "ckv-ca-antwort", "type": "matching", "question": "Ordne die Wirkung der Ca^2+^-Signalisierung dem Zelltyp zu.",
+      "pairs": [
+        { "left": "β-Zellen des Pankreas", "right": "Freisetzung von Insulin" },
+        { "left": "Muskelzellen", "right": "Kontraktion" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 149" },
+    { "id": "ckv-messenger-enzyme", "type": "matching", "question": "Ordne die Enzyme ihrer Rolle in der Second-Messenger-Signalisierung zu.",
+      "pairs": [
+        { "left": "Adenylcyclase", "right": "Wandelt ATP in cAMP um" },
+        { "left": "Phosphodiesterase", "right": "Bricht den cAMP-Ring auf, es entsteht AMP" },
+        { "left": "Phospholipase C", "right": "Spaltet PIP~2~ in DAG und IP~3~" },
+        { "left": "Lösliche Guanylatcyclase", "right": "Zyklisiert GTP zu cGMP (NO-Signalweg)" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 147, 149" },
+    { "id": "ckv-kinasen-messenger", "type": "matching", "question": "Welche Kinase wird durch welchen Botenstoff aktiviert?",
+      "pairs": [
+        { "left": "Proteinkinase A", "right": "cAMP" },
+        { "left": "Proteinkinase C", "right": "DAG" },
+        { "left": "Proteinkinase G", "right": "cGMP" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 147, 149" },
+    { "id": "ckv-ach-herz-skelett", "type": "single", "question": "Warum hat **Acetylcholin** im Skelett- und im Herzmuskel entgegengesetzte Effekte?",
+      "options": [
+        { "text": "Die Zelltypen bilden verschiedene Acetylcholinrezeptoren (ligandengesteuerter Ionenkanal vs. GPCR)", "correct": true },
+        { "text": "Acetylcholin wird im Herzen zu einem anderen Molekül umgebaut" },
+        { "text": "Der Herzmuskel hat keine Rezeptoren für Acetylcholin" },
+        { "text": "Im Skelettmuskel wirkt Acetylcholin über einen intrazellulären Rezeptor" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 149" },
+    { "id": "ckv-zellkommunikation-zweck", "type": "multiple", "question": "Wofür ist Zellkommunikation in **vielzelligen Organismen** laut Skript nötig?",
+      "options": [
+        { "text": "Embryonalentwicklung", "correct": true },
+        { "text": "Wachstum", "correct": true },
+        { "text": "Verteidigung", "correct": true },
+        { "text": "Physiologie und Verhalten", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 2, S. 145" }
+  ]
+}
