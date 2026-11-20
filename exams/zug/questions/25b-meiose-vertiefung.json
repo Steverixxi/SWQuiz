@@ -1,0 +1,91 @@
+{
+  "chapter": "VL 25 – Zellteilung II: Meiose (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 2, VL 25 (S. 90–104)",
+  "questions": [
+    { "id": "mev-replikation-teilung", "type": "matching", "question": "Ordne die Zahl der DNA-Replikationen und Zellteilungen zu.",
+      "pairs": [
+        { "left": "Mitose", "right": "Eine DNA-Replikation, eine Zellteilung" },
+        { "left": "Meiose", "right": "Eine DNA-Replikation, zwei Zellteilungen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 94, 100" },
+    { "id": "mev-bivalent", "type": "single", "question": "Was ist ein **Bivalent**?",
+      "options": [
+        { "text": "Die 4-Chromatid-Struktur eines gepaarten homologen Chromosomenpaars in der Prophase I", "correct": true },
+        { "text": "Ein Chromosom mit zwei Centromeren" },
+        { "text": "Eine Zelle mit zwei Zellkernen" },
+        { "text": "Das Paar aus Eizelle und Polkörperchen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 95" },
+    { "id": "mev-synaptonemal", "type": "single", "question": "Welche Funktion hat der **synaptonemale Komplex**?",
+      "options": [
+        { "text": "Er hält die homologen Chromosomen reißverschlussartig zusammen", "correct": true },
+        { "text": "Er verbindet das Centromer mit den Mikrotubuli", "explain": "Das ist das Kinetochor." },
+        { "text": "Er hält die Schwesterchromatiden am Centromer zusammen" },
+        { "text": "Er teilt das Zytoplasma" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 95" },
+    { "id": "mev-kinetochor-meiose1", "type": "single", "question": "Wie heften sich die Kinetochore in der **Meiose I** an den Spindelapparat?",
+      "options": [
+        { "text": "Die Kinetochore beider Chromatiden eines Chromosoms heften sich an denselben Spindelpol", "correct": true },
+        { "text": "Die Kinetochore der Schwesterchromatiden heften sich an entgegengesetzte Pole", "explain": "So ist es in Mitose und Meiose II." },
+        { "text": "Es bilden sich in der Meiose I keine Kinetochore" },
+        { "text": "Nur ein Chromosom pro Paar heftet sich an" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 96, 99" },
+    { "id": "mev-telophase1", "type": "multiple", "question": "Welche Aussagen zum Zustand **nach der Telophase I** treffen zu?",
+      "options": [
+        { "text": "Jede Zelle hat einen einfachen Chromosomensatz (23 Chromosomen)", "correct": true },
+        { "text": "Die Chromosomen bestehen noch aus 2 Chromatiden", "correct": true },
+        { "text": "Es sind zwei haploide Zellen entstanden", "correct": true },
+        { "text": "Die Zellen sind diploid mit 46 einchromatidigen Chromosomen" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 97" },
+    { "id": "mev-telophase2", "type": "multiple", "question": "Was passiert in der **Telophase II**?",
+      "options": [
+        { "text": "Zellkerne bilden sich", "correct": true },
+        { "text": "Chromosomen dekondensieren", "correct": true },
+        { "text": "Die Zytokinese setzt ein", "correct": true },
+        { "text": "Crossing-over findet statt", "explain": "Crossing-over findet in der Prophase I statt." }
+      ], "explanation": "Meiose II läuft in beiden Zellen aus der Meiose I ab, am Ende stehen 4 haploide Zellen.", "source": "VL-Skript ZUG Teil 2, S. 99" },
+    { "id": "mev-oogenese", "type": "order", "question": "Bringe die Stadien der **Oogenese** in die richtige Reihenfolge.",
+      "items": [
+        "Urkeimzellen teilen sich mitotisch zu diploiden Oogonien",
+        "Oogonien bilden primäre Oozyten (Oozyten I), die in der Prophase I pausieren",
+        "Ab der Pubertät schließt ein Follikel pro Zyklus die Meiose I ab",
+        "Sekundäre Oozyte (Oozyte II) stoppt in der Metaphase II und wird beim Eisprung freigesetzt",
+        "Abschluss der Meiose II nur bei Befruchtung"
+      ], "source": "VL-Skript ZUG Teil 2, S. 102" },
+    { "id": "mev-gameten-produkte", "type": "matching", "question": "Ordne die Produkte bzw. den Rhythmus der Gametogenese zu.",
+      "pairs": [
+        { "left": "Aus einer Spermatozyte I", "right": "Vier Spermatiden" },
+        { "left": "Aus einer Oozyte I", "right": "Eine Eizelle und 2–3 Polkörper" },
+        { "left": "Spermien", "right": "Werden kontinuierlich gebildet" },
+        { "left": "Eizellen", "right": "Werden zyklisch gebildet" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 101–102" },
+    { "id": "mev-meiose-eintritt", "type": "matching", "question": "Wann treten die Keimzellen in die Meiose ein?",
+      "pairs": [
+        { "left": "Weiblich", "right": "In der Embryonalentwicklung" },
+        { "left": "Männlich", "right": "Mit Beginn der Pubertät" }
+      ], "explanation": "Cyp26b1 hemmt die Meiose in männlichen Gonaden bis zur Pubertät, STRA8 leitet sie in beiden Geschlechtern ein.", "source": "VL-Skript ZUG Teil 2, S. 103" },
+    { "id": "mev-spermatozyten", "type": "matching", "question": "Ordne die Meioseschritte der Spermatogenese zu.",
+      "pairs": [
+        { "left": "Meiose I", "right": "In primären Spermatozyten (Spermatozyten I)" },
+        { "left": "Meiose II", "right": "In sekundären Spermatozyten (Spermatozyten II)" },
+        { "left": "Ergebnis der Meiose II", "right": "Haploide Spermatiden, die zu Spermien ausdifferenzieren" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 102" },
+    { "id": "mev-aneuploidie", "type": "matching", "question": "Ordne den Zeitpunkt der Nondisjunction dem, was nicht getrennt wird, zu.",
+      "pairs": [
+        { "left": "Nondisjunction in Meiose I", "right": "Homologe Chromosomen" },
+        { "left": "Nondisjunction in Meiose II", "right": "Schwesterchromatiden" }
+      ], "explanation": "Die Folge ist eine abweichende Chromosomenzahl (Aneuploidie).", "source": "VL-Skript ZUG Teil 2, S. 103" },
+    { "id": "mev-urkeimzellen", "type": "single", "question": "Wann beginnt die **Gametogenese** laut Skript?",
+      "options": [
+        { "text": "Schon sehr früh in der Embryonalentwicklung, Urkeimzellen wandern in die Gonadenanlagen ein", "correct": true },
+        { "text": "Erst mit der Pubertät in beiden Geschlechtern" },
+        { "text": "Erst bei der Befruchtung" },
+        { "text": "Im Erwachsenenalter nach Hormonstimulation" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 101" },
+    { "id": "mev-centromer", "type": "single", "question": "Was hält die Schwesterchromatiden in der **Anaphase I** zusammen, sodass sie gemeinsam zum selben Pol wandern?",
+      "options": [
+        { "text": "Die Verbindung an den Centromeren", "correct": true },
+        { "text": "Die Chiasmata", "explain": "Die Chiasmata werden in der Anaphase I aufgelöst." },
+        { "text": "Der synaptonemale Komplex" },
+        { "text": "Gap junctions" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 97" }
+  ]
+}
