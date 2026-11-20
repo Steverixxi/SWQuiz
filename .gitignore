@@ -4,3 +4,4 @@ swquiz.config.json
 .DS_Store
 *.log
 .swquiz-sync.tgz
+exams/_alt/

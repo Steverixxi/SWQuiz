@@ -58,3 +58,14 @@ test('validation reports readable errors', () => {
   assert.match(validateQuestion({ id: 'x', type: 'image', question: 'q', image: 'a.jpg', labels: [{ n: 1, x: 120, y: 5, answer: 'z' }] }, 'f')[0], /0–100/);
   assert.match(validateQuestion({ id: 'x', type: 'nope' }, 'f')[0], /type/);
 });
+
+test('formerIds keeps progress of renamed or merged folders', () => {
+  const { root, mk } = setup();
+  const metaFile = path.join(root, 'exams', 'demo', 'meta.json');
+  fs.writeFileSync(metaFile, JSON.stringify({ exam: 'Demo', topic: 'Thema', date: '2099-01-01', formerIds: ['alt'] }));
+  const a = mk('mac');
+  a.progress.addReview({ card: 'alt/q0', rating: 4 });
+  const c = a.dashboard().exams[0].counts;
+  assert.equal(c.new, 2);
+  assert.equal(c.young, 1);
+});

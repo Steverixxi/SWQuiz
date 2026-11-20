@@ -32,7 +32,15 @@ export class StudyService {
       if (!exam || !exam.questions.some((q) => q.cardId === cardId)) return null;
       return { examDate: exam.date };
     };
-    const { states, history } = this.progress.states(contextFor, settings);
+    // "formerIds" in meta.json keeps progress when a folder is renamed or merged
+    const alias = new Map();
+    for (const e of exams) for (const old of e.meta.formerIds ?? []) alias.set(old, e.id);
+    const resolve = (cardId) => {
+      const i = cardId.indexOf('/');
+      const to = alias.get(cardId.slice(0, i));
+      return to ? `${to}${cardId.slice(i)}` : cardId;
+    };
+    const { states, history } = this.progress.states(contextFor, settings, resolve);
     const dayStart = studyDayStart(now, settings);
     return { now, settings, exams, byId, states, history, dayStart };
   }

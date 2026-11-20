@@ -27,6 +27,9 @@ jedes Themas ausrichten. Inhalte sind reine JSON-Dateien. **Du musst keinen Code
    - `date` = Prüfungstag, **immer** `JJJJ-MM-TT`. Danach richtet sich das Timing.
    - optional: `color` (Hex), `description`, `archived: true` (blendet das Thema
      aus „Alles Fällige“ aus), `shuffle: false` (Antworten nicht mischen).
+   - optional: `formerIds: ["alter-ordner"]`, wenn ein Ordner umbenannt oder mit
+     anderen zusammengelegt wurde. Der Lernfortschritt unter dem alten Namen bleibt
+     erhalten, solange die Fragen-`id`s gleich bleiben.
 3. Lege Fragen als `.json` in `questions/` ab (beliebig viele Dateien, Unterordner
    erlaubt, Dateien werden alphabetisch geladen, also gern `01-…`, `02-…`).
 4. Bilder nach `images/`, Lernunterlagen als Markdown nach `notes/`.

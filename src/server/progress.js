@@ -84,18 +84,19 @@ export class ProgressStore {
    * @param {(cardId: string) => {examDate: string|null} | null} contextFor
    * @param {object} settings
    */
-  states(contextFor, settings) {
+  states(contextFor, settings, resolve = (id) => id) {
     const entries = this.load();
     const undone = new Set(entries.filter((e) => e.undo).map((e) => `${e.dev}:${e.undo}`));
     const states = new Map();
     const history = [];
     for (const e of entries) {
       if (!e.r || undone.has(`${e.dev}:${e.t}`)) continue;
-      const ctx = contextFor(e.card);
+      const card = resolve(e.card);
+      const ctx = contextFor(card);
       if (!ctx) continue; // card was deleted
-      const before = states.get(e.card) ?? newCardState();
-      states.set(e.card, review(before, e.r, e.t, ctx, settings));
-      history.push({ t: e.t, card: e.card, r: e.r, wasNew: before.status === 'new' });
+      const before = states.get(card) ?? newCardState();
+      states.set(card, review(before, e.r, e.t, ctx, settings));
+      history.push({ t: e.t, card, r: e.r, wasNew: before.status === 'new' });
     }
     return { states, history };
   }
