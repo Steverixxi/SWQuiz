@@ -1,0 +1,343 @@
+{
+  "chapter": "VL 9 – Zellkultur und klinisch-mikrobiologische Techniken (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 9 (S. 103–126)",
+  "questions": [
+    { "id": "zkv-definition", "type": "single", "question": "Wie definiert das Skript **Zellkultur**?",
+      "options": [
+        { "text": "Kultivierung tierischer oder pflanzlicher Zellen in einem Nährmedium außerhalb eines Organismus (in vitro) unter kontrollierten Bedingungen", "correct": true },
+        { "text": "Untersuchung von Zellen ausschließlich im lebenden Organismus (in vivo)", "explain": "Zellkultur ist gerade in vitro." },
+        { "text": "Anzucht von Bakterien auf Agarplatten", "explain": "Das ist Bakterienkultivierung." },
+        { "text": "Fixierung und Färbung von Gewebeschnitten", "explain": "Das ist Histologie." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 104" },
+    { "id": "zkv-anwendung", "type": "multiple", "question": "Welche **Anwendungsgebiete** der Zellkultur nennt das Skript?",
+      "options": [
+        { "text": "Testsysteme für neue Substanzen (Effekt, Wirkprinzip, Toxizität)", "correct": true },
+        { "text": "Untersuchung von Stoffwechsel, Wachstum und zellulären Prozessen", "correct": true },
+        { "text": "Nachweis von Virusinfektionen", "correct": true },
+        { "text": "Herstellung biotechnischer Produkte: Antikörper, Impfstoffe, Enzyme", "correct": true },
+        { "text": "Ersatz jeder klinischen Studie am Menschen", "explain": "Zellkulturen sind Modelle, keine vollständige Ersatzmethode." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 104" },
+    { "id": "zkv-primaer-nachteile", "type": "multiple", "question": "Welche **Nachteile** von Primärkulturen nennt das Skript?",
+      "options": [
+        { "text": "Begrenzte Teilungsrate (~15)", "correct": true },
+        { "text": "Kontaktinhibition", "correct": true },
+        { "text": "Sehr sensibel, teils komplexe Isolation, teure Reagenzien und Medien", "correct": true },
+        { "text": "Ethik- bzw. Tierversuchsantrag nötig, eingeschränkte Reproduzierbarkeit", "correct": true },
+        { "text": "Künstliche Veränderungen durch Immortalisierung", "explain": "Gerade das fehlt bei Primärkulturen; es ist ein Nachteil der Zelllinien." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 104" },
+    { "id": "zkv-primaer-zelllinie", "type": "matching", "question": "Ordne die Eigenschaft der Kulturform zu.",
+      "pairs": [
+        { "left": "Primärkultur", "right": "Behält physiologische Eigenschaften, ~15 Teilungen" },
+        { "left": "Zelllinie", "right": "Immortalisiert, > 300 Teilungen, kommerziell erhältlich" },
+        { "left": "3D-Zellkultur", "right": "Brücke zwischen 2D-Kultur und In-vivo-Modell" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 104–106" },
+    { "id": "zkv-immortalisierung", "type": "single", "question": "Wie entsteht laut Skript eine **Zelllinie**?",
+      "options": [
+        { "text": "Zellen einer Gewebeart werden z. B. durch ein Virus immortalisiert, der Zellzyklus wird dereguliert.", "correct": true },
+        { "text": "Durch wiederholtes Einfrieren bei −196 °C", "explain": "Kryokonservierung dient der Lagerung." },
+        { "text": "Durch enzymatischen Verdau mit Collagenase", "explain": "Damit werden Zellen isoliert (Primärkultur)." },
+        { "text": "Durch Zugabe von Phenolrot" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 104" },
+    { "id": "zkv-mrc5-a549", "type": "matching", "question": "Ordne die im Skript gezeigten humanen Zellen ihrer Herkunft zu.",
+      "pairs": [
+        { "left": "MRC-5", "right": "Lungenfibroblasten" },
+        { "left": "A549", "right": "Lungenadenokarzinom" }
+      ], "distractors": ["Zervixkarzinom"], "source": "VL-Skript ZUG Teil 1, S. 104" },
+    { "id": "zkv-zelllinie-vorteile", "type": "multiple", "question": "Welche **Vorteile** von Zelllinien nennt das Skript?",
+      "options": [
+        { "text": "Unbegrenzte Teilungsrate (> 300)", "correct": true },
+        { "text": "Unabhängiger von Wachstumsfaktoren und Serum", "correct": true },
+        { "text": "Schnelle, leichte, kostengünstige Kultivierung; reproduzierbar", "correct": true },
+        { "text": "Geeignet für Hochdurchsatz-Screenings von Medikamenten und Toxizität", "correct": true },
+        { "text": "Immer normale Chromosomenzahl", "explain": "Zelllinien zeigen oft Chromosomenaberrationen und Aneuploidien." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 105" },
+    { "id": "zkv-isolation-pruefen", "type": "single", "question": "Was betont das Skript nach der Zellisolation als **WICHTIG**?",
+      "options": [
+        { "text": "Die Überprüfung der Zellen", "correct": true },
+        { "text": "Sofortiges Einfrieren bei −80 °C", "explain": "Über −70 °C verlieren Zellen sogar schnell an Vitalität." },
+        { "text": "Zugabe von Antibiotika in hoher Dosis" },
+        { "text": "Kultur bei Raumtemperatur" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 105" },
+    { "id": "zkv-adhaerent-beispiele", "type": "multiple", "question": "Welche Zellen wachsen laut Skript **adhärent**?",
+      "options": [
+        { "text": "Epithelzellen", "correct": true },
+        { "text": "Endothelzellen", "correct": true },
+        { "text": "Fibroblasten", "correct": true },
+        { "text": "Muskelzellen", "correct": true },
+        { "text": "Lymphozyten", "explain": "Diese flotieren in Suspensionskultur." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 106" },
+    { "id": "zkv-3d-nachteile", "type": "multiple", "question": "Welche **Nachteile** der 3D-Zellkultur nennt das Skript?",
+      "options": [
+        { "text": "Teuer und zeitintensiv", "correct": true },
+        { "text": "Keine einfache Handhabung", "correct": true },
+        { "text": "Geringe Reproduzierbarkeit (Patienten, Variabilität der Stammzellen)", "correct": true },
+        { "text": "Verlust der Tumorheterogenität", "explain": "Erhalt der Tumorheterogenität ist ein Vorteil." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 106" },
+    { "id": "zkv-3d-formen", "type": "multiple", "question": "Welche Formen der 3D-Zellkultur zeigt das Skript?",
+      "options": [
+        { "text": "Spheroide", "correct": true },
+        { "text": "Organoide (z. B. Gehirn-Organoid mit Blutgefäßen)", "correct": true },
+        { "text": "Organ-on-a-chip", "correct": true },
+        { "text": "Suspensionskultur von Lymphozyten", "explain": "Das ist eine nicht adhärente 2D-Kultur." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 107" },
+    { "id": "zkv-gefaesse", "type": "multiple", "question": "Was gilt laut Skript für **Zellkulturgefäße**?",
+      "options": [
+        { "text": "Unbehandelt oder beschichtet (z. B. Gelatine, Kollagen)", "correct": true },
+        { "text": "Verschiedene Größen von 175 cm^2^ bis 0,02 cm^2^", "correct": true },
+        { "text": "Beispiele: Petrischale, Multiwell-Platten, Zellkulturflaschen", "correct": true },
+        { "text": "Sie dürfen nie beschichtet sein." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 108" },
+    { "id": "zkv-inkubator-feuchte", "type": "single", "question": "Welche **Luftfeuchtigkeit** gibt das Skript für die Zellkultur an?",
+      "options": [
+        { "text": "95 %", "correct": true },
+        { "text": "5 %", "explain": "5 % ist der CO~2~-Anteil." },
+        { "text": "37 %", "explain": "37 ist die Temperatur in °C." },
+        { "text": "50 %" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 108" },
+    { "id": "zkv-bsl-definitionen", "type": "matching", "question": "Ordne die Definition der biologischen Sicherheitsstufe zu (§ 3 Biostoffverordnung).",
+      "pairs": [
+        { "left": "Stufe 1", "right": "Krankheit beim Menschen unwahrscheinlich" },
+        { "left": "Stufe 2", "right": "Kann Krankheit hervorrufen, Verbreitung unwahrscheinlich, Behandlung normalerweise möglich" },
+        { "left": "Stufe 3", "right": "Schwere Krankheit, Verbreitung möglich, Behandlung normalerweise möglich" },
+        { "left": "Stufe 4", "right": "Schwere Krankheit, Verbreitung u. U. groß, Behandlung normalerweise nicht möglich" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 109" },
+    { "id": "zkv-bsl1-beispiele", "type": "multiple", "question": "Welche Beispiele nennt das Skript für **Stufe 1**?",
+      "options": [
+        { "text": "Bäckerhefe (Saccharomyces cerevisiae)", "correct": true },
+        { "text": "Lactobacillen der Joghurtherstellung", "correct": true },
+        { "text": "Escherichia coli", "explain": "E. coli wird im Skript bei Stufe 2 genannt." },
+        { "text": "Candida albicans", "explain": "Stufe 2." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 109" },
+    { "id": "zkv-bsl2-beispiele", "type": "matching", "question": "Ordne die Beispiele für **Stufe 2** ihrer Erregergruppe zu.",
+      "pairs": [
+        { "left": "Bakterien", "right": "Clostridien, Streptokokken, Salmonellen, E. coli" },
+        { "left": "Viren", "right": "Herpes-simplex-, Mumps-, Noro-, Rhinoviren" },
+        { "left": "Pilze", "right": "Candida albicans, Aspergillus flavus" },
+        { "left": "Parasiten", "right": "Fischbandwurm, Spulwurm, Leberegel" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 109" },
+    { "id": "zkv-bsl3-beispiele", "type": "multiple", "question": "Welche Erreger nennt das Skript für **Stufe 3**?",
+      "options": [
+        { "text": "Mycobacterium tuberculosis", "correct": true },
+        { "text": "Bacillus anthracis, Yersinia pestis", "correct": true },
+        { "text": "HIV-1 und HIV-2, Hepatitis-C-Virus", "correct": true },
+        { "text": "Influenza-A-Virus H5N1 (Vogelgrippe)", "correct": true },
+        { "text": "Ebola- und Marburg-Virus", "explain": "Stufe 4." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 109" },
+    { "id": "zkv-bsl4-nur-viren", "type": "single", "question": "Welche Erregergruppe findet sich laut Skript in **Stufe 4**?",
+      "options": [
+        { "text": "Ausschließlich Viren (z. B. Ebola, Lassa, Marburg, Variola)", "correct": true },
+        { "text": "Bakterien und Pilze", "explain": "Diese nennt das Skript in Stufe 2 und 3." },
+        { "text": "Nur Parasiten" },
+        { "text": "Bäckerhefe", "explain": "Stufe 1." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 109" },
+    { "id": "zkv-steril-regeln", "type": "multiple", "question": "Was gehört laut Skript zum **sterilen Arbeiten**?",
+      "options": [
+        { "text": "Flüssigkeiten steril filtrieren (sofern nicht steril gekauft) und aliquotieren", "correct": true },
+        { "text": "Nicht über offene Schalen oder Flaschen hantieren", "correct": true },
+        { "text": "Alles vor Einbringen in die Werkbank auf Sterilität prüfen, Geräte und Flaschen desinfizieren", "correct": true },
+        { "text": "Vor jedem Arbeitsschritt Zellen und Medium auf Kontaminationen kontrollieren", "correct": true },
+        { "text": "Gefäße offen lassen, damit Gas austauschen kann", "explain": "Alles immer sofort wieder verschließen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 110–111" },
+    { "id": "zkv-kontam-ursachen", "type": "multiple", "question": "Welche Ursachen für **Kontaminationen** nennt das Skript?",
+      "options": [
+        { "text": "Berührung der Pipettenspitze mit Flasche, Labormantel oder Oberflächen", "correct": true },
+        { "text": "Aerosole durch Sprechen, Niesen oder Husten", "correct": true },
+        { "text": "Alte, schmutzige oder beschädigte Filter in Werkbank oder Raumlüftung", "correct": true },
+        { "text": "Verschüttete Flüssigkeiten", "correct": true },
+        { "text": "Einschalten der UV-Lampe nach der Arbeit", "explain": "Das dient der Sterilisation." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 111" },
+    { "id": "zkv-kryo-temperaturen", "type": "matching", "question": "Ordne die Temperatur ihrer Bedeutung für gelagerte Zellen zu.",
+      "pairs": [
+        { "left": "Über −70 °C", "right": "Zellen verlieren schnell an Vitalität" },
+        { "left": "Unter −120 °C", "right": "Alle biochemischen Reaktionen stehen still" },
+        { "left": "−196 °C", "right": "Kryokonservierung in Flüssigstickstoff" },
+        { "left": "−1 °C/min", "right": "Kontrolliert langsame Einfrierrate („Mr. Frosty“)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 111" },
+    { "id": "zkv-bakt-kontam", "type": "multiple", "question": "Woran erkennt man laut Skript eine **bakterielle** Kontamination der Zellkultur?",
+      "options": [
+        { "text": "Sehr kleine runde oder stäbchenförmige Strukturen mit Eigenbewegung", "correct": true },
+        { "text": "Trübes, meist gelbliches Medium", "correct": true },
+        { "text": "Absinken des pH-Werts im Medium", "correct": true },
+        { "text": "Lange, fädige Hyphen", "explain": "Typisch für Pilze." },
+        { "text": "Keine pH-Änderung, Bildung von Riesenzellen", "explain": "Typisch für Viren." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 112–113" },
+    { "id": "zkv-myco-zahlen", "type": "matching", "question": "Ordne die Häufigkeit eines **Mycoplasmen**-Befalls laut Skript zu.",
+      "pairs": [
+        { "left": "Primärkulturen", "right": "0–4 %" },
+        { "left": "Zelllinien", "right": "60–90 %" },
+        { "left": "Alle Zellkulturen in Deutschland", "right": "ca. 40 %" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 112" },
+    { "id": "zkv-myco-nachweis", "type": "multiple", "question": "Wie werden **Mycoplasmen** laut Skript nachgewiesen?",
+      "options": [
+        { "text": "Durch PCR", "correct": true },
+        { "text": "Durch Hoechst- oder DAPI-Färbung (Inkubation 2–3 Wochen)", "correct": true },
+        { "text": "Im Durchlichtmikroskop an ihrer Zellwand", "explain": "Sie sind im Durchlichtmikroskop nicht sichtbar und haben keine Zellwand." },
+        { "text": "Durch Sterilfiltration", "explain": "Mycoplasmen können Sterilfilter passieren." }
+      ], "explanation": "Jede neue Zelllinie sollte getestet werden.", "source": "VL-Skript ZUG Teil 1, S. 112" },
+    { "id": "zkv-myco-forschung", "type": "multiple", "question": "Welche Auswirkungen auf die **Forschung** haben Mycoplasmen-Kontaminationen laut Skript?",
+      "options": [
+        { "text": "Validität", "correct": true },
+        { "text": "Reproduzierbarkeit", "correct": true },
+        { "text": "Signifikanz von Forschungsarbeiten", "correct": true },
+        { "text": "Sie haben keine Auswirkungen, weil sie unsichtbar sind." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 113" },
+    { "id": "zkv-pilze-quelle", "type": "multiple", "question": "Welche Quellen und Merkmale nennt das Skript für **Pilz- und Hefe**-Kontaminationen?",
+      "options": [
+        { "text": "Wasserbäder zum Erwärmen der Medien", "correct": true },
+        { "text": "Verkeimte Raumluft, z. B. offenes Fenster im Sommer", "correct": true },
+        { "text": "Lange fädige Hyphen; Hefezellen klein, rund, oval", "correct": true },
+        { "text": "Übertragung über Rinderserum", "explain": "Das nennt das Skript für Pestiviren." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 112" },
+    { "id": "zkv-kreuzkontam-anteil", "type": "single", "question": "Wie hoch ist laut Skript der Anteil „falscher Zellen“ durch **Kreuzkontamination** weltweit?",
+      "options": [
+        { "text": "Bis zu 20 % aller Zellkulturen", "correct": true },
+        { "text": "Unter 1 %" },
+        { "text": "60–90 %", "explain": "Das ist der Mycoplasmen-Befall bei Zelllinien." },
+        { "text": "100 %" }
+      ], "explanation": "Davon sind laut ICLAC 2016 24 % HeLa-Zellen.", "source": "VL-Skript ZUG Teil 1, S. 113" },
+    { "id": "zkv-material", "type": "multiple", "question": "Welche **Untersuchungsmaterialien** nennt das Skript für die bakterielle Diagnostik?",
+      "options": [
+        { "text": "Blut, Urin, Stuhl", "correct": true },
+        { "text": "Abstriche von Haut, Wunden, Rachen oder Genitalbereich", "correct": true },
+        { "text": "Sekrete (z. B. Sputum) und Liquor", "correct": true },
+        { "text": "Gewebe, Punktate oder Spülungen", "correct": true }
+      ], "explanation": "Voraussetzung ist immer die sterile Verarbeitung der Proben.", "source": "VL-Skript ZUG Teil 1, S. 115" },
+    { "id": "zkv-morphologie", "type": "matching", "question": "Ordne das morphologische Kriterium der Bakteriendiagnostik seinen Beispielen zu.",
+      "pairs": [
+        { "left": "Form", "right": "Kokken, Stäbchen, Spirillen" },
+        { "left": "Zellverbände", "right": "Haufen, Ketten, Diplokokken" },
+        { "left": "Zusätzliche Merkmale", "right": "Kapsel, Sporen, Flagellen" },
+        { "left": "Färbung", "right": "Gram-Färbung (Zellwandaufbau)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 115" },
+    { "id": "zkv-enzyme-zuordnung", "type": "matching", "question": "Ordne die bakteriellen Enzyme ihrer Stoffwechselkategorie zu (laut Skript).",
+      "pairs": [
+        { "left": "Oxidase, Katalase", "right": "Enzyme der Atmungskette" },
+        { "left": "Kollagenase", "right": "Enzym des Proteinstoffwechsels" },
+        { "left": "Urease", "right": "Enzym des Aminosäurenstoffwechsels" },
+        { "left": "Hämolysine, DNase, Lipase", "right": "Andere Enzyme" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 115" },
+    { "id": "zkv-antigen-einteilung", "type": "matching", "question": "Ordne die Einteilung nach Zellwand-Antigenen zu.",
+      "pairs": [
+        { "left": "Kauffmann-White-Einteilung", "right": "Salmonellen (Flagellen, LPS)" },
+        { "left": "Lancefield-Einteilung", "right": "Streptokokken (Polysaccharide)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 115" },
+    { "id": "zkv-maldi", "type": "single", "question": "Was wird bei der **MALDI-TOF**-Massenspektrometrie zur Bakterienidentifikation charakterisiert?",
+      "options": [
+        { "text": "Speziesspezifische ribosomale Proteinprofile, abgeglichen mit großen Datenbanken", "correct": true },
+        { "text": "Die Hämolysefähigkeit auf Blutagar" },
+        { "text": "Sequenzen von PCR-Produkten", "explain": "Das ist der genetische Ansatz (Sequenzierung)." },
+        { "text": "Antikörper im Patientenserum", "explain": "Das ist Serologie." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 115" },
+    { "id": "zkv-medien-fluessig-fest", "type": "matching", "question": "Ordne die Eigenschaft der Medienform zu.",
+      "pairs": [
+        { "left": "Flüssigmedium", "right": "Kein Geliermittel, Anreicherung, Titerverfahren" },
+        { "left": "Fester Nährboden", "right": "Meist Agar, Isolierung, Quantifizierung über Koloniezahl" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 116" },
+    { "id": "zkv-naehrmedium", "type": "matching", "question": "Ordne den Bestandteil eines bakteriellen Nährmediums seiner Funktion zu.",
+      "pairs": [
+        { "left": "Kohlenhydrate (Zucker, Laktose, Malz)", "right": "Energiequelle" },
+        { "left": "Proteinhydrolysate", "right": "Stickstoffquelle" },
+        { "left": "Anorganische Puffer", "right": "pH-Stabilisierung" },
+        { "left": "Antibiotika", "right": "Optionaler Hemmstoff" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 116" },
+    { "id": "zkv-lactobacillus-45", "type": "single", "question": "Welche Bakterien vermehren sich laut Skript noch bei **45 °C**?",
+      "options": [
+        { "text": "Einige Lactobacillus-Stämme", "correct": true },
+        { "text": "Listerien", "explain": "Listerien und Yersinien wachsen noch bei 4–7 °C." },
+        { "text": "Mycoplasmen" },
+        { "text": "Legionellen", "explain": "Legionellen werden als langsam wachsend genannt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 116" },
+    { "id": "zkv-ausplattieren", "type": "single", "question": "Womit und wozu werden Bakterien **ausplattiert**?",
+      "options": [
+        { "text": "Mit Drigalskispatel oder Glasperlen, u. a. zur Bestimmung der Lebendzellzahl", "correct": true },
+        { "text": "Mit der Impföse zur Vereinzelung", "explain": "Das ist der Bakterienausstrich." },
+        { "text": "Mit Filterpapierplättchen zur Resistenzprüfung", "explain": "Das ist der Agardiffusionstest." },
+        { "text": "Mit Phenolrot zur pH-Messung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 117" },
+    { "id": "zkv-reinkultur", "type": "single", "question": "Warum ist die Isolation einzelner Bakterienzellen (**Reinkultur**) notwendig?",
+      "options": [
+        { "text": "Zur korrekten Erregeridentifikation (Klone der ursprünglichen Zelle)", "correct": true },
+        { "text": "Um die Generationszeit zu verlängern" },
+        { "text": "Um Mycoplasmen sichtbar zu machen" },
+        { "text": "Damit Antibiotika besser diffundieren" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 117" },
+    { "id": "zkv-selektiv-hemmstoffe", "type": "multiple", "question": "Welche **Hemmstoffe** nennt das Skript für Selektivmedien?",
+      "options": [
+        { "text": "Antibiotika", "correct": true },
+        { "text": "Farbstoffe", "correct": true },
+        { "text": "Citrate", "correct": true },
+        { "text": "Gallensalz", "correct": true },
+        { "text": "Säugetierblut", "explain": "Blut dient im Blutagar zur Differenzierung (Hämolyse)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 119" },
+    { "id": "zkv-selektivmedien-tabelle", "type": "matching", "question": "Ordne das Nährmedium dem Erreger zu, für den es laut Skript gedacht ist.",
+      "pairs": [
+        { "left": "CNA-Agar (Colistin, Nalidixinsäure)", "right": "Staphylococcus, Streptococcus" },
+        { "left": "CIN-Agar (Cefsulodin, Irgasan, Novobiocin)", "right": "Yersinia" },
+        { "left": "TCBS-Agar (Thiosulfat, Citrat, Gallensalze, Saccharose)", "right": "Vibrionen" },
+        { "left": "Löwenstein-Jensen-Agar", "right": "Mycobacterium tuberculosis" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 119–120" },
+    { "id": "zkv-emb-farben", "type": "matching", "question": "Ordne das Koloniebild auf **EMB-Agar** dem Bakterium zu.",
+      "pairs": [
+        { "left": "Grüne Kolonien", "right": "E. coli (Laktose-positiv)" },
+        { "left": "Dunkelviolette Kolonien", "right": "Proteus vulgaris (Laktose-negativ, Saccharose-positiv)" },
+        { "left": "Transparente Kolonien", "right": "Salmonella, Shigella (Laktose- und Saccharose-negativ)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 119–120" },
+    { "id": "zkv-differential-ph", "type": "matching", "question": "Ordne den Stoffwechselvorgang der pH-Änderung auf Differentialmedien zu.",
+      "pairs": [
+        { "left": "Abbau von Kohlenhydraten", "right": "Säurebildung, pH ↓, Farbumschlag" },
+        { "left": "Abbau von Citrat", "right": "Alkalische Abbauprodukte, pH ↑, Farbumschlag" },
+        { "left": "Reduktion von Tetrazoliumchlorid", "right": "Farbumschlag (Slanetz-Agar, Enterokokken)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 120" },
+    { "id": "zkv-macconkey-indikator", "type": "single", "question": "Welcher **pH-Indikator** zeigt auf MacConkey-Agar die Laktosefermentation an?",
+      "options": [
+        { "text": "Neutralrot", "correct": true },
+        { "text": "Phenolrot", "explain": "Phenolrot ist der Indikator im Mannit-Kochsalz-Agar und im Zellkulturmedium." },
+        { "text": "Kristallviolett", "explain": "Kristallviolett hemmt grampositive Bakterien (selektive Komponente)." },
+        { "text": "Methylenblau", "explain": "Bestandteil des EMB-Agars." }
+      ], "explanation": "Laktose-negative Bakterien bilden farblose Kolonien.", "source": "VL-Skript ZUG Teil 1, S. 120–121" },
+    { "id": "zkv-macconkey-beispiele", "type": "matching", "question": "Ordne die Bakterien ihrem Verhalten auf MacConkey-Agar zu.",
+      "pairs": [
+        { "left": "E. coli, Enterobacter spp.", "right": "Laktose-positiv, rote Kolonien" },
+        { "left": "Salmonella, Pseudomonas", "right": "Laktose-negativ, farblose Kolonien" },
+        { "left": "Grampositive Bakterien", "right": "Kein Wachstum (Gallensalz, Kristallviolett)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 119–121" },
+    { "id": "zkv-blutagar-detail", "type": "multiple", "question": "Welche Aussagen zum **Blutagar** stimmen laut Skript?",
+      "options": [
+        { "text": "Das Medium besteht zu 5–10 % aus Säugetierblut.", "correct": true },
+        { "text": "Die Hämolyse erfolgt durch Hämolysine, einen Virulenzfaktor.", "correct": true },
+        { "text": "Bei α-Hämolyse entsteht eine grüne Zone durch Oxidation des Hämoglobins zu Methämoglobin/Sulfhämoglobin.", "correct": true },
+        { "text": "Bei β-Hämolyse sind noch intakte Erythrozyten vorhanden.", "explain": "Das gilt für die unvollständige α-Hämolyse; bei β sind Hämoglobin und Erythrozyten vollständig abgebaut." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 122" },
+    { "id": "zkv-mannit-kolonien", "type": "matching", "question": "Ordne das Ergebnis auf **Mannit-Kochsalz-Agar** dem Bakterium zu.",
+      "pairs": [
+        { "left": "Staphylococcus aureus", "right": "Mannitol fermentiert, Farbumschlag nach gelb" },
+        { "left": "Staphylococcus epidermidis", "right": "Kein Mannitol fermentiert, bleibt rot" },
+        { "left": "Escherichia coli", "right": "Kein Wachstum" }
+      ], "explanation": "Hoher Kochsalzgehalt selektiert, Mannitol mit Phenolrot differenziert. Mannitolverwertung ist ein Indiz für Pathogenität.", "source": "VL-Skript ZUG Teil 1, S. 119, 123" },
+    { "id": "zkv-oxidase-negativ", "type": "multiple", "question": "Welche Bakterien sind laut Skript **Oxidase-negativ**?",
+      "options": [
+        { "text": "Escherichia coli", "correct": true },
+        { "text": "Klebsiella", "correct": true },
+        { "text": "Salmonella, Shigella", "correct": true },
+        { "text": "Pseudomonas", "explain": "Oxidase-positiv." },
+        { "text": "Neisseria", "explain": "Oxidase-positiv." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 124" },
+    { "id": "zkv-oxidase-reaktion", "type": "order", "question": "Bringe die Reaktion beim **Oxidase-Test** in die richtige Reihenfolge.",
+      "items": ["Farbloses Reagenz TMPD wird aufgebracht", "Vorhandene Cytochrom-c-Oxidase oxidiert das Reagenz", "Schnelle Blaufärbung durch den Farbstoff Indophenol"],
+      "source": "VL-Skript ZUG Teil 1, S. 124" },
+    { "id": "zkv-hemmhof-deutung", "type": "single", "question": "Was bedeutet ein **Hemmhof** um ein Antibiotika-Plättchen im Agardiffusionstest?",
+      "options": [
+        { "text": "Der Bakterienstamm ist gegenüber diesem Antibiotikum empfindlich (sensitiv).", "correct": true },
+        { "text": "Der Stamm ist resistent.", "explain": "Bei Resistenz wächst der Kolonierasen bis an das Plättchen heran." },
+        { "text": "Der Stamm bildet Hämolysine." },
+        { "text": "Der Stamm fluoresziert unter UV-Licht." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 124" },
+    { "id": "zkv-pyoverdin-funktion", "type": "single", "question": "Welche Funktion hat **Pyoverdin** für die Bakterien?",
+      "options": [
+        { "text": "Es bindet Eisen und unterstützt die Eisenaufnahme.", "correct": true },
+        { "text": "Es lysiert Erythrozyten.", "explain": "Das leisten Hämolysine." },
+        { "text": "Es baut Mannitol ab." },
+        { "text": "Es ist der pH-Indikator im Nährboden." }
+      ], "explanation": "Das wasserlösliche Pigment fluoresziert unter UV-Licht grün (z. B. Pseudomonas fluorescens, P. putida, teils P. aeruginosa).", "source": "VL-Skript ZUG Teil 1, S. 125" }
+  ]
+}
