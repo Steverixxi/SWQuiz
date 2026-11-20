@@ -1,0 +1,169 @@
+{
+  "chapter": "VL 20 – Muskelgewebe (Details)",
+  "source": "VL-Skript ZUG Teil 2, VL 20 (S. 57–77)",
+  "questions": [
+    { "id": "muz-zahlen-skm", "type": "multiple", "question": "Welche Zahlen zur **Skelettmuskulatur** nennt das Skript?",
+      "options": [
+        { "text": "Ein Muskel besteht aus bis zu 200.000 Muskelfasern", "correct": true },
+        { "text": "Eine Muskelfaser enthält ca. 1.000–2.000 Myofibrillen", "correct": true },
+        { "text": "Myofibrillen sind 0,5–1 µm dick", "correct": true },
+        { "text": "Ca. 40 Kerne pro mm Zelllänge, Kerne 8–10 µm lang", "correct": true },
+        { "text": "Eine Muskelfaser hat genau einen zentralen Kern" , "explain": "Das gilt (meist) für Herzmuskelzellen." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 60–61" },
+    { "id": "muz-sarkoplasma", "type": "single", "question": "Woraus besteht das **Sarkoplasma** der Skelettmuskelfaser vor allem, und wie färbt es sich?",
+      "options": [
+        { "text": "Vor allem aus Mitochondrien und Myofibrillen, eosinophil, enthält Myoglobin", "correct": true },
+        { "text": "Vor allem aus rER, stark basophil" },
+        { "text": "Aus Fetttropfen, ungefärbt" },
+        { "text": "Aus Kollagen, blau" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 61" },
+    { "id": "muz-er-skm", "type": "matching", "question": "Ordne die Ausprägung der Organellen in der Skelettmuskelfaser zu.",
+      "pairs": [
+        { "left": "Glattes ER", "right": "Hochentwickelt (Ca^2+^-Speicher)" },
+        { "left": "Raues ER", "right": "Eher wenig entwickelt" },
+        { "left": "Mitochondrien", "right": "Cristatyp, in Reihen parallel zu den Myofibrillen" },
+        { "left": "Glykogen", "right": "Kommt überall vor" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 61" },
+    { "id": "muz-plektin", "type": "matching", "question": "Ordne die Proteine der mechanischen Stabilisierung zu.",
+      "pairs": [
+        { "left": "Plektin", "right": "Verbindet benachbarte Desminfilamente" },
+        { "left": "αβ-Kristalline", "right": "Hitzeschockproteine, schützen Desmin und Z-Scheiben vor Stress" },
+        { "left": "Dystrophin", "right": "Verbindet Aktin mit dem Sarkolemm" },
+        { "left": "Dystroglykane", "right": "Über ein besonderes Laminin mit der Lamina densa verankert" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 63" },
+    { "id": "muz-tonusfasern", "type": "multiple", "question": "Welche Aussagen zu **Tonusfasern** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie sind selten und sehr dünn", "correct": true },
+        { "text": "Sie kommen in Muskelspindeln und in geringer Zahl in der äußeren Augenmuskulatur vor", "correct": true },
+        { "text": "Sie bilden mehrere Synapsen aus", "correct": true },
+        { "text": "Sie kontrahieren sich entsprechend dem Ausmaß der Depolarisation und daher sehr präzise", "correct": true },
+        { "text": "Sie sind die häufigsten Fasern im Skelettmuskel", "explain": "Die allermeisten Fasern sind Zuckungsfasern." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 68" },
+    { "id": "muz-typ1-typ2", "type": "matching", "question": "Ordne die Merkmale den Zuckungsfasern zu.",
+      "pairs": [
+        { "left": "Typ I (Typ S, rot)", "right": "Viele Mitochondrien, Myoglobin und Lipidtropfen, ermüden langsam, Körperhaltung" },
+        { "left": "Typ II (Typ F, weiß)", "right": "Reich an Glykogen und glykolytischen Enzymen, rasch große Kraft, ermüden schnell" }
+      ], "explanation": "Die Fasern sind grundsätzlich ineinander umwandelbar.", "source": "VL-Skript ZUG Teil 2, S. 68" },
+    { "id": "muz-sprint", "type": "single", "question": "Ein Muskel soll **kurz maximal Kraft** entwickeln (z. B. Sprint). Welche Fasern sind dafür laut Skript geeignet?",
+      "options": [
+        { "text": "Typ-II-Fasern (schnelle, weiße Zuckungsfasern)", "correct": true },
+        { "text": "Typ-I-Fasern (langsame, rote Zuckungsfasern)", "explain": "Diese dienen Dauerbelastung und Körperhaltung." },
+        { "text": "Tonusfasern" },
+        { "text": "Purkinje-Fasern" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 68" },
+    { "id": "muz-regeneration", "type": "multiple", "question": "Welche Aussagen zur **Regeneration der Skelettmuskulatur** treffen laut Skript zu?",
+      "options": [
+        { "text": "Leicht geschädigte Fasern regenerieren, wenn Zellmembran, Basallamina sowie Blut- und Nervenversorgung intakt sind", "correct": true },
+        { "text": "Stark geschädigtes Muskelgewebe wird meist durch bindegewebiges Narbengewebe ersetzt", "correct": true },
+        { "text": "Satellitenzellen liegen innerhalb der Basallamina der Muskelfaser", "correct": true },
+        { "text": "Skelettmuskulatur regeneriert generell sehr gut und vollständig" }
+      ], "explanation": "Forschung an Satellitenzellen dient neuen Therapien der Muskeldystrophien.", "source": "VL-Skript ZUG Teil 2, S. 69" },
+    { "id": "muz-herz-masse", "type": "multiple", "question": "Welche Maße der **Herzmuskulatur** nennt das Skript?",
+      "options": [
+        { "text": "Kardiomyozyten 50–120 µm lang und 15–20 µm dick", "correct": true },
+        { "text": "Sarkomere bis ca. 2,5 µm lang", "correct": true },
+        { "text": "Mitochondrien bis ca. 8 µm lang (bis 3-mal so lang wie ein Sarkomer)", "correct": true },
+        { "text": "Kardiomyozyten mehrere cm lang" , "explain": "Das gilt für Skelettmuskelfasern." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 70" },
+    { "id": "muz-herz-kern", "type": "multiple", "question": "Welche Aussagen zum **Kern der Herzmuskelzelle** treffen laut Skript zu?",
+      "options": [
+        { "text": "Kissenförmig, im Zentrum, selten 2 Kerne", "correct": true },
+        { "text": "Bei Wachstum und Hypertrophie oft polyploid", "correct": true },
+        { "text": "An den Kernpolen myofilamentfreie Felder mit Organellen, Glykogen, Lipidtropfen und Lipofuszin", "correct": true },
+        { "text": "Randständig und abgeflacht wie im Skelettmuskel" }
+      ], "explanation": "Lipofuszin ist ein braunes Abnutzungspigment, das mit dem Alter zunimmt.", "source": "VL-Skript ZUG Teil 2, S. 70" },
+    { "id": "muz-glanzstreifen-lage", "type": "single", "question": "In welchem Abschnitt des **Glanzstreifens** liegen die großen Nexus (Connexin 43)?",
+      "options": [
+        { "text": "In den longitudinalen Anteilen", "correct": true },
+        { "text": "In den transversalen Anteilen zusammen mit den Fasciae adhaerentes", "explain": "Dort liegen Fasciae adhaerentes und Desmosomen." },
+        { "text": "Im Zellkern" },
+        { "text": "An den T-Tubuli" }
+      ], "explanation": "So breitet sich die elektrische Erregung verzögerungsfrei aus.", "source": "VL-Skript ZUG Teil 2, S. 71" },
+    { "id": "muz-fascia-adhaerens", "type": "single", "question": "Welcher Struktur der Skelettmuskelfaser entspricht die **Fascia adhaerens** im Glanzstreifen?",
+      "options": [
+        { "text": "Praktisch einem Z-Streifen (Verankerung der Aktinfilamente, Verbindung über Cadherine)", "correct": true },
+        { "text": "Einer M-Linie" },
+        { "text": "Einer Triade" },
+        { "text": "Einem Costamer" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 71" },
+    { "id": "muz-herz-ttubuli", "type": "multiple", "question": "Welche Aussagen zum **T-System des Herzmuskels** treffen laut Skript zu?",
+      "options": [
+        { "text": "T-Tubuli sind relativ weit und von der Basallamina ausgekleidet", "correct": true },
+        { "text": "Sie liegen in Höhe der Z-Streifen, nur ein T-Tubulus pro Sarkomer", "correct": true },
+        { "text": "Längs verlaufende Zweige bilden das TATS", "correct": true },
+        { "text": "In den Vorhöfen haben die schlanken Herzmuskelzellen kaum T-Tubuli", "correct": true },
+        { "text": "T-Tubuli liegen an der Grenze von A- und I-Bande mit Triaden", "explain": "Das ist die Situation im Skelettmuskel." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 72" },
+    { "id": "muz-herz-ca", "type": "order", "question": "Bringe die Ca^2+^-Freisetzung im **Herzmuskel** in die richtige Reihenfolge.",
+      "items": [
+        "Aktionspotenzial erreicht die Zellmembran bzw. T-Tubuli",
+        "Ca^2+^ strömt über den mit dem Dihydropyridinrezeptor verbundenen spannungsgesteuerten Ca^2+^-Kanal ein",
+        "Dieses Ca^2+^ öffnet die Ryanodinrezeptoren des SR",
+        "Ca^2+^ aus dem SR löst die Kontraktion aus"
+      ], "source": "VL-Skript ZUG Teil 2, S. 72" },
+    { "id": "muz-els-lage", "type": "single", "question": "Wo liegen die meisten Anteile des **Erregungsleitungssystems**?",
+      "options": [
+        { "text": "Unter dem Endokard", "correct": true },
+        { "text": "Im Epikard" },
+        { "text": "In der Adventitia der Aorta" },
+        { "text": "In den Herzklappen" }
+      ], "explanation": "Es besteht aus fibrillenarmen, glykogenreichen Herzmuskelzellen mit autonomer (myogener) Erregungsbildung.", "source": "VL-Skript ZUG Teil 2, S. 73" },
+    { "id": "muz-glatt-masse", "type": "multiple", "question": "Welche Aussagen zur **glatten Muskelzelle** treffen laut Skript zu?",
+      "options": [
+        { "text": "Meist ca. 20–200 µm lang und 3–10 µm dick", "correct": true },
+        { "text": "In kontrahierten Zellen ist der Kern korkenzieherartig verformt", "correct": true },
+        { "text": "Der Kern ist relativ hell mit deutlichem Nukleolus und randständigen Heterochromatinschollen", "correct": true },
+        { "text": "Organellen liegen an den beiden Kernpolen", "correct": true },
+        { "text": "Sie ist ein vielkerniges Synzytium" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 74–75" },
+    { "id": "muz-glatt-verbindung", "type": "multiple", "question": "Wie sind glatte Muskelzellen laut Skript mit ihrer Umgebung verbunden?",
+      "options": [
+        { "text": "Mechanisch v. a. über die EZM einschließlich der Basallamina", "correct": true },
+        { "text": "Mit retikulären Kollagenfasern und Mikrofibrillen elastischer Fasern", "correct": true },
+        { "text": "In Gefäßwänden mit elastischen Lamellen", "correct": true },
+        { "text": "In Mamille und Haarbalgmuskeln mit kleinen elastischen Sehnen", "correct": true },
+        { "text": "Über Glanzstreifen", "explain": "Glanzstreifen gibt es nur im Herzmuskel." }
+      ], "explanation": "Funktionell können sie über Gap junctions elektromechanisch gekoppelt sein.", "source": "VL-Skript ZUG Teil 2, S. 74" },
+    { "id": "muz-caldesmon", "type": "single", "question": "Welches Protein fehlt laut Skript am Aktin der glatten Muskulatur, und welches ist dafür besonders?",
+      "options": [
+        { "text": "Troponin fehlt, besonderes aktinassoziiertes Protein ist Caldesmon", "correct": true },
+        { "text": "Tropomyosin fehlt, besonders ist Titin" },
+        { "text": "Myosin fehlt, besonders ist Dystrophin" },
+        { "text": "Aktin fehlt, besonders ist Desmin" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 76" },
+    { "id": "muz-glatt-anordnung", "type": "multiple", "question": "Welche Besonderheiten hat der **kontraktile Apparat** der glatten Muskulatur?",
+      "options": [
+        { "text": "13–14 Aktinfilamente sind einem Myosinfilament zugeordnet", "correct": true },
+        { "text": "Seitenpolare Myosinfilamente: Köpfe auf beiden Seiten in entgegengesetzte Richtung", "correct": true },
+        { "text": "Die Anordnung erlaubt eine stärkere Verkürzung als im quergestreiften Muskel", "correct": true },
+        { "text": "Glatte Muskelzellen enthalten mehr Aktin als quergestreifte", "correct": true },
+        { "text": "Je 6 Aktinfilamente umgeben ein Myosinfilament", "explain": "Das ist die Anordnung in der A-Bande des Skelettmuskels." }
+      ], "source": "VL-Skript ZUG Teil 2, S. 76" },
+    { "id": "muz-glatt-filamente", "type": "matching", "question": "Ordne die Filamente der glatten Muskelzelle ihrer Dicke zu.",
+      "pairs": [
+        { "left": "Aktinfilamente", "right": "4–8 nm" },
+        { "left": "Desmin-Intermediärfilamente", "right": "10 nm" },
+        { "left": "Myosinfilamente (Typ II)", "right": "15 nm" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 76" },
+    { "id": "muz-hormone", "type": "multiple", "question": "Welche **Hormone bzw. Botenstoffe** regulieren laut Skript den Tonus glatter Muskulatur?",
+      "options": [
+        { "text": "Oxytocin (Uterus)", "correct": true },
+        { "text": "Adrenalin", "correct": true },
+        { "text": "Histamin", "correct": true },
+        { "text": "Stickstoffmonoxid", "correct": true },
+        { "text": "Insulin" }
+      ], "source": "VL-Skript ZUG Teil 2, S. 77" },
+    { "id": "muz-neurogen-nexus", "type": "single", "question": "Warum haben **neurogen regulierte** glatte Muskeln laut Skript kaum Nexus?",
+      "options": [
+        { "text": "Weil fast jede Zelle selbst innerviert ist", "correct": true },
+        { "text": "Weil sie keine Basallamina besitzen" },
+        { "text": "Weil sie Glanzstreifen besitzen" },
+        { "text": "Weil sie nur hormonell reguliert werden" }
+      ], "explanation": "Bei myogener Regulation lösen Schrittmacherzellen über Gap junctions Kontraktionswellen aus.", "source": "VL-Skript ZUG Teil 2, S. 77" },
+    { "id": "muz-veg-transmitter", "type": "matching", "question": "Ordne den Transmitter der vegetativen Innervation glatter Muskulatur zu.",
+      "pairs": [
+        { "left": "Sympathikus", "right": "Noradrenalin" },
+        { "left": "Parasympathikus", "right": "Acetylcholin" }
+      ], "explanation": "Die Freisetzung erfolgt aus Varikositäten (einige Zehntausend pro Axon).", "source": "VL-Skript ZUG Teil 2, S. 77" }
+  ]
+}
