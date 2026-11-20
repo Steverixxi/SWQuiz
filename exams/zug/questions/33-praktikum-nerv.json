@@ -1,0 +1,299 @@
+{
+  "chapter": "Praktikum 4 – Nervengewebe (digitale Schnitte)",
+  "source": "Digitale Schnitte JKU (OMERO), Praktikum 4",
+  "questions": [
+    {
+      "id": "ds-rm-uebersicht",
+      "type": "image",
+      "question": "Rückenmark quer (Klüver-Barrera), Übersicht: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-rm-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 52,
+          "y": 40,
+          "answer": "Graue Substanz (Schmetterlingsfigur)"
+        },
+        {
+          "n": 2,
+          "x": 30,
+          "y": 55,
+          "answer": "Weiße Substanz"
+        },
+        {
+          "n": 3,
+          "x": 43,
+          "y": 30,
+          "ax": 52.9,
+          "ay": 46.9,
+          "answer": "Zentralkanal"
+        }
+      ],
+      "distractors": [
+        "Hinterwurzelganglion",
+        "Peripherer Nerv"
+      ],
+      "explanation": "Im Rückenmark liegt die **graue Substanz** innen (Schmetterlingsform, Perikarya der Neurone). Außen liegt die **weiße Substanz** aus myelinisierten Nervenfasern, die zu Tractus gebündelt sind. Die Klüver-Barrera-Färbung färbt Myelin kräftig blau, deshalb ist die weiße Substanz dunkler blau. In der Mitte liegt der Zentralkanal.",
+      "source": "Digitaler Schnitt Rückenmark quer (Klüver-Barrera); VL-Skript ZUG Teil 2, VL 29, S. 112, 118, 128"
+    },
+    {
+      "id": "ds-rm-neurone",
+      "type": "image",
+      "question": "Graue Substanz des Rückenmarks, starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-rm-neurone.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 60,
+          "y": 93,
+          "ax": 68,
+          "ay": 84,
+          "answer": "Perikaryon eines multipolaren Neurons"
+        },
+        {
+          "n": 2,
+          "x": 42,
+          "y": 72,
+          "ax": 30.3,
+          "ay": 56.3,
+          "answer": "Fortsatz des Neurons"
+        },
+        {
+          "n": 3,
+          "x": 12,
+          "y": 45,
+          "answer": "Neuropil"
+        }
+      ],
+      "distractors": [
+        "Ependymzelle",
+        "Schwann-Zelle"
+      ],
+      "explanation": "Die großen, eckigen Zellen sind **multipolare Neurone**. Ihr Soma enthält viel raues ER (Nissl-Schollen) und ist daher kräftig angefärbt. Davon gehen mehrere Fortsätze aus. Dazwischen liegt das **Neuropil** aus Fortsätzen und Gliazellen mit kleinen Kernen.",
+      "source": "Digitaler Schnitt Rückenmark quer (Klüver-Barrera); VL-Skript ZUG Teil 2, VL 29, S. 113–114, 118–119"
+    },
+    {
+      "id": "ds-rm-neurontyp",
+      "type": "single",
+      "question": "Welcher morphologische Neurontyp ist in diesem Bild der grauen Substanz zu sehen?",
+      "image": "images/ds-rm-neurone.jpg",
+      "options": [
+        {
+          "text": "Multipolares Neuron",
+          "correct": true
+        },
+        {
+          "text": "Pseudounipolares Neuron",
+          "explain": "Pseudounipolare Neurone liegen in den Spinalganglien, nicht in der grauen Substanz des Rückenmarks."
+        },
+        {
+          "text": "Bipolares Neuron",
+          "explain": "Bipolare Neurone haben genau zwei Fortsätze, z. B. in der Retina."
+        },
+        {
+          "text": "Anaxonisches Neuron",
+          "explain": "Diese Zellen haben keinen Fortsatz, der als Axon erkennbar ist."
+        }
+      ],
+      "explanation": "Die großen Zellen mit mehreren Fortsätzen sind **multipolare Neurone**. Im Rückenmark sind das u. a. große Projektionsneurone (Golgi-Typ I).",
+      "source": "VL-Skript ZUG Teil 2, VL 29, S. 114–115, 118"
+    },
+    {
+      "id": "ds-rm-nissl",
+      "type": "single",
+      "question": "Was sind die dunkel gefärbten Schollen im Zytoplasma der Neurone in diesem Präparat?",
+      "image": "images/ds-rm-neurone.jpg",
+      "options": [
+        {
+          "text": "Raues ER (Nissl-Schollen)",
+          "correct": true
+        },
+        {
+          "text": "Myelin",
+          "explain": "Myelin umhüllt Axone und liegt nicht im Soma."
+        },
+        {
+          "text": "Lipofuszin",
+          "explain": "Lipofuszin ist bräunliches Abnutzungspigment, keine basophile Scholle."
+        },
+        {
+          "text": "Zellkerne von Gliazellen",
+          "explain": "Gliakerne liegen außerhalb der Neurone im Neuropil."
+        }
+      ],
+      "explanation": "Im Soma der Neurone liegt viel **raues ER**, das als **Nissl-Schollen** bezeichnet wird. Axone enthalten kein raues ER. Das ist im LM ein wichtiges Kriterium zur Unterscheidung von Axon und Dendrit.",
+      "source": "VL-Skript ZUG Teil 2, VL 29, S. 113"
+    },
+    {
+      "id": "ds-rm-axon-dendrit",
+      "type": "single",
+      "question": "Woran unterscheidest du im LM ein Axon von einem Dendriten eines solchen Neurons?",
+      "image": "images/ds-rm-neurone.jpg",
+      "options": [
+        {
+          "text": "Das Axon enthält kein raues ER (keine Nissl-Substanz).",
+          "correct": true
+        },
+        {
+          "text": "Das Axon ist immer dicker als die Dendriten.",
+          "explain": "Die Dicke ist kein sicheres Kriterium."
+        },
+        {
+          "text": "Nur Dendriten enthalten Mitochondrien.",
+          "explain": "Mitochondrien gibt es reichlich auch im Axon."
+        },
+        {
+          "text": "Nur das Axon enthält Mikrotubuli.",
+          "explain": "Mikrotubuli kommen in Soma, Dendriten und Axon vor."
+        }
+      ],
+      "explanation": "Merke laut Skript: **Kein rER in Axonen** (im LM erkennbar). Im Axon findet keine Proteinbiosynthese statt, daher der axonale Transport.",
+      "source": "VL-Skript ZUG Teil 2, VL 29, S. 113, 116"
+    },
+    {
+      "id": "ds-rm-zentralkanal",
+      "type": "image",
+      "question": "Zentralkanal des Rückenmarks (Klüver-Barrera): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-rm-zentralkanal.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 50,
+          "y": 50,
+          "answer": "Lumen des Zentralkanals (Liquorraum)"
+        },
+        {
+          "n": 2,
+          "x": 30,
+          "y": 82,
+          "ax": 38.3,
+          "ay": 70.5,
+          "answer": "Ependym"
+        },
+        {
+          "n": 3,
+          "x": 88,
+          "y": 20,
+          "answer": "Graue Substanz"
+        }
+      ],
+      "distractors": [
+        "Mehrschichtiges Plattenepithel",
+        "Endothel"
+      ],
+      "explanation": "Der Zentralkanal ist ein Liquorraum. Er wird von **Ependymzellen** in einer einlagigen Schicht ausgekleidet. Ependymzellen tragen Kinozilien und Mikrovilli und sind über Nexus, Desmosomen und Zonula adhaerens verbunden.",
+      "source": "Digitaler Schnitt Rückenmark quer (Klüver-Barrera); VL-Skript ZUG Teil 2, VL 29, S. 124"
+    },
+    {
+      "id": "ds-rm-ependym",
+      "type": "multiple",
+      "question": "Welche Aussagen zu den Zellen, die diesen Zentralkanal auskleiden, sind richtig?",
+      "image": "images/ds-rm-zentralkanal.jpg",
+      "options": [
+        {
+          "text": "Es sind Ependymzellen, eine Form der zentralen Glia.",
+          "correct": true
+        },
+        {
+          "text": "Sie tragen Kinozilien und Mikrovilli.",
+          "correct": true
+        },
+        {
+          "text": "Sie regulieren den Austausch zwischen Neuropil und Liquor.",
+          "correct": true
+        },
+        {
+          "text": "Sie bilden die Myelinscheiden des ZNS.",
+          "explain": "Das tun die Oligodendrozyten."
+        },
+        {
+          "text": "Sie sind Endothelzellen eines Blutgefäßes.",
+          "explain": "Der Zentralkanal ist ein Liquorraum, kein Gefäß."
+        }
+      ],
+      "explanation": "Ependymzellen kleiden die Liquorräume des ZNS einlagig aus, tragen Kinozilien und Mikrovilli, entfernen überschüssige Neurotransmitter, puffern K^+^ und regulieren den Austausch zwischen Neuropil und Liquor.",
+      "source": "VL-Skript ZUG Teil 2, VL 29, S. 112, 124"
+    },
+    {
+      "id": "ds-rm-weisse-substanz",
+      "type": "single",
+      "question": "Weiße Substanz des Rückenmarks (Klüver-Barrera), stark vergrößert: Was sind die vielen kleinen, blau umrandeten Ringe?",
+      "image": "images/ds-rm-weisse-substanz.jpg",
+      "options": [
+        {
+          "text": "Quer getroffene Axone mit Myelinscheiden",
+          "correct": true
+        },
+        {
+          "text": "Perikarya von Neuronen",
+          "explain": "Perikarya liegen in der grauen Substanz und sind viel größer."
+        },
+        {
+          "text": "Kapillaren",
+          "explain": "Kapillaren gibt es, aber die vielen gleichförmigen Ringe sind Nervenfasern."
+        },
+        {
+          "text": "Fettzellen",
+          "explain": "Im ZNS gibt es kein Fettgewebe."
+        }
+      ],
+      "explanation": "In der weißen Substanz verlaufen myelinisierte Nervenfasern längs, gebündelt zu Tractus. Quer getroffen sieht man das helle Axon mit einem blau gefärbten **Myelinring** darum.",
+      "source": "Digitaler Schnitt Rückenmark quer (Klüver-Barrera); VL-Skript ZUG Teil 2, VL 29, S. 128"
+    },
+    {
+      "id": "ds-rm-myelin",
+      "type": "multiple",
+      "question": "Wodurch unterscheidet sich das Myelin der weißen Substanz in diesem Präparat (ZNS) vom Myelin im PNS?",
+      "image": "images/ds-rm-weisse-substanz.jpg",
+      "options": [
+        {
+          "text": "Es wird von Fortsätzen der Oligodendrozyten gebildet.",
+          "correct": true
+        },
+        {
+          "text": "Ein Oligodendrozyt kann Internodien von bis zu 50 Axonen bilden.",
+          "correct": true
+        },
+        {
+          "text": "Es ist nicht von einer Basallamina umgeben.",
+          "correct": true
+        },
+        {
+          "text": "Es hat keine Schmidt-Lantermann-Inzisuren.",
+          "correct": true
+        },
+        {
+          "text": "Es wird von Schwann-Zellen gebildet.",
+          "explain": "Schwann-Zellen myelinisieren im PNS."
+        }
+      ],
+      "explanation": "Myelin im ZNS: von Fortsätzen der Oligodendrozyten gebildet, ein Oligodendrozyt bildet Internodien an bis zu 50 Axonen, keine Basallamina, keine Schmidt-Lantermann-Inzisuren.",
+      "source": "VL-Skript ZUG Teil 2, VL 29, S. 124, 128"
+    },
+    {
+      "id": "ds-rm-substanzen",
+      "type": "matching",
+      "question": "Ordne den Bereichen dieses Rückenmarksquerschnitts ihren Inhalt zu.",
+      "image": "images/ds-rm-graue-substanz.jpg",
+      "pairs": [
+        {
+          "left": "Graue Substanz",
+          "right": "Perikarya der Neurone und Neuropil"
+        },
+        {
+          "left": "Weiße Substanz",
+          "right": "Myelinisierte Nervenfasern, gebündelt zu Tractus"
+        },
+        {
+          "left": "Zentralkanal",
+          "right": "Liquorraum, von Ependym ausgekleidet"
+        }
+      ],
+      "distractors": [
+        "Spinalganglienzellen mit Mantelzellen"
+      ],
+      "explanation": "In der mittleren Vergrößerung sieht man die hellere graue Substanz mit großen Neuronen in der Mitte, umgeben von der dunkler blauen, myelinreichen weißen Substanz.",
+      "source": "Digitaler Schnitt Rückenmark quer (Klüver-Barrera); VL-Skript ZUG Teil 2, VL 29, S. 112, 124, 128"
+    }
+  ]
+}

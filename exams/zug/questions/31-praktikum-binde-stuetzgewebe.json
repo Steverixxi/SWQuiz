@@ -1,0 +1,1385 @@
+{
+  "chapter": "Praktikum 2 – Binde- und Stützgewebe (digitale Schnitte)",
+  "source": "Digitale Schnitte JKU (OMERO), Praktikum 2",
+  "questions": [
+    {
+      "id": "ds-se-gewebe",
+      "type": "single",
+      "question": "Digitaler Schnitt (HE), mittlere Vergrößerung: Welches Gewebe ist hier dargestellt?",
+      "image": "images/ds-sehne-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Straffes parallelfaseriges Bindegewebe (Sehne)",
+          "correct": true
+        },
+        {
+          "text": "Straffes geflechtartiges Bindegewebe",
+          "explain": "Geflechtartig (z. B. Kornea) laufen die Faserbündel in verschiedene Richtungen, hier verlaufen alle parallel."
+        },
+        {
+          "text": "Lockeres Bindegewebe",
+          "explain": "Lockeres BGW ist zellreich, hat viel Grundsubstanz und ein weiträumiges Maschenwerk. Hier liegen dicht gepackte, parallele Faserbündel mit wenigen Zellen."
+        },
+        {
+          "text": "Glatte Muskulatur, längs getroffen",
+          "explain": "Glatte Muskelzellen haben je einen zentralen, zigarrenförmigen Kern und kräftig eosinophiles Zytoplasma. Hier liegen wenige, abgeflachte Kerne zwischen blassen, gewellten Kollagenfasern."
+        }
+      ],
+      "explanation": "Dicht gepackte, **parallel** in Zugrichtung verlaufende, leicht gewellte Kollagenfaserbündel mit wenigen, abgeflachten Fibrozytenkernen dazwischen: straffes parallelfaseriges Bindegewebe einer Sehne. Unten rechts ein Blutgefäß in einem lockeren Bindegewebsseptum.",
+      "source": "Digitaler Schnitt Sehnengewebe (HE); VL-Skript ZUG Teil 1, S. 173–174"
+    },
+    {
+      "id": "ds-se-detail",
+      "type": "image",
+      "question": "Sehne, starke Vergrößerung (HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-sehne-detail.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 45.8,
+          "y": 42.5,
+          "answer": "Gefäßlumen"
+        },
+        {
+          "n": 2,
+          "x": 30,
+          "y": 72,
+          "ax": 43.3,
+          "ay": 48.4,
+          "answer": "Endothel"
+        },
+        {
+          "n": 3,
+          "x": 14,
+          "y": 8,
+          "ax": 28.3,
+          "ay": 16.8,
+          "answer": "Fibrozytenkern"
+        },
+        {
+          "n": 4,
+          "x": 40,
+          "y": 88,
+          "answer": "Kollagenfaserbündel (Typ I)"
+        },
+        {
+          "n": 5,
+          "x": 88,
+          "y": 60,
+          "answer": "Lockeres Bindegewebe um das Gefäß"
+        }
+      ],
+      "distractors": [
+        "Elastische Fasern",
+        "Glatte Muskelzelle"
+      ],
+      "explanation": "Zwischen den parallelen Kollagenfaserbündeln liegen nur einzelne, abgeflachte **Fibrozyten**. Blutgefäße ziehen in schmalen Septen aus **lockerem Bindegewebe** durch die Sehne, das Lumen ist von flachem Endothel ausgekleidet.",
+      "source": "Digitaler Schnitt Sehnengewebe (HE); VL-Skript ZUG Teil 1, S. 168, 173–174"
+    },
+    {
+      "id": "ds-se-kollagentyp",
+      "type": "single",
+      "question": "Welcher Kollagentyp bildet den Hauptteil der Faserbündel in diesem Präparat?",
+      "image": "images/ds-sehne-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Typ I",
+          "correct": true
+        },
+        {
+          "text": "Typ II",
+          "explain": "Typ II kommt im Knorpel, Nucleus pulposus und Glaskörper vor."
+        },
+        {
+          "text": "Typ III",
+          "explain": "Typ III bildet retikuläre Fasern, z. B. in lymphatischen Organen und Gefäßwänden."
+        },
+        {
+          "text": "Typ IV",
+          "explain": "Typ IV bildet keine Fasern, sondern Netzwerke in der Basalmembran."
+        }
+      ],
+      "explanation": "Straffes Bindegewebe besteht vor allem aus **Typ-I-Kollagen**. Typ I findet sich u. a. in Haut, Ligamenten, Sehnen, Knochen, Faszien und Organkapseln.",
+      "source": "VL-Skript ZUG Teil 1, S. 168, 174"
+    },
+    {
+      "id": "ds-se-merkmale",
+      "type": "multiple",
+      "question": "Welche Aussagen zu diesem Sehnenpräparat sind richtig?",
+      "image": "images/ds-sehne-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Die Kollagenfaserbündel verlaufen parallel in Zugrichtung.",
+          "correct": true
+        },
+        {
+          "text": "Es gibt nur wenige Zellen, ihre Kerne liegen abgeflacht zwischen den Fasern.",
+          "correct": true
+        },
+        {
+          "text": "Blutgefäße verlaufen in Septen aus lockerem Bindegewebe.",
+          "correct": true
+        },
+        {
+          "text": "Die Fasern bilden ein Geflecht in alle Richtungen.",
+          "explain": "Das wäre straffes geflechtartiges BGW, z. B. die Kornea."
+        },
+        {
+          "text": "Das Gewebe ist reich an Grundsubstanz und mobilen Abwehrzellen.",
+          "explain": "Das beschreibt lockeres Bindegewebe."
+        }
+      ],
+      "explanation": "Straff parallelfaseriges BGW: dicke, regelmäßig parallel angeordnete Kollagenbündel (v. a. Typ I), wenig Zellen. Gefäß- und nervenführende Septen aus lockerem BGW durchziehen auch Sehnen.",
+      "source": "VL-Skript ZUG Teil 1, S. 173–174"
+    },
+    {
+      "id": "ds-se-vorkommen",
+      "type": "multiple",
+      "question": "Wo kommt straffes **parallelfaseriges** Bindegewebe wie in diesem Präparat vor?",
+      "image": "images/ds-sehne-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Sehnen",
+          "correct": true
+        },
+        {
+          "text": "Bänder",
+          "correct": true
+        },
+        {
+          "text": "Aponeurosen",
+          "correct": true
+        },
+        {
+          "text": "Muskel-Sehnen-Übergang",
+          "correct": true
+        },
+        {
+          "text": "Kornea des Auges",
+          "explain": "Die Kornea ist straffes **geflechtartiges** BGW."
+        },
+        {
+          "text": "Stroma von Organen",
+          "explain": "Organstroma ist meist lockeres BGW."
+        }
+      ],
+      "explanation": "Laut Skript: parallelfaserig in Sehnen, Bändern, Aponeurosen und am Muskel-Sehnen-Übergang. Geflechtartig z. B. in der Kornea.",
+      "source": "VL-Skript ZUG Teil 1, S. 173–174"
+    },
+    {
+      "id": "ds-se-fasern-lm",
+      "type": "single",
+      "question": "Wie erscheinen kollagene Fasern im Lichtmikroskop, wie hier in der Sehne?",
+      "image": "images/ds-sehne-detail.jpg",
+      "options": [
+        {
+          "text": "Als gewellte Faserbündel, die parallel laufen, ohne sich zu verzweigen",
+          "correct": true
+        },
+        {
+          "text": "Als feine, verzweigte Fasern, die ein elastisches Netz bilden",
+          "explain": "Verzweigte Netze bilden elastische und retikuläre Fasern, nicht kollagene."
+        },
+        {
+          "text": "Als amorphe, kontrastlose Masse",
+          "explain": "So erscheint die Grundsubstanz im LM."
+        },
+        {
+          "text": "Als quergestreifte Fasern mit randständigen Kernen",
+          "explain": "Das beschreibt Skelettmuskelfasern."
+        }
+      ],
+      "explanation": "Kollagene Fasern bestehen aus Fibrillen. Im LM sieht man sie als **gewellte Faserbündel**, mehrere Fasern laufen parallel nebeneinander, ohne sich zu verzweigen.",
+      "source": "VL-Skript ZUG Teil 1, S. 168, 170"
+    },
+    {
+      "id": "ds-tl-uebersicht",
+      "type": "image",
+      "question": "Trachea, Längsschnitt (HE), Übersicht: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-trachea-laengs-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 45.8,
+          "y": 54.3,
+          "answer": "Hyaliner Knorpel (Knorpelspange)"
+        },
+        {
+          "n": 2,
+          "x": 50,
+          "y": 29.3,
+          "answer": "Adventitia mit Fettgewebe"
+        },
+        {
+          "n": 3,
+          "x": 43.3,
+          "y": 74,
+          "answer": "Atemwegsdrüsen"
+        },
+        {
+          "n": 4,
+          "x": 25,
+          "y": 93,
+          "ax": 25,
+          "ay": 80.8,
+          "answer": "Schleimhautepithel zum Lumen"
+        }
+      ],
+      "distractors": [
+        "Skelettmuskulatur",
+        "Elastischer Knorpel"
+      ],
+      "explanation": "Im Längsschnitt sieht man die Knorpelspangen als lange, kräftig basophile Platten aus **hyalinem Knorpel**. Außen liegt die Adventitia mit Fettgewebe, innen die Schleimhaut mit Drüsen und dem Epithel zum Lumen.",
+      "source": "Digitaler Schnitt Trachea längs (HE); VL-Skript ZUG Teil 1, S. 100, 183"
+    },
+    {
+      "id": "ds-tl-knorpel-mittel",
+      "type": "image",
+      "question": "Trachea längs, mittlere Vergrößerung (HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-trachea-laengs-knorpel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 54.9,
+          "y": 14.5,
+          "answer": "Hyaliner Knorpel"
+        },
+        {
+          "n": 2,
+          "x": 72,
+          "y": 52,
+          "ax": 65.2,
+          "ay": 39.9,
+          "answer": "Perichondrium"
+        },
+        {
+          "n": 3,
+          "x": 13.7,
+          "y": 56.8,
+          "answer": "Fettgewebe"
+        },
+        {
+          "n": 4,
+          "x": 84.1,
+          "y": 87.7,
+          "answer": "Seromuköse Drüsen"
+        },
+        {
+          "n": 5,
+          "x": 62,
+          "y": 75,
+          "ax": 68.7,
+          "ay": 86.5,
+          "answer": "Blutgefäß"
+        }
+      ],
+      "distractors": [
+        "Faserknorpel",
+        "Osteon"
+      ],
+      "explanation": "Der hyaline Knorpel ist von **Perichondrium** bedeckt: eine schmale, faserreiche Schicht mit abgeflachten Zellen am Knorpelrand. Der Knorpel selbst ist gefäßfrei, Gefäße liegen erst im umgebenden Bindegewebe.",
+      "source": "Digitaler Schnitt Trachea längs (HE); VL-Skript ZUG Teil 1, S. 100, 180, 183"
+    },
+    {
+      "id": "ds-tl-knorpel-detail",
+      "type": "image",
+      "question": "Hyaliner Knorpel der Trachea, starke Vergrößerung (HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-hyaliner-knorpel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 52,
+          "y": 62,
+          "ax": 61.7,
+          "ay": 33.7,
+          "answer": "Isogene Gruppe (Chondron)"
+        },
+        {
+          "n": 2,
+          "x": 20,
+          "y": 88,
+          "ax": 30.4,
+          "ay": 65.2,
+          "answer": "Einzelner Chondrozyt in seiner Knorpelhöhle"
+        },
+        {
+          "n": 3,
+          "x": 80,
+          "y": 75,
+          "answer": "Knorpelmatrix"
+        }
+      ],
+      "distractors": [
+        "Kollagenfaserbündel",
+        "Osteozyt"
+      ],
+      "explanation": "Ein sich teilender Chondroblast bildet eine **isogene Gruppe** aus Chondrozyten (Chondron). Chondron und territorialer Matrixsaum bilden zusammen ein Territorium, dazwischen liegen die Interterritorien. Die Kollagenfasern sind im LM nicht sichtbar.",
+      "source": "Digitaler Schnitt Trachea längs (HE); VL-Skript ZUG Teil 1, S. 181–182"
+    },
+    {
+      "id": "ds-tl-knorpelart",
+      "type": "single",
+      "question": "Welche Knorpelart bildet die Spangen dieser Trachea?",
+      "image": "images/ds-hyaliner-knorpel.jpg",
+      "options": [
+        {
+          "text": "Hyaliner Knorpel",
+          "correct": true
+        },
+        {
+          "text": "Elastischer Knorpel",
+          "explain": "Elastischer Knorpel hat auffallend große Zellen dicht nebeneinander und elastische Netze in den Interterritorien."
+        },
+        {
+          "text": "Faserknorpel",
+          "explain": "Faserknorpel zeigt sichtbare Kollagen-Typ-I-Bündel und hat kein Perichondrium."
+        }
+      ],
+      "explanation": "Homogene, basophile Matrix ohne sichtbare Fasern, isogene Gruppen, Perichondrium: **hyaliner Knorpel**. Vorkommen laut Skript: Atemwege, Teile des Nasenskeletts, Rippenansatz, Sternum, Gelenkflächen.",
+      "source": "VL-Skript ZUG Teil 1, S. 182–184"
+    },
+    {
+      "id": "ds-tl-fasern-unsichtbar",
+      "type": "single",
+      "question": "Warum sieht man in der Matrix dieses hyalinen Knorpels keine Kollagenfasern?",
+      "image": "images/ds-hyaliner-knorpel.jpg",
+      "options": [
+        {
+          "text": "Weil die Fasern einen ähnlichen Brechungsindex wie die Grundsubstanz haben",
+          "correct": true
+        },
+        {
+          "text": "Weil hyaliner Knorpel kein Kollagen enthält",
+          "explain": "Etwa 60 % der organischen Matrix ist Kollagen, v. a. Typ II."
+        },
+        {
+          "text": "Weil HE Kollagen nicht anfärbt",
+          "explain": "Im Sehnenpräparat sind Kollagenfasern in HE gut sichtbar."
+        },
+        {
+          "text": "Weil die Fasern bei der Präparation herausgelöst werden",
+          "explain": "Herausgewaschen wird manchmal Aggrecan, nicht das Kollagen."
+        }
+      ],
+      "explanation": "Im hyalinen Knorpel sind die Kollagenfasern (ca. 90 % Typ II) **maskiert**: Sie haben einen ähnlichen Brechungsindex wie die Grundsubstanz und sind im LM nicht sichtbar.",
+      "source": "VL-Skript ZUG Teil 1, S. 182–183"
+    },
+    {
+      "id": "ds-tl-spalt",
+      "type": "single",
+      "question": "Um viele Chondrozyten in diesem Bild sieht man einen hellen Spalt. Wie ist das zu deuten?",
+      "image": "images/ds-hyaliner-knorpel.jpg",
+      "options": [
+        {
+          "text": "Als Schrumpfungsartefakt, denn im lebenden Knorpel gibt es keinen Spaltraum zwischen Zelle und Matrix",
+          "correct": true
+        },
+        {
+          "text": "Als flüssigkeitsgefüllter Raum für die Diffusion, wie im Knochen",
+          "explain": "Den gibt es zwischen Osteozytenfortsatz und Canaliculus-Wand, nicht im Knorpel."
+        },
+        {
+          "text": "Als Knorpelkapsel",
+          "explain": "Die Knorpelkapsel ist die schmale, stark basophile perizelluläre Matrix, kein heller Spalt."
+        }
+      ],
+      "explanation": "Chondrozyten liegen in Knorpelzellhöhlen, **zwischen Zelle und Matrix gibt es keinen Spaltraum**. Der helle Spalt entsteht, wenn die Zellen bei der Fixierung schrumpfen.",
+      "source": "VL-Skript ZUG Teil 1, S. 182"
+    },
+    {
+      "id": "ds-tl-basophilie",
+      "type": "single",
+      "question": "Warum ist die Matrix direkt um die Chondrozyten (Knorpelkapsel) besonders basophil?",
+      "image": "images/ds-hyaliner-knorpel.jpg",
+      "options": [
+        {
+          "text": "Wegen des hohen Gehalts an Aggrecan",
+          "correct": true
+        },
+        {
+          "text": "Wegen vieler Ribosomen",
+          "explain": "Ribosomen machen das Zytoplasma basophil, nicht die Matrix."
+        },
+        {
+          "text": "Wegen der Kollagen-Typ-I-Bündel",
+          "explain": "Hyaliner Knorpel enthält v. a. Typ II, und Kollagen ist eher azidophil."
+        },
+        {
+          "text": "Wegen eingelagerter Calciumkristalle",
+          "explain": "Verkalkung tritt erst als Kalkknorpel ab der Adoleszenz auf."
+        }
+      ],
+      "explanation": "Die Knorpelmatrix ist basophil, besonders die perizelluläre Matrix (Knorpelkapsel, ca. 1 µm) wegen ihres hohen **Aggrecan**-Gehalts. Interterritorien sind am wenigsten basophil.",
+      "source": "VL-Skript ZUG Teil 1, S. 182"
+    },
+    {
+      "id": "ds-tl-perichondrium",
+      "type": "matching",
+      "question": "Ordne die Schichten des Perichondriums (Bild: Nr. 2) ihren Merkmalen zu.",
+      "image": "images/ds-trachea-laengs-knorpel.jpg",
+      "pairs": [
+        {
+          "left": "Stratum chondrogenicum",
+          "right": "Innen, zellreich, abgeplattete Zellen, die zu Chondroblasten werden können"
+        },
+        {
+          "left": "Stratum fibrosum",
+          "right": "Außen, straffes BGW aus Kollagen Typ I mit Gefäßen und Nerven"
+        }
+      ],
+      "distractors": [
+        "Mehrschichtiges Plattenepithel",
+        "Osteoblasten mit Osteoidsaum"
+      ],
+      "explanation": "Das Perichondrium bedeckt hyalinen Knorpel (Ausnahme: Gelenkknorpel) und besteht aus innerem Stratum chondrogenicum und äußerem Stratum fibrosum.",
+      "source": "VL-Skript ZUG Teil 1, S. 183"
+    },
+    {
+      "id": "ds-tl-wachstum",
+      "type": "matching",
+      "question": "Ordne die Wachstumsarten des Knorpels zu.",
+      "image": "images/ds-trachea-laengs-knorpel.jpg",
+      "pairs": [
+        {
+          "left": "Interstitielles Wachstum",
+          "right": "Zellteilung und Matrixsynthese von innen"
+        },
+        {
+          "left": "Appositionelles Wachstum",
+          "right": "Auflagerung neuer Zellen und Matrix aus dem Perichondrium"
+        }
+      ],
+      "distractors": [
+        "Umbau von Knochen durch Osteoklasten"
+      ],
+      "explanation": "Interstitiell wächst der Knorpel von innen (isogene Gruppen). Appositionell differenzieren an der Oberfläche Zellen des Perichondriums zu Chondroblasten.",
+      "source": "VL-Skript ZUG Teil 1, S. 181"
+    },
+    {
+      "id": "ds-tl-versorgung",
+      "type": "single",
+      "question": "Wie werden die Chondrozyten dieser Trachealspange versorgt?",
+      "image": "images/ds-trachea-laengs-knorpel.jpg",
+      "options": [
+        {
+          "text": "Durch Diffusion durch die Matrix, der Knorpel ist (fast) gefäßfrei",
+          "correct": true
+        },
+        {
+          "text": "Über Kapillaren zwischen den isogenen Gruppen",
+          "explain": "Ausgereifter Knorpel hat (fast) keine Blutgefäße."
+        },
+        {
+          "text": "Über Havers- und Volkmann-Kanäle",
+          "explain": "Diese Gefäßkanäle gibt es im Knochen."
+        }
+      ],
+      "explanation": "Ausgereifter Knorpel ist (fast) gefäßfrei und nervenfrei. Die Zellen werden durch **Diffusion** versorgt (maximal etwa 3–4 mm), die O~2~-Versorgung ist schlecht, daher anaerobe Glykolyse.",
+      "source": "VL-Skript ZUG Teil 1, S. 180, 182"
+    },
+    {
+      "id": "ds-tl-schleimhaut",
+      "type": "image",
+      "question": "Trachea längs, Schleimhaut (HE): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-trachea-laengs-schleimhaut.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 50,
+          "y": 76.2,
+          "answer": "Mehrreihiges Epithel"
+        },
+        {
+          "n": 2,
+          "x": 50,
+          "y": 64.5,
+          "answer": "Lockeres Bindegewebe der Lamina propria"
+        },
+        {
+          "n": 3,
+          "x": 66.7,
+          "y": 39.6,
+          "answer": "Seromuköse Drüsen"
+        },
+        {
+          "n": 4,
+          "x": 30,
+          "y": 92,
+          "answer": "Lumen"
+        }
+      ],
+      "distractors": [
+        "Mehrschichtiges Plattenepithel",
+        "Hyaliner Knorpel"
+      ],
+      "explanation": "Die Trachea ist von einschichtig mehrreihigem Flimmerepithel ausgekleidet. Darunter liegt lockeres Bindegewebe, tiefer gemischt seromuköse Atemwegsdrüsen.",
+      "source": "Digitaler Schnitt Trachea längs (HE); VL-Skript ZUG Teil 1, S. 95, 100"
+    },
+    {
+      "id": "ds-tl-epithel",
+      "type": "single",
+      "question": "Starke Vergrößerung des Trachealepithels: Die Kerne liegen in mehreren Höhen. Wie heißt dieses Epithel?",
+      "image": "images/ds-trachea-laengs-epithel.jpg",
+      "options": [
+        {
+          "text": "Einschichtig mehrreihiges Epithel",
+          "correct": true
+        },
+        {
+          "text": "Mehrschichtiges Plattenepithel",
+          "explain": "Hier erreichen alle Zellen die Basalmembran, die oberste Lage ist nicht abgeflacht."
+        },
+        {
+          "text": "Einschichtig hochprismatisches Epithel",
+          "explain": "Dort liegen die Kerne in einer Reihe."
+        },
+        {
+          "text": "Übergangsepithel",
+          "explain": "Urothel hat große Deckzellen und kommt in den Harnwegen vor."
+        }
+      ],
+      "explanation": "Im mehrreihigen Epithel sitzen **alle Zellen der Basalmembran auf**, aber nicht alle erreichen die Oberfläche. Deshalb liegen die Kerne in mehreren Höhen. In der Trachea trägt es Kinozilien (respiratorisches Epithel).",
+      "source": "Digitaler Schnitt Trachea längs (HE); VL-Skript ZUG Teil 1, S. 95"
+    },
+    {
+      "id": "ds-ohr-organ",
+      "type": "single",
+      "question": "Digitaler Schnitt (Elastikafärbung), Lupe: Eine dünne Knorpelplatte, beidseits von behaarter Haut bedeckt. Welches Organ ist das?",
+      "image": "images/ds-ohr-lupe.jpg",
+      "options": [
+        {
+          "text": "Ohrmuschel (Auricula)",
+          "correct": true
+        },
+        {
+          "text": "Epiglottis",
+          "explain": "Die Epiglottis enthält ebenfalls elastischen Knorpel, ist aber von Schleimhaut bedeckt, nicht von behaarter Haut."
+        },
+        {
+          "text": "Trachea",
+          "explain": "Die Trachea hat hyaline Knorpelspangen und respiratorisches Epithel."
+        },
+        {
+          "text": "Zwischenwirbelscheibe",
+          "explain": "Dort liegt Faserknorpel, ohne Hautüberzug."
+        }
+      ],
+      "explanation": "Eine zentrale Platte aus **elastischem Knorpel**, auf beiden Seiten Haut mit Haarfollikeln: typisch für die **Ohrmuschel**. Elastischer Knorpel kommt laut Skript in Auricula, Tuba auditiva, Epiglottis, lokal im Larynx und in kleinen Bronchialknorpeln vor.",
+      "source": "Digitaler Schnitt Elastischer Knorpel (Elastika); VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-ohr-uebersicht",
+      "type": "image",
+      "question": "Ohrmuschel, Übersicht (Elastikafärbung): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-ohr-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 46.7,
+          "y": 51.3,
+          "answer": "Elastischer Knorpel"
+        },
+        {
+          "n": 2,
+          "x": 15,
+          "y": 10,
+          "ax": 25,
+          "ay": 25.2,
+          "answer": "Epidermis"
+        },
+        {
+          "n": 3,
+          "x": 37.5,
+          "y": 14.7,
+          "answer": "Hornschicht"
+        },
+        {
+          "n": 4,
+          "x": 53.3,
+          "y": 68.9,
+          "answer": "Blutgefäß"
+        },
+        {
+          "n": 5,
+          "x": 44,
+          "y": 90,
+          "ax": 58.5,
+          "ay": 78.2,
+          "answer": "Haarfollikel (quer)"
+        },
+        {
+          "n": 6,
+          "x": 75,
+          "y": 33,
+          "answer": "Dermis (Bindegewebe)"
+        }
+      ],
+      "distractors": [
+        "Hyaliner Knorpel",
+        "Skelettmuskulatur"
+      ],
+      "explanation": "In der Mitte liegt die Knorpelplatte mit großen Chondrozyten. Beidseits folgen Bindegewebe der Dermis und die verhornende Epidermis. In der Dermis liegen Gefäße und quer getroffene Haarfollikel. Der Knorpel selbst ist (fast) gefäßfrei.",
+      "source": "Digitaler Schnitt Elastischer Knorpel (Elastika); VL-Skript ZUG Teil 1, S. 180, 184"
+    },
+    {
+      "id": "ds-ohr-knorpel",
+      "type": "image",
+      "question": "Elastischer Knorpel, starke Vergrößerung: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-ohr-knorpel.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 5,
+          "y": 88,
+          "ax": 10.4,
+          "ay": 68.2,
+          "answer": "Kern eines Chondrozyten"
+        },
+        {
+          "n": 2,
+          "x": 26.7,
+          "y": 93,
+          "ax": 27.1,
+          "ay": 68.9,
+          "answer": "Matrix mit elastischen Fasern"
+        },
+        {
+          "n": 3,
+          "x": 70,
+          "y": 84,
+          "answer": "Perichondrium"
+        },
+        {
+          "n": 4,
+          "x": 40,
+          "y": 22,
+          "answer": "Lockeres Bindegewebe"
+        }
+      ],
+      "distractors": [
+        "Isogene Gruppe mit vielen Zellen",
+        "Kollagenfasern Typ I in Bündeln"
+      ],
+      "explanation": "Elastischer Knorpel hat **auffallend große Chondrozyten**, die einzeln oder in kleinen Chondronen liegen. In den Interterritorien liegen dichte **elastische Netze**, die die Elastikafärbung dunkel darstellt. Der Knorpel ist von **Perichondrium** umgeben.",
+      "source": "Digitaler Schnitt Elastischer Knorpel (Elastika); VL-Skript ZUG Teil 1, S. 183–184"
+    },
+    {
+      "id": "ds-ohr-merkmale",
+      "type": "multiple",
+      "question": "Welche Merkmale des **elastischen Knorpels** erkennst du in diesem Präparat bzw. gelten laut Skript?",
+      "image": "images/ds-ohr-knorpel.jpg",
+      "options": [
+        {
+          "text": "Auffallend große Chondrozyten",
+          "correct": true
+        },
+        {
+          "text": "Chondrozyten einzeln oder in Chondronen mit wenigen Zellen",
+          "correct": true
+        },
+        {
+          "text": "Elastische Netze in den Interterritorien",
+          "correct": true
+        },
+        {
+          "text": "Umgeben von Perichondrium",
+          "correct": true
+        },
+        {
+          "text": "Hoher Gehalt an Kollagen Typ I in sichtbaren Bündeln",
+          "explain": "Das ist das Kennzeichen von **Faserknorpel**."
+        },
+        {
+          "text": "Natürlich weiße Eigenfarbe",
+          "explain": "Weiß ist Faserknorpel. Elastischer Knorpel ist gelblich-trüb."
+        }
+      ],
+      "explanation": "Elastischer Knorpel: gelblich-trübe Eigenfarbe, große Chondrozyten einzeln oder in kleinen Chondronen, elastische Netze in den Interterritorien, von Perichondrium umgeben.",
+      "source": "VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-ohr-funktion",
+      "type": "single",
+      "question": "Wofür ist elastischer Knorpel, wie hier in der Ohrmuschel, besonders geeignet?",
+      "image": "images/ds-ohr-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Starke mechanische Verformungen und Vibrationsbeanspruchung",
+          "correct": true
+        },
+        {
+          "text": "Kombinierte Druck-, Zug- und Scherbeanspruchung",
+          "explain": "Das ist die Funktion des Faserknorpels (z. B. Menisken, Symphyse)."
+        },
+        {
+          "text": "Gleitfläche in Gelenken",
+          "explain": "Gelenkflächen tragen meist hyalinen Knorpel."
+        },
+        {
+          "text": "Speicherung von Calcium",
+          "explain": "Das ist eine Funktion des Knochens."
+        }
+      ],
+      "explanation": "Laut Skript ist elastischer Knorpel geeignet für **starke mechanische Verformungen** und **Vibrationsbeanspruchungen**.",
+      "source": "VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-ohr-vorkommen",
+      "type": "multiple",
+      "question": "Wo kommt elastischer Knorpel wie in diesem Präparat vor?",
+      "image": "images/ds-ohr-lupe.jpg",
+      "options": [
+        {
+          "text": "Auricula (Ohrmuschel)",
+          "correct": true
+        },
+        {
+          "text": "Epiglottis",
+          "correct": true
+        },
+        {
+          "text": "Tuba auditiva",
+          "correct": true
+        },
+        {
+          "text": "Kleine Bronchialknorpel",
+          "correct": true
+        },
+        {
+          "text": "Menisken",
+          "explain": "Menisken bestehen aus Faserknorpel."
+        },
+        {
+          "text": "Trachealspangen",
+          "explain": "Die Trachealspangen sind hyaliner Knorpel."
+        }
+      ],
+      "explanation": "Vorkommen laut Skript: Auricula, Tuba auditiva, Epiglottis, lokal im Larynx (u. a. Proc. vocalis des Stellknorpels) und kleine Bronchialknorpel.",
+      "source": "VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-ohr-regeneration",
+      "type": "single",
+      "question": "Ein Defekt in diesem Ohrknorpel heilt meist wie?",
+      "image": "images/ds-ohr-knorpel.jpg",
+      "options": [
+        {
+          "text": "Er regeneriert kaum und wird evtl. durch eine bindegewebige Narbe verschlossen.",
+          "correct": true
+        },
+        {
+          "text": "Er regeneriert vollständig aus den Chondrozyten.",
+          "explain": "Hyaliner und elastischer Knorpel können laut Skript nicht regenerieren."
+        },
+        {
+          "text": "Er wird durch Knochen ersetzt.",
+          "explain": "Das ist keine normale Defektheilung des elastischen Knorpels."
+        }
+      ],
+      "explanation": "Hyaliner und elastischer Knorpel können nicht regenerieren. Defekte werden evtl. durch bindegewebige Narben verschlossen.",
+      "source": "VL-Skript ZUG Teil 1, S. 181"
+    },
+    {
+      "id": "ds-fk-gewebe",
+      "type": "single",
+      "question": "Digitaler Schnitt (Azan), Lupe: Ein keilförmiges Gewebestück aus dicht gepackten, unterschiedlich verlaufenden Faserbündeln mit wenigen Zellen. Welche Knorpelart ist das?",
+      "image": "images/ds-faserknorpel-lupe.jpg",
+      "options": [
+        {
+          "text": "Faserknorpel",
+          "correct": true
+        },
+        {
+          "text": "Hyaliner Knorpel",
+          "explain": "Im hyalinen Knorpel sind die Kollagenfasern maskiert, die Matrix wirkt homogen und basophil, mit isogenen Gruppen."
+        },
+        {
+          "text": "Elastischer Knorpel",
+          "explain": "Elastischer Knorpel hat große Chondrozyten dicht nebeneinander und elastische Netze, keine groben Kollagenbündel."
+        },
+        {
+          "text": "Fetaler Knorpel",
+          "explain": "Fetaler Knorpel ist sehr zellreich."
+        }
+      ],
+      "explanation": "**Faserknorpel** ähnelt straffem Bindegewebe: dicke, sichtbare (nicht maskierte) Bündel aus Kollagen Typ I, dazwischen wenige Chondrozyten. Die Keilform passt zu einem Meniskus.",
+      "source": "Digitaler Schnitt Faserknorpel (Azan); VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-fk-vorkommen-form",
+      "type": "single",
+      "question": "Dieser Faserknorpel ist im Querschnitt keilförmig. Aus welcher Struktur stammt er am ehesten?",
+      "image": "images/ds-faserknorpel-lupe.jpg",
+      "options": [
+        {
+          "text": "Meniskus des Kniegelenks",
+          "correct": true
+        },
+        {
+          "text": "Ohrmuschel",
+          "explain": "Die Ohrmuschel enthält eine dünne Platte aus elastischem Knorpel, beidseits mit Haut bedeckt."
+        },
+        {
+          "text": "Trachealspange",
+          "explain": "Trachealspangen sind hufeisenförmiger hyaliner Knorpel."
+        },
+        {
+          "text": "Rippenknorpel",
+          "explain": "Rippenknorpel ist hyaliner Knorpel."
+        }
+      ],
+      "explanation": "Menisken sind im Querschnitt keilförmig und bestehen aus **Faserknorpel**. Weitere Orte laut Skript: Anulus fibrosus (innere Anteile), Symphysis pubis, Disci, Kiefergelenk, Sehnenansätze am Knochen.",
+      "source": "VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-fk-fasern",
+      "type": "single",
+      "question": "Faserknorpel, mittlere Vergrößerung (Azan): Woraus bestehen die rötlich bis orange gefärbten, gewellten Bündel?",
+      "image": "images/ds-faserknorpel-fasern.jpg",
+      "options": [
+        {
+          "text": "Aus Kollagen Typ I in nicht maskierten Bündeln",
+          "correct": true
+        },
+        {
+          "text": "Aus Kollagen Typ II, maskiert durch Grundsubstanz",
+          "explain": "Das gilt für hyalinen Knorpel. Dort sind die Fibrillen im LM nicht sichtbar."
+        },
+        {
+          "text": "Aus elastischen Fasern",
+          "explain": "Elastische Netze kennzeichnen den elastischen Knorpel."
+        },
+        {
+          "text": "Aus glatten Muskelzellen",
+          "explain": "Faserknorpel enthält keine Muskelzellen."
+        }
+      ],
+      "explanation": "Faserknorpel hat einen **hohen Gehalt an Kollagen Typ I** in nicht maskierten Bündeln, deshalb ähnelt er straffem Bindegewebe. Die Bündel verlaufen in verschiedene Richtungen.",
+      "source": "Digitaler Schnitt Faserknorpel (Azan); VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-fk-zellen",
+      "type": "image",
+      "question": "Faserknorpel, starke Vergrößerung (Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-faserknorpel-zellen.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 45,
+          "y": 12,
+          "ax": 57.5,
+          "ay": 32.3,
+          "answer": "Einzelner Chondrozyt"
+        },
+        {
+          "n": 2,
+          "x": 85,
+          "y": 50,
+          "ax": 92.5,
+          "ay": 28.6,
+          "answer": "Chondrozyten in Längsreihe"
+        },
+        {
+          "n": 3,
+          "x": 78,
+          "y": 78,
+          "answer": "Kollagenfaserbündel"
+        }
+      ],
+      "distractors": [
+        "Perichondrium",
+        "Isogene Gruppe mit vielen Zellen"
+      ],
+      "explanation": "Im Faserknorpel liegen die Chondrozyten **einzeln oder in Chondronen mit wenigen Zellen**, oft in Längsausrichtung zwischen den Kollagenbündeln. Ein Perichondrium fehlt.",
+      "source": "Digitaler Schnitt Faserknorpel (Azan); VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-fk-merkmale",
+      "type": "multiple",
+      "question": "Welche Aussagen zum **Faserknorpel** in diesem Präparat sind richtig?",
+      "image": "images/ds-faserknorpel-fasern.jpg",
+      "options": [
+        {
+          "text": "Er ähnelt straffem Bindegewebe.",
+          "correct": true
+        },
+        {
+          "text": "Er hat eine natürlich weiße Farbe.",
+          "correct": true
+        },
+        {
+          "text": "Ein Perichondrium ist nicht ausgebildet.",
+          "correct": true
+        },
+        {
+          "text": "Er geht in straffes Bindegewebe oder hyalinen Knorpel über.",
+          "correct": true
+        },
+        {
+          "text": "Er ist von einem zweischichtigen Perichondrium umgeben.",
+          "explain": "Ein Perichondrium haben hyaliner (außer Gelenkknorpel) und elastischer Knorpel, Faserknorpel nicht."
+        },
+        {
+          "text": "Seine Kollagenfasern sind im LM nicht sichtbar.",
+          "explain": "Das gilt für hyalinen Knorpel. Im Faserknorpel sind die Typ-I-Bündel gut sichtbar."
+        }
+      ],
+      "explanation": "Faserknorpel: ähnelt straffem BGW, natürlich weiß, Chondrozyten einzeln oder in kleinen Chondronen, viel Kollagen Typ I in nicht maskierten Bündeln, **kein Perichondrium**, Übergang in straffes BGW oder hyalinen Knorpel.",
+      "source": "VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-fk-funktion",
+      "type": "single",
+      "question": "Für welche Beanspruchung ist Faserknorpel wie in diesem Meniskus gebaut?",
+      "image": "images/ds-faserknorpel-lupe.jpg",
+      "options": [
+        {
+          "text": "Kombinierte Druck-, Zug- und Scherbeanspruchung",
+          "correct": true
+        },
+        {
+          "text": "Starke Verformung und Vibration",
+          "explain": "Dafür ist elastischer Knorpel geeignet."
+        },
+        {
+          "text": "Nur reine Zugbelastung",
+          "explain": "Reine Zugbelastung trägt straffes parallelfaseriges BGW, z. B. die Sehne."
+        }
+      ],
+      "explanation": "Laut Skript ist Faserknorpel an **kombinierte Druck-, Zug- und Scherbeanspruchung** angepasst.",
+      "source": "VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-fk-vorkommen",
+      "type": "multiple",
+      "question": "Wo kommt Faserknorpel vor?",
+      "image": "images/ds-faserknorpel-fasern.jpg",
+      "options": [
+        {
+          "text": "Innere Anteile des Anulus fibrosus",
+          "correct": true
+        },
+        {
+          "text": "Symphysis pubis",
+          "correct": true
+        },
+        {
+          "text": "Menisci und Disci von Gelenken",
+          "correct": true
+        },
+        {
+          "text": "Bereich der Sehnenansätze am Knochen",
+          "correct": true
+        },
+        {
+          "text": "Nucleus pulposus",
+          "explain": "Der Nucleus pulposus enthält Kollagen Typ II und ist kein Faserknorpel im Sinne des Skripts."
+        },
+        {
+          "text": "Epiglottis",
+          "explain": "Die Epiglottis ist elastischer Knorpel."
+        }
+      ],
+      "explanation": "Vorkommen laut Skript: innere Anteile des Anulus fibrosus, Symphysis pubis, Menisci und Disci, Gelenkknorpel einzelner Gelenke (z. B. Kiefergelenk), Sehnenansätze am Knochen, Endstrecke der Bronchioli terminales.",
+      "source": "VL-Skript ZUG Teil 1, S. 184"
+    },
+    {
+      "id": "ds-kn-lupe",
+      "type": "image",
+      "question": "Fötales Handgelenk (Azan), Lupe: Ordne die markierten Strukturen zu.",
+      "image": "images/ds-knochen-lupe.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 56.7,
+          "y": 32.3,
+          "answer": "Knorpelige Skelettanlagen"
+        },
+        {
+          "n": 2,
+          "x": 39.2,
+          "y": 58.7,
+          "answer": "Verknöchernde Diaphyse"
+        },
+        {
+          "n": 3,
+          "x": 25,
+          "y": 44,
+          "answer": "Skelettmuskulatur"
+        },
+        {
+          "n": 4,
+          "x": 58.3,
+          "y": 66,
+          "answer": "Haut mit Haaranlagen"
+        }
+      ],
+      "distractors": [
+        "Lamellenknochen mit Osteonen",
+        "Faserknorpel"
+      ],
+      "explanation": "Beim Fötus sind die meisten Skelettelemente zunächst **knorpelig** angelegt (blau). Im Schaft des Röhrenknochens hat die chondrale Ossifikation schon begonnen: dort liegen Knochenbälkchen und Knochenmark.",
+      "source": "Digitaler Schnitt Knochengelenk (Azan); VL-Skript ZUG Teil 1, S. 180, 198–199"
+    },
+    {
+      "id": "ds-kn-uebersicht",
+      "type": "image",
+      "question": "Fötaler Röhrenknochen am Gelenk (Azan): Ordne die markierten Strukturen zu.",
+      "image": "images/ds-ossifikation-uebersicht.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 81.7,
+          "y": 35.2,
+          "answer": "Epiphyse aus hyalinem Knorpel"
+        },
+        {
+          "n": 2,
+          "x": 80,
+          "y": 14.7,
+          "answer": "Gelenkspalt"
+        },
+        {
+          "n": 3,
+          "x": 60,
+          "y": 10,
+          "ax": 66.4,
+          "ay": 23.9,
+          "answer": "Gefäßführender Knorpelkanal"
+        },
+        {
+          "n": 4,
+          "x": 39.2,
+          "y": 58.7,
+          "answer": "Primäre Markhöhle mit Knochenmark"
+        },
+        {
+          "n": 5,
+          "x": 12.5,
+          "y": 22,
+          "answer": "Skelettmuskulatur"
+        },
+        {
+          "n": 6,
+          "x": 33,
+          "y": 22,
+          "ax": 42.9,
+          "ay": 30.8,
+          "answer": "Perichondrale Knochenmanschette"
+        }
+      ],
+      "distractors": [
+        "Linea epiphysealis",
+        "Osteon"
+      ],
+      "explanation": "Die Epiphyse ist noch hyaliner Knorpel, vereinzelt mit gefäßführenden Knorpelkanälen. In der Diaphyse wurde der Knorpel abgebaut und durch Knochenbälkchen ersetzt, dazwischen liegt rotes Knochenmark. Außen umgibt die **perichondrale Knochenmanschette** den Schaft.",
+      "source": "Digitaler Schnitt Knochengelenk (Azan); VL-Skript ZUG Teil 1, S. 182, 198"
+    },
+    {
+      "id": "ds-kn-zonen",
+      "type": "image",
+      "question": "Chondrale Ossifikation (Azan): Ordne die Zonen und Strukturen zu.",
+      "image": "images/ds-ossifikation-zonen.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 85.9,
+          "y": 30.2,
+          "answer": "Reservezone"
+        },
+        {
+          "n": 2,
+          "x": 64.6,
+          "y": 48.4,
+          "answer": "Proliferationszone (Säulenknorpel)"
+        },
+        {
+          "n": 3,
+          "x": 49.5,
+          "y": 50.8,
+          "answer": "Hypertrophiezone (Blasenknorpel)"
+        },
+        {
+          "n": 4,
+          "x": 30.9,
+          "y": 56.8,
+          "answer": "Ossifikationszone"
+        },
+        {
+          "n": 5,
+          "x": 6,
+          "y": 12,
+          "ax": 14,
+          "ay": 26.2,
+          "answer": "Perichondrale Knochenmanschette"
+        },
+        {
+          "n": 6,
+          "x": 52,
+          "y": 6,
+          "ax": 61.1,
+          "ay": 12.7,
+          "answer": "Knorpelkanal mit Gefäß"
+        },
+        {
+          "n": 7,
+          "x": 10.3,
+          "y": 72.6,
+          "answer": "Primäre Markhöhle"
+        }
+      ],
+      "distractors": [
+        "Osteon",
+        "Perichondrium (Stratum fibrosum)"
+      ],
+      "explanation": "Von der Epiphyse zur Diaphyse: **Reservezone** (einzelne Chondrozyten im hyalinen Knorpel), **Proliferationszone** (abgeflachte Zellen in Säulen), **Hypertrophiezone** (blasig aufgetriebene Zellen), Resorptionszone und **Ossifikationszone** mit Knochenbälkchen und Markraum.",
+      "source": "Digitaler Schnitt Knochengelenk (Azan); VL-Skript ZUG Teil 1, S. 198–199"
+    },
+    {
+      "id": "ds-kn-detail",
+      "type": "image",
+      "question": "Chondrale Ossifikation, stärkere Vergrößerung: Ordne die Zonen zu.",
+      "image": "images/ds-ossifikation-detail.jpg",
+      "labels": [
+        {
+          "n": 1,
+          "x": 91.7,
+          "y": 17.6,
+          "answer": "Reservezone"
+        },
+        {
+          "n": 2,
+          "x": 76.7,
+          "y": 48.4,
+          "answer": "Säulenknorpel"
+        },
+        {
+          "n": 3,
+          "x": 44.2,
+          "y": 48.4,
+          "answer": "Blasenknorpel"
+        },
+        {
+          "n": 4,
+          "x": 12.5,
+          "y": 66,
+          "answer": "Ossifikationszone mit Markraum"
+        }
+      ],
+      "distractors": [
+        "Isogene Gruppe des Gelenkknorpels",
+        "Faserknorpel"
+      ],
+      "explanation": "Im **Säulenknorpel** teilen sich die Chondroblasten hauptsächlich in der Längsachse, daher liegen die abgeflachten Zellen in Säulen. Im **Blasenknorpel** werden die Zellen groß und blasig. Danach verkalken die Knorpelwände, die Chondrozyten sterben, Gefäße und Osteoblasten wachsen ein.",
+      "source": "Digitaler Schnitt Knochengelenk (Azan); VL-Skript ZUG Teil 1, S. 199"
+    },
+    {
+      "id": "ds-kn-zonen-reihenfolge",
+      "type": "order",
+      "question": "Ordne die Zonen der chondralen Ossifikation von der Epiphyse zur Diaphyse.",
+      "image": "images/ds-ossifikation-zonen.jpg",
+      "items": [
+        "Reservezone",
+        "Proliferationszone",
+        "Hypertrophiezone",
+        "Resorptionszone",
+        "Ossifikationszone"
+      ],
+      "explanation": "1 Reservezone, 2 Proliferationszone (Säulenknorpel, mit Maturationszone als Übergang), 3 Hypertrophiezone (Blasenknorpel), 4 Resorptionszone, 5 Ossifikationszone.",
+      "source": "VL-Skript ZUG Teil 1, S. 199"
+    },
+    {
+      "id": "ds-kn-ossifikationsart",
+      "type": "single",
+      "question": "Welche Art der Knochenbildung zeigt dieser fötale Röhrenknochen?",
+      "image": "images/ds-ossifikation-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Chondrale Ossifikation (Ersatzknochenbildung)",
+          "correct": true
+        },
+        {
+          "text": "Desmale Ossifikation",
+          "explain": "Desmal entstehen Knochen direkt aus Mesenchym, ohne Knorpelmodell, z. B. Schädeldach und Schlüsselbeinschaft."
+        },
+        {
+          "text": "Umbau von Faserknorpel in Knochen",
+          "explain": "Das Modell ist hyaliner Knorpel, nicht Faserknorpel."
+        }
+      ],
+      "explanation": "Bei der **chondralen Ossifikation** entsteht aus Mesenchym zuerst ein Modell aus **hyalinem Knorpel**, das dann abgebaut und durch Knochen ersetzt wird. So entstehen die meisten Knochen des Körpers.",
+      "source": "VL-Skript ZUG Teil 1, S. 196–198"
+    },
+    {
+      "id": "ds-kn-saeulen",
+      "type": "single",
+      "question": "Warum liegen die Chondrozyten in der markierten Zone 2 in Säulen?",
+      "image": "images/ds-ossifikation-zonen.jpg",
+      "options": [
+        {
+          "text": "Weil sich die Zellen hauptsächlich in der Längsachse teilen",
+          "correct": true
+        },
+        {
+          "text": "Weil sie entlang einwachsender Kapillaren wandern",
+          "explain": "Kapillaren sprossen erst in der Ossifikationszone ein."
+        },
+        {
+          "text": "Weil sie durch Apoptose in Reihen zurückbleiben",
+          "explain": "Apoptose findet in der Resorptionszone statt."
+        },
+        {
+          "text": "Weil sie vom Perichondrium angelagert werden",
+          "explain": "Das wäre appositionelles Wachstum an der Oberfläche."
+        }
+      ],
+      "explanation": "In der **Proliferationszone** teilen sich die Chondroblasten stark, durch Wachstumsfaktoren stimuliert, hauptsächlich in der Längsachse. Daher entstehen Säulen abgeflachter Zellen, und die Epiphysen werden von der Diaphyse weggeschoben.",
+      "source": "VL-Skript ZUG Teil 1, S. 199"
+    },
+    {
+      "id": "ds-kn-zonen-funktion",
+      "type": "matching",
+      "question": "Ordne den Zonen der chondralen Ossifikation zu, was dort passiert.",
+      "image": "images/ds-ossifikation-detail.jpg",
+      "pairs": [
+        {
+          "left": "Reservezone",
+          "right": "Hyaliner Knorpel mit meist einzeln liegenden Chondrozyten"
+        },
+        {
+          "left": "Proliferationszone",
+          "right": "Starke Mitoseaktivität, Zellen in Säulen"
+        },
+        {
+          "left": "Hypertrophiezone",
+          "right": "Zellen blasig aufgetrieben, stoffwechselaktiv"
+        },
+        {
+          "left": "Resorptionszone",
+          "right": "Verkalkung der Längswände, Chondrozyten sterben durch Apoptose"
+        },
+        {
+          "left": "Ossifikationszone",
+          "right": "Kapillaren sprossen ein, Osteoblasten bilden Geflechtknochen"
+        }
+      ],
+      "distractors": [
+        "Osteoklasten bilden Osteoid"
+      ],
+      "explanation": "Die Abfolge entspricht dem Weg von der Epiphyse zur Diaphyse. In der Ossifikationszone wird später Lamellenknochen gebildet, Osteoklasten erweitern die Markhöhle.",
+      "source": "VL-Skript ZUG Teil 1, S. 199"
+    },
+    {
+      "id": "ds-kn-manschette",
+      "type": "single",
+      "question": "Wie entsteht die markierte perichondrale Knochenmanschette (5)?",
+      "image": "images/ds-ossifikation-zonen.jpg",
+      "options": [
+        {
+          "text": "Osteoblasten aus dem Perichondrium der Diaphyse bilden Geflechtknochen.",
+          "correct": true
+        },
+        {
+          "text": "Der Knorpel der Diaphyse verkalkt und wird direkt zu Knochen.",
+          "explain": "Knorpel wird nicht direkt zu Knochen, er wird abgebaut und ersetzt."
+        },
+        {
+          "text": "Osteozyten aus der Markhöhle wandern nach außen.",
+          "explain": "Osteozyten sind eingemauert und wandern nicht."
+        },
+        {
+          "text": "Sie entsteht erst nach der Geburt aus Lamellenknochen.",
+          "explain": "Sie entsteht ab der 7. Embryonalwoche, zunächst als Geflechtknochen."
+        }
+      ],
+      "explanation": "**Perichondrale Verknöcherung**: ab der 7. Embryonalwoche entstehen im Perichondrium der Diaphyse Osteoblasten. Sie bilden eine Knochenmanschette aus **Geflechtknochen**. Innen läuft gleichzeitig die enchondrale Verknöcherung.",
+      "source": "VL-Skript ZUG Teil 1, S. 198"
+    },
+    {
+      "id": "ds-kn-enchondral",
+      "type": "multiple",
+      "question": "Welche Schritte gehören zur **enchondralen** Verknöcherung der Diaphyse, wie man sie hier sieht?",
+      "image": "images/ds-ossifikation-uebersicht.jpg",
+      "options": [
+        {
+          "text": "Knorpelzellen im Zentrum vergrößern sich, die Grundsubstanz verkalkt.",
+          "correct": true
+        },
+        {
+          "text": "Blutgefäße wachsen ein, angelockt durch VEGF aus den Knorpelzellen.",
+          "correct": true
+        },
+        {
+          "text": "Eingewanderte Mesenchymzellen werden zu Osteoblasten und Osteoklasten.",
+          "correct": true
+        },
+        {
+          "text": "In den freien Räumen siedelt sich rotes Knochenmark an.",
+          "correct": true
+        },
+        {
+          "text": "Chondrozyten wandeln sich direkt in Osteozyten um.",
+          "explain": "Die Chondrozyten gehen zugrunde. Knochen wird von eingewanderten Osteoblasten neu gebildet."
+        },
+        {
+          "text": "Zuerst entsteht Lamellenknochen mit Osteonen.",
+          "explain": "Zuerst entsteht spongiöser Geflechtknochen, Lamellenknochen erst beim Umbau."
+        }
+      ],
+      "explanation": "Enchondral: Chondrozyten hypertrophieren, Matrix verkalkt, Gefäße wachsen über VEGF ein, mit ihnen Mesenchymzellen, die zu Osteoblasten und Osteoklasten werden. Osteoklasten bauen verkalkte Matrix ab, Osteoblasten bilden spongiösen Geflechtknochen, rotes Knochenmark besiedelt die Räume.",
+      "source": "VL-Skript ZUG Teil 1, S. 198"
+    },
+    {
+      "id": "ds-kn-knorpelkanal",
+      "type": "single",
+      "question": "Was ist die markierte ovale Struktur (6) im Knorpel der Epiphyse?",
+      "image": "images/ds-ossifikation-zonen.jpg",
+      "options": [
+        {
+          "text": "Ein gefäßführender Knorpelkanal",
+          "correct": true
+        },
+        {
+          "text": "Ein Havers-Kanal",
+          "explain": "Havers-Kanäle liegen im Zentrum von Osteonen im Lamellenknochen, nicht im Knorpel."
+        },
+        {
+          "text": "Eine isogene Gruppe",
+          "explain": "Isogene Gruppen sind kleine Zellgruppen aus einer Mutterzelle, ohne Blut."
+        },
+        {
+          "text": "Ein Osteoklast",
+          "explain": "Osteoklasten sind vielkernige Riesenzellen an der Knochenoberfläche."
+        }
+      ],
+      "explanation": "Ausgereifter Knorpel ist (fast) gefäßfrei und wird durch Diffusion versorgt. Größere Knorpelstücke wie diese Epiphysenanlage enthalten jedoch einige **gefäßführende Knorpelkanäle**. Man sieht darin Erythrozyten.",
+      "source": "VL-Skript ZUG Teil 1, S. 180, 182"
+    },
+    {
+      "id": "ds-kn-laengenwachstum",
+      "type": "single",
+      "question": "Die hier sichtbare Wachstumszone wird später zur Epiphysenfuge. Was gilt für sie?",
+      "image": "images/ds-ossifikation-detail.jpg",
+      "options": [
+        {
+          "text": "Sie sorgt durch Teilung der Knorpelzellen für das Längenwachstum und verknöchert gegen Ende der Pubertät zur Linea epiphysealis.",
+          "correct": true
+        },
+        {
+          "text": "Sie sorgt für das Dickenwachstum des Knochens.",
+          "explain": "Das Dickenwachstum erfolgt durch Abbau innen und Anbau außen (Periost)."
+        },
+        {
+          "text": "Sie bleibt lebenslang aktiv.",
+          "explain": "Sie ist etwa 16–20 Jahre aktiv."
+        },
+        {
+          "text": "Sie besteht aus Faserknorpel.",
+          "explain": "Die Wachstumszone besteht aus hyalinem Knorpel."
+        }
+      ],
+      "explanation": "Epiphysenfugen sind für das **Längenwachstum** verantwortlich, bleiben 16–20 Jahre aktiv und verknöchern gegen Ende der Pubertät zur **Linea epiphysealis**.",
+      "source": "VL-Skript ZUG Teil 1, S. 198"
+    }
+  ]
+}
