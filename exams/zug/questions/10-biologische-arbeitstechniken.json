@@ -1,0 +1,83 @@
+{
+  "chapter": "VL 10 – Biologische Arbeitstechniken",
+  "source": "VL-Skript ZUG Teil 1, VL 10 (S. 127–131)",
+  "questions": [
+    { "id": "bat-hayflick", "type": "single", "question": "Was versteht man unter dem **Hayflick-Limit**?",
+      "options": [
+        { "text": "Die begrenzte Zahl von ca. 50 Zellteilungen nicht immortalisierter Zellen, danach Seneszenz", "correct": true },
+        { "text": "Die maximale Zellzahl pro Kulturflasche" },
+        { "text": "Die Temperatur, unter der alle biochemischen Reaktionen stillstehen" },
+        { "text": "Die Mindestzahl an Passagen einer Zelllinie" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "bat-immortal", "type": "multiple", "question": "Wie können Zelllinien laut Skript **immortalisiert** werden?",
+      "options": [
+        { "text": "Durch zufällige Mutation (in Tumorzellen)", "correct": true },
+        { "text": "Durch künstliche Expression des Telomerase-Gens", "correct": true },
+        { "text": "Durch Trypsin-Behandlung", "explain": "Trypsin löst nur Zellverbindungen beim Passagieren." },
+        { "text": "Durch Kryokonservierung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "bat-pbs-trypsin", "type": "single", "question": "Warum wäscht man adhärente Zellen vor der Trypsin-Behandlung mit **PBS**?",
+      "options": [
+        { "text": "Um Serumkomponenten des Mediums zu entfernen, die das Trypsin hemmen würden", "correct": true },
+        { "text": "Um die Zellen abzutöten" },
+        { "text": "Um die Zellen für die Zählung anzufärben" },
+        { "text": "Um den pH-Wert des Mediums anzuzeigen" }
+      ], "explanation": "Ohne Waschschritt lösen sich die Zellen nicht oder nur unvollständig vom Untergrund.", "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "bat-trypsin", "type": "single", "question": "Wozu dient die **Trypsin-Behandlung** beim Passagieren?",
+      "options": [ { "text": "Sie löst die Verbindungen der Zellen untereinander und vom Untergrund", "correct": true }, { "text": "Sie färbt tote Zellen blau" }, { "text": "Sie bestimmt die Proteinkonzentration" }, { "text": "Sie immortalisiert die Zellen" } ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "bat-zaehlkammer", "type": "single", "question": "Worauf beruht die Zellzählung mit der **Neubauer-Zählkammer** (Hämozytometer)?",
+      "options": [
+        { "text": "Strichmarkierungen und Kammerhöhe definieren ein Volumen, in dem die Zellen unter dem Mikroskop gezählt werden", "correct": true },
+        { "text": "Die Zellen werden photometrisch bei 595 nm gemessen" },
+        { "text": "Die Zellen werden auf Agar ausgestrichen und Kolonien gezählt" },
+        { "text": "Die Zellen werden mit Antikörpern markiert" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 129" },
+    { "id": "bat-trypanblau", "type": "multiple", "question": "Welche Aussagen zur **Trypanblau-Färbung** stimmen?",
+      "options": [
+        { "text": "Es ist eine Ausschlussfärbung: Nur tote Zellen färben sich an.", "correct": true },
+        { "text": "Lebende Zellen nehmen den Farbstoff wegen seiner Größe (960,8 g/mol) nicht auf.", "correct": true },
+        { "text": "Der Farbstoff bindet an intrazelluläre Proteine.", "correct": true },
+        { "text": "Lebende Zellen erscheinen blau.", "explain": "Umgekehrt: Blau sind die toten Zellen mit durchlässiger Membran." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 129" },
+    { "id": "bat-bradford", "type": "single", "question": "Was misst der **Bradford-Test**, und wie?",
+      "options": [
+        { "text": "Proteinkonzentration: Coomassie G-250 verschiebt nach Proteinbindung sein Absorptionsmaximum von 470 auf 595 nm", "correct": true },
+        { "text": "Zellzahl: Zellen werden in einer Kammer gezählt" },
+        { "text": "Vitalität: Tote Zellen nehmen Coomassie auf" },
+        { "text": "DNA-Konzentration: Absorption bei 260 nm" }
+      ], "explanation": "Die Verschiebung der Absorption ist ein Maß für die Proteinkonzentration. Dazu wird eine Standard-Verdünnungsreihe hergestellt.", "source": "VL-Skript ZUG Teil 1, S. 128–129" },
+    { "id": "bat-bradford-nm", "type": "matching", "question": "Ordne die Absorptionsmaxima von Coomassie Brilliant Blue G-250 zu.",
+      "pairs": [ { "left": "Ungebundener Farbstoff", "right": "470 nm" }, { "left": "Farbstoff-Protein-Komplex", "right": "595 nm" } ],
+      "distractors": ["260 nm"], "source": "VL-Skript ZUG Teil 1, S. 129" },
+    { "id": "bat-ablauf", "type": "order", "question": "Bringe die Schritte aus dem Praktikum in eine sinnvolle Reihenfolge.",
+      "items": [ "Zellen mit PBS waschen", "Zellen mit Trypsin ablösen", "Zellzahl mit Trypanblau in der Neubauer-Kammer bestimmen", "Zell-Lysat herstellen", "Proteinbestimmung mit dem Bradford-Assay" ],
+      "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "bat-schnittdicke", "type": "single", "question": "In welchem Bereich liegt laut Skript die Schnittdicke von Gewebeschnitten am Mikrotom?",
+      "options": [ { "text": "ca. 0,5–100 µm", "correct": true }, { "text": "ca. 1–10 mm" }, { "text": "ca. 1–10 nm" }, { "text": "ca. 0,5–1 cm" } ],
+      "explanation": "Gewebe wird erst fixiert, dann mit dem Mikrotom geschnitten.", "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "bat-ihc-ish", "type": "matching", "question": "Ordne die Methode ihrem Prinzip zu.",
+      "pairs": [
+        { "left": "Immunhistochemie", "right": "Antigen-Antikörper-Reaktion (direkt oder indirekt)" },
+        { "left": "In-situ-Hybridisierung", "right": "Markierte Nukleinsäure-Sonden binden über Basenpaarung" },
+        { "left": "GFP", "right": "Grüne Fluoreszenz nach Anregung mit blauem Licht" },
+        { "left": "LacZ-Färbung", "right": "Bakterielle β-Galactosidase als Reporter" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "bat-gfp", "type": "single", "question": "Aus welchem Organismus wurde das **Green fluorescent protein (GFP)** isoliert?",
+      "options": [ { "text": "Aequorea victoria (Qualle)", "correct": true }, { "text": "Pseudomonas fluorescens" }, { "text": "Escherichia coli" }, { "text": "Saccharomyces cerevisiae" } ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "bat-clearing", "type": "single", "question": "Was ermöglicht **Clearing** von Gewebe?",
+      "options": [ { "text": "Das Gewebe wird optisch transparent, tiefe Strukturen werden sichtbar", "correct": true }, { "text": "Entfernung von Mycoplasmen" }, { "text": "Ablösen adhärenter Zellen" }, { "text": "Färbung saurer Strukturen" } ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "bat-spheroid-organoid", "type": "matching", "question": "Ordne die 3D-Modelle zu.",
+      "pairs": [
+        { "left": "Spheroid", "right": "3D-Zellaggregat aus einem Zelltyp" },
+        { "left": "Assembloid", "right": "3D-Zellaggregat aus zwei oder mehr Zelltypen" },
+        { "left": "Organoid", "right": "Vereinfachte Miniatur eines Organs mit organähnlicher Anordnung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 131" },
+    { "id": "bat-matrigel", "type": "single", "question": "Was ist **Matrigel**?",
+      "options": [
+        { "text": "Eine extrazelluläre Matrix aus dem Sekret einer Tumor-Zelllinie (Engelbreth-Holm-Swarm)", "correct": true },
+        { "text": "Ein Agar zur Bakterienkultivierung" },
+        { "text": "Ein Gefrierschutzmittel" },
+        { "text": "Ein Farbstoff für die Proteinbestimmung" }
+      ], "explanation": "Für die Selbstorganisation von Organoiden ist eine geeignete Matrix wichtig (Hydrogel, Matrigel, Kollagen/Gelatine, Laminin/Fibronektin).", "source": "VL-Skript ZUG Teil 1, S. 131" }
+  ]
+}

@@ -1,0 +1,899 @@
+{
+  "chapter": "VL 9 – Zellkultur und klinisch-mikrobiologische Techniken",
+  "source": "VL-Skript ZUG Teil 1, VL 9 (S. 103–126)",
+  "questions": [
+    {
+      "id": "zk-primaer-vorteil",
+      "type": "multiple",
+      "question": "Welche Aussagen treffen auf **Primärkulturen** zu?",
+      "options": [
+        {
+          "text": "Sie behalten ihre physiologischen Eigenschaften (Morphologie, Metabolismus).",
+          "correct": true
+        },
+        {
+          "text": "Sie haben nur eine begrenzte Teilungsrate.",
+          "correct": true
+        },
+        {
+          "text": "Sie zeigen Kontaktinhibition.",
+          "correct": true
+        },
+        {
+          "text": "Sie sind durch Immortalisierung künstlich verändert.",
+          "explain": "Gerade das ist bei Primärkulturen nicht der Fall – das betrifft Zelllinien."
+        },
+        {
+          "text": "Sie sind unabhängig von Wachstumsfaktoren und Serum.",
+          "explain": "Das ist ein Vorteil von Zelllinien."
+        }
+      ],
+      "explanation": "Primärkulturen sind direkt aus Gewebe gewonnen: physiologisch, aber begrenzt teilungsfähig, kontaktinhibiert und sehr sensibel.",
+      "source": "VL-Skript ZUG Teil 1, S. 104"
+    },
+    {
+      "id": "zk-zelllinie-teilungen",
+      "type": "single",
+      "question": "Wie viele Teilungen sind bei Zelllinien laut Skript möglich?",
+      "options": [
+        {
+          "text": "Unbegrenzt (> 300)",
+          "correct": true
+        },
+        {
+          "text": "ca. 15",
+          "explain": "So wird die Teilungsrate von Primärkulturen in VL 9 angegeben."
+        },
+        {
+          "text": "ca. 50",
+          "explain": "Das Hayflick-Limit gilt für nicht immortalisierte Zellen."
+        },
+        {
+          "text": "genau 1"
+        }
+      ],
+      "explanation": "Zelllinien gelten als „unsterblich“ mit unbegrenzter Teilungsrate (> 300).",
+      "source": "VL-Skript ZUG Teil 1, S. 105"
+    },
+    {
+      "id": "zk-zelllinie-nachteile",
+      "type": "multiple",
+      "question": "Welche **Nachteile** haben Zelllinien?",
+      "options": [
+        {
+          "text": "Oft veränderte Morphologie",
+          "correct": true
+        },
+        {
+          "text": "Chromosomenaberrationen und Aneuploidien",
+          "correct": true
+        },
+        {
+          "text": "Künstliche Veränderungen durch Immortalisierung",
+          "correct": true
+        },
+        {
+          "text": "Sehr vereinfachte Modelle",
+          "correct": true
+        },
+        {
+          "text": "Teuer und schwer erhältlich",
+          "explain": "Zelllinien sind kommerziell erhältlich, schnell, leicht und kostengünstig zu kultivieren."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 105"
+    },
+    {
+      "id": "zk-isolation",
+      "type": "multiple",
+      "question": "Mit welchen Methoden werden Zellen für eine Primärkultur isoliert?",
+      "options": [
+        {
+          "text": "Mechanische Separation (Zellen wandern in die Flasche aus)",
+          "correct": true
+        },
+        {
+          "text": "Enzymatischer Verdau, z. B. mit Collagenase/Elastase",
+          "correct": true
+        },
+        {
+          "text": "Immortalisierung durch Telomerase",
+          "explain": "Damit entsteht eine Zelllinie, keine Primärkultur."
+        },
+        {
+          "text": "Gram-Färbung"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 105"
+    },
+    {
+      "id": "zk-adhaerent-suspension",
+      "type": "matching",
+      "question": "Ordne die Zellen der Kulturform zu.",
+      "pairs": [
+        {
+          "left": "Epithelzellen, Fibroblasten, Endothelzellen",
+          "right": "Adhärent (heften sich ans Kulturgefäß)"
+        },
+        {
+          "left": "Lymphozyten",
+          "right": "Nicht adhärent (Suspensionskultur)"
+        },
+        {
+          "left": "Spheroide, Organoide, Organ-on-a-chip",
+          "right": "3D-Zellkultur"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 106–107"
+    },
+    {
+      "id": "zk-3d-vorteile",
+      "type": "multiple",
+      "question": "Welche Aussagen zur **3D-Zellkultur** stimmen?",
+      "options": [
+        {
+          "text": "Sie ist eine Brücke zwischen 2D-Zellkultur und In-vivo-Modellen.",
+          "correct": true
+        },
+        {
+          "text": "Sie erhält die Tumorheterogenität.",
+          "correct": true
+        },
+        {
+          "text": "Sie kann Tierversuche reduzieren.",
+          "correct": true
+        },
+        {
+          "text": "Sie ist billig, schnell und sehr gut reproduzierbar.",
+          "explain": "Nachteile laut Skript: teuer, zeitintensiv, keine einfache Handhabung, geringe Reproduzierbarkeit."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 106"
+    },
+    {
+      "id": "zk-bedingungen",
+      "type": "single",
+      "question": "Unter welchen Standardbedingungen werden Zellen im Inkubator kultiviert?",
+      "options": [
+        {
+          "text": "37 °C, 5 % CO~2~, 95 % Luftfeuchtigkeit",
+          "correct": true
+        },
+        {
+          "text": "37 °C, 21 % CO~2~, 50 % Luftfeuchtigkeit"
+        },
+        {
+          "text": "25 °C, 5 % CO~2~, 95 % Luftfeuchtigkeit"
+        },
+        {
+          "text": "4 °C, 5 % O~2~, trocken"
+        }
+      ],
+      "explanation": "Ziel ist ein „körperähnlicher Zustand“ unter definierten, kontrollierten Bedingungen.",
+      "source": "VL-Skript ZUG Teil 1, S. 108"
+    },
+    {
+      "id": "zk-phenolrot",
+      "type": "single",
+      "question": "Welche Funktion hat **Phenolrot** im Zellkulturmedium?",
+      "options": [
+        {
+          "text": "pH-Indikator",
+          "correct": true
+        },
+        {
+          "text": "Antibiotikum"
+        },
+        {
+          "text": "Energiequelle"
+        },
+        {
+          "text": "Färbung toter Zellen",
+          "explain": "Das macht Trypanblau."
+        }
+      ],
+      "explanation": "Das Medium wird alle 2–3 Tage gewechselt; Phenolrot zeigt pH-Änderungen an (z. B. Ansäuerung bei bakterieller Kontamination).",
+      "source": "VL-Skript ZUG Teil 1, S. 108"
+    },
+    {
+      "id": "zk-medium-wechsel",
+      "type": "single",
+      "question": "Wie oft wird das Kulturmedium laut Skript gewechselt?",
+      "options": [
+        {
+          "text": "Alle 2–3 Tage",
+          "correct": true
+        },
+        {
+          "text": "Stündlich"
+        },
+        {
+          "text": "Einmal pro Monat"
+        },
+        {
+          "text": "Nie, nur beim Passagieren"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 108"
+    },
+    {
+      "id": "zk-medium-bestandteile",
+      "type": "multiple",
+      "question": "Welche Bestandteile werden im Skript für Kulturmedien genannt?",
+      "options": [
+        {
+          "text": "Salze, Vitamine, Aminosäuren",
+          "correct": true
+        },
+        {
+          "text": "Glukose",
+          "correct": true
+        },
+        {
+          "text": "Serum und Antibiotika",
+          "correct": true
+        },
+        {
+          "text": "Phenolrot",
+          "correct": true
+        },
+        {
+          "text": "Trypsin",
+          "explain": "Trypsin wird nur zum Ablösen adhärenter Zellen beim Passagieren verwendet."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 108"
+    },
+    {
+      "id": "zk-bsl-zuordnung",
+      "type": "matching",
+      "question": "Ordne die Beispiele der biologischen Sicherheitsstufe zu.",
+      "pairs": [
+        {
+          "left": "Bäckerhefe, Lactobacillen (Joghurt)",
+          "right": "Stufe 1"
+        },
+        {
+          "left": "E. coli, Herpes-simplex-Virus, Candida albicans",
+          "right": "Stufe 2"
+        },
+        {
+          "left": "Mycobacterium tuberculosis, HIV, Hepatitis-C-Virus",
+          "right": "Stufe 3"
+        },
+        {
+          "left": "Ebola-, Lassa-, Marburg-Virus, Pockenviren",
+          "right": "Stufe 4"
+        }
+      ],
+      "explanation": "Stufe 4 umfasst laut Skript ausschließlich Viren; meist ist keine wirksame Vorbeugung oder Behandlung möglich.",
+      "source": "VL-Skript ZUG Teil 1, S. 109"
+    },
+    {
+      "id": "zk-bsl4",
+      "type": "single",
+      "question": "Was ist laut Skript typisch für Biostoffe der **Stufe 4**?",
+      "options": [
+        {
+          "text": "Schwere Krankheit, Verbreitungsgefahr evtl. groß, normalerweise keine wirksame Vorbeugung oder Behandlung",
+          "correct": true
+        },
+        {
+          "text": "Schwere Krankheit, Verbreitung in der Bevölkerung möglich, aber wirksame Behandlung normalerweise vorhanden",
+          "explain": "Das beschreibt Stufe 3."
+        },
+        {
+          "text": "Krankheit möglich, Verbreitung unwahrscheinlich, gut behandelbar",
+          "explain": "Das beschreibt Stufe 2."
+        },
+        {
+          "text": "Krankheit beim Menschen unwahrscheinlich",
+          "explain": "Das beschreibt Stufe 1."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 109"
+    },
+    {
+      "id": "zk-sterilbank",
+      "type": "multiple",
+      "question": "Welche Aussagen zur Sicherheitswerkbank (Sterilbank, Laminar Flow) stimmen?",
+      "options": [
+        {
+          "text": "Sie ermöglicht steriles Arbeiten.",
+          "correct": true
+        },
+        {
+          "text": "Sie schützt Mensch und Material.",
+          "correct": true
+        },
+        {
+          "text": "Sie wird durch UV-Strahlung sterilisiert.",
+          "correct": true
+        },
+        {
+          "text": "Man darf über offenen Schalen und Flaschen hantieren, solange man Handschuhe trägt.",
+          "explain": "Nie über offene Schalen oder Flaschen hantieren."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 110–111"
+    },
+    {
+      "id": "zk-kryo",
+      "type": "single",
+      "question": "Wie werden Zellen für die Langzeitlagerung kryokonserviert?",
+      "options": [
+        {
+          "text": "Bei −196 °C in Flüssigstickstoff mit DMSO, kontrolliert langsam eingefroren (−1 °C/min)",
+          "correct": true
+        },
+        {
+          "text": "Bei −20 °C im Gefrierschrank ohne Zusatz"
+        },
+        {
+          "text": "Bei −80 °C, möglichst schnell schockgefroren in PBS"
+        },
+        {
+          "text": "Bei 4 °C im Kühlschrank in frischem Medium"
+        }
+      ],
+      "explanation": "Über −70 °C verlieren Zellen schnell an Vitalität, unter −120 °C kommen alle biochemischen Reaktionen zum Stillstand. DMSO schützt vor Eiskristallbildung und Dehydratation.",
+      "source": "VL-Skript ZUG Teil 1, S. 111"
+    },
+    {
+      "id": "zk-dmso",
+      "type": "single",
+      "question": "Wozu dient **DMSO** beim Einfrieren von Zellen?",
+      "options": [
+        {
+          "text": "Schutz vor Schäden durch Eiskristallbildung und Dehydratation",
+          "correct": true
+        },
+        {
+          "text": "Als Nährstoff während der Lagerung"
+        },
+        {
+          "text": "Zum Ablösen adhärenter Zellen"
+        },
+        {
+          "text": "Als pH-Indikator"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 111"
+    },
+    {
+      "id": "zk-kryo-temp",
+      "type": "single",
+      "question": "Ab welcher Temperatur kommen laut Skript **alle biochemischen Reaktionen** zum Stillstand?",
+      "options": [
+        {
+          "text": "Unterhalb von −120 °C",
+          "correct": true
+        },
+        {
+          "text": "Unterhalb von 0 °C"
+        },
+        {
+          "text": "Unterhalb von −20 °C"
+        },
+        {
+          "text": "Unterhalb von −70 °C",
+          "explain": "Über −70 °C verlieren Zellen schnell an Vitalität – Stillstand erst unter −120 °C."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 111"
+    },
+    {
+      "id": "zk-kontam-zuordnung",
+      "type": "matching",
+      "question": "Ordne die Kontamination ihrem typischen Merkmal zu.",
+      "pairs": [
+        {
+          "left": "Bakterien",
+          "right": "Medium trüb und meist gelblich (pH sinkt)"
+        },
+        {
+          "left": "Mycoplasmen",
+          "right": "Im Durchlichtmikroskop nicht sichtbar, passieren Sterilfilter"
+        },
+        {
+          "left": "Pilze",
+          "right": "Lange fädige Hyphen"
+        },
+        {
+          "left": "Viren",
+          "right": "Keine pH-Änderung, Abkugelung der Zellen, Riesenzellen"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 112–113"
+    },
+    {
+      "id": "zk-mycoplasmen",
+      "type": "multiple",
+      "question": "Welche Aussagen zu **Mycoplasmen** stimmen?",
+      "options": [
+        {
+          "text": "Sie haben keine Zellwand.",
+          "correct": true
+        },
+        {
+          "text": "Sie können Sterilfilter passieren.",
+          "correct": true
+        },
+        {
+          "text": "Nachweis durch PCR oder Hoechst-/DAPI-Färbung",
+          "correct": true
+        },
+        {
+          "text": "Zelllinien sind viel häufiger befallen (60–90 %) als Primärkulturen (0–4 %).",
+          "correct": true
+        },
+        {
+          "text": "Sie sind im Durchlichtmikroskop gut als Stäbchen erkennbar.",
+          "explain": "Mycoplasmen sind sehr kleine Bakterien und im Durchlichtmikroskop nicht sichtbar."
+        }
+      ],
+      "explanation": "Insgesamt sind 5–90 % aller Zellkulturen befallen (Deutschland 40 %). Jede neue Zelllinie sollte getestet werden.",
+      "source": "VL-Skript ZUG Teil 1, S. 112"
+    },
+    {
+      "id": "zk-mycoplasmen-folgen",
+      "type": "multiple",
+      "question": "Welche Auswirkungen haben Mycoplasmen auf die Zellen?",
+      "options": [
+        {
+          "text": "Änderungen im Stoffwechsel und verlangsamtes Wachstum",
+          "correct": true
+        },
+        {
+          "text": "Hemmung der Proteinbiosynthese",
+          "correct": true
+        },
+        {
+          "text": "Veränderte Membranintegrität und Proteinexpressionsprofil",
+          "correct": true
+        },
+        {
+          "text": "Ablösen der Zellen und Zelltod",
+          "correct": true
+        },
+        {
+          "text": "Sofortige starke Trübung des Mediums",
+          "explain": "Trübung ist typisch für Bakterien; Mycoplasmen bleiben oft unbemerkt."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 113"
+    },
+    {
+      "id": "zk-kreuzkontamination",
+      "type": "single",
+      "question": "Welche Zelllinie macht laut Skript (ICLAC 2016) rund ein Viertel der „falschen Zellen“ bei Kreuzkontaminationen aus?",
+      "options": [
+        {
+          "text": "HeLa-Zellen (24 %)",
+          "correct": true
+        },
+        {
+          "text": "Fibroblasten"
+        },
+        {
+          "text": "Lymphozyten"
+        },
+        {
+          "text": "Keratinozyten"
+        }
+      ],
+      "explanation": "Bis zu 20 % aller Zellkulturen weltweit sind „falsche Zellen“, davon 24 % HeLa-Zellen. Das gefährdet Validität und Reproduzierbarkeit.",
+      "source": "VL-Skript ZUG Teil 1, S. 113"
+    },
+    {
+      "id": "zk-viren-pestvirus",
+      "type": "single",
+      "question": "Wie gelangen laut Skript z. B. **Pestiviren** in Zellkulturen?",
+      "options": [
+        {
+          "text": "Über Rinderserum (wird vom Hersteller getestet)",
+          "correct": true
+        },
+        {
+          "text": "Über das Wasserbad"
+        },
+        {
+          "text": "Über die UV-Lampe"
+        },
+        {
+          "text": "Über DMSO"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 113"
+    },
+    {
+      "id": "zk-generationszeit",
+      "type": "single",
+      "question": "Wie lange ist die Generationszeit der meisten Bakterien?",
+      "options": [
+        {
+          "text": "15 Minuten bis wenige Stunden",
+          "correct": true
+        },
+        {
+          "text": "Einige Tage bis Wochen",
+          "explain": "So lange brauchen langsam wachsende Erreger wie Legionellen oder Mykobakterien."
+        },
+        {
+          "text": "Wenige Sekunden"
+        },
+        {
+          "text": "Etwa 24 Stunden"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 117"
+    },
+    {
+      "id": "zk-langsam",
+      "type": "multiple",
+      "question": "Welche Erreger wachsen laut Skript langsam (Tage bis Wochen)?",
+      "options": [
+        {
+          "text": "Legionellen",
+          "correct": true
+        },
+        {
+          "text": "Mykobakterien",
+          "correct": true
+        },
+        {
+          "text": "E. coli"
+        },
+        {
+          "text": "Staphylokokken"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 117"
+    },
+    {
+      "id": "zk-ausstrich",
+      "type": "single",
+      "question": "Wozu dient der **Bakterienausstrich** mit einer Impföse?",
+      "options": [
+        {
+          "text": "Durch wiederholtes Ausstreichen sinkt die Bakteriendichte, sodass Einzelkolonien für eine Reinkultur entstehen",
+          "correct": true
+        },
+        {
+          "text": "Zur Bestimmung der Antibiotikaempfindlichkeit",
+          "explain": "Dafür dient der Agardiffusionstest."
+        },
+        {
+          "text": "Zum Anfärben der Zellwand"
+        },
+        {
+          "text": "Zur Abtötung der Bakterien"
+        }
+      ],
+      "explanation": "Die Reinkultur (Klone der ursprünglichen Zelle) ist zur korrekten Erregeridentifikation notwendig. Ausplattieren mit Drigalskispatel dient u. a. der Lebendzellzahl.",
+      "source": "VL-Skript ZUG Teil 1, S. 117"
+    },
+    {
+      "id": "zk-gram",
+      "type": "matching",
+      "question": "Ordne zu: Gram-Färbung.",
+      "pairs": [
+        {
+          "left": "Grampositiv",
+          "right": "Dicke Peptidoglykanschicht, violett/blau"
+        },
+        {
+          "left": "Gramnegativ",
+          "right": "Dünne Peptidoglykanschicht, rot"
+        }
+      ],
+      "explanation": "Bei gramnegativen Bakterien wird der Farbstoff-Jod-Komplex durch Alkohol herausgelöst.",
+      "source": "VL-Skript ZUG Teil 1, S. 118"
+    },
+    {
+      "id": "zk-gram-beispiele",
+      "type": "single",
+      "question": "Welche Kombination aus der Gram-Färbung ist richtig?",
+      "options": [
+        {
+          "text": "Staphylokokken: grampositive Haufenkokken, blau-violett; E. coli: gramnegative Stäbchen, rot",
+          "correct": true
+        },
+        {
+          "text": "Staphylokokken: gramnegative Kettenkokken, rot; E. coli: grampositive Stäbchen, blau"
+        },
+        {
+          "text": "Beide grampositiv"
+        },
+        {
+          "text": "Beide gramnegativ"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 118"
+    },
+    {
+      "id": "zk-gram-alkohol",
+      "type": "single",
+      "question": "Warum erscheinen gramnegative Bakterien in der Gram-Färbung rot?",
+      "options": [
+        {
+          "text": "Der Farbstoff-Jod-Komplex wird wegen der dünnen Peptidoglykanschicht durch Alkohol herausgelöst",
+          "correct": true
+        },
+        {
+          "text": "Sie haben eine besonders dicke Peptidoglykanschicht"
+        },
+        {
+          "text": "Sie bilden das Pigment Pyoverdin"
+        },
+        {
+          "text": "Sie fermentieren Laktose"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 118"
+    },
+    {
+      "id": "zk-selektiv-differential",
+      "type": "matching",
+      "question": "Ordne die Begriffe zu.",
+      "pairs": [
+        {
+          "left": "Selektivmedium",
+          "right": "Lässt durch Hemmstoffe nur bestimmte Mikroorganismen wachsen"
+        },
+        {
+          "left": "Differentialmedium",
+          "right": "Unterscheidet Mikroorganismen über Indikatoren anhand ihres Stoffwechsels"
+        }
+      ],
+      "explanation": "Mögliche Hemmstoffe: Antibiotika, Farbstoffe, Citrate oder Gallensalz. Indikatoren: z. B. pH-Farbstoffe.",
+      "source": "VL-Skript ZUG Teil 1, S. 119–120"
+    },
+    {
+      "id": "zk-macconkey",
+      "type": "multiple",
+      "question": "Welche Aussagen zum **MacConkey-Agar** stimmen?",
+      "options": [
+        {
+          "text": "Gallensalz und Kristallviolett hemmen grampositive Bakterien.",
+          "correct": true
+        },
+        {
+          "text": "Laktose-positive Bakterien (z. B. E. coli) bilden rote Kolonien.",
+          "correct": true
+        },
+        {
+          "text": "Laktose-negative Bakterien (z. B. Salmonella, Pseudomonas) bilden farblose Kolonien.",
+          "correct": true
+        },
+        {
+          "text": "Er ist ein reines Selektivmedium ohne Differenzierung.",
+          "explain": "Er ist zugleich Selektiv- und Differentialmedium (Laktosefermentation)."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 119–121"
+    },
+    {
+      "id": "zk-macconkey-rot",
+      "type": "single",
+      "question": "Warum sind Laktose-positive Kolonien auf MacConkey-Agar rot?",
+      "options": [
+        {
+          "text": "Die Laktosevergärung senkt den pH-Wert",
+          "correct": true
+        },
+        {
+          "text": "Sie bauen Erythrozyten ab"
+        },
+        {
+          "text": "Sie binden Kristallviolett"
+        },
+        {
+          "text": "Sie bilden Pyoverdin"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 121"
+    },
+    {
+      "id": "zk-blutagar",
+      "type": "matching",
+      "question": "Ordne die Hämolyseform auf Blutagar zu.",
+      "pairs": [
+        {
+          "left": "α-Hämolyse",
+          "right": "Grüne Zone, unvollständig (z. B. Streptococcus viridans)"
+        },
+        {
+          "left": "β-Hämolyse",
+          "right": "Klarer Hof, vollständig (z. B. Streptococcus pyogenes)"
+        },
+        {
+          "left": "γ-Hämolyse",
+          "right": "Keine Hämolyse (z. B. Enterokokken)"
+        }
+      ],
+      "explanation": "Blutagar enthält 5–10 % Säugetierblut. Die grüne Zone der α-Hämolyse entsteht durch Oxidation von Hämoglobin zu Met-/Sulfhämoglobin.",
+      "source": "VL-Skript ZUG Teil 1, S. 122"
+    },
+    {
+      "id": "zk-blutagar-art",
+      "type": "single",
+      "question": "Welche Art von Medium ist **Blutagar** laut Skript, und was unterscheidet er?",
+      "options": [
+        {
+          "text": "Differentialmedium; unterscheidet Bakterien nach ihrer Hämolysefähigkeit (Hämolysine)",
+          "correct": true
+        },
+        {
+          "text": "Selektivmedium; hemmt grampositive Bakterien"
+        },
+        {
+          "text": "Anreicherungsmedium ohne Geliermittel"
+        },
+        {
+          "text": "Differentialmedium; unterscheidet nach Mannitol-Verwertung"
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 122"
+    },
+    {
+      "id": "zk-mannit",
+      "type": "multiple",
+      "question": "Welche Aussagen zum **Mannit-Kochsalz-Agar** stimmen?",
+      "options": [
+        {
+          "text": "Der hohe Kochsalzgehalt selektiert Staphylokokken.",
+          "correct": true
+        },
+        {
+          "text": "Staphylococcus aureus fermentiert Mannitol, das Medium wird gelb.",
+          "correct": true
+        },
+        {
+          "text": "Staphylococcus epidermidis fermentiert kein Mannitol (bleibt rot).",
+          "correct": true
+        },
+        {
+          "text": "E. coli wächst darauf gut.",
+          "explain": "E. coli wächst auf Mannit-Kochsalz-Agar nicht."
+        }
+      ],
+      "explanation": "Phenolrot schlägt bei Säureproduktion von rot nach gelb um. Mannitol-Verwertung ist ein Indiz für Pathogenität.",
+      "source": "VL-Skript ZUG Teil 1, S. 119, 123"
+    },
+    {
+      "id": "zk-oxidase",
+      "type": "multiple",
+      "question": "Welche Aussagen zum **Oxidase-Test** stimmen?",
+      "options": [
+        {
+          "text": "Er weist qualitativ die Cytochrom-c-Oxidase der aeroben Atmungskette nach.",
+          "correct": true
+        },
+        {
+          "text": "Das Reagenz TMPD wird oxidiert und färbt sich schnell blau (Indophenol).",
+          "correct": true
+        },
+        {
+          "text": "Er prüft die Empfindlichkeit gegenüber Antibiotika.",
+          "explain": "Das ist der Agardiffusionstest (Hemmhoftest)."
+        },
+        {
+          "text": "Ein positiver Test zeigt eine rote Kolonie.",
+          "explain": "Positiv = schnelle Blaufärbung."
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 124"
+    },
+    {
+      "id": "zk-oxidase-positiv",
+      "type": "multiple",
+      "question": "Welche Bakterien sind laut Skript **Oxidase-positiv**?",
+      "options": [
+        {
+          "text": "Pseudomonas",
+          "correct": true
+        },
+        {
+          "text": "Neisseria",
+          "correct": true
+        },
+        {
+          "text": "Vibrio",
+          "correct": true
+        },
+        {
+          "text": "Escherichia coli",
+          "explain": "Oxidase-negativ, ebenso Klebsiella, Salmonella und Shigella."
+        },
+        {
+          "text": "Salmonella",
+          "explain": "Oxidase-negativ."
+        }
+      ],
+      "explanation": "Oxidase-positiv laut Skript: Pseudomonas, Neisseria, Vibrio, Aeromonas.",
+      "source": "VL-Skript ZUG Teil 1, S. 124"
+    },
+    {
+      "id": "zk-agardiffusion",
+      "type": "order",
+      "question": "Bringe die Schritte des **Agardiffusionstests** in die richtige Reihenfolge.",
+      "items": [
+        "Agarnährboden gleichmäßig mit dem Bakterienstamm beimpfen",
+        "Filterpapierplättchen mit verschiedenen Antibiotika auflegen",
+        "Inkubation: Antibiotika diffundieren in den Nährboden",
+        "Hemmhöfe im Kolonierasen ablesen (Sensitivität)"
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 124"
+    },
+    {
+      "id": "zk-pyoverdin",
+      "type": "single",
+      "question": "Welcher Test weist **Pyoverdin** nach, und welche Bakterien bilden es?",
+      "options": [
+        {
+          "text": "Fluoreszenztest: grüne Fluoreszenz unter UV-Licht, z. B. Pseudomonas fluorescens/putida",
+          "correct": true
+        },
+        {
+          "text": "Oxidase-Test: Blaufärbung, z. B. E. coli"
+        },
+        {
+          "text": "Blutagar: β-Hämolyse, z. B. Streptococcus pyogenes"
+        },
+        {
+          "text": "Gram-Färbung: Rotfärbung, z. B. Salmonella"
+        }
+      ],
+      "explanation": "Pyoverdin (Fluorescin) ist wasserlöslich, bindet Eisen und unterstützt die Eisenaufnahme der Bakterien.",
+      "source": "VL-Skript ZUG Teil 1, S. 125"
+    },
+    {
+      "id": "zk-stoffwechsel",
+      "type": "multiple",
+      "question": "Welche Stoffwechselleistungen werden in der bakteriellen Diagnostik geprüft?",
+      "options": [
+        {
+          "text": "Enzyme der Atmungskette: Oxidase, Katalase",
+          "correct": true
+        },
+        {
+          "text": "Abbau von Kohlenhydraten (pH-Indikatormedien)",
+          "correct": true
+        },
+        {
+          "text": "Urease (Aminosäurenstoffwechsel)",
+          "correct": true
+        },
+        {
+          "text": "Hämolysine, DNase, Lipase",
+          "correct": true
+        }
+      ],
+      "source": "VL-Skript ZUG Teil 1, S. 115"
+    },
+    {
+      "id": "zk-temperatur-bakt",
+      "type": "single",
+      "question": "Welche Bakterien vermehren sich laut Skript auch noch bei **4–7 °C**?",
+      "options": [
+        {
+          "text": "Listerien und Yersinien",
+          "correct": true
+        },
+        {
+          "text": "Lactobacillen",
+          "explain": "Einige Lactobacillus-Stämme wachsen noch bei 45 °C."
+        },
+        {
+          "text": "Mykobakterien"
+        },
+        {
+          "text": "Staphylokokken"
+        }
+      ],
+      "explanation": "Die meisten Stämme wachsen bei Körpertemperatur (37 °C).",
+      "source": "VL-Skript ZUG Teil 1, S. 116"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "chapter": "VL 11 – Membrantransportmechanismen",
+  "source": "VL-Skript ZUG Teil 1, VL 11 (S. 132–151)",
+  "questions": [
+    { "id": "mt-permeabilitaet", "type": "multiple", "question": "Wodurch wird die **Permeabilität** der Zellmembran für ein Molekül bestimmt?",
+      "options": [ { "text": "Größe", "correct": true }, { "text": "Polarität", "correct": true }, { "text": "Ladung", "correct": true }, { "text": "Farbe des Moleküls" } ], "source": "VL-Skript ZUG Teil 1, S. 134" },
+    { "id": "mt-passiv-aktiv", "type": "matching", "question": "Ordne die Eigenschaften dem Transport zu.",
+      "pairs": [
+        { "left": "Passiver Transport", "right": "Spontan, entlang des Gradienten, Energie stammt aus dem Gradienten" },
+        { "left": "Aktiver Transport", "right": "Gegen den Gradienten, kostet direkt chemische Energie (ATP)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 135" },
+    { "id": "mt-passiv-beispiele", "type": "multiple", "question": "Was gehört laut Skript zum **passiven** Transport?",
+      "options": [ { "text": "Diffusion", "correct": true }, { "text": "Kanäle", "correct": true }, { "text": "Passive Transporter wie GLUT1", "correct": true }, { "text": "Na^+^/K^+^-ATPase", "explain": "Eine ATP-getriebene Pumpe, also aktiv." } ], "source": "VL-Skript ZUG Teil 1, S. 135, 139" },
+    { "id": "mt-elektrochem", "type": "single", "question": "Woraus setzt sich ein **elektrochemischer Gradient** zusammen?",
+      "options": [ { "text": "Aus Konzentrationsgradient und elektrischem Gradient (Membranpotential)", "correct": true }, { "text": "Nur aus dem Konzentrationsgradienten" }, { "text": "Aus osmotischem und hydrostatischem Gradienten", "explain": "Das ist die Triebkraft für Wasser durch Aquaporine." }, { "text": "Aus ATP und ADP" } ], "source": "VL-Skript ZUG Teil 1, S. 137" },
+    { "id": "mt-membranpotential", "type": "multiple", "question": "Welche Aussagen zum **Membranpotential** stimmen?",
+      "options": [
+        { "text": "Es ist die elektrische Spannung zwischen Extrazellulärraum und Cytoplasma.", "correct": true },
+        { "text": "Im Ruhepotential gibt es keinen effektiven Ionenfluss.", "correct": true },
+        { "text": "Trigger verändern die Durchlässigkeit für bestimmte Ionen und damit das Potential.", "correct": true },
+        { "text": "Es entsteht ausschließlich durch Wasserbewegung.", "explain": "Es entsteht durch ungleich verteilte Ladungsträger (Ionen)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 137–138" },
+    { "id": "mt-transporter-mech", "type": "order", "question": "Bringe den Mechanismus eines **Transporters** in die richtige Reihenfolge.",
+      "items": [ "Bindung eines spezifischen Substrats", "Reversible Konformationsänderung", "Freilassung des Substrats auf der Gegenseite" ], "source": "VL-Skript ZUG Teil 1, S. 139" },
+    { "id": "mt-sym-anti", "type": "matching", "question": "Ordne die gekoppelten Transporter zu.",
+      "pairs": [
+        { "left": "Symporter", "right": "Beide Substrate in die gleiche Richtung" },
+        { "left": "Antiporter", "right": "Substrate in entgegengesetzte Richtungen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 139" },
+    { "id": "mt-energiequellen", "type": "multiple", "question": "Welche Energiequellen nutzen **aktive Transporter** laut Skript?",
+      "options": [
+        { "text": "Konzentrationsgradient eines Partnermoleküls (gekoppelter Transport)", "correct": true },
+        { "text": "Hydrolyse von ATP zu ADP", "correct": true },
+        { "text": "Licht (Photonen) – kommt beim Menschen aber nicht vor", "correct": true },
+        { "text": "Wärme aus dem Inkubator" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 139" },
+    { "id": "mt-nak-pumpe", "type": "single", "question": "Was transportiert die **Na^+^/K^+^-Pumpe** pro verbrauchtem ATP?",
+      "options": [ { "text": "3 Na^+^ aus der Zelle und 2 K^+^ in die Zelle", "correct": true }, { "text": "2 Na^+^ in die Zelle und 3 K^+^ aus der Zelle" }, { "text": "3 K^+^ aus der Zelle und 2 Na^+^ in die Zelle" }, { "text": "1 Na^+^ und 1 K^+^ in die Zelle" } ],
+      "explanation": "Beide Ionen werden gegen ihren Gradienten gepumpt. Die Pumpe erzeugt den Na^+^/K^+^-Gradienten in allen tierischen Zellen.", "source": "VL-Skript ZUG Teil 1, S. 140" },
+    { "id": "mt-nak-energie", "type": "single", "question": "Welcher Anteil des gesamten Energieverbrauchs einer Zelle entfällt laut Skript auf die Na^+^/K^+^-Pumpe?",
+      "options": [ { "text": "ca. 1/3", "correct": true }, { "text": "ca. 1 %" }, { "text": "ca. 90 %" }, { "text": "ca. 1/10" } ], "source": "VL-Skript ZUG Teil 1, S. 140" },
+    { "id": "mt-pumpen-typen", "type": "matching", "question": "Ordne die Pumpenklasse zu.",
+      "pairs": [
+        { "left": "P-Typ", "right": "Phosphoryliert sich selbst, z. B. Na^+^/K^+^-ATPase" },
+        { "left": "V-Typ", "right": "Nur H^+^, ATP treibt eine Rotation an (Turbine)" },
+        { "left": "ABC-Transporter", "right": "Bindung von 2 ATP, transportiert Peptide, Lipide, Wirkstoffe" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 140–141" },
+    { "id": "mt-v-typ", "type": "multiple", "question": "Wo kommen laut Skript **V-Typ-Pumpen** vor?",
+      "options": [ { "text": "Lysosomen und Endosomen", "correct": true }, { "text": "Golgi-Apparat", "correct": true }, { "text": "Synaptische Vesikel", "correct": true }, { "text": "Osteoklasten", "correct": true } ],
+      "explanation": "V-Typ-Pumpen pumpen Protonen aus dem Cytosol in Organellen oder über die Plasmamembran.", "source": "VL-Skript ZUG Teil 1, S. 140" },
+    { "id": "mt-abc-beispiele", "type": "matching", "question": "Ordne die ABC-Transporter ihrer Bedeutung zu.",
+      "pairs": [
+        { "left": "CFTR", "right": "Cl^-^-Transport; Defekt verursacht Zystische Fibrose" },
+        { "left": "MDR1", "right": "Transportiert Toxine aus Zellen, Problem bei der Tumortherapie" },
+        { "left": "PfCRT", "right": "Chloroquin-Resistenz bei Malaria" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 141" },
+    { "id": "mt-abc-familie", "type": "single", "question": "Welche ist laut Skript die **größte Familie** von Membrantransportproteinen?",
+      "options": [ { "text": "ABC-Transporter", "correct": true }, { "text": "V-Typ-Pumpen" }, { "text": "Aquaporine" }, { "text": "Connexine" } ], "source": "VL-Skript ZUG Teil 1, S. 141" },
+    { "id": "mt-kanaele", "type": "multiple", "question": "Welche Aussagen zu **Membrankanälen** stimmen?",
+      "options": [
+        { "text": "Sie transportieren ausschließlich passiv.", "correct": true },
+        { "text": "Sie sind ca. 100.000-mal schneller als Transporter.", "correct": true },
+        { "text": "Die Selektivität entsteht durch die Porenumgebung.", "correct": true },
+        { "text": "Jeder Transportvorgang braucht eine Konformationsänderung.", "explain": "Gerade das fehlt bei Kanälen; deshalb sind sie so schnell." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 141" },
+    { "id": "mt-kanal-triebkraft", "type": "matching", "question": "Ordne die Kanäle ihrer Triebkraft bzw. Leitung zu.",
+      "pairs": [
+        { "left": "Ionenkanäle (Na^+^, K^+^, Ca^2+^, Cl^-^)", "right": "Elektrochemischer Gradient" },
+        { "left": "Aquaporine (H~2~O)", "right": "Osmotischer und hydrostatischer Gradient" },
+        { "left": "Gap Junctions", "right": "Kleine Moleküle und elektrischer Strom zwischen Zellen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 141" },
+    { "id": "mt-cftr", "type": "single", "question": "Warum entsteht bei der **Zystischen Fibrose** zähes Sekret?",
+      "options": [
+        { "text": "Der mutierte CFTR-Kanal transportiert weniger Cl^-^/HCO~3~^-^ aus den Zellen, daher strömt weniger Wasser nach", "correct": true },
+        { "text": "Aquaporine leiten zu viel Wasser" },
+        { "text": "Die Na^+^/K^+^-Pumpe arbeitet doppelt so schnell" },
+        { "text": "Gap Junctions sind dauerhaft geöffnet" }
+      ], "explanation": "Das zähflüssige Sekret der submukösen Drüsen hemmt die Selbstreinigung, es kommt zu chronischen Atemwegsinfektionen.", "source": "VL-Skript ZUG Teil 1, S. 142" },
+    { "id": "mt-kanalopathien", "type": "matching", "question": "Ordne die Kanalopathie dem betroffenen Gen bzw. System zu.",
+      "pairs": [
+        { "left": "Zystische Fibrose", "right": "CFTR (Atemwege)" },
+        { "left": "Dravet-Syndrom", "right": "SCN1A, Natriumkanal (Epilepsie)" },
+        { "left": "Long-QT-Syndrom", "right": "Kardiale Erregungsstörung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 142" },
+    { "id": "mt-dravet", "type": "single", "question": "Was ist laut Skript die Ursache der Epilepsie beim **Dravet-Syndrom**?",
+      "options": [
+        { "text": "Defekt im Natriumkanal SCN1A; gestörte Erregung von Interneuronen im Hippocampus führt zur Über-Synchronisierung", "correct": true },
+        { "text": "Defekt im Chloridkanal CFTR" },
+        { "text": "Autoantikörper gegen nikotinische Acetylcholin-Rezeptoren", "explain": "Das ist die Myasthenia gravis." },
+        { "text": "Fehlende Aquaporine im Gehirn" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 142" },
+    { "id": "mt-selektionsfilter", "type": "single", "question": "Wie selektiert ein **Ionenkanal** ein bestimmtes Ion?",
+      "options": [
+        { "text": "Die Hydrathülle wird durch lokale Bindungen an das Kanalprotein ersetzt; nur für das passende Ion ist das energetisch günstig", "correct": true },
+        { "text": "Nur über die Größe; die Hydrathülle bleibt erhalten" },
+        { "text": "Durch ATP-Hydrolyse für jedes Ion" },
+        { "text": "Durch Bindung an Clathrin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 143" },
+    { "id": "mt-aquaporin-npa", "type": "single", "question": "Warum können **Protonen** nicht durch Aquaporine wandern?",
+      "options": [
+        { "text": "Zwei Asparagine (NPA-Motiv) binden das Sauerstoffatom des Wassers und unterbrechen so die Wasserstoffbrücken-Kette", "correct": true },
+        { "text": "Protonen sind zu groß für die Pore" },
+        { "text": "Aquaporine sind aktive Pumpen, die Protonen zurückpumpen" },
+        { "text": "Protonen haben eine zu dicke Hydrathülle" }
+      ], "explanation": "Protonen könnten sonst extrem schnell über Wassermolekül-Ketten wandern (pH-Ausgleich).", "source": "VL-Skript ZUG Teil 1, S. 143" },
+    { "id": "mt-gapjunction", "type": "multiple", "question": "Welche Aussagen zu **Gap Junctions** stimmen?",
+      "options": [
+        { "text": "Sie bestehen aus Connexin, 6 Untereinheiten pro Membran.", "correct": true },
+        { "text": "Zwei Halbkanäle müssen aufeinandertreffen.", "correct": true },
+        { "text": "Sie leiten unspezifisch und ungerichtet, z. B. Strom, IP~3~, Ca^2+^, ATP.", "correct": true },
+        { "text": "Sie leiten nur Wasser.", "explain": "Das tun Aquaporine." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 144" },
+    { "id": "mt-gap-beispiele", "type": "multiple", "question": "Wofür sind Gap Junctions laut Skript wichtig?",
+      "options": [
+        { "text": "Elektrische Kopplung der Herzmuskelzellen für eine gleichmäßige Kontraktion", "correct": true },
+        { "text": "Nährstoffversorgung und Signalübertragung in der Augenlinse statt Gefäßen und Nerven", "correct": true },
+        { "text": "Abdichtung des Interzellularraums", "explain": "Das leisten Tight Junctions." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 144" },
+    { "id": "mt-kanal-stimuli", "type": "multiple", "question": "Welche Stimuli können Ionenkanäle öffnen oder schließen?",
+      "options": [ { "text": "Elektrische Spannung (Membranpotential)", "correct": true }, { "text": "Bindung von Liganden", "correct": true }, { "text": "Verstreichen einer Zeitspanne (z. B. Refraktärzeit)", "correct": true }, { "text": "Mechanischer Druck und Temperatur", "correct": true } ], "source": "VL-Skript ZUG Teil 1, S. 145" },
+    { "id": "mt-kanal-zustaende", "type": "matching", "question": "Ordne die Zustände eines Ionenkanals zu.",
+      "pairs": [
+        { "left": "Offen", "right": "Lässt spezifische Ionen passieren" },
+        { "left": "Geschlossen", "right": "Lässt keine Moleküle durch die Pore" },
+        { "left": "Aktiviert", "right": "Verschlossen, aber öffnungsbereit" },
+        { "left": "Inaktiviert", "right": "Verschlossen, durch den normalen Reiz allein nicht zu öffnen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 145" },
+    { "id": "mt-leckkanal", "type": "single", "question": "Welche Rolle spielen **K^+^-Leckkanäle** für das Ruhemembranpotential?",
+      "options": [
+        { "text": "Permanent offen, konstanter passiver K^+^-Ausstrom, bis der elektrische Gradient ihn stoppt", "correct": true },
+        { "text": "Sie pumpen K^+^ unter ATP-Verbrauch in die Zelle" },
+        { "text": "Sie öffnen sich nur bei −40 mV" },
+        { "text": "Sie leiten Na^+^ in die Zelle" }
+      ], "explanation": "Zusammen mit der Na^+^/K^+^-Pumpe erzeugen und regulieren sie das Ruhemembranpotential.", "source": "VL-Skript ZUG Teil 1, S. 146" },
+    { "id": "mt-glukose-darm", "type": "single", "question": "Wie wird Glukose laut Skript aus dem Darm in die Zelle aufgenommen?",
+      "options": [
+        { "text": "Na^+^-gekoppelter Symport in die Zelle, angetrieben vom Na^+^-Gradienten der Na^+^/K^+^-Pumpe", "correct": true },
+        { "text": "Durch Aquaporine" },
+        { "text": "Durch eine V-Typ-Pumpe" },
+        { "text": "Durch Phagozytose" }
+      ], "explanation": "Auf der Gegenseite verlässt die Glukose die Zelle über einen passiven Transporter. Mehrere Mechanismen arbeiten in Reihe.", "source": "VL-Skript ZUG Teil 1, S. 146" },
+    { "id": "mt-vesikel-funktion", "type": "multiple", "question": "Welche Funktionen haben intrazelluläre Vesikel laut Skript?",
+      "options": [
+        { "text": "Transport zwischen Organellen", "correct": true },
+        { "text": "Lagerung löslicher Signalmoleküle (Neurotransmitter, Hormone, Insulin)", "correct": true },
+        { "text": "Lagerung inaktiver Membranproteine (Rezeptoren, Kanäle)", "correct": true },
+        { "text": "Ihr Innenraum entspricht dem Cytosol.", "explain": "Der Innenraum entspricht dem Extrazellulärraum („invertierte Zelle“)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 147" },
+    { "id": "mt-snare-proteine", "type": "matching", "question": "Ordne die SNARE-Proteine zu.",
+      "pairs": [
+        { "left": "Synaptobrevin", "right": "V-SNARE (am Vesikel)" },
+        { "left": "Syntaxin, SNAP-25", "right": "T-SNARE (an der Zielmembran)" },
+        { "left": "Synaptotagmin", "right": "Ca^2+^-Sensor" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 147" },
+    { "id": "mt-snare-ablauf", "type": "order", "question": "Bringe die Schritte der Vesikelfusion in die richtige Reihenfolge.",
+      "items": [ "Docking: V- und T-SNARE bilden den SNARE-Komplex", "Priming: Regulatorische Proteine bereiten die Fusion vor", "Ca^2+^ bindet an das Sensorprotein", "Fusion: Vesikelinhalt wird in den Extrazellulärraum entlassen" ], "source": "VL-Skript ZUG Teil 1, S. 147" },
+    { "id": "mt-endozytose", "type": "matching", "question": "Ordne die Formen der Endozytose zu.",
+      "pairs": [
+        { "left": "Pinozytose", "right": "Aufnahme kleiner Moleküle („Zell-Trinken“)" },
+        { "left": "Phagozytose", "right": "Aufnahme größerer Objekte, z. B. Mikroorganismen" }
+      ], "explanation": "Clathrin-coated pits (ca. 2 % der Oberfläche) sind ständig zur Endozytose bereit.", "source": "VL-Skript ZUG Teil 1, S. 148" },
+    { "id": "mt-ldl", "type": "order", "question": "Bringe die Schritte der **LDL-Aufnahme** in die richtige Reihenfolge.",
+      "items": [ "LDL bindet an LDL-Rezeptoren in Clathrin-coated pits", "Endozytose", "Frühes Endosom: Ansäuerung durch V-ATPase löst die Rezeptorbindung", "Rezeptoren werden zur Zellmembran recycelt", "Spätes Endosom fusioniert mit Lysosom: Hydrolyse zu Cholesterol und Fettsäuren" ], "source": "VL-Skript ZUG Teil 1, S. 148" },
+    { "id": "mt-synapse-spalt", "type": "single", "question": "Wie breit ist der **synaptische Spalt** einer chemischen Synapse laut Skript?",
+      "options": [ { "text": "20–40 nm", "correct": true }, { "text": "2–4 nm" }, { "text": "2–4 µm" }, { "text": "200–400 nm" } ], "source": "VL-Skript ZUG Teil 1, S. 149" },
+    { "id": "mt-synapse-ablauf", "type": "order", "question": "Bringe die Schritte der synaptischen Übertragung in die richtige Reihenfolge.",
+      "items": [ "Depolarisation der präsynaptischen Membran", "Öffnung spannungsgesteuerter Ca^2+^-Kanäle", "Ca^2+^ aktiviert den SNARE-Komplex, Vesikel fusionieren", "Neurotransmitter bindet an ligandengesteuerte Kanäle der postsynaptischen Membran", "Ioneneinstrom verändert das postsynaptische Potential" ], "source": "VL-Skript ZUG Teil 1, S. 149" },
+    { "id": "mt-transmitter", "type": "matching", "question": "Ordne die Neurotransmitter ihrer Wirkung zu (laut Skript).",
+      "pairs": [
+        { "left": "Glutamat, Serotonin, Acetylcholin", "right": "Exzitatorisch: öffnen Na^+^- und Ca^2+^-Kanäle" },
+        { "left": "Glycin, GABA", "right": "Inhibitorisch: öffnen K^+^- und Cl^-^-Kanäle" }
+      ], "explanation": "Manche Transmitter (z. B. Acetylcholin, Dopamin) wirken je nach Rezeptor erregend oder hemmend.", "source": "VL-Skript ZUG Teil 1, S. 150" },
+    { "id": "mt-aktionspotential", "type": "multiple", "question": "Welche Aussagen zum **Aktionspotential** stimmen laut Skript?",
+      "options": [
+        { "text": "Ab einem Schwellenpotential von ca. −40 mV öffnen spannungsabhängige Na^+^-Kanäle.", "correct": true },
+        { "text": "Das Membranpotential kehrt sich auf ca. +40 mV um.", "correct": true },
+        { "text": "Nach < 2 ms inaktivieren die Na^+^-Kanäle und K^+^-Kanäle öffnen (Repolarisation).", "correct": true },
+        { "text": "Die Refraktärzeit begrenzt die Feuerfrequenz.", "correct": true },
+        { "text": "Inhibitorische Transmitter lösen das Aktionspotential aus.", "explain": "Sie stabilisieren das Ruhepotential oder hyperpolarisieren." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 150" },
+    { "id": "mt-achr", "type": "matching", "question": "Ordne die Acetylcholin-Rezeptoren zu.",
+      "pairs": [
+        { "left": "Nikotinerger Rezeptor (nAChR)", "right": "Ligandengesteuerter Kationenkanal, z. B. motorische Endplatte" },
+        { "left": "Muskarinerger Rezeptor (mAChR)", "right": "G-Protein-gekoppelter Rezeptor, z. B. Herz, glatte Muskulatur" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 151" },
+    { "id": "mt-gifte", "type": "matching", "question": "Ordne die Substanz ihrer Wirkung zu.",
+      "pairs": [
+        { "left": "Curare, α-Bungarotoxin", "right": "Blockieren die motorische Endplatte → Atemlähmung" },
+        { "left": "Muscarin", "right": "Imitiert Acetylcholin am mAChR → verminderter Herzschlag, Blutdruckabfall" },
+        { "left": "Atropin", "right": "Antagonist am mAChR → schnellere Herzfrequenz" },
+        { "left": "Nikotin", "right": "Agonist an nikotinergen Rezeptoren" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 151" },
+    { "id": "mt-myasthenie", "type": "single", "question": "Was ist die Ursache der **Myasthenia gravis**?",
+      "options": [
+        { "text": "Autoantikörper blockieren nikotinische Acetylcholin-Rezeptoren der Skelettmuskulatur", "correct": true },
+        { "text": "Mutation im CFTR-Gen" },
+        { "text": "Vergiftung mit Muscarin" },
+        { "text": "Mutation im Natriumkanal SCN1A" }
+      ], "explanation": "Folge ist eine Muskelschwäche.", "source": "VL-Skript ZUG Teil 1, S. 151" }
+  ]
+}

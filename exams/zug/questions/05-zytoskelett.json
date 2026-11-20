@@ -1,0 +1,31 @@
+{
+  "chapter": "VL 5 – Motilität und Zytoskelett",
+  "source": "VL-Skript ZUG Teil 1, VL 5 (S. 50–54)",
+  "questions": [
+    { "id": "zs-bausteine", "type": "matching", "question": "Ordne die Filamente des Zytoskeletts ihrem Baustein zu.",
+      "pairs": [ { "left": "Mikrofilamente", "right": "Aktin (ein Protein)" }, { "left": "Intermediärfilamente", "right": "z. B. Keratin (über 50 Proteine)" }, { "left": "Mikrotubuli", "right": "Tubulin (zwei Proteine)" } ],
+      "explanation": "Aktin ~5 nm (dünn), Intermediärfilamente ~10 nm (dazwischen, seilartig, mechanische Aufgaben), Mikrotubuli ~20 nm (dick, röhrenförmig, Transport).", "source": "VL-Skript ZUG Teil 1, S. 52–53" },
+    { "id": "zs-funktionen", "type": "multiple", "question": "Welche Funktionen des Zytoskeletts nennt das Skript?",
+      "options": [ { "text": "Mechanische Integrität und Zellform", "correct": true }, { "text": "Signaltransduktion und Adhäsion", "correct": true },
+        { "text": "Zellmigration, Chemotaxis, Zytokinese", "correct": true }, { "text": "Bindung und Positionierung von Organellen", "correct": true },
+        { "text": "Speicherung der Erbinformation", "explain": "Das ist Aufgabe des Zellkerns." } ],
+      "explanation": "Das Zytoskelett ist hoch dynamisch, „Knochen und Muskel“ in einem, und durchzieht Zytoplasma und Zellkern.", "source": "VL-Skript ZUG Teil 1, S. 52" },
+    { "id": "zs-eigenschaften", "type": "multiple", "question": "Welche Aussagen zum Zytoskelett treffen laut Skript zu?",
+      "options": [ { "text": "Es durchzieht das Zytoplasma und auch den Zellkern.", "correct": true },
+        { "text": "Es wird ständig neu organisiert.", "correct": true },
+        { "text": "Es ist in allen eukaryotischen Zellen vorhanden.", "correct": true },
+        { "text": "Es kommt ausschließlich in tierischen Zellen vor.", "explain": "Es ist in allen eukaryotischen Zellen vorhanden und kann auch in Prokaryoten vorkommen." } ],
+      "explanation": "Was bei tierischen Zellen das Zytoskelett leistet, übernimmt bei Pflanzenzellen (zusätzlich) die Zellwand.", "source": "VL-Skript ZUG Teil 1, S. 52" },
+    { "id": "zs-mtoc", "type": "single", "question": "Woraus wachsen Mikrotubuli heraus, im Gegensatz zu Intermediärfilamenten?",
+      "options": [ { "text": "Aus einem organisierenden Zentrum (MTOC), z. B. Zentrosom, Spindelpol oder Basalkörper", "correct": true },
+        { "text": "Aus der Kernlamina" }, { "text": "Aus Desmosomen" } ],
+      "explanation": "Interphase: Zentrosom. Teilungsphase: Spindelpol. Bewimperte Zelle: Basalkörper (Centriol), aus dem das ca. 200 nm dicke Axonema der Zilie wächst.", "source": "VL-Skript ZUG Teil 1, S. 54" },
+    { "id": "zs-klinik", "type": "matching", "question": "Ordne die Mutation der Erkrankung zu.",
+      "pairs": [ { "left": "Zytokeratin-Gene", "right": "Epidermolysis bullosa simplex" }, { "left": "Kollagen Typ VII", "right": "Epidermolysis bullosa dystrophica" }, { "left": "Neurofilament-Gene", "right": "Amyotrophe Lateralsklerose" } ],
+      "explanation": "Klinikbeispiele des Skripts zu Intermediärfilamenten und ihrer Verankerung.", "source": "VL-Skript ZUG Teil 1, S. 53" },
+    { "id": "zs-hilfsproteine", "type": "multiple", "question": "Welche der folgenden nennt das Skript als zytoskelett-assoziierte Hilfsproteine?",
+      "options": [ { "text": "Dynein und Kinesin", "correct": true }, { "text": "Tropomyosin und Troponin", "correct": true }, { "text": "Spektrin und Ankyrin", "correct": true },
+        { "text": "Hämoglobin", "explain": "Hämoglobin ist ein Sauerstofftransportprotein." } ],
+      "explanation": "Weitere genannte Hilfsproteine: Nexin, Plektin, Gelsolin, Formin.", "source": "VL-Skript ZUG Teil 1, S. 52" }
+  ]
+}
