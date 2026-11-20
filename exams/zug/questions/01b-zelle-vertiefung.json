@@ -1,0 +1,209 @@
+{
+  "chapter": "VL 1 – Zelle (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 1 (S. 3–9)",
+  "questions": [
+    { "id": "zev-definition", "type": "single", "question": "Wie definiert das Skript Zellen unter „Gleichheit und Vielfalt von Zellen“?",
+      "options": [
+        { "text": "Membranumhüllte Einheiten, die Kopien von sich selbst anfertigen (Teilung, Wachstum)", "correct": true },
+        { "text": "Einheiten, die immer einen Zellkern besitzen", "explain": "Prokaryonten haben keinen Zellkern." },
+        { "text": "Einheiten, die nur in Zellgemeinschaften überleben können", "explain": "Es gibt Einzelzellen und Zellgemeinschaften." },
+        { "text": "Einheiten, die ausschließlich aerob leben" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 5" },
+    { "id": "zev-gemeinsam", "type": "multiple", "question": "Was ist laut Skript bei **allen** lebenden Zellen ähnlich bzw. gleich?",
+      "options": [
+        { "text": "Gene werden mit (fast) demselben genetischen Code gespeichert, ausgewertet und weitergegeben", "correct": true },
+        { "text": "DNA-Moleküle bestehen aus den gleichen 4 Nukleotiden", "correct": true },
+        { "text": "Proteine werden aus 20 Aminosäuren aufgebaut", "correct": true },
+        { "text": "Wachstum, Vermehrung, Energieumwandlung und Reaktion auf Umweltbedingungen", "correct": true },
+        { "text": "Alle Zellen besitzen Mitochondrien", "explain": "Bakterien besitzen keine Organellen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 5" },
+    { "id": "zev-proteine-rolle", "type": "multiple", "question": "Welche Rollen von **Proteinen** nennt das Skript?",
+      "options": [
+        { "text": "Sie bestimmen das Verhalten einer Zelle", "correct": true },
+        { "text": "Strukturelemente", "correct": true },
+        { "text": "Chemische Katalysatoren", "correct": true },
+        { "text": "Molekulare Motoren", "correct": true },
+        { "text": "Speicherung der genetischen Information", "explain": "Das leisten Nukleinsäuren (DNA)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 5" },
+    { "id": "zev-mutagene", "type": "multiple", "question": "In welche Gruppen teilt das Skript **Mutagene** ein?",
+      "options": [
+        { "text": "Chemische Mutagene", "correct": true },
+        { "text": "Physikalische Mutagene", "correct": true },
+        { "text": "Biologische Mutagene", "correct": true },
+        { "text": "Thermodynamische Mutagene" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 6" },
+    { "id": "zev-mutation-auswirkung", "type": "single", "question": "Welche Auswirkungen können Mutationen laut Skript haben?",
+      "options": [
+        { "text": "Negative, positive oder neutrale Effekte", "correct": true },
+        { "text": "Immer negative Effekte" },
+        { "text": "Nur neutrale Effekte" },
+        { "text": "Nur positive Effekte, sonst würde die Zelle sterben" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 6" },
+    { "id": "zev-miller-urey-produkte", "type": "multiple", "question": "Welche einfachen organischen Verbindungen entstanden laut Skript im „Ursuppen-Experiment“ (Miller & Urey, 1953)?",
+      "options": [
+        { "text": "Glycin", "correct": true },
+        { "text": "Alanin", "correct": true },
+        { "text": "Milchsäure", "correct": true },
+        { "text": "Harnstoff", "correct": true },
+        { "text": "Funktionsfähige DNA-Doppelstränge" }
+      ], "explanation": "Das Experiment betrifft die präbiotische Entstehung organischer Moleküle (Abiogenese).", "source": "VL-Skript ZUG Teil 1, S. 6" },
+    { "id": "zev-bakterien-teilung", "type": "single", "question": "In welcher Zeit ist laut Skript eine **Zellteilung von Bakterien** möglich?",
+      "options": [
+        { "text": "In ca. 20 Minuten", "correct": true },
+        { "text": "In ca. 24 Stunden" },
+        { "text": "In ca. 2 Sekunden" },
+        { "text": "In ca. 1 Woche" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 6" },
+    { "id": "zev-plasmide", "type": "single", "question": "Welche klinisch wichtige Information liegt bei Bakterien häufig auf **extrachromosomalen Plasmiden**?",
+      "options": [
+        { "text": "Resistenzgene", "correct": true },
+        { "text": "Die Gene für Histone" },
+        { "text": "Die Gene der 80S-Ribosomen" },
+        { "text": "Das gesamte Bakterienchromosom" }
+      ], "explanation": "Bakterien-DNA ist zirkulär (1 Chromosom), eventuell zusätzlich Plasmide.", "source": "VL-Skript ZUG Teil 1, S. 6" },
+    { "id": "zev-dna-vergleich", "type": "matching", "question": "Ordne die DNA-Organisation zu.",
+      "pairs": [
+        { "left": "Prokaryont", "right": "Zirkulär, 1 Chromosom, evtl. Plasmide" },
+        { "left": "Eukaryont", "right": "Im Zellkern, mit Histonen, meist mehrere Chromosomen" },
+        { "left": "Mitochondrium", "right": "Eigene DNA ohne typische Histonproteine" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 6–7" },
+    { "id": "zev-eukaryont-einzeller", "type": "multiple", "question": "Welche Aussagen zur **Eukaryontenzelle** treffen laut Skript zu?",
+      "options": [
+        { "text": "Sie ist größer und komplexer als Bakterien", "correct": true },
+        { "text": "Es gibt eukaryontische Einzeller, z. B. Amöben und Hefen", "correct": true },
+        { "text": "Per Definition besitzt sie immer einen Zellkern", "correct": true },
+        { "text": "Sie hat im Zytoplasma 70S-Ribosomen", "explain": "Eukaryonten haben 80S-Ribosomen (60S + 40S)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 6" },
+    { "id": "zev-mito-aufbau", "type": "single", "question": "Wo sitzt die **ATP-Synthase** im Mitochondrium?",
+      "options": [
+        { "text": "In den Cristae der stark gefalteten inneren Membran", "correct": true },
+        { "text": "In der äußeren Membran" },
+        { "text": "Frei in der Matrix gelöst" },
+        { "text": "Im Intermembranraum ohne Membrankontakt" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 7" },
+    { "id": "zev-nukleolus", "type": "single", "question": "Welche Aufgabe hat der **Nukleolus** laut Skript?",
+      "options": [
+        { "text": "Ort der Ribosomen-Assemblierung (und Synthese der rRNA)", "correct": true },
+        { "text": "Ort der ATP-Synthese" },
+        { "text": "Ort der Glykosylierung von Proteinen" },
+        { "text": "Speicher für Ca^2+^" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 7" },
+    { "id": "zev-lysosom-enzyme", "type": "multiple", "question": "Welche **hydrolytischen Enzyme** enthalten Lysosomen laut Skript?",
+      "options": [
+        { "text": "Proteasen", "correct": true },
+        { "text": "Nukleasen", "correct": true },
+        { "text": "Lipasen", "correct": true },
+        { "text": "ATP-Synthase", "explain": "Sitzt in der inneren Mitochondrienmembran." }
+      ], "explanation": "Lysosomen sind Vesikel mit saurem pH und bauen aufgenommene Fremdstoffe oder körpereigene Stoffe ab.", "source": "VL-Skript ZUG Teil 1, S. 7" },
+    { "id": "zev-golgi", "type": "multiple", "question": "Welche Aufgaben hat der **Golgi-Apparat** laut Skript?",
+      "options": [
+        { "text": "Prozessierung und Sortierung von Proteinen", "correct": true },
+        { "text": "Posttranslationale Modifikationen wie Glykosylierungen", "correct": true },
+        { "text": "Glykosylierungen für Stabilität, Faltung und Affinität", "correct": true },
+        { "text": "Synthese der rRNA", "explain": "Die rRNA wird im Nukleolus synthetisiert." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 7" },
+    { "id": "zev-er-aufbau", "type": "single", "question": "Mit welcher Struktur steht das **endoplasmatische Retikulum** in Verbindung?",
+      "options": [
+        { "text": "Mit der Kernhülle", "correct": true },
+        { "text": "Mit der inneren Mitochondrienmembran" },
+        { "text": "Mit den Lysosomen über Tight Junctions" },
+        { "text": "Mit dem Nukleolus" }
+      ], "explanation": "Das ER ist ein Membrannetzwerk aus Röhren und Zisternen.", "source": "VL-Skript ZUG Teil 1, S. 7" },
+    { "id": "zev-zytoplasma", "type": "multiple", "question": "Welche Aussagen zum **Zytoplasma** treffen laut Skript zu?",
+      "options": [
+        { "text": "Es ist ein konzentriertes wässriges Gel aus großen und kleinen Molekülen", "correct": true },
+        { "text": "Es ist Ort von Stoffwechselprozessen der Zelle", "correct": true },
+        { "text": "Sein pH (~7) ist gepuffert und wird durch Ionenpumpen stabilisiert", "correct": true },
+        { "text": "Es hat einen sauren pH von ca. 5", "explain": "Saurer pH herrscht in Lysosomen." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 7" },
+    { "id": "zev-proteinsynthese-ausnahme", "type": "single", "question": "Welche Proteine werden **nicht** an Ribosomen im Zytosol synthetisiert?",
+      "options": [
+        { "text": "Einige Mitochondrien- bzw. Chloroplastenproteine", "correct": true },
+        { "text": "Alle sezernierten Proteine" },
+        { "text": "Alle Membranproteine" },
+        { "text": "Alle Kernproteine" }
+      ], "explanation": "Die Synthese fast aller Proteine beginnt an Ribosomen im Zytosol.", "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-ohne-signal", "type": "single", "question": "Was passiert mit Proteinen **ohne Sortierungssignal**?",
+      "options": [
+        { "text": "Sie bleiben im Zytoplasma", "correct": true },
+        { "text": "Sie werden sezerniert" },
+        { "text": "Sie gelangen automatisch in den Zellkern" },
+        { "text": "Sie werden sofort abgebaut" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-signal-ziele", "type": "multiple", "question": "Für den Transport in welche Kompartimente nennt das Skript **spezifische Sortierungssignale**?",
+      "options": [
+        { "text": "Zellkern", "correct": true },
+        { "text": "Mitochondrien", "correct": true },
+        { "text": "Peroxisomen", "correct": true },
+        { "text": "Endoplasmatisches Retikulum", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-signal-laenge", "type": "single", "question": "Aus wie vielen Aminosäuren bestehen Sortiersignale meistens?",
+      "options": [
+        { "text": "3–60", "correct": true },
+        { "text": "1–2" },
+        { "text": "100–200" },
+        { "text": "Genau 20" }
+      ], "explanation": "Sie werden oft vom fertigen Protein abgespalten. Die Sequenzen variieren stark, erfüllen aber durch ähnliche Hydrophobizität und Ladungsverteilung die gleiche Funktion.", "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-zytoskelett-aufgaben", "type": "multiple", "question": "Welche allgemeinen Aufgaben hat das **Zytoskelett** laut Skript?",
+      "options": [
+        { "text": "Materialtransport", "correct": true },
+        { "text": "Fixierung und Transport von Organellen", "correct": true },
+        { "text": "Grundlage der Zellform", "correct": true },
+        { "text": "Organisation von Enzymen in funktionellen Komplexen", "correct": true },
+        { "text": "Speicherung von Ca^2+^", "explain": "Das ist Aufgabe des glatten ER." }
+      ], "explanation": "Es besteht aus Polymeren kleinerer Proteinuntereinheiten.", "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-filament-funktion", "type": "matching", "question": "Ordne die Filamente ihrer Aufgabe laut VL 1 zu.",
+      "pairs": [
+        { "left": "Aktinfilamente", "right": "Stabilisieren die äußere Zellform, bilden Zellfortsätze" },
+        { "left": "Mikrotubuli", "right": "Organell- und Chromosomentransport" },
+        { "left": "Intermediärfilamente", "right": "Mechanische Stabilität, Verankerung benachbarter Zellen über Desmosomen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-aktin-klinik", "type": "single", "question": "Wozu führen laut Skript Veränderungen in den für **Aktin** codierenden Genen?",
+      "options": [
+        { "text": "Zu Muskel- und anderen Erkrankungen", "correct": true },
+        { "text": "Ausschließlich zu Hauterkrankungen" },
+        { "text": "Zu keinen Erkrankungen, da Aktin redundant ist" },
+        { "text": "Nur zu Störungen der Chromosomentrennung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-mikrotubuli-bau", "type": "single", "question": "Woraus sind **Mikrotubuli** aufgebaut?",
+      "options": [
+        { "text": "Röhrenförmige Polymere aus globulären Tubulinuntereinheiten", "correct": true },
+        { "text": "Seilartige Polymere aus Keratin" },
+        { "text": "Doppelhelix aus G-Aktin" },
+        { "text": "Aus acht Protofilamenten von Vimentin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-if-polaritaet", "type": "multiple", "question": "Welche Aussagen zur Polarität beim Aufbau von **Intermediärfilamenten** treffen zu?",
+      "options": [
+        { "text": "Die Monomere sind polar", "correct": true },
+        { "text": "Zwei Dimere bilden durch antiparallele Verknüpfung unpolare Tetramere", "correct": true },
+        { "text": "Das fertige Filament besteht aus acht Protofilamenten", "correct": true },
+        { "text": "Das fertige Intermediärfilament hat ein Plus- und ein Minus-Ende wie Mikrotubuli" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-flagellen-laenge", "type": "matching", "question": "Ordne Länge und Bewegungsart laut VL 1 zu.",
+      "pairs": [
+        { "left": "Flagellen", "right": "50–500 µm, peitschenschlagartig, meist wenige pro Zelle" },
+        { "left": "Cilien", "right": "5–15 µm, wellenartig koordiniert, meist viele pro Zelle" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 9" },
+    { "id": "zev-dynein-axonem", "type": "single", "question": "Wodurch sind benachbarte Mikrotubuli im 9×2+2-Muster der Cilien verbunden?",
+      "options": [
+        { "text": "Durch Dynein-Proteine", "correct": true },
+        { "text": "Durch Kinesine" },
+        { "text": "Durch Desmosomen" },
+        { "text": "Durch Aktinfilamente" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 9" },
+    { "id": "zev-motor-zentriolen", "type": "single", "question": "Ein Vesikel soll entlang der Mikrotubuli **zum Basalkörper bzw. zu den Zentriolen** transportiert werden. Welches Motorprotein ist zuständig?",
+      "options": [
+        { "text": "Dynein", "correct": true },
+        { "text": "Kinesin", "explain": "Kinesine streben mit ihrer Fracht zur Peripherie." },
+        { "text": "Myosin" },
+        { "text": "Tubulin" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 8" },
+    { "id": "zev-archae-milieu", "type": "multiple", "question": "Welche Lebensräume nennt das Skript für **Archaebakterien**?",
+      "options": [
+        { "text": "Konzentriertes Salzwasser", "correct": true },
+        { "text": "Saure und sauerstofffreie Milieus", "correct": true },
+        { "text": "Extreme Temperaturen", "correct": true },
+        { "text": "Ausschließlich das menschliche Darmlumen" }
+      ], "explanation": "Ihre Lebensräume ähneln den Bedingungen der frühen Erde.", "source": "VL-Skript ZUG Teil 1, S. 6" }
+  ]
+}

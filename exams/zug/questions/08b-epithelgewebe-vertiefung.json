@@ -1,0 +1,433 @@
+{
+  "chapter": "VL 8 – Epithelgewebe (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 8 (S. 80–102)",
+  "questions": [
+    { "id": "epv-definition", "type": "single", "question": "Wie definiert das Skript **Epithelgewebe**?",
+      "options": [
+        { "text": "Grenzgewebe, das die inneren und äußeren Körperoberflächen gegen die Umgebung abgrenzt", "correct": true },
+        { "text": "Füllgewebe, das Organe zusammenhält und das Stroma bildet", "explain": "Das ist Bindegewebe (Stroma)." },
+        { "text": "Gewebe, das ausschließlich die äußere Körperoberfläche (Haut) bedeckt", "explain": "Auch Organe und Höhlungen, z. B. Schilddrüsenfollikel, werden von Epithel ausgekleidet." },
+        { "text": "Gefäßreiches Gewebe, das der Ernährung anderer Gewebe dient" }
+      ], "explanation": "Kleinste Baueinheit ist die Epithelzelle (mit organtypischen Spezialisierungen).", "source": "VL-Skript ZUG Teil 1, S. 81" },
+    { "id": "epv-drei-typen", "type": "matching", "question": "Ordne die drei Epitheltypen ihrer Beschreibung zu.",
+      "pairs": [
+        { "left": "Oberflächenepithel", "right": "Geschlossener Zellverband, bedeckt eine Oberfläche oder kleidet eine Höhlung aus" },
+        { "left": "Drüsenepithel", "right": "Bildet das Parenchym exokriner und endokriner Drüsen, der Leber und der Niere" },
+        { "left": "Sinnesepithel", "right": "Spezialisierte Zellen nehmen Reize auf, Erregung wird über Nerven ins ZNS geleitet" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 82" },
+    { "id": "epv-parenchym", "type": "single", "question": "Was versteht man unter dem **Parenchym** eines Organs?",
+      "options": [
+        { "text": "Das spezifische Gewebe eines Organs, getrennt vom bindegewebigen Stroma", "correct": true },
+        { "text": "Das Bindegewebe, das für den Zusammenhalt des Organs verantwortlich ist", "explain": "Das ist das Stroma." },
+        { "text": "Die Kapsel eines Organs" },
+        { "text": "Die Blutgefäße eines Organs" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 82" },
+    { "id": "epv-sinnesepithel", "type": "multiple", "question": "Welche Zellen zählt das Skript zum **Sinnesepithel**?",
+      "options": [
+        { "text": "Geschmackszellen", "correct": true },
+        { "text": "Geruchszellen", "correct": true },
+        { "text": "Mechanorezeptoren der Haut", "correct": true },
+        { "text": "Becherzellen", "explain": "Becherzellen sind intraepitheliale Drüsenzellen." },
+        { "text": "Mesothelzellen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 82" },
+    { "id": "epv-bauplan", "type": "multiple", "question": "Welche Grundprinzipien gelten laut Skript in aller Regel für den **Bauplan** von Epithelien?",
+      "options": [
+        { "text": "Polarität der Einzelzelle und des Zellverbands", "correct": true },
+        { "text": "Zellkontakte und Basalmembran", "correct": true },
+        { "text": "Intermediärfilamente aus Zytokeratin", "correct": true },
+        { "text": "Ernährung durch Diffusion aus dem darunterliegenden Bindegewebe", "correct": true },
+        { "text": "Reichlich eigene Kapillaren zwischen den Epithelzellen", "explain": "Epithelien sind gefäßfrei (Ausnahmen: Stria vascularis, Corpus luteum)." },
+        { "text": "Viel Extrazellulärmatrix zwischen den Zellen", "explain": "Viel EZM kennzeichnet Bindegewebe, Epithelzellen liegen dicht." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 82" },
+    { "id": "epv-funktionen", "type": "multiple", "question": "Welche **Grundfunktionen** erfüllen laut Skript alle Epithelien?",
+      "options": [
+        { "text": "Schutz vor mechanischer Schädigung", "correct": true },
+        { "text": "Schutz vor dem Eindringen von Mikroorganismen", "correct": true },
+        { "text": "Mechanische Stabilität", "correct": true },
+        { "text": "Diffusionsbarriere", "correct": true },
+        { "text": "Kontraktion zur Bewegung von Organen", "explain": "Das ist Aufgabe des Muskelgewebes." }
+      ], "explanation": "Dazu kommen Resorption, Transport, Oberflächenvergrößerung und als Sonderfunktion die Aufnahme von Reizen.", "source": "VL-Skript ZUG Teil 1, S. 83" },
+    { "id": "epv-diffusionsbarriere", "type": "multiple", "question": "Was nennt das Skript zur Funktion **Diffusionsbarriere**?",
+      "options": [
+        { "text": "Sie ist eine wesentliche Aufgabe aller Oberflächenepithelien", "correct": true },
+        { "text": "Sie schützt vor Wasserverlust durch Verdunstung", "correct": true },
+        { "text": "Epithelien bauen Gewebeschranken auf, z. B. die Blut-Liquor-Schranke des äußeren Liquorraums", "correct": true },
+        { "text": "Sie betrifft nur Drüsenepithelien" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 83" },
+    { "id": "epv-transport-wege", "type": "multiple", "question": "Auf welchen Wegen können Epithelien laut Skript **transportieren**?",
+      "options": [
+        { "text": "Durch die Zelle (transzellulär)", "correct": true },
+        { "text": "Zwischen den Zellen (parazellulär)", "correct": true },
+        { "text": "Entlang der Oberfläche, z. B. durch Flimmerepithel", "correct": true },
+        { "text": "Über eigene Blutgefäße im Epithel" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 83" },
+    { "id": "epv-apikal-follikel", "type": "single", "question": "Welche Seite einer Thyreozyte im Schilddrüsenfollikel ist der **apikale Pol**?",
+      "options": [
+        { "text": "Die Seite zum Follikellumen", "correct": true },
+        { "text": "Die Seite zu den Kapillaren im Bindegewebe", "explain": "Das ist der basale Pol (inneres Milieu)." },
+        { "text": "Die Seite zur Nachbarzelle" },
+        { "text": "Follikelzellen haben keine Polarität" }
+      ], "explanation": "Apikal = gegen das äußere Milieu. Das äußere Milieu kann auch das Lumen eines Follikels oder eines Gefäßes sein.", "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-zell-matrix", "type": "multiple", "question": "Welche Kontakte sind **Zell-Matrix-Kontakte**?",
+      "options": [
+        { "text": "Hemidesmosom", "correct": true },
+        { "text": "Fokalkontakt", "correct": true },
+        { "text": "Desmosom", "explain": "Zell-Zell-Haftkontakt (Cadherine)." },
+        { "text": "Zonula adhaerens", "explain": "Zell-Zell-Haftkontakt (Cadherine)." },
+        { "text": "Nexus", "explain": "Zell-Zell-Kommunikationskontakt (Connexine)." }
+      ], "explanation": "Beide Zell-Matrix-Kontakte nutzen Integrine.", "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-kontakt-kategorie", "type": "matching", "question": "Ordne die Zell-Zell-Kontakte ihrer Kategorie zu.",
+      "pairs": [
+        { "left": "Zonula occludens", "right": "Verschluss- bzw. Barrierekontakt" },
+        { "left": "Desmosom", "right": "Adhäsions- bzw. Haftkontakt" },
+        { "left": "Nexus", "right": "Kommunikationskontakt, funktionell elektrische Synapse" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-verankerung", "type": "matching", "question": "Wie werden Epithelzellen in der Basallamina verankert? Ordne zu.",
+      "pairs": [
+        { "left": "Fokalkontakte", "right": "Mit dem Aktinzytoskelett" },
+        { "left": "Hemidesmosomen", "right": "Mit Intermediärfilamenten" }
+      ], "distractors": ["Mit Mikrotubuli"], "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-lamina-densa", "type": "multiple", "question": "Woraus besteht die **Lamina densa**?",
+      "options": [
+        { "text": "Kollagen Typ IV", "correct": true },
+        { "text": "Laminin", "correct": true },
+        { "text": "Nidogen", "correct": true },
+        { "text": "Perlecan", "correct": true },
+        { "text": "Kollagen Typ XVII", "explain": "Kollagen XVII liegt in der Lamina rara." },
+        { "text": "Fibrillin", "explain": "Fibrillin gehört zur Lamina fibroreticularis." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-lamina-rara", "type": "multiple", "question": "Was findet man in der **Lamina rara**?",
+      "options": [
+        { "text": "Teile des Lamininmoleküls", "correct": true },
+        { "text": "Integrine", "correct": true },
+        { "text": "Kollagen Typ XVII", "correct": true },
+        { "text": "Kollagen Typ III und VII", "explain": "Diese gehören zur Lamina fibroreticularis." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-fibroreticularis", "type": "multiple", "question": "Welche Aussagen zur **Lamina fibroreticularis** treffen zu?",
+      "options": [
+        { "text": "Sie gehört bereits zum darunterliegenden Bindegewebe", "correct": true },
+        { "text": "Sie enthält verschiedene Kollagene (z. B. Typ III, VII) und Fibrillin", "correct": true },
+        { "text": "Sie ist wichtig für die mechanische Verbindung zwischen Bindegewebe und Epithel", "correct": true },
+        { "text": "Sie wird vom Epithel selbst gebildet", "explain": "Vom Epithel selbst gebildet wird die Basallamina." },
+        { "text": "Sie ist nur elektronenmikroskopisch sichtbar", "explain": "Das gilt für die Basallamina. Basallamina + Lamina fibroreticularis = lichtmikroskopisch sichtbare Basalmembran." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-basallamina-bildung", "type": "single", "question": "Wer bildet die **Basallamina**?",
+      "options": [
+        { "text": "Das Epithelgewebe selbst", "correct": true },
+        { "text": "Die Fibroblasten des Bindegewebes" },
+        { "text": "Die Endothelzellen benachbarter Kapillaren" },
+        { "text": "Makrophagen" }
+      ], "explanation": "Sie ist ca. 50–150 nm dick und nur im Elektronenmikroskop erkennbar.", "source": "VL-Skript ZUG Teil 1, S. 84" },
+    { "id": "epv-kinozilien-masse", "type": "single", "question": "Welche Maße haben **Kinozilien** laut Skript?",
+      "options": [
+        { "text": "5 µm lang, 0,25 µm dick (Spermium: 50 µm)", "correct": true },
+        { "text": "1–2 µm lang, 0,08 µm dick", "explain": "Das sind Mikrovilli." },
+        { "text": "10 µm lang, passiv beweglich", "explain": "Das sind Stereozilien der Samenwege." },
+        { "text": "50–100 nm", "explain": "Das sind Caveolae." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-kinozilien-vorkommen", "type": "multiple", "question": "Wo kommen **Kinozilien** vor?",
+      "options": [
+        { "text": "Flimmerepithel der Atemwege", "correct": true },
+        { "text": "Epithel der Tuba uterina", "correct": true },
+        { "text": "Ductuli efferentes", "correct": true },
+        { "text": "Ependym", "correct": true },
+        { "text": "Ductus epididymidis", "explain": "Dort sitzen Stereozilien (Aktinbündel)." },
+        { "text": "Dünndarmepithel", "explain": "Dort bilden Mikrovilli den Bürstensaum." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-primaere-zilien", "type": "multiple", "question": "Welche Aussagen zu **primären (sensorischen) Zilien** treffen zu?",
+      "options": [
+        { "text": "Sie haben ein 9+0-Mikrotubulusmuster", "correct": true },
+        { "text": "Sie sind passiv beweglich", "correct": true },
+        { "text": "Sie dienen als Mechano- und Chemorezeptoren", "correct": true },
+        { "text": "Sie kommen u. a. auf Knorpel- und Knochenzellen, Fibroblasten, Nierenepithel und Neuronen vor", "correct": true },
+        { "text": "Sie bewegen Schleimfilme aktiv über die Oberfläche", "explain": "Das leisten Kinozilien (9×2+2)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-stereozilien", "type": "multiple", "question": "Welche Aussagen zu **Stereozilien** treffen zu?",
+      "options": [
+        { "text": "Sie bestehen aus Aktinfilamentbündeln", "correct": true },
+        { "text": "Sie kommen im Ductus deferens, Ductus epididymidis und auf Haarzellen im Innenohr vor", "correct": true },
+        { "text": "In den Samenwegen sind sie ca. 10 µm lang und passiv beweglich", "correct": true },
+        { "text": "Im Innenohr sind sie steif, 4–8 µm lang", "correct": true },
+        { "text": "Sie enthalten Mikrotubuli im 9×2+2-Muster", "explain": "Das ist das Axonem der Kinozilien." }
+      ], "explanation": "Funktion in den Samenwegen unbekannt, vermutlich Resorption und Sekretion. Im Innenohr: Sinneszellen.", "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-mikroplicae", "type": "multiple", "question": "Welche Aussagen zu **Mikroplicae** treffen zu?",
+      "options": [
+        { "text": "Sie bestehen aus Aktinfilamentbündeln", "correct": true },
+        { "text": "Sie kommen u. a. auf Cornea, Gingiva und Tonsillen vor", "correct": true },
+        { "text": "Sie stabilisieren den Tränenfilm", "correct": true },
+        { "text": "Sie sind 5 µm lang und aktiv beweglich" }
+      ], "explanation": "Mikroplicae sind 0,1–0,2 µm breit und 0,2–0,3 µm hoch und interagieren mit Schleim auf Epithelien.", "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-invaginationen", "type": "multiple", "question": "Wo findet man laut Skript besonders ausgeprägte (basolaterale) **Invaginationen**?",
+      "options": [
+        { "text": "Nierentubuli", "correct": true },
+        { "text": "Streifenstücke der Speicheldrüsen", "correct": true },
+        { "text": "Ekkrine und apokrine Hautdrüsen", "correct": true },
+        { "text": "Plexus choroideus", "correct": true },
+        { "text": "Epidermis (Hornschicht)" }
+      ], "explanation": "Sie vergrößern die Oberfläche für Resorption und Sekretion. Besonderheit: die T-Tubuli quergestreifter Muskelzellen.", "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-oberflaeche-funktion", "type": "matching", "question": "Ordne die Oberflächenspezialisierungen ihrer Funktion zu.",
+      "pairs": [
+        { "left": "Kinozilien", "right": "Bewegung von Flüssigkeits- und Schleimfilmen" },
+        { "left": "Primäre Zilien", "right": "Mechano- und Chemorezeption" },
+        { "left": "Mikrovilli", "right": "Oberflächenvergrößerung für Resorption und Ionentransport" },
+        { "left": "Mikroplicae", "right": "Stabilisierung des Tränenfilms" },
+        { "left": "Caveolae", "right": "Schutz der Plasmamembran vor mechanischem Stress (Dehnung)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-groessen", "type": "order", "question": "Ordne nach der Länge bzw. Größe laut Skript, vom kleinsten zum größten.",
+      "items": [
+        "Caveolae (50–100 nm)",
+        "Mikroplicae (0,2–0,3 µm hoch)",
+        "Mikrovilli (1–2 µm)",
+        "Kinozilien (5 µm)",
+        "Stereozilien der Samenwege (10 µm)",
+        "Spermiengeißel (50 µm)"
+      ], "source": "VL-Skript ZUG Teil 1, S. 87" },
+    { "id": "epv-form-kern", "type": "matching", "question": "Ordne die einschichtigen Epithelien ihren Erkennungsmerkmalen zu.",
+      "pairs": [
+        { "left": "Plattenepithel", "right": "Durchmesser größer als Höhe, Zytoplasma kaum sichtbar" },
+        { "left": "Isoprismatisches (kubisches) Epithel", "right": "Höhe und Breite gleich, Kern rundlich" },
+        { "left": "Hochprismatisches Epithel", "right": "Höhe größer als Breite, Kern längsoval" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 88, 92" },
+    { "id": "epv-mesothel", "type": "multiple", "question": "Welche Aussagen zum **Mesothel** treffen zu?",
+      "options": [
+        { "text": "Es ist das einschichtige Plattenepithel der Körperhöhlen (Pleura, Peritoneum, Perikard)", "correct": true },
+        { "text": "Es hat keine Verbindung zur Körperoberfläche", "correct": true },
+        { "text": "Die Zellen sind durch Tight Junctions fest verbunden", "correct": true },
+        { "text": "Der apikale Zellpol trägt Mikrovilli", "correct": true },
+        { "text": "Es trägt Kinozilien zum Transport von Schleim" },
+        { "text": "Es kleidet Herz und Blutgefäße aus", "explain": "Das ist das Endothel." }
+      ], "explanation": "Funktion: trans- und parazellulärer Transport. Vorrangiges Intermediärfilament: Vimentin.", "source": "VL-Skript ZUG Teil 1, S. 88" },
+    { "id": "epv-endothel-funktion", "type": "multiple", "question": "Welche Funktionen hat das **Endothel** laut Skript?",
+      "options": [
+        { "text": "Geregelter Gas- und Stoffaustausch", "correct": true },
+        { "text": "Bildung von Faktoren zur Blutgerinnung", "correct": true },
+        { "text": "Modulation der Gefäßreaktionen und des Blutflusses", "correct": true },
+        { "text": "Regulation von Entzündung und Immunität", "correct": true },
+        { "text": "Bildung von Matrixkomponenten", "correct": true },
+        { "text": "Bildung von Muzinen für einen Schleimfilm" }
+      ], "explanation": "Außerdem: Regulation von Zellwachstum und Ausbildung mechanorezeptiver Strukturen.", "source": "VL-Skript ZUG Teil 1, S. 88" },
+    { "id": "epv-endothel-kern", "type": "single", "question": "Woran erkennt man Endothel im Lichtmikroskop typischerweise?",
+      "options": [
+        { "text": "Oft ist nur ein flacher Zellkern sichtbar, der dem Lumen zugewandt ist", "correct": true },
+        { "text": "An einem dichten Bürstensaum" },
+        { "text": "An mehrkernigen Deckzellen" },
+        { "text": "An längsovalen Kernen in mehreren Reihen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 88, 90" },
+    { "id": "epv-caveolin", "type": "multiple", "question": "Welche Aussagen zu **Caveolin** und den Caveolae treffen zu?",
+      "options": [
+        { "text": "Caveolin ist ein integrales, mit Palmitinsäure modifiziertes Membranprotein", "correct": true },
+        { "text": "Caveolin hat eine hohe Affinität zu Cholesterol", "correct": true },
+        { "text": "In der Membran der Caveolae liegen Signalwege und Transporter, z. B. eNOS und der Folsäuretransporter", "correct": true },
+        { "text": "Caveolae sind statische Invaginationen", "correct": true },
+        { "text": "Caveolin ist ein peripheres Protein der Clathrinhülle", "explain": "Caveolae sind nicht mit Clathrin verbunden." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 91" },
+    { "id": "epv-caveolae-klinik", "type": "multiple", "question": "Welche klinischen Bezüge der Caveolae nennt das Skript?",
+      "options": [
+        { "text": "Caveolin-3-Defekt führt zu Gliedergürteldystrophien", "correct": true },
+        { "text": "HIV gelangt über Caveolae in die Zelle", "correct": true },
+        { "text": "Choleratoxin gelangt über Caveolae in die Zelle", "correct": true },
+        { "text": "Caveolin-Defekte verursachen Mukoviszidose" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 91" },
+    { "id": "epv-prismatisch-zelltypen", "type": "single", "question": "Was gilt laut Skript für einschichtige prismatische Epithelien?",
+      "options": [
+        { "text": "Oft kommen verschiedene Zelltypen vor, alle sitzen der Basalmembran auf und erreichen die Oberfläche", "correct": true },
+        { "text": "Nur die Basalzellen erreichen die Basalmembran", "explain": "Das gilt für mehrschichtiges Epithel." },
+        { "text": "Nicht alle Zellen erreichen die freie Oberfläche", "explain": "Das kennzeichnet mehrreihiges Epithel." },
+        { "text": "Sie haben keine Zellkontakte" }
+      ], "explanation": "Zellkontakte: Zonula occludens, Zonula adhaerens, Desmosomen und Nexus.", "source": "VL-Skript ZUG Teil 1, S. 92" },
+    { "id": "epv-hochprismatisch-vorkommen", "type": "multiple", "question": "Wo kommt **einschichtiges hochprismatisches** Epithel vor?",
+      "options": [
+        { "text": "Magen", "correct": true },
+        { "text": "Darm", "correct": true },
+        { "text": "Gallenblase", "correct": true },
+        { "text": "Uterus", "correct": true },
+        { "text": "Sammelrohr der Niere", "explain": "Isoprismatisch (kubisch)." },
+        { "text": "Ösophagus", "explain": "Mehrschichtig unverhornt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 92" },
+    { "id": "epv-mehrreihig-kernreihen", "type": "matching", "question": "Mehrreihiges Epithel: Wozu gehören die Kernreihen in Wirklichkeit?",
+      "pairs": [
+        { "left": "Oberste Kernreihe", "right": "Hauptzellen, die von der Epithelbasis bis an die Oberfläche reichen" },
+        { "left": "Unterste Kernreihe", "right": "Basalzellen, die der Regeneration dienen" }
+      ], "distractors": ["Abgestorbene, kernlose Hornzellen"], "source": "VL-Skript ZUG Teil 1, S. 95" },
+    { "id": "epv-mehrreihig-oberflaeche", "type": "multiple", "question": "Welche Aussagen zum **mehrreihigen Epithel** treffen zu?",
+      "options": [
+        { "text": "Die Oberfläche kann glatt sein oder Kinozilien bzw. Stereozilien tragen", "correct": true },
+        { "text": "Es enthält häufig intraepitheliale Drüsenzellen (z. B. Becherzellen)", "correct": true },
+        { "text": "Es kommt im Nebenhodengang und als respiratorisches Epithel vor", "correct": true },
+        { "text": "Es besteht aus mehreren Zellschichten, von denen nur die unterste die Basallamina berührt", "explain": "Alle Zellen berühren die Basallamina, deshalb ist es einschichtig." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 95" },
+    { "id": "epv-stockwerke", "type": "order", "question": "Bringe die drei Stockwerke eines mehrschichtigen Epithels in die Reihenfolge von basal nach apikal.",
+      "items": [ "Basalzellschicht", "Intermediärschicht", "Superfizialschicht" ],
+      "explanation": "Die Zellen wandern von basal nach superfizial und reifen dabei aus.", "source": "VL-Skript ZUG Teil 1, S. 97" },
+    { "id": "epv-mehrschichtig-basal", "type": "single", "question": "Was kennzeichnet ein **mehrschichtiges** Epithel?",
+      "options": [
+        { "text": "Nur die Basalzellen erreichen die Basalmembran, sie bilden die Proliferationszone", "correct": true },
+        { "text": "Alle Zellen berühren die Basallamina, aber nicht alle die Oberfläche", "explain": "Das ist mehrreihiges Epithel." },
+        { "text": "Alle Zellen erreichen sowohl Basalmembran als auch Oberfläche", "explain": "Das ist einschichtiges Epithel." },
+        { "text": "Es hat keine Basalmembran" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 97" },
+    { "id": "epv-kern-reifung", "type": "single", "question": "Wie verändert sich der Zellkern im mehrschichtigen (unverhornten) Epithel von basal nach apikal?",
+      "options": [
+        { "text": "Basal rundlich bis oval und euchromatinreich, apikal flacher, aber bis in die oberste lebende Schicht erkennbar", "correct": true },
+        { "text": "Basal flach, apikal rund und euchromatinreich" },
+        { "text": "Er bleibt in allen Schichten gleich" },
+        { "text": "Er verschwindet bereits in der Intermediärschicht" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 97" },
+    { "id": "epv-mehrschichtig-prismatisch", "type": "multiple", "question": "Wo kommt **mehrschichtiges prismatisches** Epithel vor?",
+      "options": [
+        { "text": "Ausführungsgänge der Schweißdrüsen", "correct": true },
+        { "text": "Große Ausführungsgänge der Speicheldrüsen", "correct": true },
+        { "text": "Fornix conjunctivae und Corpus ciliare", "correct": true },
+        { "text": "Pars spongiosa der männlichen Urethra", "correct": true },
+        { "text": "Harnblase", "explain": "Urothel." },
+        { "text": "Cornea", "explain": "Mehrschichtig unverhorntes Plattenepithel." }
+      ], "explanation": "2–5 Zellschichten, Superfizialzellen kubisch bis zylindrisch.", "source": "VL-Skript ZUG Teil 1, S. 97" },
+    { "id": "epv-verhornt", "type": "multiple", "question": "Welche Aussagen zum **verhornten Plattenepithel** treffen zu?",
+      "options": [
+        { "text": "5–6 bis zu 20 Zellschichten", "correct": true },
+        { "text": "Zellen der obersten Schicht ohne Zellkern, da abgestorben (Hornhaut)", "correct": true },
+        { "text": "Zellen der Intermediärzone sind durch besonders viele Desmosomen verbunden", "correct": true },
+        { "text": "Basal sind die Zellen kubisch bis prismatisch, apikal abgeflacht", "correct": true },
+        { "text": "Alle Zellen in allen Schichten haben erkennbare Kerne", "explain": "Das gilt für das unverhornte Plattenepithel." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 97" },
+    { "id": "epv-verhornt-vorkommen", "type": "multiple", "question": "Wo kommt laut Skript **verhorntes** Plattenepithel vor?",
+      "options": [
+        { "text": "Epidermis", "correct": true },
+        { "text": "Nasenvorhof", "correct": true },
+        { "text": "Meatus acusticus externus", "correct": true },
+        { "text": "Papillae filiformes der Zunge", "correct": true },
+        { "text": "Plica vocalis", "explain": "Unverhornt." },
+        { "text": "Vagina", "explain": "Unverhornt." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 97" },
+    { "id": "epv-pharynx", "type": "single", "question": "Welcher Abschnitt des Pharynx trägt laut Skript **kein** mehrschichtiges unverhorntes Plattenepithel?",
+      "options": [
+        { "text": "Epipharynx", "correct": true },
+        { "text": "Mesopharynx" },
+        { "text": "Hypopharynx" },
+        { "text": "Alle Abschnitte tragen unverhorntes Plattenepithel" }
+      ], "explanation": "Skript: Pharynx (außer Epipharynx).", "source": "VL-Skript ZUG Teil 1, S. 97" },
+    { "id": "epv-epitheltyp-vorkommen", "type": "matching", "question": "Ordne jedem Ort sein Epithel zu.",
+      "pairs": [
+        { "left": "Pleura", "right": "Einschichtiges Plattenepithel (Mesothel)" },
+        { "left": "Schilddrüsenfollikel", "right": "Einschichtig isoprismatisch (kubisch)" },
+        { "left": "Gallenblase", "right": "Einschichtig hochprismatisch" },
+        { "left": "Trachea", "right": "Mehrreihig mit Kinozilien und Becherzellen" },
+        { "left": "Pars spongiosa der männlichen Urethra", "right": "Mehrschichtig prismatisch" },
+        { "left": "Ösophagus", "right": "Mehrschichtig unverhorntes Plattenepithel" },
+        { "left": "Fingerbeere", "right": "Mehrschichtig verhorntes Plattenepithel" },
+        { "left": "Ureter", "right": "Urothel (Übergangsepithel)" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 88–99" },
+    { "id": "epv-urothel-barriere", "type": "multiple", "question": "Welche Strukturen nennt das Skript als wesentliche **Barriereeinrichtungen des Urothels** gegen zellschädigende Substanzen im Harn?",
+      "options": [
+        { "text": "Gut ausgebildete Zonula occludens mit vielen Leisten", "correct": true },
+        { "text": "Plattenförmige Areale der apikalen Membran mit verdickter äußerer Lamelle und Uroplakin", "correct": true },
+        { "text": "Eine Hornschicht aus kernlosen Zellen", "explain": "Urothel ist nicht verhornt." },
+        { "text": "Ein dichter Kinozilienbesatz" }
+      ], "explanation": "Unter der apikalen Membran liegen diskusförmige Reservepartikel mit Plaques, die bei Dehnung in die Membran eingebaut werden.", "source": "VL-Skript ZUG Teil 1, S. 99" },
+    { "id": "epv-urothel-reserve", "type": "single", "question": "Was geschieht mit den diskusförmigen Reservepartikeln unter der apikalen Membran des Urothels bei **Dehnung**?",
+      "options": [
+        { "text": "Ihre Plaques werden in die apikale Membran eingelagert", "correct": true },
+        { "text": "Sie werden per Exozytose als Schleim abgegeben" },
+        { "text": "Sie werden lysosomal abgebaut" },
+        { "text": "Sie wandern in die Basalzellen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 99" },
+    { "id": "epv-urothel-vorkommen", "type": "multiple", "question": "Wo kommt **Urothel** vor?",
+      "options": [
+        { "text": "Nierenbecken", "correct": true },
+        { "text": "Ureter", "correct": true },
+        { "text": "Harnblase", "correct": true },
+        { "text": "Proximaler Teil der Urethra", "correct": true },
+        { "text": "Endteil der weiblichen Urethra", "explain": "Unverhorntes Plattenepithel." },
+        { "text": "Sammelrohr der Niere", "explain": "Isoprismatisch." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 99" },
+    { "id": "epv-exokrin", "type": "multiple", "question": "Welche Aussagen zu **exokrinen** Drüsen treffen zu?",
+      "options": [
+        { "text": "Sie entleeren ihr Sekret über einen Ausführungsgang", "correct": true },
+        { "text": "Sie können an innere Oberflächen abgeben (z. B. Speicheldrüsen in die Mundhöhle)", "correct": true },
+        { "text": "Sie können an äußere Oberflächen abgeben (z. B. Schweißdrüsen auf die Haut)", "correct": true },
+        { "text": "Sie geben Hormone direkt ins Blut ab", "explain": "Das sind endokrine Drüsen (z. B. Schilddrüse)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 100" },
+    { "id": "epv-sekretion-mechanismus", "type": "matching", "question": "Ordne die Sekretionsmechanismen ihrem Ablauf zu.",
+      "pairs": [
+        { "left": "Merokrin / ekkrin", "right": "Sekretvesikel verschmelzen mit der apikalen Membran (Exozytose)" },
+        { "left": "Apokrin", "right": "Abschnürung von Vesikeln (Apozytose)" },
+        { "left": "Holokrin", "right": "Die ganze Zelle stirbt ab und wird zum Sekret" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 100" },
+    { "id": "epv-intraepithelial", "type": "multiple", "question": "Welche Aussagen zur **Lage der Drüsenzellen** treffen zu?",
+      "options": [
+        { "text": "Becherzellen sind unizelluläre, intraepitheliale Drüsen", "correct": true },
+        { "text": "Im Extremfall besteht das gesamte Oberflächenepithel aus Drüsenzellen (z. B. Magen)", "correct": true },
+        { "text": "Extraepitheliale Drüsen wurden aus Platzmangel in tiefere Gewebsschichten verlagert", "correct": true },
+        { "text": "Intraepitheliale Drüsen besitzen immer einen langen Ausführungsgang" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 100" },
+    { "id": "epv-endstuecke", "type": "matching", "question": "Ordne die Formen der Drüsenendstücke zu.",
+      "pairs": [
+        { "left": "Tubulär", "right": "Schlauchförmig" },
+        { "left": "Alveolär", "right": "Blasenförmig" },
+        { "left": "Azinös", "right": "Blasenförmig mit dickerer Wand und kleinerem Lumen" }
+      ], "distractors": ["Baumartig in Läppchen gegliedert"], "source": "VL-Skript ZUG Teil 1, S. 100" },
+    { "id": "epv-architektur", "type": "matching", "question": "Ordne die Drüsenarchitektur zu.",
+      "pairs": [
+        { "left": "Einfache Drüse", "right": "Ein Ausführungsgang (wenn überhaupt) leitet ein oder mehrere Endstücke ab" },
+        { "left": "Zusammengesetzte Drüse", "right": "Baumartig gegliedertes Gangsystem, Parenchym in Lobuli gegliedert" },
+        { "left": "Schaltstücke", "right": "Nehmen das Sekret aus den Endstücken auf und leiten es aus" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 100" },
+    { "id": "epv-mukoes", "type": "multiple", "question": "Welche Merkmale haben **muköse** Drüsen?",
+      "options": [
+        { "text": "Zähflüssiges, schleimiges Sekret mit Muzinen", "correct": true },
+        { "text": "Sekret dient der Bildung von Transportschleim", "correct": true },
+        { "text": "Weites Lumen", "correct": true },
+        { "text": "Dünnflüssiges, eiweißhaltiges Sekret mit Enzymen", "explain": "Das ist serös (z. B. Parotis, Pankreas, Tränendrüse)." }
+      ], "explanation": "Beispiele: Brunner-Drüsen im Duodenum, Drüsen des Ösophagus.", "source": "VL-Skript ZUG Teil 1, S. 100" },
+    { "id": "epv-sekret-beispiele", "type": "multiple", "question": "Welche Drüsen bilden laut Skript ein **rein seröses** Sekret?",
+      "options": [
+        { "text": "Parotis", "correct": true },
+        { "text": "Pankreas", "correct": true },
+        { "text": "Tränendrüse", "correct": true },
+        { "text": "Glandula sublingualis", "explain": "Gemischt (seromukös/mukoserös)." },
+        { "text": "Atemwegsdrüsen", "explain": "Gemischt." },
+        { "text": "Brunner-Drüsen", "explain": "Mukös." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 100" },
+    { "id": "epv-transportepithel", "type": "matching", "question": "Ordne die Transportrichtungen von Transportepithelien zu.",
+      "pairs": [
+        { "left": "Resorption", "right": "Von luminal nach basal" },
+        { "left": "Sekretion (transepithelial)", "right": "Von basal nach luminal" }
+      ], "explanation": "Einschichtige Epithelien sind laut Skript immer Transportepithelien. „Sekretion“ bezeichnet außerdem die Sekretabgabe (Exozytose) einer Drüsenzelle.", "source": "VL-Skript ZUG Teil 1, S. 101" },
+    { "id": "epv-aktiver-transport", "type": "single", "question": "Auf welcher Route sind **aktive Transporte** gegen einen Konzentrationsgradienten möglich?",
+      "options": [
+        { "text": "Nur transzellulär, durch Transport-ATPasen (primär oder sekundär aktiv)", "correct": true },
+        { "text": "Nur parazellulär durch die Tight Junctions" },
+        { "text": "Transzellulär und parazellulär gleichermaßen" },
+        { "text": "Nur durch Transzytose" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 101" },
+    { "id": "epv-qualitaet-transzellulaer", "type": "single", "question": "Was ist entscheidend für die Qualität **transzellulärer** Transporte?",
+      "options": [
+        { "text": "Die Membranproteine (Transporter) der apikalen und basolateralen Zellmembran", "correct": true },
+        { "text": "Der Transport durch das Zytosol", "explain": "Der Transport innerhalb der Zelle hat laut Skript keinen bestimmenden Einfluss." },
+        { "text": "Die Dicke der Basallamina" },
+        { "text": "Die Zahl der Strands der Tight Junction", "explain": "Das bestimmt den parazellulären Transport." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 101" },
+    { "id": "epv-tight-junction-strands", "type": "multiple", "question": "Was bestimmt laut Skript die möglichen Stoffübertritte auf dem **parazellulären** Weg?",
+      "options": [
+        { "text": "Die Zahl der Strands der Zonula occludens", "correct": true },
+        { "text": "Welche Claudine eingebaut werden", "correct": true },
+        { "text": "Die Zahl der Mikrovilli" },
+        { "text": "Die Transport-ATPasen der apikalen Membran" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 101" },
+    { "id": "epv-vesikeltransport", "type": "matching", "question": "Ordne die Vesikeltransporte großer Moleküle ihrem Beispiel zu.",
+      "pairs": [
+        { "left": "Transzytose", "right": "Über beide Membranen, z. B. Antikörper" },
+        { "left": "Exozytose", "right": "Abgabe von Proteinen" },
+        { "left": "Endozytose", "right": "Aufnahme von Proteinen und Partikeln" },
+        { "left": "Apozytose", "right": "Abgabe von Lipiden" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 101" },
+    { "id": "epv-flash-mehrreihig", "type": "flashcard",
+      "front": "Warum gilt **mehrreihiges** Epithel als einschichtig?",
+      "back": "Alle Zellen sitzen der Basallamina auf, aber nicht alle erreichen die freie Oberfläche. Die Kerne liegen in verschiedenen Höhen (oben Hauptzellen, unten Basalzellen zur Regeneration), so entsteht der Eindruck mehrerer Reihen.",
+      "source": "VL-Skript ZUG Teil 1, S. 95" },
+    { "id": "epv-flash-basallamina", "type": "flashcard",
+      "front": "Aufbau der **Basallamina**: Schichten und Bestandteile?",
+      "back": "Ca. 50–150 nm, vom Epithel gebildet, nur im EM sichtbar.\n**Lamina rara:** Teile des Laminins, Integrine, Kollagen XVII.\n**Lamina densa:** Kollagen IV, Laminin, Nidogen, Perlecan.\nDarunter (Bindegewebe): Lamina fibroreticularis (Kollagen III, VII, Fibrillin).",
+      "source": "VL-Skript ZUG Teil 1, S. 84" }
+  ]
+}
