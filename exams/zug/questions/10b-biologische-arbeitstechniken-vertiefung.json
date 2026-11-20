@@ -1,0 +1,150 @@
+{
+  "chapter": "VL 10 – Biologische Arbeitstechniken (Vertiefung)",
+  "source": "VL-Skript ZUG Teil 1, VL 10 (S. 127–131)",
+  "questions": [
+    { "id": "batv-praktikum-inhalte", "type": "multiple", "question": "Welche Experimente stehen laut VL 10 im **Praktikum** auf dem Programm?",
+      "options": [
+        { "text": "Passagieren von Zellen (Trypsinbehandlung, Transfer in ein neues Gefäß)", "correct": true },
+        { "text": "Bestimmung der Zellzahl mit der Neubauer-Zählkammer und Trypanblau", "correct": true },
+        { "text": "Herstellen eines Zelllysats und Proteinbestimmung mit dem Bradford-Assay", "correct": true },
+        { "text": "Herstellung einer Standard-Verdünnungsreihe und Berechnung der Proteinkonzentration", "correct": true },
+        { "text": "Kryokonservierung von Zellen in Flüssigstickstoff" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "batv-adhaerent-suspension", "type": "matching", "question": "Ordne die Zellen ihrer Wachstumsform laut VL 10 zu.",
+      "pairs": [
+        { "left": "Fibroblasten, Endothelzellen, Knorpelzellen", "right": "Adhärent, wachsen auf einer Oberfläche" },
+        { "left": "Lymphozyten", "right": "Suspension, frei im Nährmedium schwimmend" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "batv-pbs-folge", "type": "single", "question": "Was passiert, wenn man vor der Trypsin-Behandlung **nicht mit PBS wäscht**?",
+      "options": [
+        { "text": "Serumkomponenten hemmen das Trypsin, die Zellen lösen sich nicht oder nur unvollständig.", "correct": true },
+        { "text": "Die Zellen platzen durch die hypotone Lösung.", "explain": "PBS ist eine isotone Salzlösung; das Problem ist die Hemmung des Trypsins." },
+        { "text": "Trypsin wirkt dann besonders stark und zerstört die Zellen." },
+        { "text": "Die Zellen werden mit Mycoplasmen kontaminiert." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "batv-passagieren-order", "type": "order", "question": "Bringe das **Passagieren** adhärenter Zellen in die richtige Reihenfolge.",
+      "items": ["Waschen mit PBS (entfernt Serumkomponenten)", "Trypsin-Behandlung löst die Zellen voneinander und vom Untergrund", "Transfer der Zellen in ein neues Kulturgefäß"],
+      "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "batv-zelllinie-def", "type": "single", "question": "Wie definiert VL 10 eine **Zelllinie**?",
+      "options": [
+        { "text": "Zellen einer Gewebeart, die sich in Kultur unbegrenzt vermehren können (permanent, immortalisiert)", "correct": true },
+        { "text": "Eine direkt aus Gewebe gewonnene, nicht immortalisierte Kultur", "explain": "Das ist die Primärkultur." },
+        { "text": "Ein 3D-Aggregat aus mehreren Zelltypen", "explain": "Das ist ein Assembloid." },
+        { "text": "Zellen, die nach ~50 Teilungen in Seneszenz gehen", "explain": "Das gilt für Primärkulturen (Hayflick-Limit)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "batv-telomerase", "type": "single", "question": "Welche **gezielte** Veränderung nennt VL 10 als Beispiel für die Immortalisierung?",
+      "options": [
+        { "text": "Künstliche Expression des Telomerase-Gens", "correct": true },
+        { "text": "Zufällige Mutation in Tumorzellen", "explain": "Das ist der zufällige Weg, nicht die gezielte Veränderung." },
+        { "text": "Behandlung mit Trypsin" },
+        { "text": "Färbung mit Trypanblau" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 128" },
+    { "id": "batv-seneszenz", "type": "single", "question": "Was geschieht laut VL 10 mit Zellen einer **Primärkultur**, wenn sie ihr Teilungslimit erreichen?",
+      "options": [
+        { "text": "Sie gehen in Seneszenz und teilen sich nicht mehr.", "correct": true },
+        { "text": "Sie werden automatisch immortalisiert.", "explain": "Immortalisierung braucht eine Mutation oder gezielte Veränderung." },
+        { "text": "Sie teilen sich schneller." },
+        { "text": "Sie bilden spontan Organoide." }
+      ], "explanation": "VL 10 nennt ~50 Zellteilungen (Hayflick-Limit). VL 9 nennt für Primärkulturen eine begrenzte Teilungsrate von ~15.", "source": "VL-Skript ZUG Teil 1, S. 104, 128" },
+    { "id": "batv-steril-fokus", "type": "single", "question": "Worauf liegt laut VL 10 im Praktikum **nicht** der Fokus?",
+      "options": [
+        { "text": "Auf sterilem Umgang und der Verhinderung von Kontaminationen", "correct": true },
+        { "text": "Auf der Zellzählung" },
+        { "text": "Auf der Proteinbestimmung" },
+        { "text": "Auf dem Passagieren von Zellen" }
+      ], "explanation": "Gezeigt werden grundlegende Techniken; steril gearbeitet wird trotzdem (Handschuhe, Desinfektionsmittel).", "source": "VL-Skript ZUG Teil 1, S. 129" },
+    { "id": "batv-zaehlung-wann", "type": "single", "question": "Wann führt man laut Skript eine **Zellzählung** durch?",
+      "options": [
+        { "text": "Wenn man die exakte Zellzahl braucht, z. B. zum Ansetzen eines Versuchs", "correct": true },
+        { "text": "Nur zur Mycoplasmen-Diagnostik" },
+        { "text": "Nur nach dem Einfrieren" },
+        { "text": "Ausschließlich bei Bakterienkulturen" }
+      ], "explanation": "Es gibt manuelle Methoden (Zählkammer) und automatisierte Zellzählung.", "source": "VL-Skript ZUG Teil 1, S. 129" },
+    { "id": "batv-trypanblau-warum", "type": "single", "question": "Warum wird **Trypanblau** nicht von lebenden Zellen aufgenommen?",
+      "options": [
+        { "text": "Wegen seiner Größe (M = 960,8 g/mol) kann es die intakte Membran nicht passieren.", "correct": true },
+        { "text": "Lebende Zellen pumpen es aktiv mit ABC-Transportern hinaus." },
+        { "text": "Es bindet nur an DNA, die in lebenden Zellen fehlt." },
+        { "text": "Lebende Zellen färben sich ebenfalls, nur schwächer." }
+      ], "explanation": "In toten Zellen ist die Membran durchlässig; der Farbstoff gelangt ins Cytoplasma und bindet an intrazelluläre Proteine (Ausschlussfärbung).", "source": "VL-Skript ZUG Teil 1, S. 129" },
+    { "id": "batv-zaehlkammer-volumen", "type": "single", "question": "Wodurch ist das Zählvolumen einer **Zählkammer** bestimmt?",
+      "options": [
+        { "text": "Durch die markierte Fläche der Grundplatte und die Kammerhöhe zwischen Grundfläche und Deckglas", "correct": true },
+        { "text": "Durch die Menge der eingefüllten Suspension" },
+        { "text": "Durch die Vergrößerung des Mikroskops" },
+        { "text": "Durch die Konzentration von Trypanblau" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 129" },
+    { "id": "batv-histologie-def", "type": "single", "question": "Was bedeutet **Histologie** wörtlich?",
+      "options": [
+        { "text": "Gewebelehre (histos = Gewebe, logos = Lehre)", "correct": true },
+        { "text": "Zelllehre" },
+        { "text": "Lehre von den Krankheiten" },
+        { "text": "Lehre vom Blut" }
+      ], "explanation": "Im weiteren Sinn umfasst sie die mikroskopische Anatomie.", "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-histo-diagnostik", "type": "multiple", "question": "Wofür wird die Histologie laut Skript in der **Diagnostik** eingesetzt?",
+      "options": [
+        { "text": "Klassifizierung von Pathologien, z. B. Magenbiopsie: gutartiger oder bösartiger Tumor", "correct": true },
+        { "text": "Nachweis von Stoffwechselerkrankungen", "correct": true },
+        { "text": "Messung der Proteinkonzentration im Lysat", "explain": "Das leistet der Bradford-Test." },
+        { "text": "Bestimmung der Antibiotika-Resistenz", "explain": "Das ist ein mikrobiologischer Test (Agardiffusion)." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-praeparat-vorbereitung", "type": "order", "question": "Bringe die Vorbereitung von **Gewebe** für die Histologie in die richtige Reihenfolge.",
+      "items": ["Fixierung des Gewebes", "Herstellung der Schnitte mit dem Mikrotom (ca. 0,5–100 µm)", "Detektion, z. B. Färbung"],
+      "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-detektion", "type": "matching", "question": "Ordne die Detektionsmethode dem Nachgewiesenen zu.",
+      "pairs": [
+        { "left": "Konventionelle Färbung (Hämatoxylin, Eosin, Giemsa)", "right": "Saure, basische oder fettreiche Strukturen" },
+        { "left": "Fluoreszenzmarkierte Antikörper", "right": "Proteine" },
+        { "left": "Hybridisierung markierter Nukleinsäuren", "right": "Nukleinsäuren" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-ihc-varianten", "type": "single", "question": "Welche beiden Varianten der **Immunhistochemie** unterscheidet das Skript?",
+      "options": [
+        { "text": "Direkte und indirekte Methoden", "correct": true },
+        { "text": "Aerobe und anaerobe Methoden" },
+        { "text": "Selektive und differentielle Methoden", "explain": "Das sind Kategorien mikrobiologischer Nährmedien." },
+        { "text": "Primäre und sekundäre Kulturen" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-ish-anwendung", "type": "multiple", "question": "Wofür wird die **In-situ-Hybridisierung** laut Skript genutzt?",
+      "options": [
+        { "text": "Nachweis von Nukleinsäuren in Geweben und einzelnen Zellen", "correct": true },
+        { "text": "Spektrale Karyotypisierung von Metaphase-Chromosomen zur Aufklärung chromosomaler Umbauten", "correct": true },
+        { "text": "Prä-/postnatale Zytogenetik und Tumorzytogenetik", "correct": true },
+        { "text": "Nachweis von Proteinen über Antigen-Antikörper-Reaktion", "explain": "Das ist Immunhistochemie." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-wholemount", "type": "matching", "question": "Ordne die Whole-mount-Technik ihrem Prinzip zu.",
+      "pairs": [
+        { "left": "LacZ-Färbung", "right": "Bakterielles β-Galactosidase-Enzym als Reporter" },
+        { "left": "GFP", "right": "Grüne Fluoreszenz nach Anregung mit blauem Licht" },
+        { "left": "Clearing", "right": "Gewebe wird optisch transparent, tiefe Strukturen sichtbar" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-gfp-anregung", "type": "single", "question": "Mit welchem Licht wird **GFP** laut Skript angeregt?",
+      "options": [
+        { "text": "Mit blauem Licht", "correct": true },
+        { "text": "Mit grünem Licht", "explain": "Grün ist die emittierte Fluoreszenz." },
+        { "text": "Mit Infrarot" },
+        { "text": "Mit Röntgenstrahlung" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 130" },
+    { "id": "batv-assembloid", "type": "single", "question": "Was ist ein **Assembloid**?",
+      "options": [
+        { "text": "Ein 3D-Zellaggregat aus zwei oder mehr Zelltypen, für komplexere Interaktionen", "correct": true },
+        { "text": "Ein 3D-Aggregat aus nur einem Zelltyp", "explain": "Das ist ein Spheroid." },
+        { "text": "Eine Miniaturvariante eines Organs mit organähnlicher Anordnung", "explain": "Das ist ein Organoid." },
+        { "text": "Eine Suspensionskultur" }
+      ], "source": "VL-Skript ZUG Teil 1, S. 131" },
+    { "id": "batv-ezm-organoid", "type": "multiple", "question": "Welche **extrazellulären Matrices** nennt das Skript für die Selbstorganisation von Organoiden?",
+      "options": [
+        { "text": "Hydrogel", "correct": true },
+        { "text": "Matrigel (Sekret des Engelbreth-Holm-Swarm-Tumors)", "correct": true },
+        { "text": "Kollagen bzw. Gelatine", "correct": true },
+        { "text": "Laminin, Fibronektin", "correct": true },
+        { "text": "Agar mit Gallensalz", "explain": "Das ist ein mikrobiologisches Selektivmedium." }
+      ], "source": "VL-Skript ZUG Teil 1, S. 131" },
+    { "id": "batv-organoid-anwendung", "type": "multiple", "question": "Wofür werden Organoide laut Skript eingesetzt?",
+      "options": [
+        { "text": "Untersuchung normaler Organfunktion in vitro", "correct": true },
+        { "text": "Tumorbiologie und Krankheitsmodelle", "correct": true },
+        { "text": "Drug Testing und Toxizitätsscreening", "correct": true },
+        { "text": "Personalisierte und regenerative Medizin, Organersatz; Ersatzmethoden zu Tierversuchen", "correct": true }
+      ], "source": "VL-Skript ZUG Teil 1, S. 131" }
+  ]
+}
